@@ -1,0 +1,199 @@
+{
+  "main": {
+    "id": "0fea1b861aed2ac9",
+    "type": "split",
+    "children": [
+      {
+        "id": "45ce243ed5c5e93b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e38030bde6ea53d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "机器视觉 Machine Vision/双目相机/工作原理.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "66d79aded0db14d9",
+    "type": "split",
+    "children": [
+      {
+        "id": "82c4516235f8c124",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "caf91250b9cd1d5a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "53e38fa8cb53eb34",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "93bfd0cc4fb97ede",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 333.5
+  },
+  "right": {
+    "id": "b82e1978ff227ff4",
+    "type": "split",
+    "children": [
+      {
+        "id": "c352b1dfe36c146c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "02807369005c0729",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "机器视觉 Machine Vision/双目相机/工作原理.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a53b0a82dc18dfc7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "机器视觉 Machine Vision/双目相机/工作原理.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "da5fbb25b8b93765",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c53c019251161be6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "机器视觉 Machine Vision/双目相机/工作原理.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "e38030bde6ea53d3",
+  "lastOpenFiles": [
+    "机器人 Robot/ROS 机器人控制系统/工具/PlotJuggler：日志及话题绘图分析/~安装及简介~.md",
+    "机器人 Robot/ROS 机器人控制系统/工具/PlotJuggler：日志及话题绘图分析/日志分析（以飞控日志为例）.md",
+    "机器人 Robot/ROS 机器人控制系统/工具/PlotJuggler：日志及话题绘图分析/ROSbag话题分析.md",
+    "机器人 Robot/ROS 机器人控制系统/工具/PlotJuggler：日志及话题绘图分析/话题数据实时绘图.md",
+    "机器人 Robot/ROS 机器人控制系统/工具/ROSbag：话题录制.md",
+    "机器人 Robot/ROS 机器人控制系统/工具/Rqt：多功能数据可视化/Rqt Bag：播放、查看录包.md",
+    "机器人 Robot/ROS 机器人控制系统/工具/Rqt：多功能数据可视化/Rqt Graph：节点话题可视化.md",
+    "机器人 Robot/ROS 机器人控制系统/工具/Rqt：多功能数据可视化/Rqt Image View：查看话题图像.md",
+    "机器人 Robot/ROS 机器人控制系统/工具/Rqt：多功能数据可视化/Rqt Plot：话题数据实时绘图.md",
+    "机器人 Robot/ROS 机器人控制系统/工具/Rqt：多功能数据可视化/Rqt TF Tree：查看TF坐标变换树.md",
+    "机器人 Robot/ROS 机器人控制系统/工具/Rqt：多功能数据可视化/Rqt Topic：话题监视器.md",
+    "Z-attachment/Pasted image 20240323135744.png",
+    "Z-attachment/Pasted image 20240323135719.png",
+    "Z-attachment/Pasted image 20240323135616.png",
+    "Z-attachment/Pasted image 20240323135528.png",
+    "Z-attachment/Pasted image 20240323135415.png",
+    "机器人 Robot/ROS 机器人控制系统/工具/Rqt：多功能数据可视化/~Rqt工具简介~.md",
+    "~Obsidian/Welcome to 笔记转移计划.md",
+    "Z-attachment/Pasted image 20240323134458.png",
+    "Z-attachment/Pasted image 20240323134329.png",
+    "Z-attachment/Pasted image 20240323134133.png",
+    "Z-attachment/Pasted image 20240323133926.png",
+    "Z-attachment/Pasted image 20240323133822.png",
+    "机器人 Robot/ROS 机器人控制系统/工具/Gazebo：仿真器/~Gazebo简介~.md",
+    "机器人 Robot/ROS 机器人控制系统/编程与开发/启动脚本文件（.launch）/4. 包含其他XML文件：include.md",
+    "机器人 Robot/ROS 机器人控制系统/编程与开发/启动脚本文件（.launch）/3. 变量定义：arg.md",
+    "机器人 Robot/ROS 机器人控制系统/编程与开发/启动脚本文件（.launch）/2. 启动节点：node.md",
+    "机器人 Robot/ROS 机器人控制系统/编程与开发/创建消息和服务类型（.msg & .srv）/3. 修改CMakeLists.txt.md",
+    "机器人 Robot/ROS 机器人控制系统/编程与开发/创建消息和服务类型（.msg & .srv）/2. packages.xml新增依赖项.md",
+    "机器人 Robot/ROS 机器人控制系统/编程与开发/创建消息和服务类型（.msg & .srv）/1. 基本文件语法.md",
+    "机器人 Robot/ROS 机器人控制系统/编程与开发/节点编写（.cpp）/节点的初始化、启动与关闭.md",
+    "机器人 Robot/ROS 机器人控制系统/编程与开发/节点编写（.cpp）/话题：发布者与订阅者的创建.md",
+    "机器人 Robot/ROS 机器人控制系统/编程与开发/节点编写（.cpp）/导入消息和服务类型.md",
+    "机器人 Robot/ROS 机器人控制系统/编程与开发/节点编写（.cpp）/~ROScpp编程~.md",
+    "机器人 Robot/ROS 机器人控制系统/编程与开发/节点编写（.cpp）/TF 坐标变换.md",
+    "计算机基础 Computer Basis/字符 Characters/直引号和弯引号.md",
+    "机器人 Robot/ROS 机器人控制系统/编程与开发/节点编写（.py）",
+    "计算机基础 Computer Basis/字符 Characters",
+    "计算机基础 Computer Basis",
+    "机器视觉 Machine Vision/数字图像处理 Digital Image Process",
+    "机器人 Robot/无人机 UAV Drone/硬件选型/结构",
+    "机器人 Robot/无人机 UAV Drone/硬件选型/传感器",
+    "机器人 Robot/无人机 UAV Drone/硬件选型/控制",
+    "机器人 Robot/无人机 UAV Drone/硬件选型/供能",
+    "机器人 Robot/无人机 UAV Drone/硬件选型/动力及供能",
+    "机器人 Robot/无人机 UAV Drone/硬件选型",
+    "硬件电路 Hardware Circuit/辅助软件/未命名.canvas"
+  ]
+}
