@@ -1,4 +1,5 @@
 {
   "accentColor": "",
-  "textFontFamily": "Times New Roman,宋体"
+  "textFontFamily": "",
+  "nativeMenus": false
 }

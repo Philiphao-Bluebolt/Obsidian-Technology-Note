@@ -1,0 +1,3 @@
++ ODE官方文档：[Open Dynamics Engine User Guide](https://www.ode.org/ode-latest-userguide.html#sec_7_3_5)
+
+ODE是一个物理仿真引擎，Gazebo默认使用ODE运行仿真

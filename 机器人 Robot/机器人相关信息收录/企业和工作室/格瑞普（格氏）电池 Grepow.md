@@ -1,0 +1,9 @@
++ 官网：[Grepow](http://www.ace-pow.com/)
++ 天猫：[格氏旗舰店](https://gens.tmall.com/shop/view_shop.htm?spm=a21n57.1.8.1.5c9d523c1etmGn&appUid=RAzN8HWWFo8pDdde7VkxS5rEDmJZnEgvRe6pcwp3x1iVDAVrit1)
+
+格氏电池专门生产航模电池，无人机用到的锂电池多由格氏生产
+
+![[Pasted image 20240409122456.png]]
+
+---
+

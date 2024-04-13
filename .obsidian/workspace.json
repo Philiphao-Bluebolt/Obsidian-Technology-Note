@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "45ce243ed5c5e93b",
+        "id": "419a8fd91ffc3a58",
         "type": "tabs",
         "children": [
           {
-            "id": "e38030bde6ea53d3",
+            "id": "84c625d0312ee4c6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "机器视觉 Machine Vision/双目相机/工作原理.md",
+                "file": "高级语言编程 Programming/语言：C++/基础用法/类与对象 Class & Object/访问权限：私有、公有、保护.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 333.5
+    "width": 391.5
   },
   "right": {
     "id": "b82e1978ff227ff4",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "机器视觉 Machine Vision/双目相机/工作原理.md",
+                "file": "高级语言编程 Programming/语言：C++/基础用法/类与对象 Class & Object/访问权限：私有、公有、保护.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "机器视觉 Machine Vision/双目相机/工作原理.md",
+                "file": "高级语言编程 Programming/语言：C++/基础用法/类与对象 Class & Object/访问权限：私有、公有、保护.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "机器视觉 Machine Vision/双目相机/工作原理.md"
+                "file": "高级语言编程 Programming/语言：C++/基础用法/类与对象 Class & Object/访问权限：私有、公有、保护.md"
               }
             }
           }
@@ -146,54 +146,54 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e38030bde6ea53d3",
+  "active": "84c625d0312ee4c6",
   "lastOpenFiles": [
-    "机器人 Robot/ROS 机器人控制系统/工具/PlotJuggler：日志及话题绘图分析/~安装及简介~.md",
-    "机器人 Robot/ROS 机器人控制系统/工具/PlotJuggler：日志及话题绘图分析/日志分析（以飞控日志为例）.md",
-    "机器人 Robot/ROS 机器人控制系统/工具/PlotJuggler：日志及话题绘图分析/ROSbag话题分析.md",
-    "机器人 Robot/ROS 机器人控制系统/工具/PlotJuggler：日志及话题绘图分析/话题数据实时绘图.md",
+    "高级语言编程 Programming/语言：C++/基础用法/类与对象 Class & Object/构造函数和析构函数.md",
+    "高级语言编程 Programming/语言：C++/基础用法/类与对象 Class & Object/访问权限：私有、公有、保护.md",
+    "高级语言编程 Programming/语言：C++/基础用法/类与对象 Class & Object/类的this指针.md",
+    "高级语言编程 Programming/语言：C++/基础用法/类与对象 Class & Object/类的继承.md",
+    "高级语言编程 Programming/语言：C++/基础用法/类与对象 Class & Object/类的多态.md",
+    "高级语言编程 Programming/语言：C++/基础用法/命名空间 Namespace.md",
+    "高级语言编程 Programming/语言：C++/基础用法/作用域 Scope.md",
+    "机器人 Robot/ROS 机器人控制系统/编程与开发/节点编写（.cpp）/计时相关/定频循环.md",
+    "机器人 Robot/ROS 机器人控制系统/编程与开发/节点编写（.cpp）/计时相关/周期回调函数 Periodic Callback.md",
+    "机器人 Robot/ROS 机器人控制系统/编程与开发/节点编写（.cpp）/计时相关/计算时间间隔.md",
+    "机器人 Robot/ROS 机器人控制系统/编程与开发/工作空间 ws/3. 编译C++文件.md",
+    "机器人 Robot/ROS 机器人控制系统/编程与开发/工作空间 ws/2. 创建功能包.md",
+    "Z-attachment/Pasted image 20240413111333.png",
+    "Z-attachment/Pasted image 20240413111301.png",
+    "机器人 Robot/ROS 机器人控制系统/编程与开发/工作空间 ws/1. 工作空间：创建与初始化.md",
+    "机器人 Robot/ROS 机器人控制系统/工具/Gazebo：仿真器/3. 仿真/改变位姿和速度.md",
+    "机器人 Robot/ROS 机器人控制系统/工具/Gazebo：仿真器/3. 仿真/施加作用力.md",
+    "机器人 Robot/ROS 机器人控制系统/工具/Gazebo：仿真器/2. 建模/Gazebo模型常用坐标系.md",
+    "机器人 Robot/ROS 机器人控制系统/工具/Gazebo：仿真器/2. 建模/模型编辑器 Model Editor/关节 Joint.md",
+    "机器人 Robot/ROS 机器人控制系统/工具/Gazebo：仿真器/2. 建模/模型编辑器 Model Editor/连杆 Link.md",
+    "机器人 Robot/ROS 机器人控制系统/工具/Gazebo：仿真器/2. 建模/模型编辑器 Model Editor/~模型编辑器简介~.md",
     "机器人 Robot/ROS 机器人控制系统/工具/ROSbag：话题录制.md",
-    "机器人 Robot/ROS 机器人控制系统/工具/Rqt：多功能数据可视化/Rqt Bag：播放、查看录包.md",
-    "机器人 Robot/ROS 机器人控制系统/工具/Rqt：多功能数据可视化/Rqt Graph：节点话题可视化.md",
-    "机器人 Robot/ROS 机器人控制系统/工具/Rqt：多功能数据可视化/Rqt Image View：查看话题图像.md",
-    "机器人 Robot/ROS 机器人控制系统/工具/Rqt：多功能数据可视化/Rqt Plot：话题数据实时绘图.md",
-    "机器人 Robot/ROS 机器人控制系统/工具/Rqt：多功能数据可视化/Rqt TF Tree：查看TF坐标变换树.md",
-    "机器人 Robot/ROS 机器人控制系统/工具/Rqt：多功能数据可视化/Rqt Topic：话题监视器.md",
-    "Z-attachment/Pasted image 20240323135744.png",
-    "Z-attachment/Pasted image 20240323135719.png",
-    "Z-attachment/Pasted image 20240323135616.png",
-    "Z-attachment/Pasted image 20240323135528.png",
-    "Z-attachment/Pasted image 20240323135415.png",
-    "机器人 Robot/ROS 机器人控制系统/工具/Rqt：多功能数据可视化/~Rqt工具简介~.md",
-    "~Obsidian/Welcome to 笔记转移计划.md",
-    "Z-attachment/Pasted image 20240323134458.png",
-    "Z-attachment/Pasted image 20240323134329.png",
-    "Z-attachment/Pasted image 20240323134133.png",
-    "Z-attachment/Pasted image 20240323133926.png",
-    "Z-attachment/Pasted image 20240323133822.png",
-    "机器人 Robot/ROS 机器人控制系统/工具/Gazebo：仿真器/~Gazebo简介~.md",
-    "机器人 Robot/ROS 机器人控制系统/编程与开发/启动脚本文件（.launch）/4. 包含其他XML文件：include.md",
-    "机器人 Robot/ROS 机器人控制系统/编程与开发/启动脚本文件（.launch）/3. 变量定义：arg.md",
-    "机器人 Robot/ROS 机器人控制系统/编程与开发/启动脚本文件（.launch）/2. 启动节点：node.md",
-    "机器人 Robot/ROS 机器人控制系统/编程与开发/创建消息和服务类型（.msg & .srv）/3. 修改CMakeLists.txt.md",
     "机器人 Robot/ROS 机器人控制系统/编程与开发/创建消息和服务类型（.msg & .srv）/2. packages.xml新增依赖项.md",
+    "机器人 Robot/Ubuntu Linux操作系统/安装配置/Docker",
     "机器人 Robot/ROS 机器人控制系统/编程与开发/创建消息和服务类型（.msg & .srv）/1. 基本文件语法.md",
-    "机器人 Robot/ROS 机器人控制系统/编程与开发/节点编写（.cpp）/节点的初始化、启动与关闭.md",
-    "机器人 Robot/ROS 机器人控制系统/编程与开发/节点编写（.cpp）/话题：发布者与订阅者的创建.md",
-    "机器人 Robot/ROS 机器人控制系统/编程与开发/节点编写（.cpp）/导入消息和服务类型.md",
-    "机器人 Robot/ROS 机器人控制系统/编程与开发/节点编写（.cpp）/~ROScpp编程~.md",
-    "机器人 Robot/ROS 机器人控制系统/编程与开发/节点编写（.cpp）/TF 坐标变换.md",
-    "计算机基础 Computer Basis/字符 Characters/直引号和弯引号.md",
-    "机器人 Robot/ROS 机器人控制系统/编程与开发/节点编写（.py）",
-    "计算机基础 Computer Basis/字符 Characters",
-    "计算机基础 Computer Basis",
-    "机器视觉 Machine Vision/数字图像处理 Digital Image Process",
-    "机器人 Robot/无人机 UAV Drone/硬件选型/结构",
-    "机器人 Robot/无人机 UAV Drone/硬件选型/传感器",
-    "机器人 Robot/无人机 UAV Drone/硬件选型/控制",
-    "机器人 Robot/无人机 UAV Drone/硬件选型/供能",
-    "机器人 Robot/无人机 UAV Drone/硬件选型/动力及供能",
-    "机器人 Robot/无人机 UAV Drone/硬件选型",
+    "机器人 Robot/ROS 机器人控制系统/工具/Rqt：多功能数据可视化/Rqt TF Tree：查看TF坐标变换树.md",
+    "机器人 Robot/ROS 机器人控制系统/工具/Rqt：多功能数据可视化/Rqt Image View：查看话题图像.md",
+    "机器人 Robot/ROS 机器人控制系统/工具/Rqt：多功能数据可视化/Rqt Service Caller：请求服务.md",
+    "机器人 Robot/ROS 机器人控制系统/工具/PlotJuggler：日志及话题绘图分析/ROSbag话题分析.md",
+    "高级语言编程 Programming/通用知识",
+    "高级语言编程 Programming/语言：C++/基础用法/类与对象 Class & Object",
+    "高级语言编程 Programming/语言：C++/基础用法",
+    "Z-attachment/Pasted image 20240411210733.png",
+    "Z-attachment/Pasted image 20240411204008.png",
+    "Z-attachment/Screenshot from 2024-04-11 16-45-10.png",
+    "机器人 Robot/机器人相关信息收录/软件",
+    "机器人 Robot/机器人相关信息收录/组织",
+    "Z-attachment/Screenshot from 2024-04-11 14-47-56.png",
+    "Z-attachment/Screenshot from 2024-04-11 10-40-24.png",
+    "Z-attachment/Screenshot from 2024-04-10 15-17-37.png",
+    "Z-attachment/Screenshot from 2024-04-10 14-55-27.png",
+    "Z-attachment/Screenshot from 2024-04-10 14-55-34.png",
+    "机器人 Robot/ROS 机器人控制系统/工具/Gazebo：仿真器/2. 建模/模型编辑器 Model Editor",
+    "机器人 Robot/ROS 机器人控制系统/工具/Gazebo：仿真器/2. 建模/建模工具",
+    "高级语言编程 Programming/语言：Python/专用库",
+    "高级语言编程 Programming/语言：Python/专用库/Gymnasium：强化学习环境",
     "硬件电路 Hardware Circuit/辅助软件/未命名.canvas"
   ]
 }

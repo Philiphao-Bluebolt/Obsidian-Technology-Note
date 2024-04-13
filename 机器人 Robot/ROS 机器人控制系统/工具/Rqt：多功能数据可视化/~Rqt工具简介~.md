@@ -12,3 +12,44 @@ rqt
 在Rqt的主页面中，不同的插件可以放置在同一个窗口中，用户可以自定义一个综合的开发调试工具。
 
 ![[Pasted image 20240323133734.png]]
+
+---
+## Rqt完整插件工具
+
++ Container 窗口容器
++ Actions 
+	+ Action Type Browser
++ Configuration 配置
+	+ Dynamic Reconfigure
+	+ Launch
++ Introspection 自检
+	+ Node Graph：[[Rqt Graph：节点话题可视化]]
+	+ Package Graph
+	+ Process Monitor
++ Logging 日志
+	+ Bag：[[Rqt Bag：播放、查看录包]]
+	+ Console
+	+ Logger Level
++ Miscellaneous Tools 杂项
+	+ Python Console
+	+ Shell
+	+ Web
++ Robot Tools 机器人
+	+ Diagnostics Viewer
+	+ Moveit! Monitor
+	+ Robot Steering
+	+ Runtime Monitor
++ Services 服务
+	+ Service Caller：[[Rqt Service Caller：请求服务]]
+	+ Service Type Browser
++ Topics 话题
+	+ Message Publisher
+	+ Message Type Browser
+	+ Topic Monitor：[[Rqt Topic：话题监视器]]
++ Visualization 可视化
+	+ Image View：[[Rqt Image View：查看话题图像]]
+	+ Navigation Viewer
+	+ Plot：[[Rqt Plot：话题数据实时绘图]]
+	+ Pose View
+	+ RViz
+	+ TF Tree：[[Rqt TF Tree：查看TF坐标变换树]]

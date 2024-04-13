@@ -21,6 +21,8 @@ rosbag  record  -a
 rosbag  record  -o  ~/bag/test_1_rosbag.bag  /mavros/local_position/odom
 ```
 
+如果录制数据量很大的话题（如点云、图像通道），几分钟的录制所产生的录制文件可能已经有几个G的大小。
+
 ---
 ## 图表分析
 
@@ -51,7 +53,7 @@ rosbag  filter  input.bag  output.bag  "topic == '/mavros/state' or topic == '/r
 ---
 ## 修复
 
-如果`rosbag`的录制没有正确停止（比如说强制关机） ，输出文件会停留在活跃状态，文件后缀显示`.bag.active`，这样的文件用PlotJuggler打开时会提示No Index，无法分析。
+如果`rosbag`的录制没有正确停止（比如说强制关机） ，输出文件会停留在活跃状态，文件后缀显示`.bag.active`，这样的文件即使删去`.active`后缀，用PlotJuggler打开时会提示No Index，无法分析。
 
 修复方法：
 

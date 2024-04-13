@@ -1,5 +1,8 @@
 {
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
-  "attachmentFolderPath": "Z-attachment"
+  "attachmentFolderPath": "Z-attachment",
+  "readableLineLength": true,
+  "strictLineBreaks": true,
+  "showLineNumber": false
 }

@@ -3,6 +3,7 @@ Obsidian的笔记是以Markdown格式标记语言为基础的。与Word等富文
 标记排版语法会占用一些字符，需要使用这些字符本身的时候，就需要使用反斜杠“\”转义。
 
 - Markdown官方格式简表：[Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
+- Obsidian教程：[Basic formatting syntax](https://help.obsidian.md/Editing+and+formatting/Basic+formatting+syntax)
 
 [[#文本块 Paragragh]]
 [[#标题 Heading]]
