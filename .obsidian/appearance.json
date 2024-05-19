@@ -1,5 +1,6 @@
 {
   "accentColor": "",
   "textFontFamily": "",
-  "nativeMenus": false
+  "nativeMenus": false,
+  "theme": "moonstone"
 }
