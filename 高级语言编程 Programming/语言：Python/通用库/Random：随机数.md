@@ -1,4 +1,4 @@
-Random是Python的随机数生成标准库
+Random是Python的随机数生成标准库，支持多种变量类型以及概率分布
 
 ```python
 import random
