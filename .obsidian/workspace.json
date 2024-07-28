@@ -4,47 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "9334f902d5a2b8d6",
+        "id": "06ff10c1149b7cee",
         "type": "tabs",
         "children": [
           {
-            "id": "feb3fa3bfb533d33",
+            "id": "fbc257e96e37c94a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "游戏开发 Game Development/理论/不受帧率影响的运动 Frame Independent Movement.md",
+                "file": "学术研究 Research/研究方向/软体机器人 Soft Robot.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "8ee6ed5299c3b3f2",
+            "id": "b810d405995ffa6b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "机器人 Robot/机器人操作系统 ROS/工具/ROSbag：话题录制.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8a12d51b212afcf8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "游戏开发 Game Development/开发工具/Unity/基本使用/社区资源.md",
+                "file": "💾 软件开发 Software Development/前端 Front-end/前端实现工具/Qt/风格设计 Style Design/样式表 Style Sheet.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 367.5
+    "width": 303.5
   },
   "right": {
     "id": "b82e1978ff227ff4",
@@ -110,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏开发 Game Development/开发工具/Unity/基本使用/社区资源.md",
+                "file": "学术研究 Research/研究方向/软体机器人 Soft Robot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏开发 Game Development/开发工具/Unity/基本使用/社区资源.md",
+                "file": "学术研究 Research/研究方向/软体机器人 Soft Robot.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "游戏开发 Game Development/开发工具/Unity/基本使用/社区资源.md"
+                "file": "学术研究 Research/研究方向/软体机器人 Soft Robot.md"
               }
             }
           }
@@ -171,44 +158,46 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8a12d51b212afcf8",
+  "active": "fbc257e96e37c94a",
   "lastOpenFiles": [
-    "游戏开发 Game Development/开发工具/Unity/基本使用/安装配置.md",
-    "游戏开发 Game Development/开发工具/Unity/基本使用/社区资源.md",
-    "人工智能 Artificial Intelligence/强化学习 Reinforcement Learning/开源项目/MuJoCo：仿真器/1. 基础/MuJoCo 界面与快捷键.md",
-    "人工智能 Artificial Intelligence/强化学习 Reinforcement Learning/开源项目/MuJoCo：仿真器/1. 基础/与Gazebo的对比.md",
-    "人工智能 Artificial Intelligence/强化学习 Reinforcement Learning/开源项目/MuJoCo：仿真器/1. 基础/MuJoCo 简介与配置.md",
-    "人工智能 Artificial Intelligence/强化学习 Reinforcement Learning/开源项目/MuJoCo：仿真器/1. 基础/常见需求.md",
-    "$ 实用软件及网站 Useful Tools/排版工具/Obsidian：基于Markdown的笔记/HTML 语法.md",
-    "机器人 Robot/机器人操作系统 ROS/工具/ROSbag：话题录制.md",
-    "机器人 Robot/机器人操作系统 ROS/工具/PlotJuggler：日志及话题绘图分析.md",
-    "机器人 Robot/机器人操作系统 ROS/工具/TF：坐标变换/~TF简介~.md",
-    "机器人 Robot/机器人操作系统 ROS/工具/TF：坐标变换/静态坐标变换 Static Transform.md",
-    "游戏开发 Game Development/开发工具/Pygame/~Pygame简介~.md",
-    "游戏开发 Game Development/开发工具/Unity/基本使用",
-    "游戏开发 Game Development/理论/不受帧率影响的运动 Frame Independent Movement.md",
-    "机器人 Robot/机器人操作系统 ROS/编程与开发/启动文件（.launch）/1. XML文件格式简介.md",
-    "机器人 Robot/机器人学 Robotics/课程：机器人学导论 HITSZ/1. 刚体变换 Rigid Body Transform/1.8 倒推转轴与旋转角度 Get Rotation Axis and Angle from Rotation Matrix.md",
-    "机器人 Robot/机器人学 Robotics/课程：机器人学导论 HITSZ/1. 刚体变换 Rigid Body Transform/1.5 向量的帽运算 Hat of a Vector.md",
-    "机器人 Robot/机器人学 Robotics/课程：机器人学导论 HITSZ/1. 刚体变换 Rigid Body Transform/1.6 幂零矩阵 Nilpotent Matrix.md",
-    "机器人 Robot/机器人学 Robotics/课程：机器人学导论 HITSZ/1. 刚体变换 Rigid Body Transform/1.7 旋转矩阵的参数化 Parametrization of Rotation Matrix.md",
-    "机器人 Robot/机器人学 Robotics/课程：机器人学导论 HITSZ/1. 刚体变换 Rigid Body Transform/1.10 螺旋运动理论 Screw Theory.md",
-    "机器人 Robot/机器人学 Robotics/课程：机器人学导论 HITSZ/1. 刚体变换 Rigid Body Transform/1.4 群 Group 和李群 Lie Group.md",
-    "机器人 Robot/机器人学 Robotics/课程：机器人学导论 HITSZ/1. 刚体变换 Rigid Body Transform/1.2 平移向量 Translation Vector.md",
-    "机器人 Robot/机器人学 Robotics/课程：机器人学导论 HITSZ/1. 刚体变换 Rigid Body Transform/1.1 旋转矩阵 Rotation Matrix.md",
-    "高级语言编程 Programming/语言：Python/基础用法/列表 List & 元组 Tuple.md",
-    "游戏开发 Game Development/开发工具/Unity",
-    "游戏开发 Game Development/开发工具/Pygame/基本用法/基本图形.md",
-    "游戏开发 Game Development/理论/游戏基本概念 Fundamental of Video Game.md",
-    "游戏开发 Game Development/素材",
-    "高级语言编程 Programming/语言：Python/通用库/Random：随机数.md",
-    "高级语言编程 Programming/语言：Python/调试",
-    "游戏开发 Game Development/开发工具/Pygame/基本用法",
-    "游戏开发 Game Development/理论",
-    "游戏开发 Game Development/开发工具/Pygame",
-    "游戏开发 Game Development/开发工具",
-    "三维建模 3D Modeling/Blender：开源艺术建模软件",
-    "游戏开发 Game Development",
+    "💾 软件开发 Software Development/前端 Front-end/前端实现工具/Qt/风格设计 Style Design/样式表 Style Sheet.md",
+    "学术研究 Research/研究方向/软体机器人 Soft Robot.md",
+    "实用工具 Useful Tools/排版工具/Obsidian：基于Markdown的笔记/Markdown 基础排版语法.md",
+    "实用工具 Useful Tools/排版工具/Obsidian：基于Markdown的笔记/HTML 语法.md",
+    "学术研究 Research/心得",
+    "学术研究 Research/研究方向",
+    "⌨ 高级语言编程 Programming/语言：Python/通用库/随机数生成 - Random.md",
+    "🌎 应用及系统",
+    "🌌 物理 Physics/理论力学 Theoretical Mechanics/矩 Moment.md",
+    "🌌 物理 Physics/理论力学 Theoretical Mechanics/转动惯量 Moment of Inertia.md",
+    "🌌 物理 Physics/疑难解答/为什么加速度和速度经常写成位移的导数.md",
+    "🌌 物理 Physics/疑难解答/力矩、扭矩、转矩、Torque、Moment的区别.md",
+    "🌌 物理 Physics/疑难解答/标量式写法：向量运算的符号（方向）问题.md",
+    "前沿小报 Frontier News/Sora.md",
+    "💾 软件开发 Software Development/前端 Front-end/前端实现工具/Qt/风格设计 Style Design/留空与间隔 Spacing & Margin.md",
+    "💾 软件开发 Software Development/前端 Front-end/前端实现工具/Qt/控件 Widgets/输入控件 Input Widgets/滑动条 Scroll Bar.md",
+    "💾 软件开发 Software Development/前端 Front-end/前端实现工具/Qt/控件 Widgets/布局设计控件 Layout Design Widgets/布局 Layout.md",
+    "💾 软件开发 Software Development/前端 Front-end/前端实现工具/Qt/风格设计 Style Design/尺寸和位置 Size & Position.md",
+    "💾 软件开发 Software Development/前端 Front-end/前端实现工具/Qt/控件 Widgets/布局设计控件 Layout Design Widgets/容器 Container.md",
+    "💾 软件开发 Software Development/前端 Front-end/前端实现工具/Qt/控件 Widgets/布局设计控件 Layout Design Widgets/空位 Spacer.md",
+    "💾 软件开发 Software Development/前端 Front-end/前端实现工具/Qt/控件 Widgets/输入控件 Input Widgets/按钮 Buttons.md",
+    "💾 软件开发 Software Development/前端 Front-end/前端实现工具/Qt/🟢 PyQt 简介 🟢.md",
+    "💾 软件开发 Software Development/前端 Front-end/前端实现工具/Qt/控件 Widgets/🟢 控件工具 Widgets 🟢.md",
+    "💾 软件开发 Software Development/前端 Front-end/前端实现工具/Qt/图形化设计器 Qt Designer.md",
+    "💾 软件开发 Software Development/前端 Front-end/前端实现工具/Qt/信号槽机制 Signals and Slots.md",
+    "💾 软件开发 Software Development/前端 Front-end/前端实现工具/Qt/控件 Widgets/程序与窗口控件 Application & Windows/主程序 QApplication.md",
+    "💾 软件开发 Software Development/前端 Front-end/前端实现工具/Qt/控件 Widgets/显示控件 Display Widgets/标签 Label.md",
+    "💾 软件开发 Software Development/前端 Front-end/前端实现工具/Qt/控件 Widgets/程序与窗口控件 Application & Windows",
+    "软件开发 Software Development/前端 Front-end/前端实现工具/Qt/控件 Widgets/F1. 控件通用函数 Widget Functions.md",
+    "💾 软件开发 Software Development/前端 Front-end/前端实现工具/Qt/控件 Widgets/显示控件 Display Widgets",
+    "软件开发 Software Development/前端 Front-end/前端实现工具/Qt/风格设计 Style Design/滚动条 Scroll bar.md",
+    "💾 软件开发 Software Development/前端 Front-end/前端实现工具/Qt/控件 Widgets/输入控件 Input Widgets",
+    "💾 软件开发 Software Development/前端 Front-end/前端实现工具/Qt/控件 Widgets/布局设计控件 Layout Design Widgets",
+    "💾 软件开发 Software Development/前端 Front-end/前端实现工具/Qt/风格设计 Style Design",
+    "软件开发 Software Development/前端 Front-end/前端实现工具/Qt/解决方案",
+    "💾 软件开发 Software Development/前端 Front-end/前端实现工具/Qt/控件 Widgets",
+    "Z-attachment/Pasted image 20240702203650.png",
+    "Z-attachment/Pasted image 20240627181635.png",
     "Z-attachment/批注 2024-05-22 145211.png",
     "Z-attachment/批注 2024-05-22 144932 1.png",
     "Z-attachment/批注 2024-05-22 144932.png",
@@ -217,8 +206,6 @@
     "Z-attachment/Screenshot from 2024-05-20 14-42-22.png",
     "Z-attachment/25e1b59639b386fdc70f4cc64d4d847.jpg",
     "Z-attachment/150c7c7d72a7fcdb1731398c2b20e03.jpg",
-    "Z-attachment/批注 2024-05-19 180514.png",
-    "Z-attachment/7af55306f7735a9d450de1651643d85.jpg",
     "硬件电路 Hardware Circuit/辅助软件/未命名.canvas"
   ]
 }
