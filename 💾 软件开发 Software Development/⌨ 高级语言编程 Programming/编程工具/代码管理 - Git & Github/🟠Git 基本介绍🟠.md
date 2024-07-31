@@ -13,7 +13,6 @@ Git的四大区域指的是工作路径、缓存区、本地仓库、远程仓�
 
 3. 本地仓库（Local Repository）：位于文件夹.git中，储存所有提交的项目分支版本；
 
-4. 远程仓库Remote Repository：这是Github、Gitee等代码托管平台上你自己创建的一个文件夹，用于上传备份本地仓库中的项目；
+4. 远程仓库（Remote Repository）：这是Github、Gitee等代码托管平台上由你自己创建的一个文件夹，用于储存本地仓库中；
 
 ![[Pasted image 20240413152101.png]]
-

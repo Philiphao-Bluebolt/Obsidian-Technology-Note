@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学术研究 Research/研究方向/软体机器人 Soft Robot.md",
+                "file": "💾 软件开发 Software Development/⌨ 高级语言编程 Programming/编程工具/代码管理 - Git & Github/GitKraken - 图形化辅助.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💾 软件开发 Software Development/前端 Front-end/前端实现工具/Qt/风格设计 Style Design/样式表 Style Sheet.md",
+                "file": "💾 软件开发 Software Development/🌷 前端 Front-end/前端实现工具/Qt/风格设计 Style Design/样式表 Style Sheet.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 303.5
+    "width": 354.5
   },
   "right": {
     "id": "b82e1978ff227ff4",
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学术研究 Research/研究方向/软体机器人 Soft Robot.md",
+                "file": "💾 软件开发 Software Development/⌨ 高级语言编程 Programming/编程工具/代码管理 - Git & Github/GitKraken - 图形化辅助.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学术研究 Research/研究方向/软体机器人 Soft Robot.md",
+                "file": "💾 软件开发 Software Development/⌨ 高级语言编程 Programming/编程工具/代码管理 - Git & Github/GitKraken - 图形化辅助.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学术研究 Research/研究方向/软体机器人 Soft Robot.md"
+                "file": "💾 软件开发 Software Development/⌨ 高级语言编程 Programming/编程工具/代码管理 - Git & Github/GitKraken - 图形化辅助.md"
               }
             }
           }
@@ -160,42 +160,45 @@
   },
   "active": "fbc257e96e37c94a",
   "lastOpenFiles": [
-    "💾 软件开发 Software Development/前端 Front-end/前端实现工具/Qt/风格设计 Style Design/样式表 Style Sheet.md",
+    "💾 软件开发 Software Development/⌨ 高级语言编程 Programming/编程工具/代码管理 - Git & Github/分支操作.md",
+    "💾 软件开发 Software Development/⌨ 高级语言编程 Programming/编程工具/代码管理 - Git & Github/GitKraken - 图形化辅助.md",
+    "💾 软件开发 Software Development/⌨ 高级语言编程 Programming/编程工具/代码管理 - Git & Github/克隆仓库至本地.md",
+    "💾 软件开发 Software Development/⌨ 高级语言编程 Programming/编程工具/代码管理 - Git & Github/🟠Git 基本介绍🟠.md",
+    "💾 软件开发 Software Development/⌨ 高级语言编程 Programming/编程工具/代码管理 - Git & Github/Git 一机多号.md",
+    "💾 软件开发 Software Development/⌨ 高级语言编程 Programming/编程工具/代码管理 - Git & Github/上传备份本地仓库.md",
+    "Z-attachment/Pasted image 20240730150800.png",
+    "💾 软件开发 Software Development/⌨ 高级语言编程 Programming/编程工具/集成编辑器 - VSCode/SSH远程开发.md",
+    "💾 软件开发 Software Development/⌨ 高级语言编程 Programming/编程工具/集成编辑器 - VSCode/Git集成.md",
+    "💾 软件开发 Software Development/⌨ 高级语言编程 Programming/编程工具/代码管理 - Git & Github/配置名称和邮箱.md",
+    "就业 Career/招聘网站.md",
+    "💾 软件开发 Software Development/🌷 前端 Front-end/前端实现工具/Qt/风格设计 Style Design/样式表 Style Sheet.md",
+    "💻 计算机科学 Computer Science/计算机网络 Computer Network/互联网协议/~TCP-IP 互联网协议族.md",
+    "💻 计算机科学 Computer Science/计算机网络 Computer Network/串口 Serial Port.md",
+    "💻 计算机科学 Computer Science/计算机网络 Computer Network/互联网协议",
+    "💻 计算机科学 Computer Science/计算机网络 Computer Network/互联网协议/SSH.md",
+    "💻 计算机科学 Computer Science/计算机网络 Computer Network/通用串行总线 USB.md",
+    "💻 计算机科学 Computer Science/计算机网络 Computer Network/网络适配器（网卡）.md",
+    "💻 计算机科学 Computer Science/计算机网络 Computer Network/VRPN.md",
+    "💻 计算机科学 Computer Science/计算机网络 Computer Network/UART.md",
+    "💻 计算机科学 Computer Science/密码学",
+    "💻 计算机科学 Computer Science/四大基础",
+    "Z-attachment/Pasted image 20240728173122.png",
+    "Z-attachment/Pasted image 20240728172233.png",
+    "💾 软件开发 Software Development/⌨ 高级语言编程 Programming/编程工具",
     "学术研究 Research/研究方向/软体机器人 Soft Robot.md",
+    "💾 软件开发 Software Development/⌨ 高级语言编程 Programming/编程工具/代码管理 - Git & Github",
     "实用工具 Useful Tools/排版工具/Obsidian：基于Markdown的笔记/Markdown 基础排版语法.md",
     "实用工具 Useful Tools/排版工具/Obsidian：基于Markdown的笔记/HTML 语法.md",
     "学术研究 Research/心得",
     "学术研究 Research/研究方向",
-    "⌨ 高级语言编程 Programming/语言：Python/通用库/随机数生成 - Random.md",
+    "💾 软件开发 Software Development/⌨ 高级语言编程 Programming/语言：Python/通用库/随机数生成 - Random.md",
     "🌎 应用及系统",
     "🌌 物理 Physics/理论力学 Theoretical Mechanics/矩 Moment.md",
     "🌌 物理 Physics/理论力学 Theoretical Mechanics/转动惯量 Moment of Inertia.md",
     "🌌 物理 Physics/疑难解答/为什么加速度和速度经常写成位移的导数.md",
     "🌌 物理 Physics/疑难解答/力矩、扭矩、转矩、Torque、Moment的区别.md",
-    "🌌 物理 Physics/疑难解答/标量式写法：向量运算的符号（方向）问题.md",
-    "前沿小报 Frontier News/Sora.md",
-    "💾 软件开发 Software Development/前端 Front-end/前端实现工具/Qt/风格设计 Style Design/留空与间隔 Spacing & Margin.md",
-    "💾 软件开发 Software Development/前端 Front-end/前端实现工具/Qt/控件 Widgets/输入控件 Input Widgets/滑动条 Scroll Bar.md",
-    "💾 软件开发 Software Development/前端 Front-end/前端实现工具/Qt/控件 Widgets/布局设计控件 Layout Design Widgets/布局 Layout.md",
-    "💾 软件开发 Software Development/前端 Front-end/前端实现工具/Qt/风格设计 Style Design/尺寸和位置 Size & Position.md",
-    "💾 软件开发 Software Development/前端 Front-end/前端实现工具/Qt/控件 Widgets/布局设计控件 Layout Design Widgets/容器 Container.md",
-    "💾 软件开发 Software Development/前端 Front-end/前端实现工具/Qt/控件 Widgets/布局设计控件 Layout Design Widgets/空位 Spacer.md",
-    "💾 软件开发 Software Development/前端 Front-end/前端实现工具/Qt/控件 Widgets/输入控件 Input Widgets/按钮 Buttons.md",
-    "💾 软件开发 Software Development/前端 Front-end/前端实现工具/Qt/🟢 PyQt 简介 🟢.md",
-    "💾 软件开发 Software Development/前端 Front-end/前端实现工具/Qt/控件 Widgets/🟢 控件工具 Widgets 🟢.md",
-    "💾 软件开发 Software Development/前端 Front-end/前端实现工具/Qt/图形化设计器 Qt Designer.md",
-    "💾 软件开发 Software Development/前端 Front-end/前端实现工具/Qt/信号槽机制 Signals and Slots.md",
-    "💾 软件开发 Software Development/前端 Front-end/前端实现工具/Qt/控件 Widgets/程序与窗口控件 Application & Windows/主程序 QApplication.md",
-    "💾 软件开发 Software Development/前端 Front-end/前端实现工具/Qt/控件 Widgets/显示控件 Display Widgets/标签 Label.md",
-    "💾 软件开发 Software Development/前端 Front-end/前端实现工具/Qt/控件 Widgets/程序与窗口控件 Application & Windows",
-    "软件开发 Software Development/前端 Front-end/前端实现工具/Qt/控件 Widgets/F1. 控件通用函数 Widget Functions.md",
-    "💾 软件开发 Software Development/前端 Front-end/前端实现工具/Qt/控件 Widgets/显示控件 Display Widgets",
-    "软件开发 Software Development/前端 Front-end/前端实现工具/Qt/风格设计 Style Design/滚动条 Scroll bar.md",
-    "💾 软件开发 Software Development/前端 Front-end/前端实现工具/Qt/控件 Widgets/输入控件 Input Widgets",
-    "💾 软件开发 Software Development/前端 Front-end/前端实现工具/Qt/控件 Widgets/布局设计控件 Layout Design Widgets",
-    "💾 软件开发 Software Development/前端 Front-end/前端实现工具/Qt/风格设计 Style Design",
-    "软件开发 Software Development/前端 Front-end/前端实现工具/Qt/解决方案",
-    "💾 软件开发 Software Development/前端 Front-end/前端实现工具/Qt/控件 Widgets",
+    "💾 软件开发 Software Development/🌷 前端 Front-end/前端实现工具/Qt/控件 Widgets/程序与窗口控件 Application & Windows",
+    "💾 软件开发 Software Development/🌷 前端 Front-end/前端实现工具/Qt/控件 Widgets/显示控件 Display Widgets",
     "Z-attachment/Pasted image 20240702203650.png",
     "Z-attachment/Pasted image 20240627181635.png",
     "Z-attachment/批注 2024-05-22 145211.png",
@@ -203,9 +206,6 @@
     "Z-attachment/批注 2024-05-22 144932.png",
     "Z-attachment/Screenshot from 2024-05-21 09-20-47.png",
     "Z-attachment/368d869303ab458823c8f60230bda90.jpg",
-    "Z-attachment/Screenshot from 2024-05-20 14-42-22.png",
-    "Z-attachment/25e1b59639b386fdc70f4cc64d4d847.jpg",
-    "Z-attachment/150c7c7d72a7fcdb1731398c2b20e03.jpg",
     "硬件电路 Hardware Circuit/辅助软件/未命名.canvas"
   ]
 }
