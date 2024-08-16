@@ -8,30 +8,79 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fbc257e96e37c94a",
+            "id": "8ed44ee6a11ad166",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💾 软件开发 Software Development/⌨ 高级语言编程 Programming/编程工具/代码管理 - Git & Github/GitKraken - 图形化辅助.md",
+                "file": "~🎓~ 课程学习 Courses/NTU/EE6203 - 📉 Computer Control Systems/Chapter 2 - Z Transform.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b810d405995ffa6b",
+            "id": "c614b543e7f99ad2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💾 软件开发 Software Development/🌷 前端 Front-end/前端实现工具/Qt/风格设计 Style Design/样式表 Style Sheet.md",
+                "file": "~🎓~ 课程学习 Courses/NTU/EE6203 - 📉 Computer Control Systems/Exp 2 - Z Transform Calculation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ad140ec90f226946",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🚂 控制理论 Control Theory/信号与系统 Signal and System/拉氏变换及Z变换表.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c4ca33ec78ee607c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🚂 控制理论 Control Theory/信号与系统 Signal and System/三大变换之关系.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8b215fa15b3599bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📈 数学 Maths/概率与统计 Probability & Statistics/精确与准确 Precision & Accaracy.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "219c628e56b731eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~🛠~ 实用工具 Useful Tools/📃 Obsidian - 基于Markdown的笔记/LaTeX 数学公式语法.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -81,7 +130,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5
+    "width": 372.5
   },
   "right": {
     "id": "b82e1978ff227ff4",
@@ -97,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "💾 软件开发 Software Development/⌨ 高级语言编程 Programming/编程工具/代码管理 - Git & Github/GitKraken - 图形化辅助.md",
+                "file": "📈 数学 Maths/概率与统计 Probability & Statistics/精确与准确 Precision & Accaracy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "💾 软件开发 Software Development/⌨ 高级语言编程 Programming/编程工具/代码管理 - Git & Github/GitKraken - 图形化辅助.md",
+                "file": "📈 数学 Maths/概率与统计 Probability & Statistics/精确与准确 Precision & Accaracy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💾 软件开发 Software Development/⌨ 高级语言编程 Programming/编程工具/代码管理 - Git & Github/GitKraken - 图形化辅助.md"
+                "file": "📈 数学 Maths/概率与统计 Probability & Statistics/精确与准确 Precision & Accaracy.md"
               }
             }
           }
@@ -150,62 +199,62 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
-  "active": "fbc257e96e37c94a",
+  "active": "caf91250b9cd1d5a",
   "lastOpenFiles": [
-    "💾 软件开发 Software Development/⌨ 高级语言编程 Programming/编程工具/代码管理 - Git & Github/分支操作.md",
-    "💾 软件开发 Software Development/⌨ 高级语言编程 Programming/编程工具/代码管理 - Git & Github/GitKraken - 图形化辅助.md",
-    "💾 软件开发 Software Development/⌨ 高级语言编程 Programming/编程工具/代码管理 - Git & Github/克隆仓库至本地.md",
-    "💾 软件开发 Software Development/⌨ 高级语言编程 Programming/编程工具/代码管理 - Git & Github/🟠Git 基本介绍🟠.md",
-    "💾 软件开发 Software Development/⌨ 高级语言编程 Programming/编程工具/代码管理 - Git & Github/Git 一机多号.md",
-    "💾 软件开发 Software Development/⌨ 高级语言编程 Programming/编程工具/代码管理 - Git & Github/上传备份本地仓库.md",
-    "Z-attachment/Pasted image 20240730150800.png",
-    "💾 软件开发 Software Development/⌨ 高级语言编程 Programming/编程工具/集成编辑器 - VSCode/SSH远程开发.md",
-    "💾 软件开发 Software Development/⌨ 高级语言编程 Programming/编程工具/集成编辑器 - VSCode/Git集成.md",
-    "💾 软件开发 Software Development/⌨ 高级语言编程 Programming/编程工具/代码管理 - Git & Github/配置名称和邮箱.md",
-    "就业 Career/招聘网站.md",
-    "💾 软件开发 Software Development/🌷 前端 Front-end/前端实现工具/Qt/风格设计 Style Design/样式表 Style Sheet.md",
-    "💻 计算机科学 Computer Science/计算机网络 Computer Network/互联网协议/~TCP-IP 互联网协议族.md",
-    "💻 计算机科学 Computer Science/计算机网络 Computer Network/串口 Serial Port.md",
-    "💻 计算机科学 Computer Science/计算机网络 Computer Network/互联网协议",
-    "💻 计算机科学 Computer Science/计算机网络 Computer Network/互联网协议/SSH.md",
-    "💻 计算机科学 Computer Science/计算机网络 Computer Network/通用串行总线 USB.md",
-    "💻 计算机科学 Computer Science/计算机网络 Computer Network/网络适配器（网卡）.md",
-    "💻 计算机科学 Computer Science/计算机网络 Computer Network/VRPN.md",
-    "💻 计算机科学 Computer Science/计算机网络 Computer Network/UART.md",
-    "💻 计算机科学 Computer Science/密码学",
-    "💻 计算机科学 Computer Science/四大基础",
-    "Z-attachment/Pasted image 20240728173122.png",
-    "Z-attachment/Pasted image 20240728172233.png",
-    "💾 软件开发 Software Development/⌨ 高级语言编程 Programming/编程工具",
-    "学术研究 Research/研究方向/软体机器人 Soft Robot.md",
-    "💾 软件开发 Software Development/⌨ 高级语言编程 Programming/编程工具/代码管理 - Git & Github",
-    "实用工具 Useful Tools/排版工具/Obsidian：基于Markdown的笔记/Markdown 基础排版语法.md",
-    "实用工具 Useful Tools/排版工具/Obsidian：基于Markdown的笔记/HTML 语法.md",
-    "学术研究 Research/心得",
-    "学术研究 Research/研究方向",
-    "💾 软件开发 Software Development/⌨ 高级语言编程 Programming/语言：Python/通用库/随机数生成 - Random.md",
-    "🌎 应用及系统",
-    "🌌 物理 Physics/理论力学 Theoretical Mechanics/矩 Moment.md",
-    "🌌 物理 Physics/理论力学 Theoretical Mechanics/转动惯量 Moment of Inertia.md",
-    "🌌 物理 Physics/疑难解答/为什么加速度和速度经常写成位移的导数.md",
-    "🌌 物理 Physics/疑难解答/力矩、扭矩、转矩、Torque、Moment的区别.md",
-    "💾 软件开发 Software Development/🌷 前端 Front-end/前端实现工具/Qt/控件 Widgets/程序与窗口控件 Application & Windows",
-    "💾 软件开发 Software Development/🌷 前端 Front-end/前端实现工具/Qt/控件 Widgets/显示控件 Display Widgets",
-    "Z-attachment/Pasted image 20240702203650.png",
-    "Z-attachment/Pasted image 20240627181635.png",
-    "Z-attachment/批注 2024-05-22 145211.png",
-    "Z-attachment/批注 2024-05-22 144932 1.png",
-    "Z-attachment/批注 2024-05-22 144932.png",
-    "Z-attachment/Screenshot from 2024-05-21 09-20-47.png",
-    "Z-attachment/368d869303ab458823c8f60230bda90.jpg",
+    "~🎓~ 课程学习 Courses/HIT/模拟电子技术基础 Basic Analog Circuit",
+    "~🎓~ 课程学习 Courses/HIT/复变函数 Complex Function",
+    "📈 数学 Maths/概率与统计 Probability & Statistics/相关性 Correlation.md",
+    "📈 数学 Maths/概率与统计 Probability & Statistics/精确与准确 Precision & Accaracy.md",
+    "~🎓~ 课程学习 Courses/HIT/电路 Electric Circuit/1-1 电压、电流、电功率定义.md",
+    "~🎓~ 课程学习 Courses/HIT/电路 Electric Circuit/1-2 电容、电感时域模型.md",
+    "~🎓~ 课程学习 Courses/NTU/EE6341 - 🧵 Advanced Analog Circuits/Part 1 - Low Noise Circuit Design.md",
+    "~🎓~ 课程学习 Courses/NTU/EE6483 - ⛏ AI & Data Mining/Topic 2 - State Space Search.md",
+    "⚡ 硬件电路 Hardware Circuit/1. 基础 Basis/线性网络分析 Linear Network Analysis.md",
+    "⚡ 硬件电路 Hardware Circuit/1. 基础 Basis/相量分析法 Phasor Analysis.md",
+    "⚡ 硬件电路 Hardware Circuit/2. 模拟电路 Analog Circuit/三极管 Bipolar Junction Transistor.md",
+    "~🎓~ 课程学习 Courses/NTU/EE6341 - 🧵 Advanced Analog Circuits/Tutorial 1 -.md",
+    "Z-attachment/微信图片_20210603224929.jpg",
+    "Z-attachment/微信图片_20210603224831.jpg",
+    "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/Robotics.md",
+    "~🎓~ 课程学习 Courses/NTU/EE6483 - ⛏ AI & Data Mining/Topic 1 - Definition and History of AI.md",
+    "~🎓~ 课程学习 Courses/NTU/EE6427 - 🎞 Video Signal Processing/Part 1 - Introduction & Basics.md",
+    "⚡ 硬件电路 Hardware Circuit/1. 基础 Basis/电路分析常用公式定理.md",
+    "~🔗~ 链接 Links/📊 常用数理表格.md",
+    "~🎓~ 课程学习 Courses/HIT/电路 Electric Circuit",
+    "~🎓~ 课程学习 Courses/NTU/EE6203 - 📉 Computer Control Systems/Exp 2 - Z Transform Calculation.md",
+    "~🎓~ 课程学习 Courses/HIT/机器人学导论 Basic Robotics/考试A4大抄.md",
+    "~🎓~ 课程学习 Courses/HIT",
+    "~🎓~ 课程学习 Courses/NTU/EE6483 - ⛏ AI & Data Mining",
+    "~🎓~ 课程学习 Courses/NTU/EE6203 - 📉 Computer Control Systems/Chapter 2 - Z Transform.md",
+    "~🎓~ 课程学习 Courses/NTU/EE6203 - 📉 Computer Control Systems/Chapter 1 - Discrete Time Control Systems.md",
+    "🤖 机器人 Robot/无人机 UAV Drone/无人机基础/1. 无人机运动原理（多旋翼）.md",
+    "🤖 机器人 Robot/机器人操作系统 ROS/编程与开发/ROS自带消息介绍/sensor_msgs：传感器数据.md",
+    "🚂 控制理论 Control Theory/信号与系统 Signal and System/三大变换之关系.md",
+    "~🛠~ 实用工具 Useful Tools/📃 Obsidian - 基于Markdown的笔记/LaTeX 数学公式语法.md",
+    "~🎓~ 课程学习 Courses/NTU/EE6427 - 🎞 Video Signal Processing",
+    "💾 软件开发 Software Development/⌨ 高级语言编程 Programming/🛠 编程工具/🗃 代码管理 - Git & Gitxxx/🔶 Git/🔶 Git 主要命令.md",
+    "Z-attachment/Pasted image 20240805222342.png",
+    "~🛠~ 实用工具 Useful Tools/📃 Obsidian - 基于Markdown的笔记/第三方插件.md",
+    "~🔗~ 链接 Links/Untitled",
+    "🚂 控制理论 Control Theory/信号与系统 Signal and System",
+    "🚂 控制理论 Control Theory/三大变换 The Transform Trilogy",
+    "~🎓~ 课程学习 Courses/NTU/EE6341 - 🧵 Advanced Analog Circuits",
+    "Z-attachment/Pasted image 20240812185252.png",
+    "Z-attachment/Pasted image 20240812185230.png",
+    "Z-attachment/Pasted image 20240812163305.png",
+    "Z-attachment/Pasted image 20240812163249.png",
+    "~🔗~ 链接 Links",
+    "Z-attachment/Pasted image 20240806155328.png",
+    "Z-attachment/Pasted image 20240806155318.png",
+    "Z-attachment/Pasted image 20240806155103.png",
     "硬件电路 Hardware Circuit/辅助软件/未命名.canvas"
   ]
 }
