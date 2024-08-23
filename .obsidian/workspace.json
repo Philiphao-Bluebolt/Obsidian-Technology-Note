@@ -8,48 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8ed44ee6a11ad166",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~🎓~ 课程学习 Courses/NTU/EE6203 - 📉 Computer Control Systems/Chapter 2 - Z Transform.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c614b543e7f99ad2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~🎓~ 课程学习 Courses/NTU/EE6203 - 📉 Computer Control Systems/Exp 2 - Z Transform Calculation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "ad140ec90f226946",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🚂 控制理论 Control Theory/信号与系统 Signal and System/拉氏变换及Z变换表.md",
+                "file": "~🎓~ 课程学习 Courses/NTU/EE6203 - 📉 Computer Control Systems/Chapter 1 - Discrete Time Control Systems.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c4ca33ec78ee607c",
+            "id": "9feaf8d90de94926",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🚂 控制理论 Control Theory/信号与系统 Signal and System/三大变换之关系.md",
+                "file": "~🎓~ 课程学习 Courses/HIT/机器人学导论 Basic Robotics/1. 刚体变换 Rigid Body Transform/1.1 旋转矩阵 Rotation Matrix.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📈 数学 Maths/概率与统计 Probability & Statistics/精确与准确 Precision & Accaracy.md",
+                "file": "~🎓~ 课程学习 Courses/NTU/EE6341 - 🧵 Advanced Analog Circuits/📄 Examples & Tutorials/Part 1 Examples.md",
                 "mode": "source",
                 "source": false
               }
@@ -78,9 +54,20 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0d6ce7aa5c90c007",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🚂 控制理论 Control Theory/信号与系统分析 Signal and System/~拉氏变换及Z变换表.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +117,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 372.5
+    "width": 410.5
   },
   "right": {
     "id": "b82e1978ff227ff4",
@@ -146,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📈 数学 Maths/概率与统计 Probability & Statistics/精确与准确 Precision & Accaracy.md",
+                "file": "~🎓~ 课程学习 Courses/NTU/EE6203 - 📉 Computer Control Systems/Chapter 1 - Discrete Time Control Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📈 数学 Maths/概率与统计 Probability & Statistics/精确与准确 Precision & Accaracy.md",
+                "file": "~🎓~ 课程学习 Courses/NTU/EE6203 - 📉 Computer Control Systems/Chapter 1 - Discrete Time Control Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📈 数学 Maths/概率与统计 Probability & Statistics/精确与准确 Precision & Accaracy.md"
+                "file": "~🎓~ 课程学习 Courses/NTU/EE6203 - 📉 Computer Control Systems/Chapter 1 - Discrete Time Control Systems.md"
               }
             }
           }
@@ -207,54 +194,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "caf91250b9cd1d5a",
+  "active": "ad140ec90f226946",
   "lastOpenFiles": [
-    "~🎓~ 课程学习 Courses/HIT/模拟电子技术基础 Basic Analog Circuit",
-    "~🎓~ 课程学习 Courses/HIT/复变函数 Complex Function",
-    "📈 数学 Maths/概率与统计 Probability & Statistics/相关性 Correlation.md",
-    "📈 数学 Maths/概率与统计 Probability & Statistics/精确与准确 Precision & Accaracy.md",
-    "~🎓~ 课程学习 Courses/HIT/电路 Electric Circuit/1-1 电压、电流、电功率定义.md",
-    "~🎓~ 课程学习 Courses/HIT/电路 Electric Circuit/1-2 电容、电感时域模型.md",
-    "~🎓~ 课程学习 Courses/NTU/EE6341 - 🧵 Advanced Analog Circuits/Part 1 - Low Noise Circuit Design.md",
-    "~🎓~ 课程学习 Courses/NTU/EE6483 - ⛏ AI & Data Mining/Topic 2 - State Space Search.md",
-    "⚡ 硬件电路 Hardware Circuit/1. 基础 Basis/线性网络分析 Linear Network Analysis.md",
-    "⚡ 硬件电路 Hardware Circuit/1. 基础 Basis/相量分析法 Phasor Analysis.md",
-    "⚡ 硬件电路 Hardware Circuit/2. 模拟电路 Analog Circuit/三极管 Bipolar Junction Transistor.md",
-    "~🎓~ 课程学习 Courses/NTU/EE6341 - 🧵 Advanced Analog Circuits/Tutorial 1 -.md",
-    "Z-attachment/微信图片_20210603224929.jpg",
-    "Z-attachment/微信图片_20210603224831.jpg",
-    "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/Robotics.md",
-    "~🎓~ 课程学习 Courses/NTU/EE6483 - ⛏ AI & Data Mining/Topic 1 - Definition and History of AI.md",
+    "~🎓~ 课程学习 Courses/NTU/EE6427 - 🎞 Video Signal Processing/Part 2 - Compression & Coding.md",
+    "~🎓~ 课程学习 Courses/NTU/EE6427 - 🎞 Video Signal Processing/📄 Examples/Part 2 Examples.md",
+    "~🎓~ 课程学习 Courses/NTU/EE6427 - 🎞 Video Signal Processing/📄 Examples",
     "~🎓~ 课程学习 Courses/NTU/EE6427 - 🎞 Video Signal Processing/Part 1 - Introduction & Basics.md",
-    "⚡ 硬件电路 Hardware Circuit/1. 基础 Basis/电路分析常用公式定理.md",
-    "~🔗~ 链接 Links/📊 常用数理表格.md",
-    "~🎓~ 课程学习 Courses/HIT/电路 Electric Circuit",
-    "~🎓~ 课程学习 Courses/NTU/EE6203 - 📉 Computer Control Systems/Exp 2 - Z Transform Calculation.md",
-    "~🎓~ 课程学习 Courses/HIT/机器人学导论 Basic Robotics/考试A4大抄.md",
-    "~🎓~ 课程学习 Courses/HIT",
-    "~🎓~ 课程学习 Courses/NTU/EE6483 - ⛏ AI & Data Mining",
-    "~🎓~ 课程学习 Courses/NTU/EE6203 - 📉 Computer Control Systems/Chapter 2 - Z Transform.md",
-    "~🎓~ 课程学习 Courses/NTU/EE6203 - 📉 Computer Control Systems/Chapter 1 - Discrete Time Control Systems.md",
-    "🤖 机器人 Robot/无人机 UAV Drone/无人机基础/1. 无人机运动原理（多旋翼）.md",
-    "🤖 机器人 Robot/机器人操作系统 ROS/编程与开发/ROS自带消息介绍/sensor_msgs：传感器数据.md",
-    "🚂 控制理论 Control Theory/信号与系统 Signal and System/三大变换之关系.md",
+    "Z-attachment/Pasted image 20240822184002.png",
+    "📈 数学 Maths/🎠 初等数学 Primary Maths/多项式长除法 Long Division for Polynomial.md",
+    "🤖 机器人 Robot/📻 传感器 Sensors",
+    "📈 数学 Maths/🎠 初等数学 Primary Maths/三角函数 Trigonometric Functions.md",
+    "~🎓~ 课程学习 Courses/NTU/EE6341 - 🧵 Advanced Analog Circuits/Part 1 - Low Noise Circuit Design.md",
+    "~🎓~ 课程学习 Courses/NTU/EE6341 - 🧵 Advanced Analog Circuits/❔ QUESTIONS.md",
+    "~🎓~ 课程学习 Courses/NTU/EE6341 - 🧵 Advanced Analog Circuits/📄 Examples & Tutorials/Tutorials.md",
+    "~🎓~ 课程学习 Courses/NTU/EE6341 - 🧵 Advanced Analog Circuits/📄 Examples & Tutorials/Part 1 Examples.md",
+    "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📄 Examples/Direct Kinematics.md",
+    "~🎓~ 课程学习 Courses/NTU/EE6203 - 📉 Computer Control Systems/📄 Examples/Chapter 2 Exps.md",
+    "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/❔ QUESTIONS.md",
+    "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/Topic 3 - Inverse Kinematics.md",
+    "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/Topic 1 - Introdution to Robot.md",
+    "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/Topic 2 - Direct (Forward) Kinematics.md",
     "~🛠~ 实用工具 Useful Tools/📃 Obsidian - 基于Markdown的笔记/LaTeX 数学公式语法.md",
-    "~🎓~ 课程学习 Courses/NTU/EE6427 - 🎞 Video Signal Processing",
-    "💾 软件开发 Software Development/⌨ 高级语言编程 Programming/🛠 编程工具/🗃 代码管理 - Git & Gitxxx/🔶 Git/🔶 Git 主要命令.md",
-    "Z-attachment/Pasted image 20240805222342.png",
-    "~🛠~ 实用工具 Useful Tools/📃 Obsidian - 基于Markdown的笔记/第三方插件.md",
-    "~🔗~ 链接 Links/Untitled",
-    "🚂 控制理论 Control Theory/信号与系统 Signal and System",
-    "🚂 控制理论 Control Theory/三大变换 The Transform Trilogy",
-    "~🎓~ 课程学习 Courses/NTU/EE6341 - 🧵 Advanced Analog Circuits",
-    "Z-attachment/Pasted image 20240812185252.png",
-    "Z-attachment/Pasted image 20240812185230.png",
-    "Z-attachment/Pasted image 20240812163305.png",
-    "Z-attachment/Pasted image 20240812163249.png",
-    "~🔗~ 链接 Links",
-    "Z-attachment/Pasted image 20240806155328.png",
-    "Z-attachment/Pasted image 20240806155318.png",
-    "Z-attachment/Pasted image 20240806155103.png",
+    "~🎓~ 课程学习 Courses/HIT/机器人学导论 Basic Robotics/1. 刚体变换 Rigid Body Transform/1.2 平移向量 Translation Vector.md",
+    "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📄 Examples",
+    "~🎓~ 课程学习 Courses/HIT/机器人学导论 Basic Robotics/1. 刚体变换 Rigid Body Transform/1.1 旋转矩阵 Rotation Matrix.md",
+    "~🎓~ 课程学习 Courses/HIT/机器人学导论 Basic Robotics/3. 机器人运动学 Robot Kinematics/3.2 运动学逆解 Inverse Kinematics.md",
+    "~🎓~ 课程学习 Courses/HIT/机器人学导论 Basic Robotics/3. 机器人运动学 Robot Kinematics/3.1 前向运动学 Forward Kinematics.md",
+    "~🎓~ 课程学习 Courses/HIT/机器人学导论 Basic Robotics/3. 机器人运动学 Robot Kinematics/3.9 DH参数法.md",
+    "~🎓~ 课程学习 Courses/HIT/机器人学导论 Basic Robotics/3. 机器人运动学 Robot Kinematics/3.3 Subproblem 1：关于一旋转轴的纯旋转运动.md",
+    "~🎓~ 课程学习 Courses/HIT/机器人学导论 Basic Robotics/3. 机器人运动学 Robot Kinematics/3.4 Subproblem 2：依次绕两相交旋转轴的旋转.md",
+    "~🎓~ 课程学习 Courses/HIT/机器人学导论 Basic Robotics/3. 机器人运动学 Robot Kinematics/3.5 Subproblem 3：绕轴旋转，定量平移.md",
+    "~🎓~ 课程学习 Courses/HIT/机器人学导论 Basic Robotics/3. 机器人运动学 Robot Kinematics/3.6 Subproblem 4：依次绕两相交轴旋转，旋转终点由两点及两距离确定.md",
+    "~🎓~ 课程学习 Courses/HIT/机器人学导论 Basic Robotics/3. 机器人运动学 Robot Kinematics/3.8 利用子问题求解运动学逆解.md",
+    "Z-attachment/微信图片_20210603225024.jpg",
+    "Z-attachment/微信图片_20210603225000.jpg",
+    "Z-attachment/微信图片_20210603224940.jpg",
+    "~🎓~ 课程学习 Courses/NTU/EE6341 - 🧵 Advanced Analog Circuits/📄 Examples & Tutorials",
+    "~🎓~ 课程学习 Courses/NTU/EE6203 - 📉 Computer Control Systems/📄 Examples",
+    "⚡ 硬件电路 Hardware Circuit/2. 模拟电路 Analog Circuit/半导体器件 Semiconductor Components",
+    "Z-attachment/Pasted image 20240820153609.png",
+    "Z-attachment/Pasted image 20240820151225.png",
+    "Z-attachment/Pasted image 20240820151158.png",
+    "Z-attachment/Pasted image 20240820151114.png",
+    "Z-attachment/Pasted image 20240820151036.png",
+    "Z-attachment/diode_noise_model.drawio",
+    "Z-attachment/Pasted image 20240820142927.png",
+    "💬 语言学习 Languages Learning/英文 English",
+    "💬 语言学习 Languages Learning",
+    "~🛠~ 实用工具 Useful Tools/📊 MATLAB - 计算分析及仿真",
     "硬件电路 Hardware Circuit/辅助软件/未命名.canvas"
   ]
 }

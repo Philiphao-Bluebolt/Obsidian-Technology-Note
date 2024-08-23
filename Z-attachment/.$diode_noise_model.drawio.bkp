@@ -1,0 +1,41 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
+  <diagram name="Page-1" id="7e0a89b8-554c-2b80-1dc8-d5c74ca68de4">
+    <mxGraphModel dx="875" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PsptzhxLuVpVTfMJceMe-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;strokeWidth=2;" edge="1" parent="1" source="PsptzhxLuVpVTfMJceMe-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PsptzhxLuVpVTfMJceMe-1" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.resistor_2;rotation=90;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="580" y="440" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PsptzhxLuVpVTfMJceMe-2" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.resistor_2;rotation=90;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="580" y="240" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PsptzhxLuVpVTfMJceMe-10" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.signal_sources.source;aspect=fixed;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0]];elSignalType=ac;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="610" y="330" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PsptzhxLuVpVTfMJceMe-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;strokeWidth=2;" edge="1" parent="1" source="PsptzhxLuVpVTfMJceMe-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PsptzhxLuVpVTfMJceMe-11" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.signal_sources.source;aspect=fixed;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0]];elSignalType=ac;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="610" y="130" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PsptzhxLuVpVTfMJceMe-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;strokeWidth=2;" edge="1" parent="1" source="PsptzhxLuVpVTfMJceMe-11" target="PsptzhxLuVpVTfMJceMe-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PsptzhxLuVpVTfMJceMe-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;strokeWidth=2;" edge="1" parent="1" source="PsptzhxLuVpVTfMJceMe-2" target="PsptzhxLuVpVTfMJceMe-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PsptzhxLuVpVTfMJceMe-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;strokeWidth=2;" edge="1" parent="1" source="PsptzhxLuVpVTfMJceMe-10" target="PsptzhxLuVpVTfMJceMe-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

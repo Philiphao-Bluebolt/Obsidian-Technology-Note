@@ -1,9 +1,13 @@
 + **Aim** - Simplify the analysis and synthesis of DTCS (Discrete Time Continuous Signal)
-+ **What it does** -  $x(k)$ (Discrete time series) --> $X(z)$ (Complex Frequency-domain Representation)
++ **What it does** -  $x(k)$ (Discrete time sequence) --> $X(z)$ (Complex Frequency-domain Representation)
 
 + [[#Definition]]
 + [[#Property]]
 + [[#Understanding]]
++ [[#Inverse Z Transform]]
+	+ [[#Long Division Method]]
+	+ [[#Difference Equation Approach]]
++ [[#Solving Difference Equations]]
 
 ---
 ## Definition
@@ -40,3 +44,49 @@ $$\lim_{k\to\infty}x(k)=\lim_{z\to1}(1-z^{-1})X(z)$$
 
 + Video - [Understanding the Z-Transform](https://www.youtube.com/watch?v=XJRW6jamUHk)
 
+
+---
+## Inverse Z Transform
+
+Inverse Z Transform is the reverse process of Z Tranform, it reobtains the **discrete** sequence $x(k)$ in time domain from its frequency domain
+$$Z^{-1}\{X(z)\}=x(k)$$
+Notice that the Inverse Z Transform can only calculate the sampled discrete $x(k)$ but not the original continuous form $x(t)$. The rebuild of the $x(t)$ would only be successful when the sampling period $T$ fulfills the **Nyquist–Shannon sampling theorem**
+
+There are a few approaches to do the Inverse Z Transform.
+
+| Methods                    | Advantages      | Disadvantages                    |
+| -------------------------- | --------------- | -------------------------------- |
+| Long Division              | Easy to compute | Can't get closed-form expression |
+| Computational              |                 |                                  |
+| Partial Fraction Expansion |                 |                                  |
+| Inversion Integral         |                 |                                  |
+
+### Long Division Method
+
+Just inspect the form of the expanded Z Transform expression, the **coefficient of each term** of the series is one value of the original sequence in time domain.
+$$Z\{x(k)\}=\sum_{k=0}^{\infty}x(k)z^{-k}=\color{magenta}x(0)\color{black}z^0+\color{magenta}x(1)\color{black}z^{-1}+\color{magenta}x(2)\color{black}z^{-2}+...$$
+If we rewrites the Z Transform in the series form, we'll know each value of the original sequence. The transfer of **fraction form** Z Transform to the series form can be easily done by **Long Division**
+
+An example here: 
+$$\begin{align}Z\{x(k)\}&=\frac{1+3z^{-1}+z^{-2}}{1+7z^{-1}+2z^{-2}+z^{-3}}\\
+\end{align}$$
+Apply the long division to the fraction
+
+![[c7838614a752db8970c3198b94620b2.jpg]]
+And here we get the value for $x(0),x(1),x(2)$
+$$x(k)=1-4z^{-1}+27z^{-2}+...$$
+The disadvantage of this method is method is obvious. Actually, we can't compute the closed-form expression of $x(k)$. The only things we get are some of the values at the front of the sequence.
+
+### Computational Method
+
+
+### Partial Fraction Expansion
+
+
+### Inversion Integral
+
+
+
+
+---
+## Solving Difference Equations

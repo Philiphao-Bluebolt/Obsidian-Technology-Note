@@ -13,7 +13,8 @@ Obsidian的笔记是以Markdown格式标记语言为基础的。与Word等富文
 [[#代码块 Code Block]]
 [[#引用块 Blockquotes]]
 [[#超链接 Hyperlink]]
-[[#表情 Emoji]]
+[[#表情 Emoji 💦]]
+[[#Callouts]]
 
 ---
 ## 文本块 Paragragh
@@ -137,6 +138,12 @@ Obsidian有自己的内部文件链接语法，使用双中括号`[[]]`，支持
 + 链接到同一文档中的某个标题：[[#文本块 Paragragh]]
 
 ---
-## 表情 Emoji
+## 表情 Emoji 💦
 
 在Windows 10系统，可以按Win + .插入表情
+
+
+---
+## Callouts 
+
+![[Pasted image 20240820141822.png]]

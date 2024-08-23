@@ -151,3 +151,9 @@ $$
 + 平行：`\parallel`$\parallel$
 + 垂直：`\perp`$\perp$
 + 点乘：`\cdot` $\cdot$
+
+---
+## 其他
+
++ 上划线：`\overline{}`  $\overline{abc}$
++ 下划线：`\underline{}` $\underline{abc}$
