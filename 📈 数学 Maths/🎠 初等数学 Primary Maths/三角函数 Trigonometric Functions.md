@@ -2,15 +2,18 @@
 
 三角函数是一种重要的基本初等函数，通过单位圆上的三角形边长关系定义，常用在几何计算、信号处理等领域中
 
-
-
 ---
-## 二倍角公式
+## 计算公式
 
-+ 正弦二倍角
-$$\sin2x =2\sin x \cos x$$
-+ 余弦二倍角
-$$\cos2x=\cos^2 x -\sin^2 x=1-2\cos^2 x=2\sin^2 x -1$$
----
-## 和差化积
+与三角函数相关的常用公式
+
++ **和差角公式**
+	+ $\sin(\alpha+\beta)=\sin\alpha\cos\beta+\sin\beta\cos\alpha$
+	+ $\sin(\alpha-\beta)=\sin\alpha\cos\beta-\sin\beta\cos\alpha$
+	+ $\cos(\alpha+\beta)=\cos\alpha\cos\beta-\sin\alpha\sin\beta$
+	+ $\cos(\alpha-\beta)=\cos\alpha\cos\beta+\sin\alpha\sin\beta$
++ **二倍角公式**
+	+ $\sin2\theta =2\sin \theta\cos \theta$
+	+ $\cos2\theta=\cos^2 \theta -\sin^2 \theta=1-2\cos^2 \theta=2\sin^2 \theta -1$
++ **和差化积**
 
