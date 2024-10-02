@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "02f81ba5a32e7f3c",
+            "id": "2e8338a43b921882",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~🛠~ 实用工具 Useful Tools/📃 Obsidian - 基于Markdown的笔记/LaTeX 数学公式语法.md",
+                "file": "~🎓~ 课程学习 Courses/NTU/🔥💀 Deadlines 💀🔥.md",
                 "mode": "source",
                 "source": false
               },
@@ -22,13 +22,13 @@
             }
           },
           {
-            "id": "ea8d99205025ed70",
+            "id": "2b2488f94965fade",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📽 Slides/Kinematics.md",
+                "file": "~🌎~ 未来发展 Future Development/🔬 学术研究 Research/👨‍🔬 NTU EEE 教授名单.md",
                 "mode": "source",
                 "source": false
               },
@@ -36,13 +36,13 @@
             }
           },
           {
-            "id": "996e0cface39ad40",
+            "id": "6df31235e3be442c",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📜 Notes/Topic 2 - Direct (Forward) Kinematics.md",
+                "file": "⌨ 高级语言编程 High-level Programming/☕ Java/~☕~ Java 基础入门.md",
                 "mode": "source",
                 "source": false
               },
@@ -50,13 +50,13 @@
             }
           },
           {
-            "id": "cd46837ccd0e07ac",
+            "id": "14cee46a1e401889",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📰 Examples/Topic 1~3 Examples - Kinematics.md",
+                "file": "🤖 机器人 Robot/📖 机器人学 Robotics/✨ 机器人学概括.md",
                 "mode": "source",
                 "source": false
               },
@@ -64,13 +64,13 @@
             }
           },
           {
-            "id": "bcb988560b6cb6fd",
+            "id": "08e9b919ca5b963a",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/❔ QUESTIONS.md",
+                "file": "📈 工程数学 Maths/🌠 线性代数 Linear Algebra/矩阵综合 All things Matrix.md",
                 "mode": "source",
                 "source": false
               },
@@ -78,24 +78,24 @@
             }
           },
           {
-            "id": "ced03e47c1890b05",
+            "id": "d3ab65074f79e09a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⌨ 高级语言编程 Programming/🛰 练习/最长回文子串 Longest Palindromic Substring.md",
+                "file": "⚡ 硬件电路 Hardware Circuit/🎶 模拟电路 Analog Circuit/半导体器件 Semiconductor Components/1. PN 结 PN Junction.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "e3d600407f5b5953",
+            "id": "c94f7c9f97180ed7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📜 Notes/Topic 4 - Trajectory Planning.md",
+                "file": "~🎓~ 课程学习 Courses/NTU/EE6341 - 🧵 Advanced Analog Circuits/📜 Notes/Part 1 - Low Noise Circuit Design.md",
                 "mode": "source",
                 "source": false
               }
@@ -152,7 +152,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 366.5
+    "width": 415.5
   },
   "right": {
     "id": "b82e1978ff227ff4",
@@ -168,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📜 Notes/Topic 4 - Trajectory Planning.md",
+                "file": "~🎓~ 课程学习 Courses/NTU/EE6341 - 🧵 Advanced Analog Circuits/📜 Notes/Part 1 - Low Noise Circuit Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📜 Notes/Topic 4 - Trajectory Planning.md",
+                "file": "~🎓~ 课程学习 Courses/NTU/EE6341 - 🧵 Advanced Analog Circuits/📜 Notes/Part 1 - Low Noise Circuit Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -208,7 +208,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📜 Notes/Topic 4 - Trajectory Planning.md"
+                "file": "~🎓~ 课程学习 Courses/NTU/EE6341 - 🧵 Advanced Analog Circuits/📜 Notes/Part 1 - Low Noise Circuit Design.md"
               }
             }
           }
@@ -229,54 +229,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e3d600407f5b5953",
+  "active": "c94f7c9f97180ed7",
   "lastOpenFiles": [
-    "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📜 Notes/Topic 3 - Inverse Kinematics.md",
-    "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📜 Notes/Topic 4 - Trajectory Planning.md",
-    "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📜 Notes/Topic 1 - Introdution to Robot.md",
-    "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📜 Notes/Topic 2 - Direct (Forward) Kinematics.md",
-    "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📽 Slides/Kinematics.md",
-    "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📰 Examples/Topic 1~3 Examples - Kinematics.md",
-    "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/❔ QUESTIONS.md",
-    "⌨ 高级语言编程 Programming/🛰 练习/最长回文子串 Longest Palindromic Substring.md",
+    "~🎓~ 课程学习 Courses/NTU/EE6341 - 🧵 Advanced Analog Circuits/📜 Notes/Part 2 - Wideband Amplifier Design.md",
+    "~🎓~ 课程学习 Courses/NTU/EE6341 - 🧵 Advanced Analog Circuits/📜 Notes/Part 3 - Power Amplifier Design.md",
+    "~🎓~ 课程学习 Courses/Online/CalTech - 🧵 Analog Circuit Design/Lec 2 - Basic Solid Physics (Part 2).md",
+    "Z-attachment/Pasted image 20241002180410.png",
+    "Z-attachment/Pasted image 20241002174558.png",
+    "Z-attachment/Pasted image 20241002174207.png",
+    "⚡ 硬件电路 Hardware Circuit/🎶 模拟电路 Analog Circuit/半导体器件 Semiconductor Components/1. PN 结 PN Junction.md",
+    "~🎓~ 课程学习 Courses/Online/CalTech - 🧵 Analog Circuit Design/Lec 1 - Basic Solid Physics (Part 1).md",
+    "~🎓~ 课程学习 Courses/Online/✨ 优秀网课及自学资料.md",
+    "Z-attachment/Pasted image 20241002163210.png",
+    "Z-attachment/Pasted image 20241002162840.png",
+    "~🎓~ 课程学习 Courses/NTU/EE6427 - 🎞 Video Signal Processing/✏ Assignments/CA1 (10-04).md",
+    "📈 工程数学 Maths/🌠 线性代数 Linear Algebra/矩阵综合 All things Matrix.md",
+    "~🎓~ 课程学习 Courses/NTU/EE6427 - 🎞 Video Signal Processing/✏ Assignments/CA 1 - ZHENG ZHENHAO G2402550D.md",
+    "⌨ 高级语言编程 High-level Programming/☕ Java/~☕~ Java 基础入门.md",
+    "Z-attachment/Pasted image 20241002160636.png",
+    "~🎓~ 课程学习 Courses/NTU/🔥💀 Deadlines 💀🔥.md",
+    "Untitled",
+    "Z-attachment/Pasted image 20241002152619.png",
+    "Z-attachment/Pasted image 20241002151333.png",
     "~🛠~ 实用工具 Useful Tools/📃 Obsidian - 基于Markdown的笔记/LaTeX 数学公式语法.md",
-    "Z-attachment/Pasted image 20240911151348.png",
-    "~🎓~ 课程学习 Courses/HIT/机器人学导论 Basic Robotics/3. 机器人运动学 Robot Kinematics/3.9 DH参数法.md",
-    "Z-attachment/Pasted image 20240911150437.png",
-    "Z-attachment/circuit-diagram/low_noise_circuit_design.drawio",
-    "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📽 Slides/Robot Control.md",
-    "Z-attachment/Robot control.pdf",
-    "~🎓~ 课程学习 Courses/NTU/EE6341 - 🧵 Advanced Analog Circuits/❔ QUESTIONS.md",
-    "⌨ 高级语言编程 Programming/🛰 练习/3D接雨水.md",
-    "⌨ 高级语言编程 Programming/☕ Java/~☕~ Java 基础入门.md",
-    "⌨ 高级语言编程 Programming/☕ Java/📈 常用函数.md",
-    "⌨ 高级语言编程 Programming/☕ Java/🗃 常用数据容器.md",
-    "⚡ 硬件电路 Hardware Circuit/⚔ 基础 Basis/🖇 相量分析法 Phasor Analysis.md",
-    "⚡ 硬件电路 Hardware Circuit/⚔ 基础 Basis/🧩 二端口网络 Two-port Network.md",
-    "⚡ 硬件电路 Hardware Circuit/⚔ 基础 Basis/🎱 基本电路定理 Basic Circuit Theorems.md",
-    "⚡ 硬件电路 Hardware Circuit/⚔ 基础 Basis/⚙ 元件模型 Component Models.md",
-    "⚡ 硬件电路 Hardware Circuit/🎶 模拟电路 Analog Circuit/半导体器件 Semiconductor Components/1. PN结.md",
+    "Z-attachment/Pasted image 20241002142334.png",
+    "🤖 机器人 Robot/📖 机器人学 Robotics/✨ 机器人学概括.md",
+    "~🎓~ 课程学习 Courses/Online/CalTech - 🧵 Analog Circuit Design",
+    "~🎓~ 课程学习 Courses/NTU/EE6341 - 🧵 Advanced Analog Circuits/✏ Assignments/Assignment 1 (09-10).md",
+    "~🎓~ 课程学习 Courses/NTU/EE6341 - 🧵 Advanced Analog Circuits/✏ Assignments/Assignment 2 (10-22).md",
     "⚡ 硬件电路 Hardware Circuit/🎶 模拟电路 Analog Circuit/半导体器件 Semiconductor Components/2. 二极管 Diode.md",
-    "~🎓~ 课程学习 Courses/NTU/EE6341 - 🧵 Advanced Analog Circuits/📰 Examples & Tutorials/Part 1 Examples.md",
-    "~🎓~ 课程学习 Courses/HIT/电路 Electric Circuit/📜 归纳/1-1 电压、电流、电功率定义.md",
-    "⚡ 硬件电路 Hardware Circuit/1. 基础 Basis/🏸.md",
-    "⚡ 硬件电路 Hardware Circuit/⚔ 基础 Basis/~🔗~ 线性网络分析 Linear Network Analysis.md",
-    "Z-attachment/EE2002 - DC analysis and Small signal amplifiers (MOEFET).pdf",
-    "Z-attachment/EE2002 - DC analysis and Small signal amplifiers (BJT).pdf",
-    "Z-attachment/Circuit Analysis Fundamental.pdf",
-    "⚡ 硬件电路 Hardware Circuit/🎶 模拟电路 Analog Circuit/基本放大电路 Basic Amplifier Circuit",
-    "~🎓~ 课程学习 Courses/NTU/EE6341 - 🧵 Advanced Analog Circuits/🧱 Prerequisite",
-    "Z-attachment/17S1_EE4341_PPT_WidebandAmplifiers_V20_240905_142337.pdf",
-    "Z-attachment/Pasted image 20240909224115.png",
-    "Z-attachment/Pasted image 20240909205335.png",
-    "Z-attachment/Pasted image 20240909202437.png",
-    "Z-attachment/Pasted image 20240909174755.png",
-    "Z-attachment/Pasted image 20240909170542.png",
-    "Z-attachment/Pasted image 20240909164045.png",
-    "Z-attachment/Pasted image 20240909163126.png",
-    "Z-attachment/Pasted image 20240909162148.png",
-    "Z-attachment/T2 Guide(1).pdf",
-    "Z-attachment/EE4341 T2 1.pdf",
+    "⚡ 硬件电路 Hardware Circuit/🎶 模拟电路 Analog Circuit/半导体器件 Semiconductor Components/5. 运算放大器 Op Amp.md",
+    "⚡ 硬件电路 Hardware Circuit/🎶 模拟电路 Analog Circuit/实用电路 Utility Circuit/2. 运放内部单元电路 Internal Circuits of Op Amp.md",
+    "⚡ 硬件电路 Hardware Circuit/🎶 模拟电路 Analog Circuit/半导体器件 Semiconductor Components/4. 场效应管 Field Effect Transistor.md",
+    "⚡ 硬件电路 Hardware Circuit/🎶 模拟电路 Analog Circuit/半导体器件 Semiconductor Components/3. 三极管 Bipolar Junction Transistor.md",
+    "~🌎~ 未来发展 Future Development/🚀 技术前沿 Technology Frontier/🪐 最新大语言模型.md",
+    "💬 自然语言学习 Languages Learning/英文 English/Speaking",
+    "💬 自然语言学习 Languages Learning/英文 English/Listening",
+    "💬 自然语言学习 Languages Learning/英文 English/Writing",
+    "~🎓~ 课程学习 Courses/NTU/EE6427 - 🎞 Video Signal Processing/📜 Notes/Part 2 - Image Compression.md",
+    "~🌎~ 未来发展 Future Development/🔬 学术研究 Research/👨‍🔬 NTU EEE 教授名单.md",
+    "~🌎~ 未来发展 Future Development/🚀 技术前沿 Technology Frontier/🤖 机器人领域热点.md",
+    "~🌎~ 未来发展 Future Development/🚀 前沿技术 Technology Frontier/EMO：阿里即时讲话视频生成.md",
+    "⚡ 硬件电路 Hardware Circuit/📟 嵌入式 Embedded/Untitled.md",
+    "~🌎~ 未来发展 Future Development/🚀 前沿技术 Frontier Technology/大语言模型",
+    "Z-attachment/Pasted image 20240927160233.png",
+    "💻 计算机科学 Computer Science/🛠 计算机维护 Computer Maintain",
+    "💻 计算机科学 Computer Science/⚔ 基本理论 Basic Theory",
+    "Z-attachment/EE6427 Lecture Part 4 AY2425S1.pdf",
+    "Z-attachment/video-processing/video_compression.drawio",
     "硬件电路 Hardware Circuit/辅助软件/未命名.canvas"
   ]
 }

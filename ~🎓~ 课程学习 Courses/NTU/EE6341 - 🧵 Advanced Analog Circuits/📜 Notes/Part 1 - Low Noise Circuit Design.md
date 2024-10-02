@@ -12,8 +12,10 @@
 	+ [[#Noise model of BJT]]
 	+ [[#Noise model of FET]]
 	+ [[#Noise model of Op Amp]]
-+ Noise Analysis
 	+ [[#Equivalent Input Noise]]
+		+ [[#Calculation]]
+		+ [[#Equivalent Input Noise of semiconductor models]]
++ Noise Analysis
 	+ [[#Noise Factor]]
 	+ [[#Transformer Coupling]]
 	+ [[#Cascaded Networks Noise]]
@@ -42,9 +44,9 @@ The square of the value of a noise $x(t)$ is equal to the power in quantity.
 + Noise Power (MS Intensity) - The average **power** (square of signal intensity) of a noise $x(t)$ over a long period of time
 $$\overline{X^2}=\lim_{T\to\infty}\frac{1}{T} \int_0^T x^2(t)dt$$
 + RMS - The root of Noise Power, a common representation for electric signal (Unit: $V$ or $A$)
-$$X_{rms}=\sqrt{\overline{X^2}}$$
+$$X_{rms}=\sqrt{\overline{X^2}}=\sqrt{\overline{x^2}\Delta f}$$
 + Power Spectral Density (PSD) - A function of frequency (Unit: $V^2/Hz$ or $A^2/Hz$)
-$$\overline{x^2(t)}=\frac{\overline{X^2}}{\Delta f}$$
+$$\overline{x^2}=\frac{\overline{X^2}}{\Delta f}$$
 $\Delta f$ is the equivalent noise bandwidth of the system
 
 ---
@@ -96,7 +98,7 @@ Noise generated from a resistor can be transformed between voltage form and curr
 ---
 ## Noise model of Diode
 
-The noise of a diode has two parts, the thermal noise is produced by the resistance of the silicon and the other is the PN junction noise.
+The noise of a diode has two parts, the thermal noise is produced by the resistance of the silicon and the other is due to the PN junction noise.
 
 + Silicon Resistance $r_s$ (equivalent to a physical resistor) - **Thermal** Noise
 $$\overline{v_s^2}=4kTr_s$$
@@ -139,23 +141,76 @@ The noises of a Op Amp situates at the input circuit and consists of three parts
 + Non-invert input noise current $\overline{i^2_n}$
 + Non-invert input noise voltage $\overline{e^2_n}$
 
+Owing to the flicker noises inside the Op Amp, $\overline{i^2_n}$ and $\overline{e^2_n}$  are not constants. They are functions of frequency and can be calculated as
+$$\overline{e^2_n}=\overline{e^2_{nw}}(\frac{f_{ce}}{f}+1)$$
+$$\overline{i^2_n}=\overline{i^2_{nw}}(\frac{f_{ci}}{f}+1)$$
 ![[Pasted image 20240904161515.png]]
 
 ---
 ## Equivalent Input Noise
 
++ **Goal** - Simplify noise analysis
++ **Based on** - Two port network equivalent theory
+
 A noisy network can be seperated into a noiseless network and a network of noise sources which produces the same output noise PSD as the original noise sources.
 $$\begin{align}\overline{v^2_o}&=|H_1(jf)|^2\overline{v^2_{o1}}+|H_2(jf)|^2\overline{v^2_{o2}}+|H_3(jf)|^2\overline{v^2_{o3}}+...+|H_n(jf)|^2\overline{v^2_{on}}\\&=|H(jf)|^2\overline{v^2_i}\end{align}$$
 ![[Pasted image 20240904144556.png]]
 
-Usually, we use two noise sources, a serial voltage source $\overline{v^2_i}$ and a parallel current source $\overline{i^2_i}$ , instead of one, to describe the equivalent noise.
+Usually, we use **two noise sources**, a serial voltage source $\overline{v^2_i}$ and a parallel current source $\overline{i^2_i}$ , instead of one, to describe the equivalent noise. The reason for using two equivalent sources is because the usage of one source **can not fully represent all the noise characteristics** inside the network, as shown in the two-port network theory.
+![[Pasted image 20240914222234.png]]
+
+### Calculation
+
+The Calculation of Equivalent Input Noise consists of two steps. It mainly uses the superposition principle.
+
++ Calculate equivalent noise **voltage** source --> short-circuit input to remove the response of the current part.
+
+$$|H(jf)|^2\overline{v^2_i}=|H_1(jf)|^2\overline{v^2_{o1}}+|H_2(jf)|^2\overline{v^2_{o2}}+|H_3(jf)|^2\overline{v^2_{o3}}+...+|H_n(jf)|^2\overline{v^2_{on}}$$
+![[Pasted image 20240914222313.png]]
+
++ Calculate equivalent noise **current** source --> open-cricuit input to remove the response of the voltage part.
+
+$$|H(jf)'|^2\overline{i^2_i}=|H_1(jf)|^2\overline{v^2_{o1}}+|H_2(jf)|^2\overline{v^2_{o2}}+|H_3(jf)|^2\overline{v^2_{o3}}+...+|H_n(jf)|^2\overline{v^2_{on}}$$
+
+![[Pasted image 20240914223052.png]]
+
+The combination of two responses by the two equivalent input sources is the equivalent input noise of the noisy network.
+
+### Equivalent Input Noise of semiconductor models
+
+The calculation process is shown in the examples note. The noise of load resistance is not included.
+
+#### BJT Equivalent Input Noise
 
 
 
- 
+ (Ignore flicker noise and assume $r_b <<C_\pi+r_\pi$)
+![[Pasted image 20240921162357.png]]
+
+#### FET Equivalent Input Noise
+
+
+#### Op Amp (Feedback Amplifier Circuit) 
+
+$$\overline{e^2_{ni}}=\overline{e_n^2}+\overline{i_n^2}(R_p^2+R_n^2)+4kT(R_p+R_n)$$
+
+(Non-inverting input node and $R_p=R_3//R_4$ , $R_n=R_1//R_2$)
+
+![[Pasted image 20240920142654.png]]
+
 
 ---
 ## Noise Factor
+
++ **Goal** - Measure the noise performance of a device, compared it to a noise-free one
++ **Signal-Noise Ratio** - Power ratio in dB
+$$SNR=10\log\frac{V^2_{signal}}{V_{noise}^2}=20\log\frac{V_{signal}}{V_{noise}}$$
++ **Noise Factor** - Ratio of input and output SNR
+$$F=\frac{SNR_i}{SNR_o}$$
++ **Noise Figure** - Noise Factor in dB form
+$$NF=10\log F$$
+
+
 
 
 

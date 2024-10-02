@@ -13,9 +13,18 @@
 	+ [[#Distortion Metrics]]
 + [[#Huffman Coding]]
 	+ [[#Huffman Tree]]
-+ [[#Discrete Cosine Transform (DCT)]]
-
-
++ [[#2-D Discrete Cosine Transform (2-D DCT)]]
+	+ [[#Definition]]
+	+ [[#Matrix Implementation]]
+	+ [[#Inverse 2-D DCT]]
+	+ [[#Base Functions]]
+	+ [[#Manual Calculation Tips]]
+	+ [[#2D-DCT functions in Programming]]
++ [[#JPEG Baseline Compression]]
+	+ [[#Quantization]]
+	+ [[#Vectoring]]
+	+ [[#Differential Encoding]]
+	+ [[#Run-Length Encoding]]
 
 ---
 ## Redundancy
@@ -113,21 +122,21 @@ The average bits for a character is 1.88 bits. Not much lesser than using tradit
 
 
 ---
-## Discrete Cosine Transform (DCT)
+## 2-D Discrete Cosine Transform (2-D DCT)
 
-+ **Goal** - Transform the image to a more compression-friendly form 
++ **Goal** - Seperate low frequency and high frequency coefficients for frequency masking
 + **Function** - Energy Compaction, Redundancy Reduction, Change Prospective
 + Shortage - Inefficient
 
 The 2-D Discrete Cosine Transform is a Fourier-related discrete transform that maps a image to the frequency domain.
 
-### Definition of 2-D DCT
+### Definition
 
-For a $N\times N$ pixels image $s_{ij}$ , the 2-D DCT is defined by the following expression in which $S_{uv}$ is a pixel value of the output transformed image
+For a $N\times N$ pixels image $s_{ij}$ , the 2-D DCT is defined by the following expression in which $S_{uv}$ is a pixel value of the output transformed image and $s_{ij}$ is a original pixel
 $$S_{uv}=\alpha(u)\alpha(v)\sum_{i=0}^{N-1}\sum_{j=0}^{N-1}s_{ij}\cos\frac{(2i+1)u\pi}{2N}\cos\frac{(2j+1)v\pi}{2N} \quad u,v=0,1,...,N-1$$
 The constant $\alpha$ is determined by the value of $u,v$ 
 $$\alpha(x)=\begin{cases}\sqrt{\frac{1}{N}}&x=0\\\sqrt{\frac{2}{N}} &x=1,2,...,N-1\end{cases}$$
-### Matrix Implementation of 2-D DCT
+### Matrix Implementation
 
 For a $N\times N$ pixels image $f(i,j)$ , the matrix form 2-D DCT is defined by the multiplication of $f_(i,j)$ and the DCT-matrix $T$
 $$F(u,v)=T\cdot f(i,j)\cdot T^T$$
@@ -136,11 +145,74 @@ $$T(i,j)=\begin{cases} \sqrt{\frac{1}{N}} & i=0\\\ \sqrt{\frac{2}{N}}\cdot\cos\f
 
 ### Inverse 2-D DCT
 
-The 2-D IDCT can be easily represented by matrix form
+The calculation of 2-D IDCT can much easier in matrix form
 $$f(i,j)=T^T\cdot F(u,v)\cdot T$$
 Notice that DCT-matrix $T$ is invertible and orthogonal
 $$T^T=T^{-1}$$
 
----
-##
+### Base Functions
 
++ **What is it?** - Intuitively, the **linear combination** of base functions with transformed image $F(u, v)$ as coefficients is the original image.
+
+![[Pasted image 20240912172437.png]]
+
+### Manual Calculation Tips
+
+When doing manually, 2D-DCT can be seperated into two 1D-DCT to simplify calculation. The first 1D-DCT is row-wise and the second one is column-wise.
+$$S_{k}=\alpha(k)\sum_{n=0}^{N-1}s_{n}\cos\frac{(2n+1)k\pi}{2N} \quad k=0,1,...,N-1$$
+$$\alpha(k)=\begin{cases}\sqrt{\frac{1}{N}}&k=0\\\sqrt{\frac{2}{N}} &k=1,2,...,N-1\end{cases}$$
+In the equation, $S_k$ is a pixel after transformation and $s_n$ is a original pixel. $N$ is the number of pixels in a row or a column.
+
+### 2D-DCT functions in Programming
+
++ Matlab - `dct2()`
++ OpenCV - `dct()`
+
+---
+## JPEG Baseline Compression
+
++ **Input** - YCbCr Image
++ **Output** - Compressed data
++ **Stages** - 8x8 Partition --> 2-D DCT --> Quantization --> Vectoring --> DE, RLE --> Entropy Encoding
+
+![[Pasted image 20240912171349.png]]
+
+### Quantization
+
++ **Goal**
+	+ **Discretization** - Continuous DCT coefficient --> Discrete coefficient
+	+ **Frequency Masking** - Higher quantization coefficient for high frequency coefficient
+	+ **Color Masking** - Higher quantization coefficient for Cb, Cr channels
++ **Prerequisite** - Frequency domain power 
++ **Side Effect** - Information loss
+
+The process of quantization is to divide each element in the DCT matrix by a specially designed quantization matrix. The quantization matrix should be designed with greater elements at the right-down side, aiming to compress more on the high frequency components in the DCT matrix.
+
+For colored image, the Cb Cr chroma channels should be compressed more fiercely than the Y channel.
+
+### Vectoring 
+
++ **Goal** - Convert the matrix DCT data to linear vector form, making encoding more easy.
++ **Approach** - Zig-zag Scanning
+
+The zig-zag scanning ensure that:
+
++ DC component is always the first element of the output vector 
++ AC components are sorted in frequency, highest frequency components located in the back are likely to be zero.
+
+### Differential Encoding
+
++ **Used on** - DC component
++ **Make use of** - Spatial Redundancy
+
+The DC components of multiple blocks are represented together by a vector recording the difference between DC components of adjacent blocks.
+
+### Run-Length Encoding
+
++ **Used on** - AC component
++ **Make use of** - the majority of zero value in high frequency components
+
+The AC components of a single block are represented by a vector that record: 
+
++ Each non-zero component
++ The number of zero between it and the next non-zero component

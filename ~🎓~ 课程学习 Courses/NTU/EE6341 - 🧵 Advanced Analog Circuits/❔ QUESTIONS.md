@@ -33,7 +33,11 @@
 
 
 > [!FAQ] Can you use equivalent noise bandwidth to calculate the RMS voltage of those noises that is a function of frequency $f$
+> Yes, we can use it on any noise because the inaccuracy in calculation using equivalent noise bandwidth is expected. 
 > 
+> For example, if the noise has a decaying PSD that the high frequency power is lower, then the usage of equivalent noise bandwidth would occur to a over-estimation of noise RMS. However, such error is usually small enough to be ignored.
+> 
+> Accurate calculation of RMS can be only done by integral which is not easy to compute.
 
 > [!FAQ] Why can't we directly sum the RMS or MS of two noises?
 > This is because RMS or MS is just a temporal average of the power of the noise. They can not represent the value of a noise in every moment. 
@@ -56,16 +60,23 @@
 
 ### Noise Analysis
 
+> [!FAQ] Why there aren't expressions for the noise sources in an Op Amp?
+>
+
 
 > [!FAQ] Why do we use a input equivalent noise current source and a input equivalent noise voltage source instead of just using one single equivalent noise source?
 >
 
+> [!FAQ] Shall we use power or voltage, $20\log$ or $10\log$ for SNR?
+> The definition of SNR is always the ratio of signal and noise **powers**. When the result is written in unit dB, $20\log\frac{V_s}{V_n}$ is the same as $10\log\frac{V_s^2}{V_n^2}$, it's just a game of maths.
 
 > [!FAQ] Why doesn't Noise Factor work on non-resistive $R_S$?
 > That's because the internal resistance of a voltage source is always resistive. In fact, the Noise Factor only focuse on the power of signal and noise, not the impedence in the circuit. So it works on all circuit. 
 
 ### Tutorial 1-4
 
+> [!FAQ] In Tutorial 4-1, the non-inverting amplifier external resistors $R_1, R_2$ are chosen as $R_1//R_2=R_3$ for bias cancellation. Why should we do this?
+> 
 
 
 

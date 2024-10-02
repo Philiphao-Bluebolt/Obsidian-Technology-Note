@@ -1,6 +1,7 @@
 [[#Huffman Coding Exe 1]]
 [[#Huffman Coding Exe 2]]
 [[#2D-DCT Exe]]
+[[#2D-DCT Matrix Form Exe]]
 
 ---
 ## Huffman Coding Exe 1

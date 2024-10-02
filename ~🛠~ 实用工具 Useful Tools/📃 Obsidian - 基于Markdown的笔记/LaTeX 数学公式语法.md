@@ -76,6 +76,7 @@ $$\prod_{i=0}^{5} x_i y_i$$
 $$\int_{0}^{\infty}\frac{1}{x+1}dx$$
 + 一阶导数：`\dot{}`$\dot{x}$
 + 二阶导数：`\ddot{}`$\ddot{x}$
++ 偏导数：`\partial`$\partial$
 
 ---
 ### 线性代数
@@ -116,6 +117,7 @@ $$
 + `\omega`$\omega$
 
 + `\epsilon`$\epsilon$
++ `\varepsilon`$\varepsilon$
 + `\zeta`$\zeta$
 + `\xi`$\xi$
 

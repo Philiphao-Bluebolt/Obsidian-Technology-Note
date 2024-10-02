@@ -6,6 +6,12 @@
 	+ [[#1-4 Calculate the RMS excess noise of a resistor]]
 + [[#Noise model of semiconductor components]]
 	+ [[#1-5 Noise analysis for a BJT amplifier circuit]]
+	+ [[#1-6 Calculate BJT Equivalent Input Noise]]
+	+ [[#1-7 Calculate FET Equivalent Input Noise]]
+	+ [[#1-8 Calculate Equivalent Input Noise Voltage of a Op Amp Amplifier]]
++ [[#Noise Analysis]]
+
+
 
 
 ---
@@ -116,4 +122,61 @@ $$r_\pi=\frac{V_T}{I_B}=\frac{V_T\beta}{I_C}=\frac{26mV\times100}{100\mu A}=26k\
 The final result is a function of noise frequency $f$
 $$\begin{align}\overline{v^2_o}&=|\frac{r_\pi\parallel C_\pi}{R_S+r_b+r_\pi\parallel C_\pi}g_mR_L|^2[4kTR_S+4kTr_b+2qI_B(R_S+r_b)^2]+R_L^2(2qI_C+\frac{4kT}{R_L})\\&=\frac{g_m^2R_L^2r^2_\pi [4kT(R_S+r_b)+2qI_B(R_S+r_b)^2]}{(R_S+r_b+r_\pi)^2+[2\pi C_\pi r_\pi  (R_S+r_b)]^2f^2}+R_L^2(2qI_C+\frac{4kT}{R_L})\\&=\frac{2.85\times 10^{-6}}{7.13\times10^{8}+1.31\times 10^{-8}f^2}+8.83\times10^{-16} \quad V^2/Hz\end{align}$$
 
-#### 1-6  
+#### 1-6  Calculate BJT Equivalent Input Noise
+
+The model of BJT and the quivalent noise model is shown below.
+![[Pasted image 20240914225454.png]]
+First, we short-circuit the input port to calculate the equivalent voltage. 
+$$(\frac{r_\pi//C_\pi}{r_b+r_\pi//C_\pi})^2g_m^2\overline{v^2_i}=(\frac{r_\pi//C_\pi}{r_b+r_\pi//C_\pi})^2g_m^2\overline{v^2_b}+(r_\pi//C_\pi//r_b)^2g_m^2\overline{i^2_b}+\overline{i^2_c}$$
+
+Then, open-circuit the input port to calculate the equivalent current.
+$$(r_\pi//C_\pi)^2g_m^2\overline{i^2_i}=(r_\pi//C_\pi//r_b)^2g_m^2\overline{i^2_b}+\overline{i^2_c}$$
+
+To prevent the expression from getting too complicated, some **approximations** are applied here. Since $r_b$ is usually much smaller than $Z_\pi=r_\pi+C_\pi$, we can make the following approximation.
+$$\frac{r_\pi//C_\pi}{r_b+r_\pi//C_\pi}\approx1$$
+$$r_\pi//C_\pi//r_b\approx0$$
+
+After the approximation, the expression of $\overline{v^2_i}$ and $\overline{i^2_i}$ are simplified into
+$$g_m^2\overline{v^2_i}=g_m^2\overline{v^2_b}+\overline{i^2_c}$$
+$$(r_\pi//C_\pi)^2g_m^2\overline{i^2_i}=\overline{i^2_c}$$
+![[Pasted image 20240915104223.png]]
+![[Pasted image 20240915104233.png]]
+As we know, the inner noises of a BJT are given by the following equations and we usually ignore the flicker noise.
+$$\overline{v_b^2}=4kTr_b$$
+$$\overline{i^2_b}=2qI_B+k_1\frac{I_B^a}{f}+k_2\frac{I_B^b}{1+(f/f_c)^2}\approx2qI_B$$
+$$\overline{i_c^2}=2qI_C$$
+Substitute the variables of original noises in the expression of $\overline{v^2_i}$ and $\overline{i^2_i}$ and we will get
+$$\overline{v^2_i}=4kTr_b+\frac{2qI_c}{g_m^2}=4kTr_b+\frac{2qI_c}{g_m}\frac{kT}{qI_c}=4kT(r_b+\frac{1}{2g_m})$$
+$$(r_\pi//C_\pi)^2g_m^2\overline{i^2_i}=\overline{i^2_c}$$
+
+
+
+#### 1-7  Calculate FET Equivalent Input Noise
+
+
+
+#### 1-8  Calculate Equivalent Input Noise Voltage of a Op Amp Amplifier
+
+This is a simple Op Amp based negative-feedback amplifier. Try doing noise analysis on it and find the equivalent input noise voltage source.
+
+![[Pasted image 20240916101154.png]]
+
+> [!FAQ] Why can we equate the noises into only one source here?
+> Because we already know that the input is not open-circuited.
+
+The noise model of the circuit is given by the graph here. The Op Amp contains three noise sources and the three external resistors contributes another three thermal noises.
+
+$$\begin{align}\overline{e_p^2}&=4kTR_p\\\overline{e_1^2}&=4kTR_1\\\overline{e_2^2}&=4kTR_2\end{align}$$
+![[Pasted image 20240916104255.png]]
+Make use of the virtual-short and virtual-open principle of the Op Amp and the superposition principle, we are easily write down the total output noise.
+$$\begin{align}\overline{v^2_o}&=(\frac{R_1+R_2}{R_1})^2\overline{e_p^2}+(\frac{R_2}{R_1})^2\overline{e^2_1}+\overline{e^2_2}+(\frac{R_1+R_2}{R_1})^2R_p^2\overline{i_n^2}+R_2^2\overline{i^2_n}+(\frac{R_1+R_2}{R_1})^2\overline{e_n^2}\\&=(\frac{R_1+R_2}{R_1})^2(\overline{e_p^2}+R_p^2\overline{i_n^2}+\overline{e_n^2})+(\frac{R_2}{R_1})^2\overline{e^2_1}+\overline{e^2_2}+R_2^2\overline{i^2_n}\end{align}$$The equivalent input noise voltage locates at the non-negative input.
+
+![[Pasted image 20240916114030.png]]
+$$\begin{align}(\frac{R_1+R_2}{R_1})^2\overline{e^2_{ni}}&=(\frac{R_1+R_2}{R_1})^2(\overline{e_p^2}+R_p^2\overline{i_n^2}+\overline{e_n^2})+(\frac{R_2}{R_1})^2\overline{e^2_1}+\overline{e^2_2}+R_2^2\overline{i^2_n}\\\overline{e^2_{ni}}&=(\overline{e_p^2}+R_p^2\overline{i_n^2}+\overline{e_n^2})+\frac{R_2^2\overline{e^2_1}+R_1^2\overline{e^2_2}+R_1^2R_2^2\overline{i^2_n}}{(R_1+R_2)^2}\\\end{align}$$
+Now we substitute all the thermal noises with their expressions and replace all the $R_1, R_2$ variables with $R_n = R_1//R_2$ for simplicity
+$$\begin{align}\overline{e^2_{ni}}&=(4kTR_p+R_p^2\overline{i_n^2}+\overline{e_n^2})+\frac{4kTR_2^2R_1+4kTR_1^2R_2+R_1^2R_2^2\overline{i^2_n}}{(R_1+R_2)^2}\\&=(4kTR_p+R_p^2\overline{i_n^2}+\overline{e_n^2})+\frac{R_1R_2}{R_1+R_2}(4kT+\frac{R_1R_2}{R_1+R_2}\overline{i_n^2})\\&=4kTR_p+R_p^2\overline{i_n^2}+\overline{e_n^2}+R_n(4kT+R_n\overline{i_n^2})\\&=\overline{e_n^2}+\overline{i_n^2}(R_p^2+R_n^2)+4kT(R_p+R_n)\end{align}$$
+So we have the final result
+$$\overline{e^2_{ni}}=\overline{e_n^2}+\overline{i_n^2}(R_p^2+R_n^2)+4kT(R_p+R_n)$$
+
+---
+## Noise Analysis
