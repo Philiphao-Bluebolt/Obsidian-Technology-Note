@@ -1,14 +1,14 @@
 
 + [[#Introduction to Circuit Noise]]
 	+ [[#1-1 Output noise calculation of a simple RC network]]
-	+ [[#1-2 Calculate Equivalent noise bandwidth from a bode plot]]
+	+ [[#1-2 Calculate equivalent noise bandwidth from a bode plot]]
 	+ [[#1-3 Calculate the RMS thermal noise of a resistor]]
-	+ [[#1-4 Calculate the RMS excess noise of a resistor]]
+	+ [[#1-4 Calculate the RMS excess and thermal noise of a resistor]]
 + [[#Noise model of semiconductor components]]
 	+ [[#1-5 Noise analysis for a BJT amplifier circuit]]
-	+ [[#1-6 Calculate BJT Equivalent Input Noise]]
-	+ [[#1-7 Calculate FET Equivalent Input Noise]]
-	+ [[#1-8 Calculate Equivalent Input Noise Voltage of a Op Amp Amplifier]]
+	+ [[#1-6 Calculate BJT equivalent input noise]]
+	+ [[#1-7 Calculate FET equivalent input noise]]
+	+ [[#1-8 Calculate equivalent input noise voltage of a Op Amp amplifier]]
 + [[#Noise Analysis]]
 
 
@@ -31,7 +31,7 @@ $$\overline{v_o^2}=|H(j\omega)|^2\overline{v_i^2}=\frac{\overline{v_i^2}}{1+\ome
 At last, change the variable to frequency $f$ and use harmonic frequency $f_0=1/2\pi RC$ in the equation for simplicity.
 $$\overline{v_o^2}=\frac{\overline{v_i^2}}{1+(f/f_0)^2}$$
 
-#### 1-2  Calculate Equivalent noise bandwidth from a bode plot
+#### 1-2  Calculate equivalent noise bandwidth from a bode plot
 
 Find the equivalent noise bandwidth $\Delta f$ for an amplifier whose frequency characteristics is described by the given bode plot
 
@@ -122,7 +122,7 @@ $$r_\pi=\frac{V_T}{I_B}=\frac{V_T\beta}{I_C}=\frac{26mV\times100}{100\mu A}=26k\
 The final result is a function of noise frequency $f$
 $$\begin{align}\overline{v^2_o}&=|\frac{r_\pi\parallel C_\pi}{R_S+r_b+r_\pi\parallel C_\pi}g_mR_L|^2[4kTR_S+4kTr_b+2qI_B(R_S+r_b)^2]+R_L^2(2qI_C+\frac{4kT}{R_L})\\&=\frac{g_m^2R_L^2r^2_\pi [4kT(R_S+r_b)+2qI_B(R_S+r_b)^2]}{(R_S+r_b+r_\pi)^2+[2\pi C_\pi r_\pi  (R_S+r_b)]^2f^2}+R_L^2(2qI_C+\frac{4kT}{R_L})\\&=\frac{2.85\times 10^{-6}}{7.13\times10^{8}+1.31\times 10^{-8}f^2}+8.83\times10^{-16} \quad V^2/Hz\end{align}$$
 
-#### 1-6  Calculate BJT Equivalent Input Noise
+#### 1-6  Calculate BJT equivalent input noise
 
 The model of BJT and the quivalent noise model is shown below.
 ![[Pasted image 20240914225454.png]]
@@ -151,11 +151,11 @@ $$(r_\pi//C_\pi)^2g_m^2\overline{i^2_i}=\overline{i^2_c}$$
 
 
 
-#### 1-7  Calculate FET Equivalent Input Noise
+#### 1-7  Calculate FET equivalent input noise
 
 
 
-#### 1-8  Calculate Equivalent Input Noise Voltage of a Op Amp Amplifier
+#### 1-8  Calculate equivalent input noise voltage of a Op Amp amplifier
 
 This is a simple Op Amp based negative-feedback amplifier. Try doing noise analysis on it and find the equivalent input noise voltage source.
 
@@ -180,3 +180,23 @@ $$\overline{e^2_{ni}}=\overline{e_n^2}+\overline{i_n^2}(R_p^2+R_n^2)+4kT(R_p+R_n
 
 ---
 ## Noise Analysis
+
+#### 1-9  Noise analysis on an amplifier circuit model
+
+This is a complete amplifier circuit with input source, amplifier circuit and output load. Try to calculate the noise factor of the amplifier circuit assuming the noise bandwidth is $\Delta f$
+![[Pasted image 20241005151255.png]]
+The noise factor can be represented using the noise power produced by the amplifier ($N_{oi}$) and the noise power produced by the input source internal resistance ($N_{os}$)
+$$F=1+\frac{N_{oi}}{N_{os}}$$
+The output response PSD voltages of two parts of the noises on the load $R_L$ are
+$$\overline{v_{oi}^2}=A^2R^2_L(\overline{v^2_i}|\frac{z_i}{R_S+z_i}|^2+\overline{i_i^2}|\frac{R_S z_i}{R_S+z_i}|^2)$$
+$$\overline{v_{os}^2}=A^2R^2_L\overline{v^2_S}|\frac{z_i}{R_S+z_i}|^2$$
+Then we have the powers
+$$N_{oi}=\frac{V^2_{oi}}{R_L}=\frac{\overline{v_{oi}^2}\Delta f}{R_L}$$
+$$N_{os}=\frac{V^2_{os}}{R_L}=\frac{\overline{v^2_{os}}\Delta f}{R_L}$$
+Finally, we get the noise factor. The expression shows that the noise factor only depends on the input source internal resistance $R_S$
+$$F=1+\frac{N_{oi}}{N_{os}}=1+\frac{\overline{v_{oi}^2}}{\overline{v_{os}^2}}=1+\frac{\overline{v^2_i}+\overline{i^2_i}R_S^2}{\overline{v^2_S}}=1+\frac{\overline{v^2_i}}{4kR_ST}+\frac{\overline{i^2_i}R_S}{4kT}$$
+Derivative is used to obtain the $R_S$ value for minimum noise factor.
+$$\frac{dF}{d{R_S}}=-\frac{\overline{v_i^2}}{4kTR_S^2}+\frac{\overline{i_i^2}}{4kT}=0$$
+$$R_S^2=\frac{\overline{v_i^2}}{\overline{i_i^2}}$$
+
+#### 1-10  

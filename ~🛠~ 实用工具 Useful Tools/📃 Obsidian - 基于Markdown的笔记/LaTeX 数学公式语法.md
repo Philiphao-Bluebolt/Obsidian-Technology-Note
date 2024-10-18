@@ -102,7 +102,7 @@ $$
 {c} & {d} \\ 
 \end{vmatrix}
 $$
-
++ 省略号：$$\dots \vdots \ddots$$
 ---
 ### 希腊字母
 
@@ -159,4 +159,6 @@ $$
 
 + 上划线：`\overline{}`  $\overline{abc}$
 + 下划线：`\underline{}` $\underline{abc}$
++ 上波浪线：`\tilde` $\tilde{a}$
++ 上一横：`\bar` $\bar{a}$
 + 空格：`\quad` $\quad$

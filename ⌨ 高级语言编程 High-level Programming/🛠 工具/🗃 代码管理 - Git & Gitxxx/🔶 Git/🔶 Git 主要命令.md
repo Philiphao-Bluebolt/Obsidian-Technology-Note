@@ -217,6 +217,7 @@ git  merge  dev
 git  rebase  master  dev
 ```
 
+由于`rebase`会打乱以前的提交历史，某些团队会避免使用
 
 ---
 ## remote

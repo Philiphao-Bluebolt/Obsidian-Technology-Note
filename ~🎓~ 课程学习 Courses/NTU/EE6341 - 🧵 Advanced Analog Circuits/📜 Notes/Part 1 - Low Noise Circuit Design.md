@@ -1,5 +1,5 @@
 
-+ Introduction to Circuit Noise
++ Introduction to circuit noise
 	+ [[#Noise in the circuit]]
 	+ [[#How to describe a Noise]]
 	+ [[#Equivalent Noise Bandwidth]]
@@ -15,9 +15,10 @@
 	+ [[#Equivalent Input Noise]]
 		+ [[#Calculation]]
 		+ [[#Equivalent Input Noise of semiconductor models]]
-+ Noise Analysis
++ Noise analysis using Noise Factor
 	+ [[#Noise Factor]]
-	+ [[#Transformer Coupling]]
+		+ [[#Intuitive Noise Power Form]]
+		+ [[#Transformer Coupling]]
 	+ [[#Cascaded Networks Noise]]
 
 ---
@@ -159,6 +160,8 @@ $$\begin{align}\overline{v^2_o}&=|H_1(jf)|^2\overline{v^2_{o1}}+|H_2(jf)|^2\over
 Usually, we use **two noise sources**, a serial voltage source $\overline{v^2_i}$ and a parallel current source $\overline{i^2_i}$ , instead of one, to describe the equivalent noise. The reason for using two equivalent sources is because the usage of one source **can not fully represent all the noise characteristics** inside the network, as shown in the two-port network theory.
 ![[Pasted image 20240914222234.png]]
 
+If we only use a input voltage source to represent the internal noise, then the equivalent source won't work if the previous circuit of the network is open circuit. 
+
 ### Calculation
 
 The Calculation of Equivalent Input Noise consists of two steps. It mainly uses the superposition principle.
@@ -205,20 +208,30 @@ $$\overline{e^2_{ni}}=\overline{e_n^2}+\overline{i_n^2}(R_p^2+R_n^2)+4kT(R_p+R_n
 + **Goal** - Measure the noise performance of a device, compared it to a noise-free one
 + **Signal-Noise Ratio** - Power ratio in dB
 $$SNR=10\log\frac{V^2_{signal}}{V_{noise}^2}=20\log\frac{V_{signal}}{V_{noise}}$$
-+ **Noise Factor** - Ratio of input and output SNR
-$$F=\frac{SNR_i}{SNR_o}$$
-+ **Noise Figure** - Noise Factor in dB form
+
++ **Noise factor** is a metric describing the noise performance of a network. It's the ratio of input and output SNR (in fraction form) of the network
+$$F=\frac{SNR_i}{SNR_o}=\frac{S_i/N_i}{S_o/N_o}$$
++ **Noise Figure** is the Noise Factor in dB form
 $$NF=10\log F$$
 
+Notice that Noise Factor is **not** an intrinsic property of a network since it depends on input noise. If you change the input, the noise factor will change.
 
+### Intuitive Noise Power Form
 
+Noise Factor can be written in a more intuitive form in which $G$ is the power gain of the circuit.
+$$F=\frac{S_i/N_i}{S_o/N_o}=\frac{S_i}{N_i}\cdot\frac{N_o}{S_o}=\frac{N_o}{GN_i}=\frac{GN_i+N'}{GN_i}=1+\frac{N'}{GN_i}$$
+The output noise $N_o$ actually consists of two parts
 
++ $GN_i$ is the power of noise produced by the previous network and amplifiered by this network.
++ $N'$ is the power of noise produced by the network.
 
----
-## Transformer Coupling
+As a result, the noise factor of a noiseless network is always 1
 
+### Transformer Coupling
 
+Transformer is usually installed between the input source and the amplifier circuit to transform the input source internal resistance $R_S$ for a minimum noise factor.
 
 
 ---
 ## Cascaded Networks Noise
+

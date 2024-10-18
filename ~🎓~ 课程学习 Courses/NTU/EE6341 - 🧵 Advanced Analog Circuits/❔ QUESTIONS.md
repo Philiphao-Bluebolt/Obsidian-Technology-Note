@@ -1,14 +1,17 @@
 
-+ [[#Low Noise Circuit Design]]
++ [[#Low Noise Circuits]]
 	+ [[#Introduction to Circuit Noise]]
 	+ [[#Noise model of semiconductor components]]
 	+ [[#Noise Analysis]]
 	+ [[#Tutorial 1-4]]
-+ [[#Wideband Amplifier Design]]
++ [[#Wideband Amplifiers]]
+
++ [[#Power Amplifiers]]
+	+ [[#Tutorial 6-7]]
 [[#💡 Random Thoughts]]
 
 ---
-## Low Noise Circuit Design
+## Low Noise Circuits
 
 ### Introduction to Circuit Noise
 
@@ -81,11 +84,26 @@
 
 
 
+---
+## Wideband Amplifiers
+
+
 
 ---
-## Wideband Amplifier Design
+## Power Amplifiers
 
 
+> [!FAQ] In Exe1, when finding the desired Q-point for the basic common-emitter BJT amplifier, why can't we use $V_{BQ}=V_{BE}+I_ER_E$ to get the base voltage
+> Contents
+
+
+> [!FAQ] In, why is the maximum output equal to the $I_{CQ}$
+> Contents
+
+
+
+
+## Tutorial 6-7
 
 
 ---
