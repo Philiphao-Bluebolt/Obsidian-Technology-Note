@@ -17,7 +17,7 @@ Determine the value of R1 and R2 providing maximum output voltage swing for the 
 (Assuming $\beta=25, V_T=26mV, V_{BE}=0.7V, V_{CEsat}=0.2V,R_1=R_2$)
 ![[Pasted image 20241016104050.png]]
 
-### (a) Calculate R1 and R2 
+### (a)  Calculate R1 and R2 
 
 While analyzing the DC equipvalent circuit, open-circuit all the capacitors.
 
@@ -35,7 +35,7 @@ Then the value of $R_1//R_2$ can be solved by applying KVL to the input pathway 
 $$V_{TH}=(R_1//R_2)I_{BQ}+V_{BE}+R_EI_{EQ}=10V$$
 Finally we have
 $$\begin{align}R_1//R_2&=2.31k\Omega\\R_1=R_2&=4.62k\Omega\end{align}$$
-### (b) Calculate AC maximum swing
+### (b)  Calculate AC maximum swing
 
 The AC equipvalent circuit (Here we use the simply Hybrid-pi model of BJT)
 $$R_1//R_2=2.31k\Omega$$
@@ -47,7 +47,7 @@ $$v_o=g_mv_i(R_C//R_L)=\frac{I_C}{V_T}(R_C//R_L)v_i=5.16V$$
 However, if $v_o=5.16V$, then the load current could be
 $$i_L=\frac{R_L}{v_o}=645mA$$
 
-
+### (c)  
 
 ---
 ## Exc 2 - 

@@ -162,3 +162,4 @@ $$
 + 上波浪线：`\tilde` $\tilde{a}$
 + 上一横：`\bar` $\bar{a}$
 + 空格：`\quad` $\quad$
++ 非斜体：`\mathrm{}`$\mathrm{Hi}$

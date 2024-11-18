@@ -120,7 +120,6 @@ The average bits for a character is 1.88 bits. Not much lesser than using tradit
 | Binary Coding  | 00  | 01  | 10  | 11  | 2 bits    | 20 bits   | 200000 bits  |
 | Huffman Coding | 000 | 1   | 001 | 01  | 1.88 bits | 18.8 bits | 188000 bits  |
 
-
 ---
 ## 2-D Discrete Cosine Transform (2-D DCT)
 

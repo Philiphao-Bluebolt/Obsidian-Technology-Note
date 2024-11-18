@@ -10,9 +10,21 @@
 > $$\delta(t)=\lim_{\Delta \to 0}\begin{cases} \frac{1}{\Delta} & 0\leq t<\Delta \\ 0& t>\Delta \end{cases}$$
 > So there's no need to struggle with the equation, it's just a special definition for engineering convenience
 
+---
+## State Space
+
+> [!FAQ] Does uncontrollable system have controllable canonical form? Does unobservable system have observable canonical form? 
+>
+
+> [!FAQ] How to convert a discrete inpulse transform function into a state space? 
+>
 
 
 
+---
+## Digital Controller Design
+
+> [!FAQ] All of Zero-pole matching, Bilinear transform and Z transform will transform a continuous system to a discrete form. What is the difference of the three approaches? Can they use interchangeably?
 
 
 

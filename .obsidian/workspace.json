@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d3ab65074f79e09a",
+            "id": "d03f628749ea44bf",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~🔗~ 链接 Link/✨ 常用页面 Portal.md",
+                "file": "~✨~ 链接 Link/✨ 常用页面 Portal.md",
                 "mode": "source",
                 "source": false
               },
@@ -24,99 +24,37 @@
             }
           },
           {
-            "id": "54ed0c47a4def3ac",
+            "id": "906f002194e07b02",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📈 数学 Maths/🌠 线性代数 Linear Algebra/⚙ 矩阵综合 All things Matrix.md",
+                "file": "~🎓~ 课程学习 Courses/NTU/🔥💀 Deadlines 💀🔥.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "⚙ 矩阵综合 All things Matrix"
+              "title": "🔥💀 Deadlines 💀🔥"
             }
           },
           {
-            "id": "a1ba73fb898efa1d",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~🎓~ 课程学习 Courses/NTU/EE6341 - 🧵 Advanced Analog Circuits/📜 Notes/Part 3 - Power Amplifier Design.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Part 3 - Power Amplifier Design"
-            }
-          },
-          {
-            "id": "17ee3e8a490edee9",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~🎓~ 课程学习 Courses/NTU/EE6341 - 🧵 Advanced Analog Circuits/📰 Examples & Tutorials/Part 3 Examples.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Part 3 Examples"
-            }
-          },
-          {
-            "id": "06ed4d9cf0c8db85",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~🎓~ 课程学习 Courses/NTU/EE6341 - 🧵 Advanced Analog Circuits/❔ QUESTIONS.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "❔ QUESTIONS"
-            }
-          },
-          {
-            "id": "acf8698bc9c0c30a",
+            "id": "8adb7811f2b6c400",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚡ 硬件电路 Hardware Circuit/⚔ 基础 Basis/🎱 基本电路定理 Basic Circuit Theorems.md",
+                "file": "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📜 Notes/Part 2 - Robot Control.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "🎱 基本电路定理 Basic Circuit Theorems"
-            }
-          },
-          {
-            "id": "37a256f3c131bf8d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~🎓~ 课程学习 Courses/NTU/EE6341 - 🧵 Advanced Analog Circuits/✏ Assignments/Assignment 2 (10-22).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Assignment 2 (10-22)"
+              "title": "Part 2 - Robot Control"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -147,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "stable baselines",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -172,7 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 349.5
+    "width": 412.5
   },
   "right": {
     "id": "b82e1978ff227ff4",
@@ -234,10 +172,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~🎓~ 课程学习 Courses/NTU/EE6341 - 🧵 Advanced Analog Circuits/✏ Assignments/Assignment 2 (10-22).md"
+                "file": "~🎓~ 课程学习 Courses/NTU/EE6341 - 🧵 Advanced Analog Circuits/📐 Tutorials/Tutorial 7 - Power Amplifier Class AB & D, Heat Sink.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Assignment 2 (10-22)"
+              "title": "Outline of Tutorial 7 - Power Amplifier Class AB & D, Heat Sink"
             }
           }
         ],
@@ -258,54 +196,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "37a256f3c131bf8d",
+  "active": "8adb7811f2b6c400",
   "lastOpenFiles": [
-    "~🎓~ 课程学习 Courses/NTU/EE6341 - 🧵 Advanced Analog Circuits/📜 Notes/Part 3 - Power Amplifier Design.md",
-    "~🎓~ 课程学习 Courses/NTU/EE6341 - 🧵 Advanced Analog Circuits/✏ Assignments/Assignment 2 (10-22).md",
-    "~🎓~ 课程学习 Courses/NTU/EE6341 - 🧵 Advanced Analog Circuits/📰 Examples & Tutorials/Tutorials 6-11 (Part 3-5).md",
-    "Z-attachment/EE4341-EE6341 Tutorial 7.pdf",
-    "~🎓~ 课程学习 Courses/NTU/EE6341 - 🧵 Advanced Analog Circuits/📜 Notes/Part 2 - Wideband Amplifier Design.md",
-    "⚡ 硬件电路 Hardware Circuit/🎶 模拟电路 Analog Circuit/🎫 半导体器件 Semiconductor Components/3. 三极管 Bipolar Junction Transistor.md",
-    "⚡ 硬件电路 Hardware Circuit/🎶 模拟电路 Analog Circuit/🎫 半导体器件 Semiconductor Components/2. 二极管 Diode.md",
-    "⚡ 硬件电路 Hardware Circuit/🎶 模拟电路 Analog Circuit/🎫 半导体器件 Semiconductor Components/1. PN 结 PN Junction.md",
-    "⚡ 硬件电路 Hardware Circuit/🎶 模拟电路 Analog Circuit/📻 实用电路 Utility Circuit/1. 基本放大电路 Basic Amplifier Circuit.md",
-    "⚡ 硬件电路 Hardware Circuit/🎶 模拟电路 Analog Circuit/📻 实用电路 Utility Circuit/5. 功率放大电路 Power Amplifiers.md",
-    "⚡ 硬件电路 Hardware Circuit/🎶 模拟电路 Analog Circuit/📻 实用电路 Utility Circuit/4. 有源滤波电路 Active Filters.md",
-    "⚡ 硬件电路 Hardware Circuit/🎶 模拟电路 Analog Circuit/📻 实用电路 Utility Circuit/3. 信号生成与运算电路 Signal Generator & Operator.md",
-    "⚡ 硬件电路 Hardware Circuit/🎶 模拟电路 Analog Circuit/📻 实用电路 Utility Circuit/2. 运放内部单元电路 Internal Circuits of Op Amp.md",
-    "~🎓~ 课程学习 Courses/网课 Online/CalTech - 🧵 Analog Circuit Design/Lec 1 - Basic Solid Physics (Part 1).md",
-    "~🎓~ 课程学习 Courses/网课 Online/CalTech - 🧵 Analog Circuit Design/Lec 2 - Basic Solid Physics (Part 2).md",
-    "~🎓~ 课程学习 Courses/网课 Online/✨ 优秀网课及自学资料.md",
-    "⚡ 硬件电路 Hardware Circuit/🧵 电子制作 Electronic Design/仿真软件/🛠 电路仿真及设计软件.md",
-    "⚡ 硬件电路 Hardware Circuit/⚔ 基础 Basis/🎱 基本电路定理 Basic Circuit Theorems.md",
-    "~🎓~ 课程学习 Courses/NTU/EE6341 - 🧵 Advanced Analog Circuits/❔ QUESTIONS.md",
-    "~🎓~ 课程学习 Courses/NTU/EE6341 - 🧵 Advanced Analog Circuits/📜 Notes/Part 4 - Active Filters.md",
-    "~🎓~ 课程学习 Courses/NTU/EE6341 - 🧵 Advanced Analog Circuits/📰 Examples & Tutorials/Part 3 Examples.md",
-    "⚡ 硬件电路 Hardware Circuit/🧵 电子制作 Electronic Design/元件选型/三极管选型.md",
-    "⚡ 硬件电路 Hardware Circuit/🧵 电子制作 Electronic Design/元件选型",
-    "⚡ 硬件电路 Hardware Circuit/🧵 电子制作 Electronic Design",
-    "⚡ 硬件电路 Hardware Circuit/🧵 元件选择 Component Selection/Untitled.md",
-    "Z-attachment/Pasted image 20241017181013.png",
-    "Z-attachment/Pasted image 20241017174726.png",
-    "Z-attachment/Pasted image 20241017173411.png",
-    "~🎓~ 课程学习 Courses/HIT/电路 Electric Circuit/📜 归纳/1-8 线性网络分析、网络函数.md",
-    "⚡ 硬件电路 Hardware Circuit/🎶 模拟电路 Analog Circuit/✨ 基本概念 Basic Comcept/偏置与静态工作点 Biasing and Q Point.md",
     "📈 数学 Maths/🌠 线性代数 Linear Algebra/⚙ 矩阵综合 All things Matrix.md",
-    "~🔗~ 链接 Link/✨ 常用页面 Portal.md",
-    "Z-attachment/Pasted image 20241017154247.png",
-    "Z-attachment/Pasted image 20241017153615.png",
-    "Z-attachment/Pasted image 20241017153552.png",
-    "Z-attachment/Pasted image 20241017153447.png",
-    "Z-attachment/Pasted image 20241017152901.png",
-    "Z-attachment/Pasted image 20241017152640.png",
-    "⚡ 硬件电路 Hardware Circuit/🎶 模拟电路 Analog Circuit/✨ 基本概念 Basic Comcept",
-    "Z-attachment/circuit-diagram/bjt.drawio",
-    "~🌎~ 未来发展 Future Development/💖 社会服务 Voluntary",
-    "Z-attachment/Pasted image 20241016104050.png",
-    "Z-attachment/circuit-diagram/Power_amplifier.drawio",
-    "Z-attachment/EE4341-EE6341 Tutorial 8.pdf",
-    "Z-attachment/EE4341 Active Filters.pdf",
-    "Z-attachment/Lec 1 - Sensors (3hrs) 202410 1.pdf",
+    "~✨~ 链接 Link/✨ 常用页面 Portal.md",
+    "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📜 Notes/Part 2 - Robot Control.md",
+    "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📜 Notes/Part 3 - Mobile Robot.md",
+    "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📜 Notes/Part 4 - Sensors.md",
+    "~🎓~ 课程学习 Courses/NTU/🔥💀 Deadlines 💀🔥.md",
+    "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📰 Examples/Kinematics Practice.md",
+    "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📰 Examples/Robot Control.md",
+    "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📰 Examples/Kinematics Examples.md",
+    "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📜 Notes/Part 1 Topic 3 - Inverse Kinematics.md",
+    "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📜 Notes/Part 1 Topic 4 - Trajectory Planning.md",
+    "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📽 Slides/Kinematics.md",
+    "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📜 Notes/Part 1 Topic 1 - Introdution to Robot.md",
+    "~🎓~ 课程学习 Courses/NTU/EE6203 - 📉 Computer Control Systems/📰 Examples/Part 2 Lec 1-4 Examples.md",
+    "~🎓~ 课程学习 Courses/NTU/EE6203 - 📉 Computer Control Systems/❔ QUESTIONS.md",
+    "🚂 控制科学 Control Engineering/⚔ 控制理论 Control Theory/🔊 传递函数 Transfer Function.md",
+    "🚂 控制科学 Control Engineering/⚔ 控制理论 Control Theory/🔧 控制系统设计 Control System Design.md",
+    "🚂 控制科学 Control Engineering/⚔ 控制理论 Control Theory/🥽 状态空间模型 State Space Model.md",
+    "🚂 控制科学 Control Engineering/⚔ 控制理论 Control Theory/🧶 非线性系统 Nonlinear System.md",
+    "🚂 控制科学 Control Engineering/⚔ 控制理论 Control Theory/✂ 连续与离散系统对比 Continuity vs Discreteness.md",
+    "🚂 控制科学 Control Engineering/⚔ 控制理论 Control Theory/📉 波特图与频率特性 Bode Plot & Frequency Charac..md",
+    "Z-attachment/Pasted image 20241118142109.png",
+    "Z-attachment/robotics/robot_ciontrol.drawio",
+    "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📜 Notes/Part 1 Topic 5 - Differential Motion and Statics.md",
+    "~🎓~ 课程学习 Courses/NTU/EE6203 - 📉 Computer Control Systems/📜 Notes/Part 2 Lec 1-4 - State Space Model.md",
+    "Z-attachment/Pasted image 20241117153925.png",
+    "Z-attachment/Pasted image 20241117153534.png",
+    "~🎓~ 课程学习 Courses/NTU/EE6203 - 📉 Computer Control Systems/📰 Examples/Part 3 Chapter 5-6 Examples.md",
+    "🚂 控制科学 Control Engineering/⚔ 控制理论 Control Theory/🧶 非线性控制 Nonlinear Control",
+    "🚂 控制科学 Control Engineering/🪁 控制算法 Control Algorithm/模型预测控制 Model Prediction Control.md",
+    "🚂 控制科学 Control Engineering/🪁 控制算法 Control Algorithm/自抗扰控制 Active Disturbance Rejection Control.md",
+    "🚂 控制科学 Control Engineering/⚔ 控制理论 Control Theory/🥏 现代控制理论 Modern Control",
+    "🚂 控制科学 Control Engineering/⚔ 控制理论 Control Theory/📉 经典控制理论 Classical Control",
+    "~🎓~ 课程学习 Courses/NTU/Explain-it-simple! Pre-exam Revision Edition",
+    "Z-attachment/robotics/sensors.drawio",
+    "Z-attachment/Lecs 5-6  - Vision-based control and estimation(1).pdf",
+    "Z-attachment/Lec 4 - Kalman Filter and sensor integration(2).pdf",
+    "Z-attachment/Lec 3 - Structure and pose estimation (3hrs)(4).pdf",
+    "Z-attachment/Lec 2 - Vision sensors and systems (3hrs) 202403.pdf",
+    "Z-attachment/Pasted image 20241111105537.png",
+    "Z-attachment/Pasted image 20241110222135.png",
+    "Z-attachment/Pasted image 20241110201103.png",
+    "Z-attachment/Pasted image 20241110181926.png",
+    "Z-attachment/Pasted image 20241110170220.png",
+    "Z-attachment/Pasted image 20241110163821.png",
+    "Z-attachment/Pasted image 20241110154418.png",
     "硬件电路 Hardware Circuit/辅助软件/未命名.canvas"
   ]
 }

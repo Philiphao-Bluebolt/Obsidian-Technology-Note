@@ -1,10 +1,10 @@
 + Wikipedia：[Trigonometric function](https://en.wikipedia.org/wiki/Trigonometric_functions)
 
-三角函数是一种重要的基本初等函数，通过单位圆上的三角形边长关系定义，常用在几何计算、信号处理等领域中
-
+三角函数是一种重要的基本初等函数，通过单位圆上的三角形边长关系定义，在数学和几乎所有的工程领域中都很常用。
 
 ---
-## atan2 
+## 定义和含义
+
 
 
 
@@ -33,3 +33,8 @@
 	+ $(\sin\theta)'=\cos\theta$
 	+ $(\cos\theta)'=-\sin\theta$
 	+ $(\tan\theta)'=1/\cos^2\theta$
+
+---
+
+## atan2 
+

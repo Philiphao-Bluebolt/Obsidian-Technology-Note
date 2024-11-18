@@ -14,7 +14,8 @@ Tutorials are practices that would be thoroughly discussed in the lecture.
 + [[#Tutorial 4 - Op Amp Noise Analysis]]
 	+ [[#4-1 Op Amp equivalent input RMS voltage and input SNR]]
 	+ [[#4-2 Usage of Op Amp equivalent input noise]]
-
++ [[#Tutorial 5 - Wideband Amplifier]]
+	+ 
 
 ---
 ## Tutorial 1 - Simple Noise Calculation
@@ -261,6 +262,8 @@ $$R_p=R_3//R_4=6k\Omega$$
 $$R_n=R_1//R_2//R_F=4k\Omega$$
 
 ---
-## Tutorial 5 - 
+## Tutorial 5 - Wideband Amplifier
 
 ![[EE4341 T5.pdf]]
+
+

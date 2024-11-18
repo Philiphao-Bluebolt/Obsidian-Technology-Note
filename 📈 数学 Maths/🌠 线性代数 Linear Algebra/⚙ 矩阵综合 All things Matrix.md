@@ -25,6 +25,7 @@
 			+ [[#子阵行列式法 Submatrix Determinant Method]]
 	+ [[#迹 Trace]]
 	+ [[#矩阵指数 Matrix Exponential]]
+	+ [[#求导与积分 Derivative and Integral]]
 
 + 二元运算 Binary Operations
 	+ [[#加减 Addition & Subtraction]]
@@ -33,6 +34,10 @@
 		+ [[#
 	+ [[#初等变换 Elementary Operation]]
 	+ [[#高斯消元法 Gaussian Elimination]]
+
++ 矩阵分解 Matrix Decomposition
+	+ [[#LU分解 LU Decompostion]]
+	+ [[#奇异值分解 Singular Decomposition]]
 
 + 特殊矩阵 Special Matrix
 	+ 矩阵特性 By characteristics
@@ -101,7 +106,7 @@ $$\det(\begin{bmatrix}a&b&c\\d&e&f\\g&h&i\end{bmatrix})=aei+bgf+cdh-ceg-bdi-afh$
 
 行列式的值，等于任意一行或一列上的所有元素与自身代数余子式乘积的和
 $$\det(A)=\sum_{i=1}^{n} a_{ij}A_{ij}=\sum_{j=1}^{n} a_{ij}A_{ij}$$
-+ **代数余子式**$A_{ij}$：元素$a_{ij}$的代数余子式是原行列式删去$a_{ij}$所在的行和列剩下的行列式，乘以一个决定正负的因子$(-1)^{i+j}$
++ **代数余子式**$A_{ij}$：元素$a_{ij}$的代数余子式是原行列式删去$a_{ij}$所在的行和列剩下的行列式，乘以一个由所在行列决定正负的因子$(-1)^{i+j}$
 
 $$a_{01}\begin{cases}i=1\\j=2\end{cases} \quad\to\quad A=\begin{bmatrix}\color{orange}a&\color{red}b&\color{orange}c\\\color{green}d&\color{orange}e&\color{green}f\\\color{green}g&\color{orange}h&\color{green}i\end{bmatrix} \quad\to \quad A_{01}=\begin{bmatrix}\color{green}d&\color{green}f\\\color{green}g&\color{green}i\end{bmatrix}\times(-1)^{1+2}=-\begin{bmatrix}d&f\\g&i\end{bmatrix}$$
 
@@ -283,6 +288,10 @@ $$tr(A)=tr(\begin{bmatrix}1&2&3\\4&5&6\\7&8&9\end{bmatrix})=\sum_{i=0}^n a_{ii}=
 
 
 ---
+## 求导与积分 Derivative and Integral
+
+
+---
 ## 加减 Addition & Subtraction
 
 + **适用于** - 两个大小完全相同的矩阵
@@ -336,7 +345,7 @@ $$\lambda A=3\times \begin{bmatrix}1&2&3\\4&5&6\\7&8&9\end{bmatrix}=\begin{bmatr
 
 初等变换是对矩阵的整行或整列进行的互换、倍乘、叠加三种操作的统称，对行的操作称为行变换，对列的操作称为列变换。
 
-初等变换可以用矩阵乘法表示，表示初等变换的矩阵称为初等矩阵（参见[[#初等矩阵 Elementary Matrix]]）
+初等变换可以用矩阵乘法表示，表示一步初等变换的矩阵称为初等矩阵（参见[[#初等矩阵 Elementary Matrix]]）
 
 1. **互换**：矩阵的两行或两列交换位置
 $$CA=\begin{bmatrix}0&1\\1&0\end{bmatrix}\begin{bmatrix}\color{green}1&\color{green}2&\color{green}3\\\color{orange}4&\color{orange}5&\color{orange}6\end{bmatrix}=\begin{bmatrix}\color{orange}4&\color{orange}5&\color{orange}6\\\color{green}1&\color{green}2&\color{green}3\end{bmatrix}$$
@@ -359,6 +368,16 @@ $$AB=\begin{bmatrix}\color{orange}1&\color{red}2&3\\\color{orange}4&\color{red}5
 
 
 ---
+## LU分解 LU Decompostion
+
+
+
+---
+## 奇异值分解 Singular Decomposition
+
+
+
+---
 ## 特殊矩阵 Special Matrix
 
 ### 零矩阵 Zero Matrix
@@ -372,7 +391,7 @@ $$A-A=0$$
 
 + **相关概念** - 高斯消元法
 
-阶梯矩阵可以指行阶梯矩阵和列阶梯矩阵，比较常见的是行阶梯矩阵，它是高斯消元法的最终结果（参见[[#高斯消元法 Gaussian Elimination]]），任何矩阵都可以通过**行初等变换**化为行阶梯矩阵形式
+阶梯矩阵可以指行阶梯矩阵和列阶梯矩阵，比较常见的是**行阶梯矩阵**，它是高斯消元法的最终结果（参见[[#高斯消元法 Gaussian Elimination]]），任何矩阵都可以通过**行初等变换**化为行阶梯矩阵形式
 
 行阶梯矩阵的特点是每一行的零元素位于左侧，且越靠下的行前面的零元素序列越长，全零行位于最下方。矩阵左下方含零的部分从左往右看酷似向下走的台阶，因此称为阶梯矩阵。
 
@@ -390,7 +409,7 @@ $$\begin{bmatrix}\color{green}1&\color{gray}0&3&\color{gray}0&3\\\color{orange}0
 
 方阵是一类重要的矩阵，在工程领域出现的频率远高于普通的长方形矩阵。
 $$\begin{bmatrix}a&b\\c&d\end{bmatrix}\quad\begin{bmatrix}a&b&c\\d&e&f\\g&h&i\end{bmatrix}\quad\begin{bmatrix}a&b&c&d\\e&f&g&h\\i&j&k&l\\m&n&o&p\end{bmatrix}$$
-许多矩阵运算，如求逆、求特征向量只能用于方阵。大部分有特殊性质和用途的矩阵都属于方阵，如三角矩阵、单位矩阵、正交矩阵
+许多矩阵运算与性质，如求逆、特征向量只适用于方阵。大部分有特殊性质和用途的矩阵都属于方阵，如三角矩阵、单位矩阵、正交矩阵
 
 ### 单位矩阵 Identity Matrix
 
@@ -469,10 +488,20 @@ $$AI=A$$
 + 两者同属张量：矩阵是二维张量，向量是一维张量
 + 向量是一种矩阵：列向量可以看作列数为1的矩阵，行向量可以看作行数为1的矩阵
 
-### 向量伸缩的矩阵形式
+### 向量伸缩的矩阵形式 Vector Scaling in Matrix
 
 向量的长度伸缩在矩阵形式下要多乘一个单位矩阵
 $$\lambda v=\lambda Iv$$
+
+### 叉积矩阵 Cross Product Matrix
+
+向量的叉积运算可以用反对称矩阵（Skew-symmetric Matrix）与向量的乘法表示
+$$A\times B=[A]_\times B=\begin{bmatrix}0 &-a_3& a_2\\a_3&0&-a_1\\-a_2&a_1&0\end{bmatrix} \begin{bmatrix}b_1 \\ b_2 \\ b_3\end{bmatrix}$$
+
+
+
+
+
 
 ---
 ## 雅可比矩阵 Jacobian Matrix

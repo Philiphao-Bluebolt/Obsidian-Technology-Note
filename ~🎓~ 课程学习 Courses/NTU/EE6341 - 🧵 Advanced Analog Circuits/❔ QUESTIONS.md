@@ -92,16 +92,8 @@
 ---
 ## Power Amplifiers
 
-
-> [!FAQ] In Exe1, when finding the desired Q-point for the basic common-emitter BJT amplifier, why can't we use $V_{BQ}=V_{BE}+I_ER_E$ to get the base voltage
-> Contents
-
-
-> [!FAQ] In, why is the maximum output equal to the $I_{CQ}$
-> Contents
-
-
-
+> [!FAQ] When calculating output load power, we only account for the AC output power but not the DC bias, is it right?
+> 
 
 ## Tutorial 6-7
 
