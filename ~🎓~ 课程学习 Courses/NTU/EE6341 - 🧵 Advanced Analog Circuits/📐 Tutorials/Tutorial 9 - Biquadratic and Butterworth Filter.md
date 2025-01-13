@@ -1,4 +1,3 @@
-
 + [[#Tutorial 9 - Biquadratic and Butterworth Filter Design]]
 	+ [[#Queations]]
 	+ [[#Solutions]]

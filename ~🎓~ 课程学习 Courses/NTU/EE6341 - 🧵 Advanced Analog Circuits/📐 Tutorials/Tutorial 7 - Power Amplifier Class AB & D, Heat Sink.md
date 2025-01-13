@@ -1,4 +1,3 @@
-
 + [[#Tutorial 7 - Power Amplifier Class AB, D and Heat Sink]]
 	+ [[#Questions]]
 	+ [[#Solutions]]

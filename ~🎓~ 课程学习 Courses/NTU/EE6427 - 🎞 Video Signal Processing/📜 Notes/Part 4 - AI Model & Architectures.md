@@ -1,4 +1,4 @@
-+ **Topics** - Linear Classifier, CNN, RNN, LSTM, Transformer  
+saaaaa+ **Topics** - Linear Classifier, CNN, RNN, LSTM, Transformer  
 
 AI Model are rising a revolution in the study of image and video processing. 
 
@@ -12,11 +12,12 @@ AI Model are rising a revolution in the study of image and video processing.
 		+ [[#Convolution]]
 		+ [[#Activation]]
 		+ [[#Pooling]]
-	+ [[#CNN Training]]
+	+ [[#CNN Training and Variety]]
 + RNN (Recurrent Neural Network) --> Sequence Processing
-	+ [[#RNN Classical Architecture]]
-+ LSTM (Long Short-term Memory) --> Sequence Processing
-	+ [[#LSTM Classical Architecture]]
+	+ [[#RNN Architectures]]
+		+ [[#Classical RNN]]
+		+ [[#LSTM]]
+	+ [[#RNN Training]]
 + Transformer
 	+ [[#Attention Mechanism]]
 
@@ -65,23 +66,14 @@ $$L=-\sum_j y_j \ln p_j$$
 
 The result of loss function is used to determine which direction should the weights shift.
 
-
----
-## Typical AI Models
-
-#### Linear Classifier 
-
-
-
-
-
-
 ---
 ## CNN Classical Architecture 
 
  + **Feature** - Convolution Layer
 
 Convolutional Neural Network features mask-convolution in some of the middle layers. It's mostly used for image processing. A typical CNN consists of the following layers or processing stages
+
+![[Pasted image 20241124122515.png]]
 
 + Feature Extraction (Repeat multiple times)
 	+ Convolution
@@ -100,48 +92,62 @@ There're two pre-convolution process
 + **Padding** - Complementary of pixels around the original image
 + **Striding** - Distance of pixels the mask moves each time 
 
-
 ### Activation
 
 The activation function is a element-wise non-linear function which is applied to the output image after each convolution. 
 
-Here are some of the typical activation functions, Relu is the most popular among them. 
+Here are some of the typical activation functions, ReLu is the most popular among them. 
 
-
+![[Pasted image 20241124151754.png]]
 
 ### Pooling
 
 Pooling is the sub-sampling process following convolution and activation. Typical pooling mask includes max pooling and average pooling
 
+---
+## CNN Training and Variety
+
+AlexNet
+
+VGG
+
+ResNet
 
 
 ---
-## CNN Training
+## RNN Architectures
 
+RNN is a type of network intended for sequence processing. Its hiddle state enables the capture of patterns between elements in a time-based sequence
 
+### Classical RNN
 
-
----
-## RNN Classical Architecture
-
- + **Feature** - Hidden State $h$
-
-The concept of RNN is comparable with the state space in control theory, both introduce state variables which keep memory of the past input.
-
+The concept of RNN is comparable with the state space in control theory, both introduce state variables which keep memory of the past input. A hidden state $h$ will remember the effect of previous input.
 $$\begin{cases}h_t=f_W(h_{t-1}, x_t)=\tanh(W_{hh}h_{t-1}+W_{xh}x_t)\\y_t=W_{hy}h_t\end{cases}$$
++ $h_t$ - hiddle state vector
++ $x_t$ - input vector
++ $y_t$ - output vector
++ $W$ - weight matrices
 
+The activation function $\tanh$ is applied element-wise
 
+### LSTM
+
+LSTM stands for Long Short Term Memory and is a improved and more complex architecture of RNN. It features a memory cell $c$, a hiddle state $h$ and four controlling gates vectors
+
++ Calculate of four gate vectors
+$$\begin{cases}i=\sigma(W_{hi}h_{t-1}+W_{xi}x_t)\\f=\sigma(W_{hf}h_{t-1}+W_{xf}x_t)\\o=\sigma(W_{ho}h_{t-1}+W_{xo}x_t)
+\\g=\tanh(W_{ho}h_{t-1}+W_{xo}x_t)\end{cases}$$
++ Memory cell and hiddle state updates
+$$c_t=f\odot c_{t-1}+i\odot g$$
+$$h_t=o\odot \tanh(c_t)$$
++ $\sigma$ - sigma activation function
++ $W$ - weight matrices
++ $\odot$ - vector element-wise multiplication
 
 ---
-## LSTM Classical Architecture
-
-+ **Feature** -  
+## RNN Training
 
 
-
-
----
-## 
 
 
 ---

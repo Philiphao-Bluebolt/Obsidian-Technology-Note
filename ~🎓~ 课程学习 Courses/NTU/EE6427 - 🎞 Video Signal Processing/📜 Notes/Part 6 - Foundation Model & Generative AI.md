@@ -2,8 +2,7 @@
 + Foundation Model
 	+ [[#Foundation Model Introduction]]
 	+ [[#Finetuning]]
-+ Generative AI
-
++ Large Language Model
 
 ---
 ## Foundation Model Introduction

@@ -68,7 +68,7 @@ $$\begin{align}G_{cl}(z)&=\frac{C(z)G_{ZAS}(z)}{1+C(z)G_{ZAS}(z)}\\C(z)&=\frac{1
 When choosing a closed-loop function $G_{cl}(z)$, we have to ensure that the resulting $C(z)$ is causal and the system is stable. To achieve that, a few conditions should be fulfilled.
 
 + **Causality** - The relative degree (number of poles minus zeros) of $G_{cl}(z)$ should **not** be less than $G_{ZAS}(z)$
-+ **Stability** - All the unstable or critical poles and zeros (outside or on the unit circle) of $G_{ZAS}(z)$ should be cancelled out by $\frac{G_{cl}(z)}{1-G_{cl}(z)}$
++ **Stability** - All the unstable or critical-stable poles and zeros (outside or on the unit circle) of $G_{ZAS}(z)$ should be cancelled out by $\frac{G_{cl}(z)}{1-G_{cl}(z)}$
 + **Zero Steady-state Error** - The final value theorem implys that $G_{cl}(z=1)=1$
 
 ### Finite Settling Time (Deadbeat Controller) Design
@@ -84,6 +84,8 @@ However, deadbeat control is not always stable as it can not always eliminate al
 Another drawback is that finite settling time design will result in large intersample oscillations.
 
 ### Ripple‐free Controller Design
+
+Ripple‐free controller eliminates intersample oscillations produced by pure deadbeat control
 
 
 ---

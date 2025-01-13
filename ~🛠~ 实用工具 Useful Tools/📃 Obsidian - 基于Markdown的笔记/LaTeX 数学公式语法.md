@@ -159,7 +159,9 @@ $$
 
 + 上划线：`\overline{}`  $\overline{abc}$
 + 下划线：`\underline{}` $\underline{abc}$
-+ 上波浪线：`\tilde` $\tilde{a}$
-+ 上一横：`\bar` $\bar{a}$
++ 上波浪线：`\tilde{}` $\tilde{a}$
++ 上一横：`\bar{}` $\bar{a}$
++ 圆点：`\odot` $\odot$
 + 空格：`\quad` $\quad$
 + 非斜体：`\mathrm{}`$\mathrm{Hi}$
+

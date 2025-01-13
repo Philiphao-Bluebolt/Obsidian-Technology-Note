@@ -29,7 +29,6 @@ $$p_j=\frac{e^{z_j}}{\sum_{k=1}^5 e^{z_k}}$$
 Then just use the cross-entropy formula to calculate the final result
 $$L=-\sum_{j=1}^5 y_j \ln p_j=$$
 
-
 ---
 ## CNN Feature Extraction
 

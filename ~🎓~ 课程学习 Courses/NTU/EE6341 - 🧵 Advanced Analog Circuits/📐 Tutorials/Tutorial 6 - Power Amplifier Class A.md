@@ -1,4 +1,3 @@
-
 + [[#Tutorial 6 - Power Amplifier Class A]]
 	+ [[#Questions]]
 	+ [[#Solutions]]

@@ -34,7 +34,7 @@
 
 
 ---
-### 1-0  RCL Circuit State Space Model
+## 1-0  RCL Circuit State Space Model
 
 Build up the state space equation of the RCL circuit for state variables $v_C$ and $i_L$
 ![[Pasted image 20240923141237.png]]
@@ -339,3 +339,27 @@ $$\begin{align}K&=\begin{bmatrix}0&1\end{bmatrix}W_C^{-1}\alpha_C(A)\\&=\begin{b
 
 ---
 ## 3-12  
+
+
+
+---
+## 4-1  Closed-loop Observer Design
+
+$$\begin{cases}x(k+1)=\begin{bmatrix}1&T\\0&1\end{bmatrix}x(k)+\begin{bmatrix}\frac{T^2}{2}\\T\end{bmatrix}u(k)\\y(k)=\begin{bmatrix}1&0\end{bmatrix}x(k)\end{cases}$$
+
+Design an observer for the above plant so that the observer poles are $z_{1,2}=0.4\pm j0.4$ and the measurement is $x_1(k)$
+
+The transfer matrix of the closed-loop system is $A-L_o C$, so the chracteristic polynomial can be calculated by
+$$\begin{vmatrix}zI-(A-L_oC)\end{vmatrix}=\det(\begin{bmatrix}z&0\\0&z\end{bmatrix}-\begin{bmatrix}1&T\\0&1\end{bmatrix}+\begin{bmatrix}l_1\\l_2\end{bmatrix}\begin{bmatrix}1&0\end{bmatrix})=z^2+(l_1-2)z+1-l_1+l_2T$$
+Equate two chracteristic polynomials together
+$$\begin{align}z^2+(l_1-2)z+1-l_1+l_2T&=(z-0.4-j0.4)(z-0.4+j0.4)\\&=z^2-0.8z+0.32\end{align}$$
+Finally we have
+$$\begin{cases}l_1=1.2\\l_2=\frac{0.52}{T}\end{cases}$$
+
+---
+## 4-2
+
+
+
+---
+## 

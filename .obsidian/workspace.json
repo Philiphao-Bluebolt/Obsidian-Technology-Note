@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "0fea1b861aed2ac9",
+    "id": "b53a0176687bffb8",
     "type": "split",
     "children": [
       {
-        "id": "06ff10c1149b7cee",
+        "id": "7e62920c4936ad56",
         "type": "tabs",
         "children": [
           {
-            "id": "d03f628749ea44bf",
+            "id": "ccbdadc66767eff9",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -24,51 +24,111 @@
             }
           },
           {
-            "id": "906f002194e07b02",
+            "id": "1cc58dcafdd29f53",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~🎓~ 课程学习 Courses/NTU/🔥💀 Deadlines 💀🔥.md",
+                "file": "~✨~ 链接 Link/💾 编程与命令 Programming & Command.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "🔥💀 Deadlines 💀🔥"
+              "title": "💾 编程与命令 Programming & Command"
             }
           },
           {
-            "id": "8adb7811f2b6c400",
+            "id": "ae264997b7aee03d",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~🌎~ 未来发展 Future Development/💳 就业 Career/✨ 新加坡实习简历投递.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "✨ 新加坡实习简历投递"
+            }
+          },
+          {
+            "id": "f5f9acbacaebf7e0",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "⌨ 高级语言编程 High-level Programming/🐍 Python/~🐍~ Python 基础入门.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "~🐍~ Python 基础入门"
+            }
+          },
+          {
+            "id": "fbc9086ed418534c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📜 Notes/Part 2 - Robot Control.md",
+                "file": "🤖 机器人 Robot/✈ 无人机 UAV Drone/无人机基础/2. 无人机传感器.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Part 2 - Robot Control"
+              "title": "2. 无人机传感器"
+            }
+          },
+          {
+            "id": "a9a4a5e06a2b7fa3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🤖 机器人 Robot/🖥 机器人操作系统 ROS/ROS2/~ROS2 基础使用~.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "~ROS2 基础使用~"
+            }
+          },
+          {
+            "id": "f6994f34b162f618",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~🌎~ 未来发展 Future Development/🧬 学术研究 Research/投稿刊物及会议.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "投稿刊物及会议"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "66d79aded0db14d9",
+    "id": "a13cf447ed4cc9a3",
     "type": "split",
     "children": [
       {
-        "id": "82c4516235f8c124",
+        "id": "aaf4f781c4e8d4e0",
         "type": "tabs",
         "children": [
           {
-            "id": "caf91250b9cd1d5a",
+            "id": "90a146d6d4fa17ab",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -80,12 +140,12 @@
             }
           },
           {
-            "id": "53e38fa8cb53eb34",
+            "id": "f5b4361845ea7f26",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "stable baselines",
+                "query": "ubuntu",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,7 +157,7 @@
             }
           },
           {
-            "id": "93bfd0cc4fb97ede",
+            "id": "ff04be4103dd2835",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -110,23 +170,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 412.5
+    "width": 421.5
   },
   "right": {
-    "id": "b82e1978ff227ff4",
+    "id": "7183c1e02ba22b3a",
     "type": "split",
     "children": [
       {
-        "id": "c352b1dfe36c146c",
+        "id": "bae25bf3bcfcbef3",
         "type": "tabs",
         "children": [
           {
-            "id": "02807369005c0729",
+            "id": "859f4819d7071dc5",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~🎓~ 课程学习 Courses/NTU/EE6341 - 🧵 Advanced Analog Circuits/✏ Assignments/Assignment 2 (10-22).md",
+                "file": "~🎓~ 课程学习 Courses/NTU/EE6341 - 🧵 Advanced Analog Circuits/📐 Tutorials/Tutorial 5 - Wideband Amplifier.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,25 +196,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Assignment 2 (10-22)"
+              "title": "Backlinks for Tutorial 5 - Wideband Amplifier"
             }
           },
           {
-            "id": "a53b0a82dc18dfc7",
+            "id": "dc6f0dbdc667811e",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~🎓~ 课程学习 Courses/NTU/EE6341 - 🧵 Advanced Analog Circuits/✏ Assignments/Assignment 2 (10-22).md",
+                "file": "~🎓~ 课程学习 Courses/NTU/EE6341 - 🧵 Advanced Analog Circuits/📐 Tutorials/Tutorial 5 - Wideband Amplifier.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Assignment 2 (10-22)"
+              "title": "Outgoing links from Tutorial 5 - Wideband Amplifier"
             }
           },
           {
-            "id": "da5fbb25b8b93765",
+            "id": "67d1f9962ac2c209",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -167,19 +227,18 @@
             }
           },
           {
-            "id": "c53c019251161be6",
+            "id": "3fdf276500bfb6a8",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "~🎓~ 课程学习 Courses/NTU/EE6341 - 🧵 Advanced Analog Circuits/📐 Tutorials/Tutorial 7 - Power Amplifier Class AB & D, Heat Sink.md"
+                "file": "~🎓~ 课程学习 Courses/NTU/EE6341 - 🧵 Advanced Analog Circuits/📐 Tutorials/Tutorial 5 - Wideband Amplifier.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Tutorial 7 - Power Amplifier Class AB & D, Heat Sink"
+              "title": "Outline of Tutorial 5 - Wideband Amplifier"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -196,54 +255,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8adb7811f2b6c400",
+  "active": "f6994f34b162f618",
   "lastOpenFiles": [
-    "📈 数学 Maths/🌠 线性代数 Linear Algebra/⚙ 矩阵综合 All things Matrix.md",
+    "🤖 机器人 Robot/🟠 Ubuntu Linux/命令行/Ubuntu常用命令.md",
+    "~🌎~ 未来发展 Future Development/🧬 学术研究 Research/投稿刊物及会议.md",
+    "🤖 机器人 Robot/🖥 机器人操作系统 ROS/ROS2/~ROS2 基础使用~.md",
+    "⌨ 高级语言编程 High-level Programming/🐍 Python/~🐍~ Python 基础入门.md",
     "~✨~ 链接 Link/✨ 常用页面 Portal.md",
-    "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📜 Notes/Part 2 - Robot Control.md",
-    "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📜 Notes/Part 3 - Mobile Robot.md",
-    "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📜 Notes/Part 4 - Sensors.md",
-    "~🎓~ 课程学习 Courses/NTU/🔥💀 Deadlines 💀🔥.md",
-    "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📰 Examples/Kinematics Practice.md",
-    "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📰 Examples/Robot Control.md",
-    "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📰 Examples/Kinematics Examples.md",
-    "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📜 Notes/Part 1 Topic 3 - Inverse Kinematics.md",
-    "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📜 Notes/Part 1 Topic 4 - Trajectory Planning.md",
-    "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📽 Slides/Kinematics.md",
-    "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📜 Notes/Part 1 Topic 1 - Introdution to Robot.md",
-    "~🎓~ 课程学习 Courses/NTU/EE6203 - 📉 Computer Control Systems/📰 Examples/Part 2 Lec 1-4 Examples.md",
-    "~🎓~ 课程学习 Courses/NTU/EE6203 - 📉 Computer Control Systems/❔ QUESTIONS.md",
-    "🚂 控制科学 Control Engineering/⚔ 控制理论 Control Theory/🔊 传递函数 Transfer Function.md",
-    "🚂 控制科学 Control Engineering/⚔ 控制理论 Control Theory/🔧 控制系统设计 Control System Design.md",
-    "🚂 控制科学 Control Engineering/⚔ 控制理论 Control Theory/🥽 状态空间模型 State Space Model.md",
-    "🚂 控制科学 Control Engineering/⚔ 控制理论 Control Theory/🧶 非线性系统 Nonlinear System.md",
-    "🚂 控制科学 Control Engineering/⚔ 控制理论 Control Theory/✂ 连续与离散系统对比 Continuity vs Discreteness.md",
-    "🚂 控制科学 Control Engineering/⚔ 控制理论 Control Theory/📉 波特图与频率特性 Bode Plot & Frequency Charac..md",
-    "Z-attachment/Pasted image 20241118142109.png",
-    "Z-attachment/robotics/robot_ciontrol.drawio",
-    "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📜 Notes/Part 1 Topic 5 - Differential Motion and Statics.md",
-    "~🎓~ 课程学习 Courses/NTU/EE6203 - 📉 Computer Control Systems/📜 Notes/Part 2 Lec 1-4 - State Space Model.md",
-    "Z-attachment/Pasted image 20241117153925.png",
-    "Z-attachment/Pasted image 20241117153534.png",
-    "~🎓~ 课程学习 Courses/NTU/EE6203 - 📉 Computer Control Systems/📰 Examples/Part 3 Chapter 5-6 Examples.md",
-    "🚂 控制科学 Control Engineering/⚔ 控制理论 Control Theory/🧶 非线性控制 Nonlinear Control",
-    "🚂 控制科学 Control Engineering/🪁 控制算法 Control Algorithm/模型预测控制 Model Prediction Control.md",
-    "🚂 控制科学 Control Engineering/🪁 控制算法 Control Algorithm/自抗扰控制 Active Disturbance Rejection Control.md",
-    "🚂 控制科学 Control Engineering/⚔ 控制理论 Control Theory/🥏 现代控制理论 Modern Control",
-    "🚂 控制科学 Control Engineering/⚔ 控制理论 Control Theory/📉 经典控制理论 Classical Control",
-    "~🎓~ 课程学习 Courses/NTU/Explain-it-simple! Pre-exam Revision Edition",
-    "Z-attachment/robotics/sensors.drawio",
-    "Z-attachment/Lecs 5-6  - Vision-based control and estimation(1).pdf",
-    "Z-attachment/Lec 4 - Kalman Filter and sensor integration(2).pdf",
-    "Z-attachment/Lec 3 - Structure and pose estimation (3hrs)(4).pdf",
-    "Z-attachment/Lec 2 - Vision sensors and systems (3hrs) 202403.pdf",
-    "Z-attachment/Pasted image 20241111105537.png",
-    "Z-attachment/Pasted image 20241110222135.png",
-    "Z-attachment/Pasted image 20241110201103.png",
-    "Z-attachment/Pasted image 20241110181926.png",
-    "Z-attachment/Pasted image 20241110170220.png",
-    "Z-attachment/Pasted image 20241110163821.png",
-    "Z-attachment/Pasted image 20241110154418.png",
-    "硬件电路 Hardware Circuit/辅助软件/未命名.canvas"
+    "~✨~ 链接 Link/💾 编程与命令 Programming & Command.md",
+    "~🌎~ 未来发展 Future Development/💳 就业 Career/✨ 新加坡实习简历投递.md",
+    "🤖 机器人 Robot/✈ 无人机 UAV Drone/无人机基础/2. 无人机传感器.md",
+    "🤖 机器人 Robot/🖥 机器人操作系统 ROS/ROS2",
+    "🤖 机器人 Robot/🖥 机器人操作系统 ROS/ROS",
+    "🤖 机器人 Robot/✈ 无人机 UAV Drone/无人机基础/1. 无人机运动原理（多旋翼）.md",
+    "🤖 机器人 Robot/✈ 无人机 UAV Drone/装机硬件选型（四旋翼）/9. 深度相机 Depth Camera.md",
+    "🤖 机器人 Robot/✈ 无人机 UAV Drone/装机硬件选型（四旋翼）/8. 机载电脑 Companion Computer.md",
+    "🤖 机器人 Robot/✈ 无人机 UAV Drone/装机硬件选型（四旋翼）/7. GPS模块.md",
+    "🤖 机器人 Robot/✈ 无人机 UAV Drone/装机硬件选型（四旋翼）/6. 接收机和遥控器 Receiver & RC.md",
+    "🤖 机器人 Robot/✈ 无人机 UAV Drone/装机硬件选型（四旋翼）/4. 电池和稳压模块 Battery & Regulator.md",
+    "🤖 机器人 Robot/✈ 无人机 UAV Drone/装机硬件选型（四旋翼）/3. 电调 Electronic Speed Controller.md",
+    "🤖 机器人 Robot/✈ 无人机 UAV Drone/装机硬件选型（四旋翼）/2. 电机和螺旋桨 Motor & Propeller.md",
+    "🤖 机器人 Robot/✈ 无人机 UAV Drone/装机硬件选型（四旋翼）/5. 飞控模块 Flight Control Unit.md",
+    "~🌎~ 未来发展 Future Development/👨‍💼 个人简历编写.md",
+    "~🎓~ 课程学习 Courses/NTU/💀💥 Deadlines 💥💀.md",
+    "~🎓~ 课程学习 Courses/NTU/EE6341 - 🧵 Advanced Analog Circuits/📜 Notes/Part 4 - Active Filters.md",
+    "~🎓~ 课程学习 Courses/NTU/EE6341 - 🧵 Advanced Analog Circuits/📐 Tutorials/Tutorial 5 - Wideband Amplifier.md",
+    "~🎓~ 课程学习 Courses/NTU/EE6203 - 📉 Computer Control Systems/📜 Notes/Part 1 Chapter 4 - Analysis of Discrete Control Systems by Conventional Methods.md",
+    "~🎓~ 课程学习 Courses/NTU/EE6203 - 📉 Computer Control Systems/📜 Notes/Part 1 Chapter 3 - Modeling of Digital Control Systems.md",
+    "~🎓~ 课程学习 Courses/NTU/EE6203 - 📉 Computer Control Systems/📜 Notes/Part 1 Chapter 2 - Z Transform.md",
+    "📈 数学 Maths/🌠 线性代数 Linear Algebra/⚙ 矩阵综合 All things Matrix.md",
+    "~🎓~ 课程学习 Courses/NTU/EE7207 - 🔮 Neural Networks & Deep Learning",
+    "~🎓~ 课程学习 Courses/NTU/EE6407 - 🧬 Genetic Algorithms & Machine Learning",
+    "~🎓~ 课程学习 Courses/NTU/EE6222 - 📸 Machine Vision",
+    "~🎓~ 课程学习 Courses/NTU/EE6225 - 🎛 Multivariable Control Systems Analysis & Design",
+    "~🎓~ 课程学习 Courses/NTU/✔ Explain it simple!/EE6347 - 进阶模拟电路 Advanced Analog Circuits.md",
+    "~🎓~ 课程学习 Courses/NTU/Previous",
+    "⌨ 高级语言编程 High-level Programming/🐍 Python/库教程",
+    "Z-attachment/Pasted image 20241203031434.png",
+    "Z-attachment/Pasted image 20241203022923.png",
+    "Z-attachment/Pasted image 20241203002147.png",
+    "Z-attachment/Pasted image 20241203000127.png",
+    "Z-attachment/Pasted image 20241203000120.png",
+    "Z-attachment/Pasted image 20241203000059.png",
+    "Z-attachment/Pasted image 20241202235326.png",
+    "Z-attachment/Pasted image 20241202171754.png",
+    "Z-attachment/Pasted image 20241202171737.png",
+    "Z-attachment/Pasted image 20241202171719.png",
+    "Z-attachment/circuit-diagram/dc_dc.drawio",
+    "Z-attachment/2116516.pdf"
   ]
 }

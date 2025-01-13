@@ -1,3 +1,4 @@
++ **Goal** - Understand how noise works in a circuit and try to minimum it
 
 + Introduction to circuit noise
 	+ [[#Noise in the circuit]]

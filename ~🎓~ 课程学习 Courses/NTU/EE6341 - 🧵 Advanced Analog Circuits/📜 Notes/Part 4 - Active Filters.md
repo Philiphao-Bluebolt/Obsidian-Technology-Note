@@ -1,11 +1,11 @@
-+ **What it does** - Block some of the frequency factors of the signal while allowing others to pass
++ **Function** - Block some of the frequency factors of the signal while allowing others to pass
 
-In a nutshell, filters are circuit that extinguish frequencies. They're created to get rid of unwanted signal component in certain frequency ranges. There're two types filters based on their components
+In a nutshell, filters are circuits that extinguish frequencies. They're created to get rid of unwanted signal component in certain frequency ranges. There're two types filters based on their components
 
 + Passive filter - Built with RCL impedance component
-+ Active filters - Built with RC and active components, more **compact**.
++ Active filter - Built with RC and active components, more **compact**.
 
-> When designing a filter, we're actually finding a **transfer function** $H(s)$ with the desired frequency response and then build a circuit to implement the system. This method is called **Network synthesis**
+> When designing a filter, we're actually finding a **transfer function** $H(s)$ with the desired frequency response and then build a circuit to implement the system. This method is called **Network Synthesis**
 
 + Design Technique
 	+ [[#Frequency Scaling]]
@@ -128,3 +128,4 @@ Buttonworth Filter can be built by connecting several first order and second ord
 
 ---
 ## Chebyshev Filter
+

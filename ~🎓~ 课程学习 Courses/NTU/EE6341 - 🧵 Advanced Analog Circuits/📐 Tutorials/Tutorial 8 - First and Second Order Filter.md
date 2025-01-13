@@ -1,4 +1,3 @@
-
 + [[#Tutorial 8 - First and Second Order Filter Design]]
 	+ [[#Queations]]
 	+ [[#Solutions]]

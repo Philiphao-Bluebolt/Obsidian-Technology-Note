@@ -3,7 +3,7 @@
 
 
 ---
-## The paper
+## The Queations
 
 ![[EE6221 2023-2024 Semester 2.pdf]]
 

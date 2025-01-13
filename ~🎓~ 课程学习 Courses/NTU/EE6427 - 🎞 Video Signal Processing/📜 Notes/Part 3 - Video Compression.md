@@ -96,12 +96,10 @@ If no reference macroblock is found, the target macroblock will be encoded indep
 
 ### Searching Methods
 
-Searching method determines the searching strategy for the corresponding reference macroblock. 
-
-All the searching algorithm besides Full Search has the following characteristics
+Searching method determines the searching strategy for the corresponding reference macroblock. All the searching algorithm besides Full Search has the following characteristics
 
 + It can **not** guarantee finding the corresponding macroblock even there exists one.
-+ It does **not** cover every pixels in the reference picture. 
++ It does **not** cover every macroblocks in the reference picture. 
 
 | Methods        | Efficiency | Accuracy  |
 | -------------- | ---------- | --------- |
@@ -157,11 +155,10 @@ MPEG-1 is the first standard to include both P-frame and B-frame encoding.
 
  + Standard - MPEG-2
 
-Scalable Coding brings great flexibility to the video compression process by dividing the process into different layers.
+Scalable Coding brings great flexibility to the video compression process by dividing the process into different layers. The base layer and enhencement layer can be independently encoded and transmitted.
 
 + Base layer - Low quality
 + Enhencement layer - Improved quality
-
 
 ### Object-Based Coding
 
@@ -181,7 +178,7 @@ Sub-pixel precision of H.264 can reach $1/4$ pixel and is achieved by pixel valu
 #### Integer Transform
 
 + Standard - H.264 (MPEG-4 Part 10)
-+ 
+
 
 
 #### Intra Coding

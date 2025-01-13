@@ -10,7 +10,13 @@ Sensors play an important role in robots and control system providing feedback i
 	+ [[#Color Spaces]]
 	+ [[#Image Convolution]]
 + [[#Structure & Pose Estimation]]
+	+ [[#Essential Matrix and 8-point Algorithm]]
+	+ [[#Homography Matrix and 4-point Algorithm]]
+	+ [[#Stereo vision]]
+	+ [[#Optical Flow]]
 + [[#Vision-based Control and Estimation]]
+	+ [[#Position Based Visual Servoing (PBVS)]]
+	+ [[#Image Based Visual Servoing (IBVS)]]
 + [[#Kalman Filter and Sensor Integration]]
 
 
@@ -83,10 +89,9 @@ The process of pinhole capturing a image can be summerized into three coordinate
 A major drawback of vision sensing is the loss of depth (distance) information because of the 
 geometric similar phenomena during projection. 
 
-However, the depth information can be regained by comparing a series of reference points in images.
+However, the depth information can be regained by comparing a series of reference points in images of different angles.
 
-Assume the 
-
+Assume the camera takes picture of the same object in two different pose $F^*$ and $F$. Point coordinates mapping from frame $F^*$ and frame $F$ are related by rotation matrix $R$ and translation vector $x$
 
 
 
@@ -103,7 +108,7 @@ $$H=R+\frac{x}{d^*}n^{*T}$$
 + Ratio of Depth
 $$\alpha_j=\frac{z_j^*}{z_j}$$
 
-## Stereo vision
+### Stereo vision
 
 
 
@@ -128,4 +133,6 @@ $$\alpha_j=\frac{z_j^*}{z_j}$$
 + **Goal** - Integrate the observation of different sensors and obtain the optimal measurement
 
 Kalman Filter is a state estimator which is widely used in sensor intergration. The mechanics 
- 
+
+### Kalman-based Sensor Fusion
+
