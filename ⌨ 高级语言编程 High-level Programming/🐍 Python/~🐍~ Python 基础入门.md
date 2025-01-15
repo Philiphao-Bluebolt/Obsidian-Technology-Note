@@ -25,7 +25,7 @@
 | ---------------------------------------------------------------------------- | ------------------- | ----------- |
 | 🗃 [Numpy](https://numpy.org/doc/stable/user/index.html#user)                | `numpy` (`np`)      | 向量矩阵运算、数据处理 |
 | 📈 [Matplotlib](https://matplotlib.org/stable/index.html)                    | `matplotlib`        | 数据绘图        |
-| 📊 [Pandas](https://pandas.pydata.org/docs/user_guide/index.html#user-guide) | `pandas`            | 数据分析        |
+| 📊 [Pandas](https://pandas.pydata.org/docs/user_guide/index.html#user-guide) | `pandas` (`pd`)     | 数据分析        |
 | 🎰 [Scipy](https://docs.scipy.org/doc/scipy/reference/index.html#scipy-api)  | `scipy`             | 科学计算优化      |
 | 🖼 [OpenCV](https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)        | `cv2`               | 计算机视觉、图像处理  |
 | 🔦 [PyTorch](https://pytorch.org/docs/stable/index.html)                     | `torch`             | 机器学习库       |
