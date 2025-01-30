@@ -8,22 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0949d24d348afb68",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~🎓~ 课程学习 Courses/NTU/💥 Deadlines 💥.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "💥 Deadlines 💥"
-            }
-          },
-          {
             "id": "ccbdadc66767eff9",
             "type": "leaf",
             "pinned": true,
@@ -110,13 +94,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🤖 机器人 Robot/🖥 机器人操作系统 ROS/ROS2/🤖 ROS2 基础.md",
+                "file": "🤖 机器人 Robot/🖥 机器人操作系统 ROS/ROS2/~🤖~ ROS2 基础.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "🤖 ROS2 基础"
+              "title": "~🤖~ ROS2 基础"
             }
           },
           {
@@ -136,21 +120,69 @@
             }
           },
           {
-            "id": "eadbaf8d2260ad4f",
+            "id": "0214aca5316e4885",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🤖 机器人 Robot/🌌 仿真器 Simulator/🏛 Gazebo/~🏛~ Gazebo 基础.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "~🏛~ Gazebo 基础"
+            }
+          },
+          {
+            "id": "a26a4a496f3f4822",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🤖 机器人 Robot/🌌 仿真器 Simulator/🔫 PyBullet/~🔫~ PyBullet 基础.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "~🔫~ PyBullet 基础"
+            }
+          },
+          {
+            "id": "411f383acbbec819",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🤖 机器人 Robot/🌌 仿真器 Simulator/📜 机器人文件格式 Robot Description Formats.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "📜 机器人文件格式 Robot Description Formats"
+            }
+          },
+          {
+            "id": "a65ba7288fe69854",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🤖 机器人 Robot/🖥 机器人操作系统 ROS/ROS2/🤖 ROS2 基础.md",
+                "file": "🤖 机器人 Robot/🌌 仿真器 Simulator/🔫 PyBullet/~🔫~ PyBullet 基础.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "🤖 ROS2 基础"
+              "title": "~🔫~ PyBullet 基础"
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -206,7 +238,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 361.5
+    "width": 375.5
   },
   "right": {
     "id": "7183c1e02ba22b3a",
@@ -222,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~🎓~ 课程学习 Courses/NTU/EE6341 - 🧵 Advanced Analog Circuits/📐 Tutorials/Tutorial 5 - Wideband Amplifier.md",
+                "file": "🤖 机器人 Robot/🌌 仿真器 Simulator/🏛 Gazebo/~🏛~ Gazebo 基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +264,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Tutorial 5 - Wideband Amplifier"
+              "title": "Backlinks for ~🏛~ Gazebo 基础"
             }
           },
           {
@@ -291,53 +323,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "eadbaf8d2260ad4f",
+  "active": "a65ba7288fe69854",
   "lastOpenFiles": [
+    "🤖 机器人 Robot/🌌 仿真器 Simulator/🏛 Gazebo/~🏛~ Gazebo 基础.md",
+    "🤖 机器人 Robot/🌌 仿真器 Simulator/🔫 PyBullet/~🔫~ PyBullet 基础.md",
+    "🤖 机器人 Robot/🌌 仿真器 Simulator/📜 机器人文件格式 Robot Description Formats.md",
+    "⌨ 高级语言编程 High-level Programming/🐍 Python/~🐍~ Python 基础入门.md",
+    "🤖 机器人 Robot/🖥 机器人操作系统 ROS/ROS2/~🤖~ ROS2 基础.md",
     "🤖 机器人 Robot/👁‍🗨 人工智能 Artificial Intelligence/🎭 强化学习 Reinforcement Learning/🎭 强化学习基础.md",
-    "🤖 机器人 Robot/🖥 机器人操作系统 ROS/ROS2/🤖 ROS2 基础.md",
-    "🤖 机器人 Robot/🖥 机器人操作系统 ROS/ROS/工具/Gazebo：仿真器/2. 建模/URDF 和 SDF.md",
-    "🤖 机器人 Robot/🖥 机器人操作系统 ROS/ROS/工具/Gazebo：仿真器/3. 仿真/施加作用力.md",
-    "🤖 机器人 Robot/🖥 机器人操作系统 ROS/ROS/工具/Gazebo：仿真器/3. 仿真/改变位姿和速度.md",
+    "🤖 机器人 Robot/🌌 仿真器 Simulator/🏛 Gazebo/SDF 文件.md",
+    "🤖 机器人 Robot/🖥 机器人操作系统 ROS/ROS2/🏛 Gazebo 基础.md",
+    "Z-attachment/pybullet_quickstartguide.pdf",
+    "~🎓~ 课程学习 Courses/NTU/👨‍🎓 NTU Events 🍽.md",
+    "~🎓~ 课程学习 Courses/NTU/💥 Deadlines 💥.md",
+    "⌨ 高级语言编程 High-level Programming/🐍 Python/安装管理库/Anaconda - Conda：虚拟环境及包管理.md",
+    "~🌎~ 未来发展 Future Development/💳 就业 Career/✨ 新加坡实习简历投递.md",
+    "🤖 机器人 Robot/📰 机器人业界及技术资讯收录.md",
+    "~🌎~ 未来发展 Future Development/🚀 技术前沿 Technology Frontier/🤖 机器人领域热点.md",
     "💻 计算机科学 Computer Science/🟠 Ubuntu Linux/💾 命令行系统.md",
     "💻 计算机科学 Computer Science/🟠 Ubuntu Linux/🗃 软件管理.md",
-    "💻 计算机科学 Computer Science/🟠 Ubuntu Linux/🧩 常用功能及应用.md",
-    "💻 计算机科学 Computer Science/🟠 Ubuntu Linux/❌ 报错合集.md",
-    "⌨ 高级语言编程 High-level Programming/🐍 Python/~🐍~ Python 基础入门.md",
-    "🤖 机器人 Robot/👁‍🗨 人工智能 Artificial Intelligence/🎭 强化学习 Reinforcement Learning/工具/🟦 MuJoCo：仿真器/✨ MuJoCo 基本使用.md",
-    "💻 计算机科学 Computer Science/🟠 Ubuntu Linux/⚙ 安装配置.md",
-    "🤖 机器人 Robot/👁‍🗨 人工智能 Artificial Intelligence/🎭 强化学习 Reinforcement Learning/基本原理及算法/~强化学习 RL~.md",
-    "Z-attachment/Pasted image 20250122160431.png",
-    "🤖 机器人 Robot/🖥 机器人操作系统 ROS/ROS/基本概念/2. 节点 Node.md",
-    "~🎓~ 课程学习 Courses/NTU/👨‍🎓 NTU Events 🍽.md",
-    "🤖 机器人 Robot/🖥 机器人操作系统 ROS/ROS2/💻 ROS2 编程开发.md",
-    "🤖 机器人 Robot/🖥 机器人操作系统 ROS/ROS/基本概念/5. 参数服务器 Parameter Server.md",
-    "~🎓~ 课程学习 Courses/NTU/💥 Deadlines 💥.md",
-    "🤖 机器人 Robot/👁‍🗨 人工智能 Artificial Intelligence/🎭 强化学习 Reinforcement Learning/工具/🟦 MuJoCo：仿真器/🧱 MuJoCo 建模教程.md",
-    "🤖 机器人 Robot/👁‍🗨 人工智能 Artificial Intelligence/🎭 强化学习 Reinforcement Learning/工具/🟦 MuJoCo：仿真器/🐍 MuJoCo Python API.md",
-    "🤖 机器人 Robot/🖥 机器人操作系统 ROS/ROS/基本概念/1. 节点管理器 Master.md",
-    "Z-attachment/Pasted image 20250122132839.png",
+    "🤖 机器人 Robot/🌌 仿真器 Simulator/🔮 IssacSim",
+    "🤖 机器人 Robot/机器人相关信息收录/非营利组织、基金会.md",
+    "🤖 机器人 Robot/机器人相关信息收录/生产企业/供能模块.md",
+    "🤖 机器人 Robot/机器人相关信息收录/论坛和平台.md",
+    "🤖 机器人 Robot/机器人相关信息收录/活动/展会：2024国际低空经济与无人系统博览会.md",
+    "🤖 机器人 Robot/机器人相关信息收录/活动/讲座：低空经济下的无人机建模与飞控系统设计.md",
+    "🤖 机器人 Robot/机器人相关信息收录/生产企业/传感器与控制.md",
+    "🤖 机器人 Robot/机器人相关信息收录/软件.md",
+    "🤖 机器人 Robot/❔ 问题疑难.md",
+    "🤖 机器人 Robot/🌌 仿真器 Simulator/🔫 PyBullet",
+    "🤖 机器人 Robot/🛠 按类型 Types of Robots/🐺 腿式机器人 Legged Robots",
+    "🤖 机器人 Robot/🌌 仿真器 Simulator/🏛 Gazebo",
+    "🤖 机器人 Robot/🎛 控制算法 Control Algorithm",
+    "🤖 机器人 Robot/🛠 按类型 Types of Robots",
+    "🤖 机器人 Robot/🌌 仿真器 Simulator",
+    "⌨ 高级语言编程 High-level Programming/🐍 Python/安装管理库/Pypi - Pip：包下载及管理工具.md",
     "🤖 机器人 Robot/👁‍🗨 人工智能 Artificial Intelligence/🎭 强化学习 Reinforcement Learning/工具/~强化学习开源项目收录~.md",
-    "🤖 机器人 Robot/👁‍🗨 人工智能 Artificial Intelligence/🎭 强化学习 Reinforcement Learning/工具/⛳ Gymnasium：RL环境/基本概念/完整的RL环境.md",
-    "⌨ 高级语言编程 High-level Programming/☕ Java/~☕~ Java 基础入门.md",
-    "~✨~ 链接 Link/💾 编程与命令 Programming & Command.md",
-    "~🌎~ 未来发展 Future Development/💳 就业 Career/✨ 新加坡实习简历投递.md",
+    "🤖 机器人 Robot/🖥 机器人操作系统 ROS/ROS2/配套工具",
+    "Z-attachment/Screenshot from 2025-01-23 14-12-33.png",
+    "Z-attachment/Screenshot from 2025-01-20 13-34-59.png",
+    "Z-attachment/Pasted image 20250122160431.png",
+    "Z-attachment/Pasted image 20250122132839.png",
     "🤖 机器人 Robot/👁‍🗨 人工智能 Artificial Intelligence/📉 机器学习 Machine Learning/Untitled",
-    "Z-attachment/65051134.pdf",
-    "Z-attachment/64963841.pdf",
     "Z-attachment/Pasted image 20250116150606.png",
-    "Z-attachment/64962097.pdf",
     "Z-attachment/Pasted image 20250115142756.png",
-    "Z-attachment/64946627.pdf",
-    "~🎓~ 课程学习 Courses/NTU/EE7207 - 🔮 Neural Networks & Deep Learning/✏ Assignments",
-    "~🎓~ 课程学习 Courses/NTU/EE7207 - 🔮 Neural Networks & Deep Learning/📽 Slides",
-    "~🎓~ 课程学习 Courses/NTU/EE7207 - 🔮 Neural Networks & Deep Learning/📰 Examples",
-    "~🎓~ 课程学习 Courses/NTU/EE7207 - 🔮 Neural Networks & Deep Learning/📜 Notes",
-    "~🎓~ 课程学习 Courses/NTU/EE6225 - 🎛 Multivariable Control Systems Analysis & Design/✏ Assignments",
     "Z-attachment/Pasted image 20241203031434.png",
     "Z-attachment/Pasted image 20241203022923.png",
     "Z-attachment/Pasted image 20241203002147.png",
-    "Z-attachment/Pasted image 20241203000127.png",
-    "Z-attachment/Pasted image 20241203000120.png",
-    "Z-attachment/Pasted image 20241203000059.png"
+    "Z-attachment/Pasted image 20241203000127.png"
   ]
 }

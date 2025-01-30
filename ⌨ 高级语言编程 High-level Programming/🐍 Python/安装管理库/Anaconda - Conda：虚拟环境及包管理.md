@@ -21,7 +21,7 @@ Anaconda提供的命令行库下载工具为Conda，Conda的兼容性版本检�
 
 这里有个小问题，如果原本通过`pip install conda`安装了`conda`，一定要用`pip uninstall conda `卸载掉以后再安装Anaconda。
 
-成功的标志是命令行的前面有显示当前激活的虚拟空间`base`
+成功的标志是命令行用户名的前面有括号显示当前激活的虚拟空间`base`
 
 ![[Screenshot from 2024-04-16 10-35-53.png]]
 
