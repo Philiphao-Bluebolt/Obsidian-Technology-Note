@@ -6,9 +6,12 @@
 ## Semester 2
 
 + [ ] 02/15 -- 🧬 Genetic Algorithms & Machine Learning -- 📝 Quiz 1
-+ [ ] Week 7 -- 📸 Machine Vision -- 📝 Quiz 1
++ [ ] 02/26 -- 📸 Machine Vision -- 📝 Quiz 1
+- [ ] 03/02 -- 🔮 Neural Networks & Deep Learning -- 📄 Assignment 1
 - [ ] Week 7 -- 🔮 Neural Networks & Deep Learning -- 📝 Quiz 1
 - [ ] Week 13 -- 🔮 Neural Networks & Deep Learning -- 📝 Quiz 2
+
+
 
 
 

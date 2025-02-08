@@ -1,4 +1,10 @@
 
++ 运行故障
+	+ [[#虚拟机无法连接网络]]
+	+ [[#虚拟机复制粘贴不起作用]]
+	+ [[#Apt无法连接ROS源]]
+
+
 
 ---
 ## 虚拟机无法连接网络
@@ -17,6 +23,14 @@ nmcli n on
 ```
 
 + 关闭隐私的连接性检查
+
+
+---
+## 虚拟机复制粘贴不起作用
+
++ 虚拟机 --> 主机不起作用，试试连续按两次`Ctrl` + `C` 
++ 主机 --> 虚拟机不起作用，记住不能直接复制到桌面，一定要复制到打开的文件夹窗口里
+
 
 
 ---
@@ -47,9 +61,3 @@ W: An error occurred during the signature verification. The repository is not up
 + [ROS 踩坑录（一）](https://blog.csdn.net/miamo_29/article/details/96349158?ops_request_misc=&request_id=&biz_id=102&utm_term=Failed%20to%20fetch%20http://package&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-6-96349158.142^v100^pc_search_result_base2&spm=1018.2226.3001.4187)
 + [apt update fails / cannot install pkgs: key not working?](https://answers.ros.org/question/325039/apt-update-fails-cannot-install-pkgs-key-not-working/)
 
-
----
-## 虚拟机复制粘贴不起作用
-
-+ 虚拟机 --> 主机不起作用，试试连续按两次`Ctrl` + `C` 
-+ 主机 --> 虚拟机不起作用，记住不能直接复制到桌面，一定要复制到打开的文件夹窗口里

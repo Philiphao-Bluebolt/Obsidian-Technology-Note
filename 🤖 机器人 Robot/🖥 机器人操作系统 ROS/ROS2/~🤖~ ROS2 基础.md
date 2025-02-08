@@ -1,5 +1,5 @@
 + 官方文档 - [Humble](https://docs.ros.org/en/humble)
-+ 其他教程 - [古月居ROS2](https://www.bilibili.com/video/BV16B4y1Q7jQ/)、
++ 其他教程 - [古月居ROS2](https://www.bilibili.com/video/BV16B4y1Q7jQ/)
 
 ROS2是ROS的后继版本，为了让ROS系统适应工业界的要求，ROS2改进了ROS在分布式通讯功能方面的缺陷，更换了编译工具和编程API。
 
@@ -16,21 +16,31 @@ ROS2与ROS主要不同：
 	+ [[#版本选择]]
 	+ [[#安装步骤]]
 + [[#基本概念]]
-	+ [[#节点（Nodes）]]
-	+ [[#话题（Topics）]]
-	+ [[#服务（Services）]]
-	+ [[#参数（Parameters）]]
-	+ [[#动作（Action）]]
+	+ [[#节点]]（Nodes）
+	+ [[#话题]]（Topics）
+	+ [[#服务]]（Services）
+	+ [[#参数]]（Parameters）
+	+ [[#动作]]（Action）
 + [[#编程开发]]
-	+ [[#工作空间（Workspaces）]]
+	+ [[#ROS2源文件]]（Source Files）
+	+ [[#工作空间]]（Workspaces）
 		+ [[#创建工作空间]]
-	+ [[#功能包（Packages）]]
-		+ [[#创建功能包]]
-		+ [[#编写Python节点]]
-		+ [[#编写C++节点]]
-	+ [[#ROS2文件结构]]
+	+ [[#功能包]]（Packages）
+		+ [[#创建C++功能包]]
+		+ [[#创建Python功能包]]
+		+ [[#创建双语言功能包]]
+	+ [[#实现节点]]
+		+ [[#创建C++节点]]
+		+ [[#创建Python节点]]
 + [[#配套工具]]
-	+ 
+	+ [[#Bag]] - 消息录制
+	+ [[#TF]] - 坐标变换
+	+ [[#Rqt]] - 多功能图形化面板
+	+ [[#Rviz]] - 数据3D可视化
+	+ [[#Gazebo]]- 仿真器
+	+ [[#PlotJuggler]] - 数据绘图分析
++ [[#实际案例]]
+	+ [[#Turtlesim]]
 
 ---
 ## 安装配置
@@ -89,9 +99,9 @@ ROS2的基本概念与ROS相似，只是节点的注册与连接不再需要启�
 
 ![[Pasted image 20250122160431.png]]
 
-### 节点（Nodes）
+### 节点
 
-节点是ROS2系统的运行单元，使用C++或Python API编程实现。节点内部可以运行其他算法，节点之间的通信则通过话题和服务实现。ROS2自带的`rqt_graph`工具可用于查看当前系统的节点图。
+节点（Node）是ROS2系统的运行单元，使用ROS2提供的C++或Python API编程实现。节点内部可以运行其他算法，节点之间的通信则通过话题和服务实现。ROS2自带的`rqt_graph`工具可用于查看当前系统的节点图。
 
 ```bash
 rqt_graph
@@ -108,18 +118,19 @@ rqt_graph
 + **导航**节点计算无人机需要执行的动作
 + **控制命令**节点将控制动作转换为Mavlink格式的命令传输给飞控
 
-### 话题（Topics）
+### 话题
+
+话题（Topic）是节点之间的异步通讯方式，其运行原理基于发布-订阅模型（Publish-subscribe Pattern），节点可以发布消息到指定的话题，也可以从指定的话题读取消息。
+
+消息（Message）是话题使用的数据传输格式，
+
+### 服务
 
 
+### 参数
 
 
-### 服务（Services）
-
-
-### 参数（Parameters）
-
-
-### 动作（Action）
+### 动作
 
 
 ---
@@ -127,7 +138,10 @@ rqt_graph
 
 与ROS相比，ROS2对编译工具和编程接口进行了较大改变，编译工具`catkin`被`colcon`替代，C++与Python的接口`roscpp`和`rospy`也分别被`rclcpp`和`rclpy`替代
 
-### 工作空间（Workspaces）
+### ROS2源文件
+
+
+### 工作空间
 
 工作空间由用户自己创建，是存放、编译自定义功能包的目录，其路径一般位于Home文件夹中，完成初始化的工作空间文件结构如下
 
@@ -145,47 +159,78 @@ rqt_graph
 mkdir -p ~/xxx_ws/src
 ```
 
-2. 初始化：生成`build`、`install`等目录
+2. 初始化：生成`build`、`install`等目录，配置环境变量
 
 ```bash
 cd ~/xxx_ws
 colcon test
+echo "source ~/xxx_ws/install/setup.bash" >> ~/.bashrc
 ```
 
-### 功能包（Packages）
+### 功能包
 
 功能包是ROS2系统中封装好的库，功能包的目录包含节点源码、启动脚本、自定义的消息和服务类型。
 
 + ROS2安装的功能包：存放在ROS2的源文件路径
 + 用户自己创建的功能包：存放在某一工作空间的`src`文件夹中
 
+与一代ROS不同，ROS2创建功能包时需要指定包内使用的编程语言。若想创建同时支持Python和C++的功能包则需要额外配置。
+
+ROS2创建功能包的命令是`ros2 pkg create`
+
+#### 创建C++功能包
+
+```bash
+cd ~/xxx_ws/src
+ros2 pkg create --build-type ament_cmake my_cpp_package
+```
+
+C++功能包的默认文件结构如下
+
++ 📁 `my_cpp_package`
+	+ 📁 `include` - 存放依赖项文件
+		+ 📁 `my_cpp_package`
+	+ 📁 `src` - **存放C++源码文件**
+	+ 📄 `CMakeLists.txt` - **编译配置**
+	+ 📄 `package.xml` - 软件包基本信息
+
+#### 创建Python功能包
+
+```bash
+cd ~/xxx_ws/src
+ros2 pkg create --build-type ament_python my_py_package
+```
+
+Python功能包的默认文件结构如下
+
++ 📁 `my_py_package`
+	+ 📁 `resource`
+		+ 📄 `my_py_package`
+	+ 📁 `test`
+		+ 📜 `test_copyright.py`
+		+ 📜 `test_flake8.py
+		+ 📜 `test_pep267.py
+	+ 📁 `my_py_package` - **存放Python源码文件**
+	+ 📄 `package.xml` - 软件包基本信息
+	+ 📄 `setup.cfg` - 
+	+ 📜 `setup.py` - 
+
+#### 创建双语言功能包
 
 
 
 
-#### 创建功能包
+### 实现节点
+
+节点本质上是使用C++或Python编写的程序
+
+
+#### 创建C++节点
 
 
 
 
-
-
-
-#### 编写Python节点
-
-
-
-
-#### 编写C++节点
-
-
-
-
-
-
-
-### ROS2源文件
-
+#### 创建Python节点
 
 
 
@@ -195,25 +240,27 @@ colcon test
 ## 配套工具
 
 
-### Bag - 消息录制
+### Bag
 
 
-### TF - 坐标变换
+### TF
 
 
-### Rqt - 多功能图形化面板
+### Rqt
 
 
-### Rviz - 数据3D可视化
+### Rviz
 
 
-### Gazebo - 仿真器
+### Gazebo
 
 
-### PlotJuggler - 数据绘图分析
+### PlotJuggler
 
 
 
 ---
-## 实际案例 - Turtlesim
+## 实际案例
+
+### Turtlesim
 

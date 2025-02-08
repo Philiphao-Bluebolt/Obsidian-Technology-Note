@@ -14,61 +14,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~✨~ 链接 Link/✨ 常用页面 Portal.md",
+                "file": "~{{🔗}}~ 链接 Link/✨ 常用页面.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "✨ 常用页面 Portal"
-            }
-          },
-          {
-            "id": "ae264997b7aee03d",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~🌎~ 未来发展 Future Development/💳 就业 Career/✨ 新加坡实习简历投递.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "✨ 新加坡实习简历投递"
-            }
-          },
-          {
-            "id": "1cc58dcafdd29f53",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~✨~ 链接 Link/💾 编程与命令 Programming & Command.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "💾 编程与命令 Programming & Command"
-            }
-          },
-          {
-            "id": "0574f8b575b879b6",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "💻 计算机科学 Computer Science/🟠 Ubuntu Linux/💾 命令行系统.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "💾 命令行系统"
+              "title": "✨ 常用页面"
             }
           },
           {
@@ -88,29 +40,13 @@
             }
           },
           {
-            "id": "1d2b966ef04659b3",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🤖 机器人 Robot/🖥 机器人操作系统 ROS/ROS2/~🤖~ ROS2 基础.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "~🤖~ ROS2 基础"
-            }
-          },
-          {
             "id": "09c258aaa3c51669",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🤖 机器人 Robot/👁‍🗨 人工智能 Artificial Intelligence/🎭 强化学习 Reinforcement Learning/🎭 强化学习基础.md",
+                "file": "👁‍🗨 人工智能 Artificial Intelligence/🎭 强化学习 Reinforcement Learning/🎭 强化学习基础.md",
                 "mode": "source",
                 "source": false
               },
@@ -120,19 +56,19 @@
             }
           },
           {
-            "id": "0214aca5316e4885",
+            "id": "411f383acbbec819",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🤖 机器人 Robot/🌌 仿真器 Simulator/🏛 Gazebo/~🏛~ Gazebo 基础.md",
+                "file": "🤖 机器人 Robot/🌌 仿真器 Simulator/📜 仿真文件格式 Simulation File Formats.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "~🏛~ Gazebo 基础"
+              "title": "📜 仿真文件格式 Simulation File Formats"
             }
           },
           {
@@ -152,37 +88,53 @@
             }
           },
           {
-            "id": "411f383acbbec819",
+            "id": "0214aca5316e4885",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🤖 机器人 Robot/🌌 仿真器 Simulator/📜 机器人文件格式 Robot Description Formats.md",
+                "file": "🤖 机器人 Robot/🌌 仿真器 Simulator/🏛 Gazebo/~🏛~ Gazebo 基础.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "📜 机器人文件格式 Robot Description Formats"
+              "title": "~🏛~ Gazebo 基础"
             }
           },
           {
-            "id": "a65ba7288fe69854",
+            "id": "1d2b966ef04659b3",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🤖 机器人 Robot/🖥 机器人操作系统 ROS/ROS2/~🤖~ ROS2 基础.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "~🤖~ ROS2 基础"
+            }
+          },
+          {
+            "id": "a9be1f92003de6a0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🤖 机器人 Robot/🌌 仿真器 Simulator/🔫 PyBullet/~🔫~ PyBullet 基础.md",
+                "file": "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📜 Notes/Part 3 - Mobile Robot.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "~🔫~ PyBullet 基础"
+              "title": "Part 3 - Mobile Robot"
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -201,7 +153,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -238,7 +191,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 375.5
+    "width": 390.5
   },
   "right": {
     "id": "7183c1e02ba22b3a",
@@ -254,7 +207,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🤖 机器人 Robot/🌌 仿真器 Simulator/🏛 Gazebo/~🏛~ Gazebo 基础.md",
+                "file": "🤖 机器人 Robot/🖥 机器人操作系统 ROS/ROS2/~🤖~ ROS2 基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -264,7 +217,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for ~🏛~ Gazebo 基础"
+              "title": "Backlinks for ~🤖~ ROS2 基础"
             }
           },
           {
@@ -323,48 +276,48 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a65ba7288fe69854",
+  "active": "a9be1f92003de6a0",
   "lastOpenFiles": [
-    "🤖 机器人 Robot/🌌 仿真器 Simulator/🏛 Gazebo/~🏛~ Gazebo 基础.md",
-    "🤖 机器人 Robot/🌌 仿真器 Simulator/🔫 PyBullet/~🔫~ PyBullet 基础.md",
-    "🤖 机器人 Robot/🌌 仿真器 Simulator/📜 机器人文件格式 Robot Description Formats.md",
-    "⌨ 高级语言编程 High-level Programming/🐍 Python/~🐍~ Python 基础入门.md",
+    "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📜 Notes/Part 2 - Robot Control.md",
+    "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📜 Notes/Part 1 Topic 2 - Direct (Forward) Kinematics.md",
+    "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📜 Notes/Part 1 Topic 4 - Trajectory Planning.md",
+    "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📜 Notes/Part 1 Topic 3 - Inverse Kinematics.md",
+    "~🎓~ 课程学习 Courses/NTU/~EE6225 - 🎛 Multivariable Control Systems Analysis & Design/~📽~ Slides/Lec 5.md",
     "🤖 机器人 Robot/🖥 机器人操作系统 ROS/ROS2/~🤖~ ROS2 基础.md",
-    "🤖 机器人 Robot/👁‍🗨 人工智能 Artificial Intelligence/🎭 强化学习 Reinforcement Learning/🎭 强化学习基础.md",
-    "🤖 机器人 Robot/🌌 仿真器 Simulator/🏛 Gazebo/SDF 文件.md",
-    "🤖 机器人 Robot/🖥 机器人操作系统 ROS/ROS2/🏛 Gazebo 基础.md",
-    "Z-attachment/pybullet_quickstartguide.pdf",
+    "~🎓~ 课程学习 Courses/NTU/~EE6225 - 🎛 Multivariable Control Systems Analysis & Design/~📽~ Slides/Lec 4.md",
+    "~🎓~ 课程学习 Courses/NTU/~EE6225 - 🎛 Multivariable Control Systems Analysis & Design/~📽~ Slides/Lec 3.md",
+    "~🎓~ 课程学习 Courses/NTU/~EE6225 - 🎛 Multivariable Control Systems Analysis & Design/~📽~ Slides/Lec 2.md",
+    "🤖 机器人 Robot/🌌 仿真器 Simulator/🔫 PyBullet/~🔫~ PyBullet 基础.md",
+    "🤖 机器人 Robot/🌌 仿真器 Simulator/🏛 Gazebo/~🏛~ Gazebo 基础.md",
+    "🤖 机器人 Robot/🌌 仿真器 Simulator/📜 仿真文件格式 Simulation File Formats.md",
+    "~🎓~ 课程学习 Courses/NTU/~EE6225 - 🎛 Multivariable Control Systems Analysis & Design/~📽~ Slides/Lec 1.md",
+    "Z-attachment/65463341.pdf",
+    "⌨ 高级语言编程 High-level Programming/🐍 Python/~🐍~ Python 基础入门.md",
     "~🎓~ 课程学习 Courses/NTU/👨‍🎓 NTU Events 🍽.md",
+    "~{{🔗}}~ 链接 Link/✨ 常用页面.md",
     "~🎓~ 课程学习 Courses/NTU/💥 Deadlines 💥.md",
-    "⌨ 高级语言编程 High-level Programming/🐍 Python/安装管理库/Anaconda - Conda：虚拟环境及包管理.md",
-    "~🌎~ 未来发展 Future Development/💳 就业 Career/✨ 新加坡实习简历投递.md",
-    "🤖 机器人 Robot/📰 机器人业界及技术资讯收录.md",
-    "~🌎~ 未来发展 Future Development/🚀 技术前沿 Technology Frontier/🤖 机器人领域热点.md",
-    "💻 计算机科学 Computer Science/🟠 Ubuntu Linux/💾 命令行系统.md",
+    "💻 计算机科学 Computer Science/🟠 Ubuntu Linux/~📑~ FAQ - Ubuntu Linux.md",
+    "💻 计算机科学 Computer Science/🟠 Ubuntu Linux/常用功能/硬盘分区挂载.md",
+    "💻 计算机科学 Computer Science/🟠 Ubuntu Linux/❌ 错误解决方案.md",
     "💻 计算机科学 Computer Science/🟠 Ubuntu Linux/🗃 软件管理.md",
+    "💻 计算机科学 Computer Science/🟠 Ubuntu Linux/⚙ 安装配置.md",
+    "~🎓~ 课程学习 Courses/NTU/~EE6225 - 🎛 Multivariable Control Systems Analysis & Design/❔ QUESTIONS.md",
+    "~🎓~ 课程学习 Courses/NTU/~EE6225 - 🎛 Multivariable Control Systems Analysis & Design/~📜~ Notes/Lec 2.md",
+    "~🎓~ 课程学习 Courses/NTU/~EE6225 - 🎛 Multivariable Control Systems Analysis & Design/~📜~ Notes/Lec 1.md",
+    "~🌎~ 未来发展 Future Development/👨‍💼 简历编写 Resume Writing.md",
+    "Z-attachment/65425288.pdf",
+    "Z-attachment/65142895.pdf",
+    "🤖 机器人 Robot/🛠 按类型 Robots Types/🚚 轮式机器人 Wheeled Robot",
+    "Z-attachment/pybullet_quickstartguide.pdf",
+    "Z-attachment/65189015.pdf",
+    "Z-attachment/65051135.pdf",
+    "Z-attachment/65189014.pdf",
     "🤖 机器人 Robot/🌌 仿真器 Simulator/🔮 IssacSim",
-    "🤖 机器人 Robot/机器人相关信息收录/非营利组织、基金会.md",
-    "🤖 机器人 Robot/机器人相关信息收录/生产企业/供能模块.md",
-    "🤖 机器人 Robot/机器人相关信息收录/论坛和平台.md",
-    "🤖 机器人 Robot/机器人相关信息收录/活动/展会：2024国际低空经济与无人系统博览会.md",
-    "🤖 机器人 Robot/机器人相关信息收录/活动/讲座：低空经济下的无人机建模与飞控系统设计.md",
-    "🤖 机器人 Robot/机器人相关信息收录/生产企业/传感器与控制.md",
-    "🤖 机器人 Robot/机器人相关信息收录/软件.md",
-    "🤖 机器人 Robot/❔ 问题疑难.md",
     "🤖 机器人 Robot/🌌 仿真器 Simulator/🔫 PyBullet",
-    "🤖 机器人 Robot/🛠 按类型 Types of Robots/🐺 腿式机器人 Legged Robots",
-    "🤖 机器人 Robot/🌌 仿真器 Simulator/🏛 Gazebo",
-    "🤖 机器人 Robot/🎛 控制算法 Control Algorithm",
-    "🤖 机器人 Robot/🛠 按类型 Types of Robots",
-    "🤖 机器人 Robot/🌌 仿真器 Simulator",
-    "⌨ 高级语言编程 High-level Programming/🐍 Python/安装管理库/Pypi - Pip：包下载及管理工具.md",
-    "🤖 机器人 Robot/👁‍🗨 人工智能 Artificial Intelligence/🎭 强化学习 Reinforcement Learning/工具/~强化学习开源项目收录~.md",
-    "🤖 机器人 Robot/🖥 机器人操作系统 ROS/ROS2/配套工具",
     "Z-attachment/Screenshot from 2025-01-23 14-12-33.png",
     "Z-attachment/Screenshot from 2025-01-20 13-34-59.png",
     "Z-attachment/Pasted image 20250122160431.png",
     "Z-attachment/Pasted image 20250122132839.png",
-    "🤖 机器人 Robot/👁‍🗨 人工智能 Artificial Intelligence/📉 机器学习 Machine Learning/Untitled",
     "Z-attachment/Pasted image 20250116150606.png",
     "Z-attachment/Pasted image 20250115142756.png",
     "Z-attachment/Pasted image 20241203031434.png",
