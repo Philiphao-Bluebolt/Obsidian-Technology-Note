@@ -40,35 +40,19 @@
             }
           },
           {
-            "id": "09c258aaa3c51669",
+            "id": "218405edcc8c30ce",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "👁‍🗨 人工智能 Artificial Intelligence/🎭 强化学习 Reinforcement Learning/🎭 强化学习基础.md",
+                "file": "👁‍🗨 人工智能 Artificial Intelligence/🎭 强化学习 Reinforcement Learning/~🎭~ 强化学习基础.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "🎭 强化学习基础"
-            }
-          },
-          {
-            "id": "411f383acbbec819",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🤖 机器人 Robot/🌌 仿真器 Simulator/📜 仿真文件格式 Simulation File Formats.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "📜 仿真文件格式 Simulation File Formats"
+              "title": "~🎭~ 强化学习基础"
             }
           },
           {
@@ -88,22 +72,6 @@
             }
           },
           {
-            "id": "0214aca5316e4885",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🤖 机器人 Robot/🌌 仿真器 Simulator/🏛 Gazebo/~🏛~ Gazebo 基础.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "~🏛~ Gazebo 基础"
-            }
-          },
-          {
             "id": "1d2b966ef04659b3",
             "type": "leaf",
             "pinned": true,
@@ -120,21 +88,51 @@
             }
           },
           {
-            "id": "a9be1f92003de6a0",
+            "id": "8c201a5086983d9e",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🤖 机器人 Robot/🛠 按类型 Robots Types/🐶 腿式机器人 Legged Robot/~🐶~ 腿式机器人简介.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "~🐶~ 腿式机器人简介"
+            }
+          },
+          {
+            "id": "68ff85d3dbf2e377",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📜 Notes/Part 3 - Mobile Robot.md",
+                "file": "🤖 机器人 Robot/🌌 仿真器 Simulator/🔫 PyBullet/📑 FAQ - PyBullet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Part 3 - Mobile Robot"
+              "title": "📑 FAQ - PyBullet"
+            }
+          },
+          {
+            "id": "9a368290487847e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~🌎~ 未来发展 Future Development/💳 就业 Career/✨ 2025实习简历投递.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "✨ 2025实习简历投递"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -166,7 +164,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ubuntu",
+                "query": "git",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -191,7 +189,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 390.5
+    "width": 373.5
   },
   "right": {
     "id": "7183c1e02ba22b3a",
@@ -276,53 +274,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a9be1f92003de6a0",
+  "active": "68ff85d3dbf2e377",
   "lastOpenFiles": [
-    "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📜 Notes/Part 2 - Robot Control.md",
-    "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📜 Notes/Part 1 Topic 2 - Direct (Forward) Kinematics.md",
-    "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📜 Notes/Part 1 Topic 4 - Trajectory Planning.md",
-    "~🎓~ 课程学习 Courses/NTU/EE6221 - 🔊 Robotics & Intelligent Sensors/📜 Notes/Part 1 Topic 3 - Inverse Kinematics.md",
-    "~🎓~ 课程学习 Courses/NTU/~EE6225 - 🎛 Multivariable Control Systems Analysis & Design/~📽~ Slides/Lec 5.md",
-    "🤖 机器人 Robot/🖥 机器人操作系统 ROS/ROS2/~🤖~ ROS2 基础.md",
-    "~🎓~ 课程学习 Courses/NTU/~EE6225 - 🎛 Multivariable Control Systems Analysis & Design/~📽~ Slides/Lec 4.md",
-    "~🎓~ 课程学习 Courses/NTU/~EE6225 - 🎛 Multivariable Control Systems Analysis & Design/~📽~ Slides/Lec 3.md",
-    "~🎓~ 课程学习 Courses/NTU/~EE6225 - 🎛 Multivariable Control Systems Analysis & Design/~📽~ Slides/Lec 2.md",
     "🤖 机器人 Robot/🌌 仿真器 Simulator/🔫 PyBullet/~🔫~ PyBullet 基础.md",
-    "🤖 机器人 Robot/🌌 仿真器 Simulator/🏛 Gazebo/~🏛~ Gazebo 基础.md",
-    "🤖 机器人 Robot/🌌 仿真器 Simulator/📜 仿真文件格式 Simulation File Formats.md",
-    "~🎓~ 课程学习 Courses/NTU/~EE6225 - 🎛 Multivariable Control Systems Analysis & Design/~📽~ Slides/Lec 1.md",
-    "Z-attachment/65463341.pdf",
     "⌨ 高级语言编程 High-level Programming/🐍 Python/~🐍~ Python 基础入门.md",
-    "~🎓~ 课程学习 Courses/NTU/👨‍🎓 NTU Events 🍽.md",
+    "~🌎~ 未来发展 Future Development/💳 就业 Career/✨ 2025实习简历投递.md",
+    "⌨ 高级语言编程 High-level Programming/🐍 Python/基础用法/字符串 String.md",
     "~{{🔗}}~ 链接 Link/✨ 常用页面.md",
-    "~🎓~ 课程学习 Courses/NTU/💥 Deadlines 💥.md",
-    "💻 计算机科学 Computer Science/🟠 Ubuntu Linux/~📑~ FAQ - Ubuntu Linux.md",
-    "💻 计算机科学 Computer Science/🟠 Ubuntu Linux/常用功能/硬盘分区挂载.md",
-    "💻 计算机科学 Computer Science/🟠 Ubuntu Linux/❌ 错误解决方案.md",
-    "💻 计算机科学 Computer Science/🟠 Ubuntu Linux/🗃 软件管理.md",
-    "💻 计算机科学 Computer Science/🟠 Ubuntu Linux/⚙ 安装配置.md",
-    "~🎓~ 课程学习 Courses/NTU/~EE6225 - 🎛 Multivariable Control Systems Analysis & Design/❔ QUESTIONS.md",
-    "~🎓~ 课程学习 Courses/NTU/~EE6225 - 🎛 Multivariable Control Systems Analysis & Design/~📜~ Notes/Lec 2.md",
-    "~🎓~ 课程学习 Courses/NTU/~EE6225 - 🎛 Multivariable Control Systems Analysis & Design/~📜~ Notes/Lec 1.md",
-    "~🌎~ 未来发展 Future Development/👨‍💼 简历编写 Resume Writing.md",
-    "Z-attachment/65425288.pdf",
-    "Z-attachment/65142895.pdf",
-    "🤖 机器人 Robot/🛠 按类型 Robots Types/🚚 轮式机器人 Wheeled Robot",
-    "Z-attachment/pybullet_quickstartguide.pdf",
-    "Z-attachment/65189015.pdf",
-    "Z-attachment/65051135.pdf",
-    "Z-attachment/65189014.pdf",
-    "🤖 机器人 Robot/🌌 仿真器 Simulator/🔮 IssacSim",
-    "🤖 机器人 Robot/🌌 仿真器 Simulator/🔫 PyBullet",
-    "Z-attachment/Screenshot from 2025-01-23 14-12-33.png",
-    "Z-attachment/Screenshot from 2025-01-20 13-34-59.png",
-    "Z-attachment/Pasted image 20250122160431.png",
-    "Z-attachment/Pasted image 20250122132839.png",
-    "Z-attachment/Pasted image 20250116150606.png",
-    "Z-attachment/Pasted image 20250115142756.png",
-    "Z-attachment/Pasted image 20241203031434.png",
-    "Z-attachment/Pasted image 20241203022923.png",
-    "Z-attachment/Pasted image 20241203002147.png",
-    "Z-attachment/Pasted image 20241203000127.png"
+    "🤖 机器人 Robot/🌌 仿真器 Simulator/🔫 PyBullet/📑 FAQ - PyBullet.md",
+    "~🌎~ 未来发展 Future Development/👔 简历编写 Resume Writing.md",
+    "~🌎~ 未来发展 Future Development/🎭 自我调节 Self-adjusting.md",
+    "~{{🔗}}~ 链接 Link/📰 业界资讯.md",
+    "🤖 机器人 Robot/🖥 机器人操作系统 ROS/ROS2/~🤖~ ROS2 基础.md",
+    "🤖 机器人 Robot/🛠 按类型 Robots Types/🐶 腿式机器人 Legged Robot/~🐶~ 腿式机器人简介.md",
+    "👁‍🗨 人工智能 Artificial Intelligence/🎭 强化学习 Reinforcement Learning/~🎭~ 强化学习基础.md",
+    "⌨ 高级语言编程 High-level Programming/🐍 Python/✨ 分领域教程/📊 数据分析 Data Analysis.md",
+    "~🎓~ 课程学习 Courses/NTU/~EE6222 - 📸 Machine Vision/~📜~ Notes/Topic 1 - Image Fundamentals.md",
+    "~🎓~ 课程学习 Courses/网课 Online/~🎯~ 网课及自学资料.md",
+    "⌨ 高级语言编程 High-level Programming/🐍 Python/基础用法/导入脚本 Import.md",
+    "⌨ 高级语言编程 High-level Programming/🐍 Python/✨ 分领域教程/Untitled.md",
+    "⌨ 高级语言编程 High-level Programming/🐍 Python/✨ 分领域教程",
+    "⌨ 高级语言编程 High-level Programming/🐍 Python/调试/命令行输出调试.md",
+    "⌨ 高级语言编程 High-level Programming/🪐 通用特性/🆒 字符处理/ANSI 转义序列.md",
+    "⌨ 高级语言编程 High-level Programming/☕ Java/~☕~ Java 基础入门.md",
+    "⌨ 高级语言编程 High-level Programming/🐍 Python/安装管理库/Pypi - Pip：包下载及管理工具.md",
+    "⌨ 高级语言编程 High-level Programming/🐍 Python/安装管理库/Anaconda - Conda：虚拟环境及包管理.md",
+    "⌨ 高级语言编程 High-level Programming/🐍 Python/基础用法/函数 Function.md",
+    "🤖 机器人 Robot/🌌 仿真器 Simulator/~📜~ 仿真器及文件格式 Simulator and File Format.md",
+    "🤖 机器人 Robot/🌌 仿真器 Simulator/🥅 MuJoCo/✨ MuJoCo 基本使用.md",
+    "🤖 机器人 Robot/🌌 仿真器 Simulator/🥅 MuJoCo/🧱 MuJoCo 建模教程.md",
+    "🤖 机器人 Robot/🛠 按类型 Robots Types/🕸 并联机器人 Parallel Robot",
+    "~🎓~ 课程学习 Courses/网课 Online/凸优化",
+    "Z-attachment/Pasted image 20250215105717.png",
+    "Z-attachment/Pasted image 20250215094815.png",
+    "Z-attachment/Pasted image 20250215012117.png",
+    "Z-attachment/Pasted image 20250214234235.png",
+    "Z-attachment/Pasted image 20250214234219.png",
+    "Z-attachment/Pasted image 20250214234159.png",
+    "Z-attachment/Pasted image 20250214234139.png",
+    "Z-attachment/EE6225 2022-2023 Semester 2.pdf",
+    "Z-attachment/EE6225 2023-2024 Semester 2.pdf",
+    "~🎓~ 课程学习 Courses/NTU/~EE6225 - 🎛 Multivariable Control Systems Analysis & Design/🏆 Exams",
+    "📈 数学 Maths/📈 最优化 Optimization",
+    "Z-attachment/2863241.pdf",
+    "Z-attachment/65570301.pdf",
+    "Z-attachment/label_train.mat",
+    "Z-attachment/Pasted image 20250210142458.png",
+    "Z-attachment/Pasted image 20250210114828.png",
+    "Z-attachment/Screenshot from 2025-01-23 14-12-33.png"
   ]
 }

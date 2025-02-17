@@ -147,3 +147,9 @@ Obsidian有自己的内部文件链接语法，使用双中括号`[[]]`，支持
 ## Callouts 
 
 ![[Pasted image 20240820141822.png]]
+
+---
+## 问答
+
+> [!question]- How are you?
+> I'm good

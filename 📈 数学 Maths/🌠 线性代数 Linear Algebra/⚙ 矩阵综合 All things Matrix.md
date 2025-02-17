@@ -345,7 +345,7 @@ $$\lambda A=3\times \begin{bmatrix}1&2&3\\4&5&6\\7&8&9\end{bmatrix}=\begin{bmatr
 
 初等变换是对矩阵的整行或整列进行的互换、倍乘、叠加三种操作的统称，对行的操作称为行变换，对列的操作称为列变换。
 
-初等变换可以用矩阵乘法表示，表示一步初等变换的矩阵称为初等矩阵（参见[[#初等矩阵 Elementary Matrix]]）
+初等变换可以用矩阵乘法表示，表示一步初等变换的矩阵称为初等矩阵（参见[[#初等矩阵 Elementary Matrix|初等矩阵]]）
 
 1. **互换**：矩阵的两行或两列交换位置
 $$CA=\begin{bmatrix}0&1\\1&0\end{bmatrix}\begin{bmatrix}\color{green}1&\color{green}2&\color{green}3\\\color{orange}4&\color{orange}5&\color{orange}6\end{bmatrix}=\begin{bmatrix}\color{orange}4&\color{orange}5&\color{orange}6\\\color{green}1&\color{green}2&\color{green}3\end{bmatrix}$$

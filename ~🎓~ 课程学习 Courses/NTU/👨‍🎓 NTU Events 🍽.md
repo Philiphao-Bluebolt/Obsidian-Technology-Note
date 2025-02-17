@@ -1,14 +1,16 @@
 
-| Date        | Time          | Location           | Event Type & Topic                 |
-| ----------- | ------------- | ------------------ | ---------------------------------- |
-| 01/22       | 15:45 - 17:15 | LT6                | 🎓 Chirality Materials             |
-| 01/24       | /             | TikTok Office      | 🚌 TikTok x Machine Learning Event |
-| 02/04       | 10:00         | LT7                | 🎓 Weather-driven Energy Systems   |
-| 02/05       | 9:00 - 10:30  |                    | 👔 Rusume Tutorial                 |
-| 02/05       | 10:30 - 12:00 | (Livestream)       | 🎓 Career Launchpad                |
-| 02/06 11 13 | 10:00 - 17:00 | Nanyang Auditorium | 👔 NTU Career Fair 2025            |
-| 02/07       | 14:00 - 16:20 | LT7                | 🎓 Semiconductor & IC Design       |
-| 02/10       | 13:30 - 17:00 | Near TCT-LT        | 🎉 New Year Celebration Carnival   |
-
-
+| Date        | Time          | Location            | Event Type & Topic                 |
+| ----------- | ------------- | ------------------- | ---------------------------------- |
+| 03/04       | 15:00 - 15:30 | SaRC, S2.2-B3-04    | 🚌 Sallellite Lab Visit            |
+| 02/21       | 13:30 - 15:00 | LT29                | 🎓 Alumni Career Share             |
+| 02/12       | 15:30 - 17:00 | SPMS LT4            | 🎓 Topological Perspectives        |
+| 02/11       | 10:00 - 12:00 | Seminar Room 9 Gaia | 👔 Interview Tutorial              |
+| 02/13 11 06 | 10:00 - 17:00 | Nanyang Auditorium  | 👔 NTU Career Fair 2025            |
+| 02/10       | 13:30 - 17:00 | Near TCT-LT         | 🎉 New Year Celebration Carnival   |
+| 02/07       | 14:00 - 16:20 | LT7                 | 🎓 Semiconductor & IC Design       |
+| 02/05       | 10:30 - 12:00 | (Livestream)        | 🎓 Career Launchpad                |
+| 02/05       | 9:00 - 10:30  |                     | 👔 Rusume Tutorial                 |
+| 02/04       | 10:00         | LT7                 | 🎓 Weather-driven Energy Systems   |
+| 01/24       | /             | TikTok Office       | 🚌 TikTok x Machine Learning Event |
+| 01/22       | 15:45 - 17:15 | LT6                 | 🎓 Chirality Materials             |
 

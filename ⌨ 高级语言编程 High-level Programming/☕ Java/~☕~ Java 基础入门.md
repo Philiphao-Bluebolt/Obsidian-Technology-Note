@@ -4,7 +4,7 @@ Java的变量与语法规则和C++十分相似，变量需要声明，语句块�
 
 Java属于强面向对象语言，包括程序入口在内的所有代码都必须定义在类中。
 
-1. 变量 Variable
+1. **变量 Variable**
 	+ [[#基本类型 Basic Types]]
 	+ [[#引用 Reference]]
 	+ [[#数组 Array]]
@@ -13,14 +13,14 @@ Java属于强面向对象语言，包括程序入口在内的所有代码都必�
 		+ [[#二维数组 2D Array]]
 	+ [[#字符串 String]]
 	+ [[#类型转换 Type Conversion]]
-2. 语法语句 Syntax
+2. **语法语句 Syntax**
 	+ [[#条件 Condition]]
 	+ [[#循环 Loop]]
-3. 类与对象 Class & Object
+3. **类与对象 Class & Object**
 	+ [[#方法 Method]]
 	+ [[#修饰符 Modifier]]
-4. 包和文件 Package & File
-5. 其他
+4. **包和文件 Package & File**
+5. **其他**
 	+ [[#命令行调试 Command Line Debug]]
 	+ [[#常用函数 Useful Functions]]
 		+ [[#数学函数]]

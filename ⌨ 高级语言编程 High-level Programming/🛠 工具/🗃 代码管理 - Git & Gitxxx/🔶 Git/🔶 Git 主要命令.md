@@ -23,6 +23,9 @@
 	+ [[#pull]] - 远程仓库 --> 本地仓库 & 工作区
 	+ [[#fetch]] - 远程仓库 --> 本地仓库
 	+ [[#clone]] - 拉取远程仓库拷贝
++ 子模块管理
+	+ [[#submodule]] 
+
 
 使用频率较低或过时的命令，如`rm`、`clean`、`checkout`等不列出
 
@@ -260,3 +263,8 @@ git  push  -u  origin  master
 # 将Github上的my_repo仓库整体拷贝到当前文件夹
 git  clone  https://github.com/my_username/my_repo.git
 ```
+
+
+---
+## submodule
+
