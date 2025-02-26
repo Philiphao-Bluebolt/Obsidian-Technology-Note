@@ -1,0 +1,3 @@
+ROS官方开发的URDF Exporter插件支持从Solidworks装配体导出URDF模型文件
+
+需要指定

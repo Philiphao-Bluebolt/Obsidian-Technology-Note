@@ -1,1 +1,0 @@
-![[Robot control.pdf]]
