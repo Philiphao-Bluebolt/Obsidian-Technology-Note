@@ -1,9 +1,8 @@
 + **Goal** - classify a group of image based on the object or feature in them
 
-
 + **Image Similarity and Object Recognition** - Similarity-based Classifier
 	+ [[#Template Matching]]
-	+ 
+	+ [[#Distance-based Classifier]]
 + **Maximum a Posterior (MAP)** - Random-based Classifier
 	+ [[#Bayesian Inference]]
 	+ [[#MAP-based Classifier]]
@@ -11,24 +10,32 @@
 
 
 ---
-## Template Matching
+## Template Matching and Similarity
 
 + **Goal** - measure the similarity of two images
-+ **Measurement** - Eucliean distance, 
++ **Measurement** - Euclidean distance (normalized), correlation coefficient (normalized)
 
-When operating object recognition, we compare two images and measure how similar they are. For convenience, all pixels in a $m\times n$ image are rewritten as a $m\times n$ dimension vector.
+When operating object recognition, we compare the input with the template image and measure how similar they are. For convenience, all pixels $f_i$ in the image $f$ are rewritten as a $n$-dimension vector.
+$$f=\begin{bmatrix}1&1\\1&0\end{bmatrix}\quad\to\quad f=\begin{bmatrix}1&1&1&0\end{bmatrix}^T$$
+The similarity of two images $f$ and $g$  is measured by two metrics in which the denotation $f_n, g_n$ represent **normalized image vectors**
 
++ **Normalized Euclidean Distance**
+$$d_n=(f_n-g_n)^T(f_n-g_n)$$
++ **Correlation Coefficient** ($-1<\gamma<1$)
+$$\gamma=f_n^T g_n$$
 
-The correlation coefficient of images $f$ and $g$ is one of the measurement of similarity 
+The normalization of the vector scales the pixels into zero mean and unit variance variables. This is to prevent luminance-related matching errors.
 
-+ **Correlation Coefficient**
-$$\gamma=f_nT=\frac{}{}$$
-
-
-
++ **Pixel Mean** $\mu_f$ and **Centralized Vector** $f_c$ 
+$$\mu_f=\frac{\sum_{i=1}^n f_i}{n}=\frac{3}{4}$$
+$$f_c=\begin{bmatrix}f_1-\mu_f&\cdots&f_n-\mu_f\end{bmatrix}^T=\begin{bmatrix}\frac{1}{4}&\frac{1}{4}&\frac{1}{4}&-\frac{3}{4}\end{bmatrix}^T$$
++ **Pixel Standard Deviation** $\sigma_f$
+$$\sigma_{f}=\sqrt{\frac{1}{n}\sum_{i=1}^n (f_i-\mu_f)^2}=\sqrt{\frac{1}{n}f_c^Tf_c}=\frac{\sqrt{3}}{4}$$
++ **Normalized Vector** $f_n$ - zero mean and unit variance 
+$$f_n=\frac{f_c}{\sigma_f}=\begin{bmatrix}\frac{f_1-\mu_f}{\sigma_f}&\cdots&\frac{f_n-\mu_f}{\sigma_f}\end{bmatrix}^T$$
 
 ---
-## Classifier
+## Distance-based Classifier
 
 
 

@@ -8,10 +8,10 @@
 | Done | Date  | Course                                             | CA                  |
 | :--: | ----- | -------------------------------------------------- | ------------------- |
 |  ✅   | 02/15 | 🧬 Genetic Algorithms & Machine Learning           | 🥇 Quiz 1           |
-|      | 02/26 | 📸 Machine Vision                                  | 🥇 Quiz 1           |
-|      | 02/27 | 🔮 Neural Networks & Deep Learning                 | 🥇 Quiz 1           |
-|      | 02/28 | 🎛 Multivariable Control Systems Analysis & Design | 🥇 Quiz 1           |
-|      | 03/02 | 🔮 Neural Networks & Deep Learning                 | 📝 Assignment 1     |
+|  ✅   | 02/26 | 📸 Machine Vision                                  | 🥇 Quiz 1           |
+|  ✅   | 02/27 | 🔮 Neural Networks & Deep Learning                 | 🥇 Quiz 1           |
+|  ✅   | 02/28 | 🎛 Multivariable Control Systems Analysis & Design | 🥇 Quiz 1           |
+|  ✅   | 03/02 | 🔮 Neural Networks & Deep Learning                 | 📝 Assignment 1     |
 |      | 03/23 | 🧬 Genetic Algorithms & Machine Learning           | 📝 Assignment 1 & 2 |
 |      | 03/23 | 📸 Machine Vision                                  | 📝 Assignment 1     |
 

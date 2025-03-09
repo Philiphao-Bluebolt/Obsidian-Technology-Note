@@ -24,6 +24,8 @@
 | 🥅 [[✨ MuJoCo 基本使用\|MuJoCo]]      | ✔    | ❌   | ✔    | ❌   |
 | 🔫 [[~🔫~ PyBullet 基础\|PyBullet]] | ✔    | ✔   | ✔    | ❌   |
 | 🔮 [[~🔮~ IssacSim 基础\|IssacSim]] | ✔    | ✔   | ✔    | ✔   |
+| 🌿 IssacGym                       |      |     |      |     |
+| 🐞 Webots                         |      |     |      |     |
 
 
 ---

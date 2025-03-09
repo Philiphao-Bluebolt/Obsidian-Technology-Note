@@ -1,0 +1,11 @@
++ **Type** - supervised learning
+
+
+---
+## Architecture
+
+
+
+
+---
+## 

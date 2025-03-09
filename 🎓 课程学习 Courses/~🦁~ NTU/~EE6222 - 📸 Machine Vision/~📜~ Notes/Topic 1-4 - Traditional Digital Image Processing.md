@@ -221,16 +221,20 @@ ITM is a special Order-Statistic Filter invented by Prof. Jiang Xudong. It
 ---
 ## Morphology and Set Theory
 
++ **Use on** - binary images
++ **Operations** - Dilation, Erosion, Opening, Closing
+
 Morphology is a category of image processing algorithms for binary images. Its output is yielded from the logic operation of input images $A,B$ and thus greatly based on the set theory. 
 
 + Input $A$
 + Structural Element $B$
 
 
+
+
+
 ---
 ## Dilation and Erosion
-
-+ **Effect**
 
 Dilation and Erosion
 

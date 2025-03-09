@@ -1,3 +1,9 @@
++ Wikipedia - [Linear Algebra](https://en.wikipedia.org/wiki/Linear_algebra)
+
+线性代数是研究线性映射、向量空间以及矩阵理论的数学分支，其最初的研究对象是线性方程组的求解方法。
+
+
+
 
 ---
 ## 矩阵含义 Matrix Representation

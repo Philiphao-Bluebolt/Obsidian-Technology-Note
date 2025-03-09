@@ -58,7 +58,7 @@ A robot dynamic model establishes the relationship the forces and torques of a d
 
 $$\frac{d}{dt}\frac{\partial L}{\partial \dot{\theta}}-\frac{\partial L}{\partial \theta}=\tau \quad \to\quad M(\theta)\ddot{\theta}+C(\theta,\dot{\theta})\dot{\theta}+g(\theta)=\tau$$
 + $M(\theta)$ - manipulator mass matrix (always invertible)
-+ $C(\theta, \dot{\theta}) \dot{\theta}$ - vector of velocity terms (matrix $C$ is not always detechable)
++ $C(\theta, \dot{\theta}) \dot{\theta}$ - vector of velocity terms ($C$ is not always detechable as an independent matrix)
 + $g(\theta)$ - vector of gravity terms
 + $\theta$ - vector of $n$ joint position (output)
 + $\tau$ - vector of $n$ joint torque (input)

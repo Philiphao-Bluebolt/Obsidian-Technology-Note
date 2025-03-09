@@ -1,6 +1,12 @@
 
 | Date        | Time          | Location            | Event Type & Topic                 |
 | ----------- | ------------- | ------------------- | ---------------------------------- |
+| 04/11       | 12:00         | LT1                 | 👔 Tencent Recruitment Talk        |
+| 04/03       | 11:00 - 18:00 | LKC Foyer           | 🎀 Exam Welfare Pack Collection    |
+| 03/20       | 14:30 - 16:00 | The Arc LHN-LT      | 🎓 Genome Regulation               |
+| 03/17       | 14:00         | Gaia ABS-04-033     | 👔 CRRC Onsite Interview           |
+| 03/13       | 13:30 - 16:30 | Micron              | 🚌 Micron Visit                    |
+| 03/11       | 11:30 - 18:00 | Nanyang Auditorium  | 👔 Techfect Career Fair            |
 | 03/04       | 15:00 - 15:30 | SaRC, S2.2-B3-04    | 🚌 Sallellite Lab Visit            |
 | 02/27       | 14:00 - 15:30 | LT7                 | 🎓 Microfluidics                   |
 | 02/21       | 13:30 - 15:00 | LT29                | 🎓 Alumni Career Share             |

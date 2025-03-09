@@ -24,22 +24,6 @@
             }
           },
           {
-            "id": "82a7bcad731cc56e",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🎓 课程学习 Courses/~🦁~ NTU/💥 Deadlines 💥.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "💥 Deadlines 💥"
-            }
-          },
-          {
             "id": "68ff85d3dbf2e377",
             "type": "leaf",
             "pinned": true,
@@ -62,7 +46,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - ⌨ 高级语言编程 High-level Programming/🐍 Python/~🐍~ Python 基础入门.md",
+                "file": "01 - ⌨ 高级语言编程 High-level Programming/1 - 🐍 Python/~🐍~ Python 基础入门.md",
                 "mode": "source",
                 "source": false
               },
@@ -72,7 +56,7 @@
             }
           },
           {
-            "id": "175d81f99eebe2d0",
+            "id": "40aa794afb0ccffc",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -88,19 +72,35 @@
             }
           },
           {
-            "id": "294bb09977083d31",
+            "id": "2c085fa6e9e560ac",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - 🤖 机器人 Robot/🖥 机器人操作系统 ROS/ROS2/~🤖~ ROS2 基础.md",
+                "file": "04 - 👁‍🗨 人工智能 Artificial Intelligence/🛠 工具/~🔦~ PyTorch 基本教程.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "~🤖~ ROS2 基础"
+              "title": "~🔦~ PyTorch 基本教程"
+            }
+          },
+          {
+            "id": "468df63f4cfd49ab",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04 - 👁‍🗨 人工智能 Artificial Intelligence/🛠 工具/⛳ Gymnasium/~⛳~ Gymnasium 基础.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "~⛳~ Gymnasium 基础"
             }
           },
           {
@@ -120,85 +120,39 @@
             }
           },
           {
-            "id": "f97823b5e36c0bfd",
+            "id": "20025a079d261478",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11 - 📐 数学 Maths/3 - 🌠 线性代数 Linear Algebra/⚙ 矩阵运算 Matrix Operations.md",
+                "file": "03 - 🤖 机器人 Robot/🖥 机器人操作系统 ROS/🦾 ROS2/~🤖~ ROS2 基础.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "⚙ 矩阵运算 Matrix Operations"
+              "title": "~🤖~ ROS2 基础"
             }
           },
           {
-            "id": "8cbb29aaff1715f5",
+            "id": "3ef908bddd1ad1b5",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🎓 课程学习 Courses/~🦁~ NTU/~EE6222 - 📸 Machine Vision/~📜~ Notes/Topic 1-4 - Traditional Digital Image Processing.md",
+                "file": "03 - 🤖 机器人 Robot/🌌 仿真器 Simulator/🏛 Gazebo/~🏛~ Gazebo 基础.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Topic 1-4 - Traditional Digital Image Processing"
-            }
-          },
-          {
-            "id": "86d50e84add1b83a",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🎓 课程学习 Courses/~🦁~ NTU/~EE6222 - 📸 Machine Vision/~📜~ Notes/Topic 5-7 - Image Classification (ML-based).md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Topic 5-7 - Image Classification (ML-based)"
-            }
-          },
-          {
-            "id": "1b83a7c89eea24ed",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🎓 课程学习 Courses/~🦁~ NTU/~EE6222 - 📸 Machine Vision/~📜~ Notes/Topic 8-9 - Feature Extraction.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Topic 8-9 - Feature Extraction"
-            }
-          },
-          {
-            "id": "0835752cadb44898",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🎓 课程学习 Courses/~🦁~ NTU/~EE6222 - 📸 Machine Vision/~📽~ Slides/Lec 1-7.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Lec 1-7"
+              "title": "~🏛~ Gazebo 基础"
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -230,7 +184,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "git",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -255,7 +209,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 385.5
+    "width": 343.5
   },
   "right": {
     "id": "7183c1e02ba22b3a",
@@ -271,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🤖 机器人 Robot/🖥 机器人操作系统 ROS/ROS2/~🤖~ ROS2 基础.md",
+                "file": "03 - 🤖 机器人 Robot/🌌 仿真器 Simulator/🔫 PyBullet/~🔫~ PyBullet 基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,7 +235,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for ~🤖~ ROS2 基础"
+              "title": "Backlinks for ~🔫~ PyBullet 基础"
             }
           },
           {
@@ -340,53 +294,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1b83a7c89eea24ed",
+  "active": "20025a079d261478",
   "lastOpenFiles": [
-    "🎓 课程学习 Courses/~🦁~ NTU/~EE6222 - 📸 Machine Vision/~📽~ Slides/Lec 1-7.md",
-    "🎓 课程学习 Courses/~🦁~ NTU/~EE6222 - 📸 Machine Vision/~📜~ Notes/Topic 8-9 - Feature Extraction.md",
-    "11 - 📐 数学 Maths/3 - 🌠 线性代数 Linear Algebra/⚙ 矩阵运算 Matrix Operations.md",
-    "11 - 📐 数学 Maths/3 - 🌠 线性代数 Linear Algebra/🗃 矩阵分类 Matrix Classification.md",
-    "🎓 课程学习 Courses/~🦁~ NTU/~EE6222 - 📸 Machine Vision/~📜~ Notes/Topic 5-7 - Image Classification (ML-based).md",
-    "🎓 课程学习 Courses/~🦁~ NTU/~EE6222 - 📸 Machine Vision/✏ Assignments/CA 1.md",
-    "🎓 课程学习 Courses/~🦁~ NTU/~EE6225 - 🎛 Multivariable Control Systems Analysis & Design/~📽~ Slides/MPC.md",
-    "🎓 课程学习 Courses/~🦁~ NTU/~EE6225 - 🎛 Multivariable Control Systems Analysis & Design/~📜~ Notes/Part 2 - System Recognition.md",
-    "🎓 课程学习 Courses/~🦁~ NTU/~EE6225 - 🎛 Multivariable Control Systems Analysis & Design/~📜~ Notes/Part 1 - Model Predictive Control (MPC).md",
-    "🎓 课程学习 Courses/~🦁~ NTU/~EE6222 - 📸 Machine Vision/~📜~ Notes/Topic 1-4 - Traditional Digital Image Processing.md",
     "{🔗} 链接 Link/✨ 常用页面.md",
-    "🎓 课程学习 Courses/~🦁~ NTU/💥 Deadlines 💥.md",
-    "11 - 📐 数学 Maths/6 - 📈 最优化 Optimization/最小二乘法 Least Square.md",
-    "11 - 📐 数学 Maths/2 - 🏔 微积分 Calculus/~🏔~ 微积分基本概念 Calculus Concepts.md",
+    "03 - 🤖 机器人 Robot/🌌 仿真器 Simulator/🏛 Gazebo/~🏛~ Gazebo 基础.md",
+    "03 - 🤖 机器人 Robot/🌌 仿真器 Simulator/~📜~ 仿真器及文件格式 Simulator and File Format.md",
+    "03 - 🤖 机器人 Robot/🖥 机器人操作系统 ROS/🦾 ROS2/~🤖~ ROS2 基础.md",
     "🌎 未来发展 Future Development/💳 就业 Career/✨ 2025实习简历投递.md",
-    "01 - ⌨ 高级语言编程 High-level Programming/🐍 Python/~🐍~ Python 基础入门.md",
     "03 - 🤖 机器人 Robot/🛠 按类型 Robots Types/🐶 腿式机器人 Legged Robot/~🐶~ 腿式机器人简介.md",
-    "03 - 🤖 机器人 Robot/🖥 机器人操作系统 ROS/ROS2/~🤖~ ROS2 基础.md",
+    "04 - 👁‍🗨 人工智能 Artificial Intelligence/🛠 工具/~🔦~ PyTorch 基本教程.md",
     "03 - 🤖 机器人 Robot/🌌 仿真器 Simulator/🔫 PyBullet/~🔫~ PyBullet 基础.md",
+    "04 - 👁‍🗨 人工智能 Artificial Intelligence/🛠 工具/⛳ Gymnasium/~⛳~ Gymnasium 基础.md",
+    "01 - ⌨ 高级语言编程 High-level Programming/1 - 🐍 Python/~🐍~ Python 基础入门.md",
+    "04 - 👁‍🗨 人工智能 Artificial Intelligence/🎭 强化学习 Reinforcement Learning/~🎭~ 强化学习基础.md",
+    "🎓 课程学习 Courses/~🦁~ NTU/👨‍🎓 NTU Events 🍽.md",
+    "03 - 🤖 机器人 Robot/🖥 机器人操作系统 ROS/🦾 ROS2/💾 ROS2 编程开发.md",
+    "03 - 🤖 机器人 Robot/🌌 仿真器 Simulator/🏛 Gazebo/📑 FAQ - Gazebo.md",
+    "🎓 课程学习 Courses/自学课程/~🎯~ 自学资料.md",
+    "🎓 课程学习 Courses/~🦁~ NTU/💥 Deadlines 💥.md",
+    "01 - ⌨ 高级语言编程 High-level Programming/~🛠~ 工具/🎫 CMake.md",
+    "01 - ⌨ 高级语言编程 High-level Programming/~🛠~ 工具/📝 编译器 - CMake",
+    "01 - ⌨ 高级语言编程 High-level Programming/~🛠~ 工具/🔶 代码管理 - Git & Gitxxx/🍅 Gitee",
+    "01 - ⌨ 高级语言编程 High-level Programming/~🛠~ 工具/🔶 代码管理 - Git & Gitxxx/🦊 Gitlab",
+    "01 - ⌨ 高级语言编程 High-level Programming/~🛠~ 工具/🔶 代码管理 - Git & Gitxxx/🐙 Github/远程仓库管理.md",
+    "01 - ⌨ 高级语言编程 High-level Programming/其他/✖ 字符处理/🏵 正则表达式 Regular Expression.md",
+    "01 - ⌨ 高级语言编程 High-level Programming/~💾~ 编程通用知识.md",
+    "01 - ⌨ 高级语言编程 High-level Programming/其他/💾 常用算法/动态规划 Dynamic Programming.md",
+    "01 - ⌨ 高级语言编程 High-level Programming/其他/🐞 编程技巧/变量命名规范 Variable Name.md",
+    "03 - 🤖 机器人 Robot/🖥 机器人操作系统 ROS/ROS/工具/Topic Tools：话题工具包.md",
+    "03 - 🤖 机器人 Robot/🖥 机器人操作系统 ROS/🦾 ROS2/Untitled.md",
+    "03 - 🤖 机器人 Robot/🖥 机器人操作系统 ROS/🦾 ROS2/Untitled",
+    "03 - 🤖 机器人 Robot/🖥 机器人操作系统 ROS/🦾 ROS2/🛠 Rqt.md",
+    "03 - 🤖 机器人 Robot/🖥 机器人操作系统 ROS/🦾 ROS2/📽 Rviz.md",
+    "Z-attachment/Pasted image 20240912171349.png",
+    "04 - 👁‍🗨 人工智能 Artificial Intelligence/🛠 工具/🔦 PyTorch",
+    "🎓 课程学习 Courses/自学课程/Untitled",
+    "Z-attachment/65721035.pdf",
+    "Z-attachment/65821736.pdf",
+    "Z-attachment/EE7207 2023-2024 Semester 2.pdf",
+    "Z-attachment/EE7207 2022-2023 Semester 1 1.pdf",
     "Z-attachment/Pasted image 20250225223554.png",
-    "2025-02-25.md",
-    "🎓 课程学习 Courses/~🦁~ NTU/~EE7207 - 🔮 Neural Networks & Deep Learning/~📽~ Slides/Part 4.md",
-    "🎓 课程学习 Courses/~🦁~ NTU/~EE7207 - 🔮 Neural Networks & Deep Learning/~📽~ Slides/Part 3.md",
-    "🎓 课程学习 Courses/~🦁~ NTU/~EE7207 - 🔮 Neural Networks & Deep Learning/~📽~ Slides/Part 2.md",
-    "🎓 课程学习 Courses/~🦁~ NTU/~EE7207 - 🔮 Neural Networks & Deep Learning/~📜~ Notes/Part 5 - Multilayer Perceptron Neural Networks.md",
-    "🎓 课程学习 Courses/~🦁~ NTU/~EE7207 - 🔮 Neural Networks & Deep Learning/~📜~ Notes/Part 4 - Support Vector Machines.md",
-    "🎓 课程学习 Courses/~🦁~ NTU/~EE7207 - 🔮 Neural Networks & Deep Learning/~📜~ Notes/Part 3 - Radial Basis Function (RBF) Neural Networks.md",
-    "Z-attachment/EE6222 2022-2023 Semester 1.pdf",
-    "Z-attachment/EE6222 2023-2024 Semester 1.pdf",
-    "Z-attachment/EE6222 2023-2024 Semester 2.pdf",
-    "Z-attachment/EE6222 2024-2025 Semester 1.pdf",
-    "🎓 课程学习 Courses/~🦁~ NTU/~EE6222 - 📸 Machine Vision/🏆 Exams",
-    "Z-attachment/54803824.pdf",
     "Z-attachment/Pasted image 20250224171608.png",
     "Z-attachment/Pasted image 20250224150144.png",
     "Z-attachment/Pasted image 20250224133535.png",
     "Z-attachment/Pasted image 20250223082629.png",
-    "01 - ⌨ 高级语言编程 High-level Programming/📊 Matlab",
-    "Z-attachment/65721032.pdf",
-    "Z-attachment/65463342.pdf",
-    "04 - 👁‍🗨 人工智能 Artificial Intelligence/🦾 传统机器学习算法 Non-NN Algorithms",
     "Z-attachment/Pasted image 20250219103647.png",
     "Z-attachment/Pasted image 20250219102329.png",
     "Z-attachment/Pasted image 20250215105717.png",
-    "Z-attachment/Pasted image 20250215094815.png",
-    "Z-attachment/Pasted image 20250215012117.png"
+    "Z-attachment/Pasted image 20250215094815.png"
   ]
 }
