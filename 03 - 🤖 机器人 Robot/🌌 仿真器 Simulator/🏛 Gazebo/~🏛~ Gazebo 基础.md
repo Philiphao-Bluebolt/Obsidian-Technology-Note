@@ -88,7 +88,7 @@ Gazebo使用命令行系统调用相关的功能，命令的名称与格式在�
 ### Harmonic
 
 + `gz`
-	+ `sim`
+	+ `sim` - 
 	+ `topic`
 	+ `service`
 ### Fortress
@@ -102,7 +102,7 @@ Gazebo使用命令行系统调用相关的功能，命令的名称与格式在�
 		+ `-t` (`--topic`) - 此参数用于指定话题（`--topic /model/my_model/odometry`）
 		+ `-i` (`--info`) - 查看指定话题的消息类型及发布者
 		+ `-m` (`--`)
-		+ `-p`
+		+ `-p`( )
 
 	+ `service` - 
 	+ 
@@ -130,4 +130,5 @@ ros2 run ros_gz_bridge parameter_bridge <topic>@<ros_msg_type>@<gazebo_msg_type>
 
 
 ---
-## 
+## 插件
+

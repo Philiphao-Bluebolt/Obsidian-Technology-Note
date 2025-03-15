@@ -14,10 +14,7 @@
 + **解决方案**：指定渲染引擎启动
 
 ```bash
-
 gz sim -v 4 --render-engine ogre
-
-
 ```
 
 

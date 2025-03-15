@@ -30,7 +30,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🌎 未来发展 Future Development/💳 就业 Career/✨ 2025实习简历投递.md",
+                "file": "💳 职业规划 Career/✨ 2025实习简历投递.md",
                 "mode": "source",
                 "source": false
               },
@@ -48,7 +48,8 @@
               "state": {
                 "file": "01 - ⌨ 高级语言编程 High-level Programming/1 - 🐍 Python/~🐍~ Python 基础入门.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "pinned": true,
               "icon": "lucide-file",
@@ -94,33 +95,17 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04 - 👁‍🗨 人工智能 Artificial Intelligence/🛠 工具/⛳ Gymnasium/~⛳~ Gymnasium 基础.md",
+                "file": "04 - 👁‍🗨 人工智能 Artificial Intelligence/🛠 工具/~⛳~ Python Farama 强化学习工具链.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "~⛳~ Gymnasium 基础"
+              "title": "~⛳~ Python Farama 强化学习工具链"
             }
           },
           {
-            "id": "3d5290788ae2a7fb",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03 - 🤖 机器人 Robot/🛠 按类型 Robots Types/🐶 腿式机器人 Legged Robot/~🐶~ 腿式机器人简介.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "~🐶~ 腿式机器人简介"
-            }
-          },
-          {
-            "id": "20025a079d261478",
+            "id": "a215b90ff4cabf0d",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -136,7 +121,7 @@
             }
           },
           {
-            "id": "3ef908bddd1ad1b5",
+            "id": "2d00213e520d4e87",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -150,9 +135,23 @@
               "icon": "lucide-file",
               "title": "~🏛~ Gazebo 基础"
             }
+          },
+          {
+            "id": "cf6337b3b7817135",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🎓 课程学习 Courses/~🦁~ NTU/EE6203 - 📉 Computer Control Systems/📜 Notes/Part 2 Lec 1-4 - State Space Model.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Part 2 Lec 1-4 - State Space Model"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -209,7 +208,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343.5
+    "width": 352.5
   },
   "right": {
     "id": "7183c1e02ba22b3a",
@@ -294,53 +293,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "20025a079d261478",
+  "active": "cf6337b3b7817135",
   "lastOpenFiles": [
-    "{🔗} 链接 Link/✨ 常用页面.md",
-    "03 - 🤖 机器人 Robot/🌌 仿真器 Simulator/🏛 Gazebo/~🏛~ Gazebo 基础.md",
-    "03 - 🤖 机器人 Robot/🌌 仿真器 Simulator/~📜~ 仿真器及文件格式 Simulator and File Format.md",
     "03 - 🤖 机器人 Robot/🖥 机器人操作系统 ROS/🦾 ROS2/~🤖~ ROS2 基础.md",
-    "🌎 未来发展 Future Development/💳 就业 Career/✨ 2025实习简历投递.md",
-    "03 - 🤖 机器人 Robot/🛠 按类型 Robots Types/🐶 腿式机器人 Legged Robot/~🐶~ 腿式机器人简介.md",
-    "04 - 👁‍🗨 人工智能 Artificial Intelligence/🛠 工具/~🔦~ PyTorch 基本教程.md",
-    "03 - 🤖 机器人 Robot/🌌 仿真器 Simulator/🔫 PyBullet/~🔫~ PyBullet 基础.md",
-    "04 - 👁‍🗨 人工智能 Artificial Intelligence/🛠 工具/⛳ Gymnasium/~⛳~ Gymnasium 基础.md",
     "01 - ⌨ 高级语言编程 High-level Programming/1 - 🐍 Python/~🐍~ Python 基础入门.md",
-    "04 - 👁‍🗨 人工智能 Artificial Intelligence/🎭 强化学习 Reinforcement Learning/~🎭~ 强化学习基础.md",
-    "🎓 课程学习 Courses/~🦁~ NTU/👨‍🎓 NTU Events 🍽.md",
-    "03 - 🤖 机器人 Robot/🖥 机器人操作系统 ROS/🦾 ROS2/💾 ROS2 编程开发.md",
+    "03 - 🤖 机器人 Robot/🌌 仿真器 Simulator/🔫 PyBullet/~🔫~ PyBullet 基础.md",
+    "03 - 🤖 机器人 Robot/🌌 仿真器 Simulator/🏛 Gazebo/~🏛~ Gazebo 基础.md",
+    "🛠 软件工具 Software Tools/学术工具.md",
+    "🛠 软件工具 Software Tools/QuillBot.md",
+    "🛠 软件工具 Software Tools/网站.md",
+    "04 - 👁‍🗨 人工智能 Artificial Intelligence/🛠 工具/~⛳~ Python Farama 强化学习工具链.md",
+    "03 - 🤖 机器人 Robot/🛠 按类型 Robots Types/✈ 无人机 UAV Drone/无人机基础/1. 无人机运动原理（多旋翼）.md",
+    "04 - 👁‍🗨 人工智能 Artificial Intelligence/🛠 工具/~🔦~ PyTorch 基本教程.md",
+    "{🔗} 链接 Link/✨ 常用页面.md",
+    "06 - 💾 计算机科学 Computer Science/🟠 Ubuntu Linux/~🟠~ Ubuntu.md",
+    "06 - 💾 计算机科学 Computer Science/🟠 Ubuntu Linux/⚙ 安装配置.md",
     "03 - 🤖 机器人 Robot/🌌 仿真器 Simulator/🏛 Gazebo/📑 FAQ - Gazebo.md",
-    "🎓 课程学习 Courses/自学课程/~🎯~ 自学资料.md",
-    "🎓 课程学习 Courses/~🦁~ NTU/💥 Deadlines 💥.md",
-    "01 - ⌨ 高级语言编程 High-level Programming/~🛠~ 工具/🎫 CMake.md",
-    "01 - ⌨ 高级语言编程 High-level Programming/~🛠~ 工具/📝 编译器 - CMake",
-    "01 - ⌨ 高级语言编程 High-level Programming/~🛠~ 工具/🔶 代码管理 - Git & Gitxxx/🍅 Gitee",
-    "01 - ⌨ 高级语言编程 High-level Programming/~🛠~ 工具/🔶 代码管理 - Git & Gitxxx/🦊 Gitlab",
-    "01 - ⌨ 高级语言编程 High-level Programming/~🛠~ 工具/🔶 代码管理 - Git & Gitxxx/🐙 Github/远程仓库管理.md",
-    "01 - ⌨ 高级语言编程 High-level Programming/其他/✖ 字符处理/🏵 正则表达式 Regular Expression.md",
-    "01 - ⌨ 高级语言编程 High-level Programming/~💾~ 编程通用知识.md",
-    "01 - ⌨ 高级语言编程 High-level Programming/其他/💾 常用算法/动态规划 Dynamic Programming.md",
-    "01 - ⌨ 高级语言编程 High-level Programming/其他/🐞 编程技巧/变量命名规范 Variable Name.md",
-    "03 - 🤖 机器人 Robot/🖥 机器人操作系统 ROS/ROS/工具/Topic Tools：话题工具包.md",
-    "03 - 🤖 机器人 Robot/🖥 机器人操作系统 ROS/🦾 ROS2/Untitled.md",
-    "03 - 🤖 机器人 Robot/🖥 机器人操作系统 ROS/🦾 ROS2/Untitled",
-    "03 - 🤖 机器人 Robot/🖥 机器人操作系统 ROS/🦾 ROS2/🛠 Rqt.md",
-    "03 - 🤖 机器人 Robot/🖥 机器人操作系统 ROS/🦾 ROS2/📽 Rviz.md",
-    "Z-attachment/Pasted image 20240912171349.png",
-    "04 - 👁‍🗨 人工智能 Artificial Intelligence/🛠 工具/🔦 PyTorch",
-    "🎓 课程学习 Courses/自学课程/Untitled",
-    "Z-attachment/65721035.pdf",
-    "Z-attachment/65821736.pdf",
-    "Z-attachment/EE7207 2023-2024 Semester 2.pdf",
-    "Z-attachment/EE7207 2022-2023 Semester 1 1.pdf",
-    "Z-attachment/Pasted image 20250225223554.png",
-    "Z-attachment/Pasted image 20250224171608.png",
-    "Z-attachment/Pasted image 20250224150144.png",
-    "Z-attachment/Pasted image 20250224133535.png",
-    "Z-attachment/Pasted image 20250223082629.png",
-    "Z-attachment/Pasted image 20250219103647.png",
-    "Z-attachment/Pasted image 20250219102329.png",
-    "Z-attachment/Pasted image 20250215105717.png",
-    "Z-attachment/Pasted image 20250215094815.png"
+    "💳 职业规划 Career/✨ 2025实习简历投递.md",
+    "03 - 🤖 机器人 Robot/🛠 按类型 Robots Types/🐶 腿式机器人 Legged Robot/~🐶~ 腿式机器人简介.md",
+    "02 - 🚂 控制科学 Control Engineering/📡 信号与系统 Signal and System/~📡~ 信号与系统简介 Intro to Signal and System.md",
+    "01 - ⌨ 高级语言编程 High-level Programming/5 - ☕ Java/~☕~ Java 基础入门.md",
+    "🎓 课程学习 Courses/~🦁~ NTU/EE6203 - 📉 Computer Control Systems/📜 Notes/Part 2 Lec 1-4 - State Space Model.md",
+    "02 - 🚂 控制科学 Control Engineering/🛠 工具/🐍 Python 控制框架.md",
+    "11 - 📐 数学 Maths/3 - 🌠 线性代数 Linear Algebra/⚙ 矩阵运算 Matrix Operations.md",
+    "🎓 课程学习 Courses/~🦁~ NTU/~EE6225 - 🎛 Multivariable Control Systems Analysis & Design/~📽~ Slides/MIMO.md",
+    "Files/66151653.pdf",
+    "🎓 课程学习 Courses/~🦁~ NTU/~EE6225 - 🎛 Multivariable Control Systems Analysis & Design/~📜~ Notes/Part 3 -  MIMO System.md",
+    "01 - ⌨ 高级语言编程 High-level Programming/🎯 练习/✨ 小项目/🧇 2048 - 基于强化学习的刷分器.md",
+    "🎓 课程学习 Courses/~🦁~ NTU/EE6203 - 📉 Computer Control Systems/📜 Notes/Part 1 Chapter 4 - Analysis of Discrete Control Systems by Conventional Methods.md",
+    "🎓 课程学习 Courses/~🦁~ NTU/EE6203 - 📉 Computer Control Systems/📜 Notes/Part 1 Chapter 3 - Modeling of Digital Control Systems.md",
+    "Files/pybullet_quickstartguide.pdf",
+    "Files/Pasted image 20250314104441.png",
+    "01 - ⌨ 高级语言编程 High-level Programming/🎯 练习/✨ 小项目",
+    "01 - ⌨ 高级语言编程 High-level Programming/~🎯~ 练习/小项目",
+    "Files/66069915.pdf",
+    "01 - ⌨ 高级语言编程 High-level Programming/🎯 练习/🛶 Leetcode 算法",
+    "01 - ⌨ 高级语言编程 High-level Programming/🎯 练习",
+    "01 - ⌨ 高级语言编程 High-level Programming/🎯 练习/🍖 Python 练习计划",
+    "01 - ⌨ 高级语言编程 High-level Programming/1 - 🐍 Python/练习",
+    "🧬 学术研究 Research/项目复现",
+    "Files/Pasted image 20240912171349.png",
+    "Files/Pasted image 20250225223554.png",
+    "Files/Pasted image 20250224171608.png",
+    "Files/Pasted image 20250224150144.png",
+    "Files/Pasted image 20250224133535.png",
+    "Files/Pasted image 20250223082629.png",
+    "Files/Pasted image 20250219103647.png",
+    "Files/Pasted image 20250219102329.png",
+    "Files/Pasted image 20250215105717.png"
   ]
 }

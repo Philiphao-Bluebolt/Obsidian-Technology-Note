@@ -1,22 +1,25 @@
 + 官网：[PyBullet](https://pybullet.org/wordpress/)
-+ 范例：[Github-Pybullet](https://github.com/bulletphysics/bullet3/tree/master/examples/pybullet)
-+ FAQ：[[📑 FAQ - PyBullet]]
++ 教程：[[#官方教程]] | [Github-Pybullet](https://github.com/bulletphysics/bullet3/tree/master/examples/pybullet)（范例）
++ FAQ：[📑 FAQ - PyBullet](📑%20FAQ%20-%20PyBullet.md)
 
-Bullet是C++编写的轻量级仿真器，PyBullet是Bullet的Python接口，安装时需要C++编译环境。
+Bullet是一个轻量级机器人仿真器，其Python接口称为Pybullet，由于其原生语言为C++，运行时需要配置C++编译环境。
 
 + **基础**
-	+ [[#客户端与服务端]]
-	+ [[#仿真模型]]
-+ **模型导入**
-	+ [[#URDF导入]]
-+ **运动控制**
-	+ [[#关节控制]]
+	+ [客户端与服务端](#客户端与服务端)
+	+ [仿真模型](#仿真模型)
++ **模型导入与控制**
+	+ [导入URDF](#导入URDF)
+	+ [关节控制](#关节控制%20Joint%20Control)
+	+ 
+
++ **传感与反馈**
+	+ [读取状态](#读取状态)
 
 
-+ [[#其他工具]]
-	+ [[#运动学工具]]
-	+ [[#调试工具]]
-+ [[#官方教程]]
++ **工具**
+	+ [运动学工具](#运动学工具)
+	+ [调试工具](#调试工具)
++ 
 
 ---
 ## 客户端与服务端
@@ -46,9 +49,9 @@ physicsClient = p.connect(p.GUI)
 		+ **关节**（Joint）：连接两个连杆并构建运动学约束，每个关节都自带一个执行器
 + **约束**（Constraint）：与关节类似，但可以在仿真运行时修改，没有转动约束
 
-上述的每一个实体类型都由一个独特的非负整数ID标识，唯一例外是多体的连杆使用编号-1标识基座。
+每一个实体都由一个独特的非负整数ID标识，唯一例外是多体模型的**基座连杆**使用编号-1标识。
 
-物体可以通过导入外部文件或使用函数直接创建，由于机器人模型涉及的参数众多，一般先使用CAD软件（SolidWork、Creo等）建模，再导入其[[~📜~ 仿真器及文件格式 Simulator and File Format|模型描述文件]]
+物体可以通过导入外部文件或使用函数直接创建，由于机器人模型涉及的参数众多，一般先使用CAD软件（SolidWork、Creo等）建模，再导入其[[~📜~ 仿真文件格式 Simulation File Format|模型描述文件]]
 
 ---
 ## 导入URDF
@@ -61,7 +64,31 @@ physicsClient = p.connect(p.GUI)
 
 
 ---
-## 关节控制
+## 关节控制 Joint Control
+
++ **相关函数** - `setJointMotorControl2()`、`setJointMotorControlArray()`
+
+PyBullet在模型的每一个关节处都设置了与约束类型对应的模拟电机（Motor），使用电机驱动函数`setJointMotorControl2()`即可控制关节的运动
+
+
+使用函数`setJointMotorControlArray()`可以同时控制多个关节的运动，不过使用这种方法设置时，只能把所有关节电机的运动控制模式设置为同一种
+
+
+
+---
+## 读取状态
+
+仿真模型关节、连杆的状态可以使用函数读取
+
+
+
+
++ **关节** - `getJointState()`
++ **连杆** - 
++ **基座** - `getBasePositionAndOrientation()`, `getBaseVelocity()`
+
+
+
 
 
 
@@ -70,17 +97,7 @@ physicsClient = p.connect(p.GUI)
 
 
 ---
-## 其他工具
-
-Pybullet提供了机器人运动学以及输入输出相关的函数工具支持运动学计算和仿真调试
-
-
-
-
-
-
-
-### 调试工具
+## 调试工具
 
 调试工具包括绘制直线、文本，设置按钮、滚动条，获取键盘、鼠标输入
 

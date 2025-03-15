@@ -1,7 +1,7 @@
 {
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
-  "attachmentFolderPath": "Z-attachment",
+  "attachmentFolderPath": "Files",
   "readableLineLength": true,
   "strictLineBreaks": true,
   "showLineNumber": false,
@@ -11,5 +11,6 @@
     "landscape": false,
     "margin": "0",
     "downscalePercent": 100
-  }
+  },
+  "useMarkdownLinks": true
 }
