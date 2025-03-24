@@ -91,7 +91,7 @@ Assume that the likelihood $p(x|\omega_i)$ of a specific class $\omega_i$ is a m
 ---
 ## Statistical Estimation
 
-+ **Goal** - estimate the likelihood in MAP
++ **Goal** - estimate the **likelihood** in MAP
 
 
 

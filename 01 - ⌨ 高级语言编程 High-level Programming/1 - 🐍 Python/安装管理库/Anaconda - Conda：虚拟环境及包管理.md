@@ -1,9 +1,7 @@
 + 官网：[Anaconda](https://www.anaconda.com/)
 + Conda文档：[Conda](https://docs.conda.io/en/latest/)
 
-Anaconda是一个Python库管理工具，它可以创建相互独立的Python虚拟环境，不同版本的库可以独立运行于不同的虚拟环境中，防止版本冲突
 
-Anaconda提供的命令行库下载工具为Conda，Conda的兼容性版本检测比Pip更严格，但提供的包比Pip少，缺少的包只能通过Pip下载
 
 [[#安装（Ubuntu）]]
 [[#更换镜像源]]

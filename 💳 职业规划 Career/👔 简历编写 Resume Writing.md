@@ -1,11 +1,21 @@
 > "It's not about what you want to show, but **what you want the hirer to see**."
 
-**STAR:** Situation - Task - Action - Results
+简历本质上是推销自己的广告，因此
 
+
+**STAR:** Situation - Task - Action - Results
 
 + 
 + [[#工具]]
 + [[#FAQ]]
+
+---
+## 栏目
+
+
+
+
+
 
 ---
 ## 

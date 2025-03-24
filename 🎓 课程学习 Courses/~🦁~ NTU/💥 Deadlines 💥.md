@@ -5,15 +5,17 @@
 ---
 ## 📝 Quiz and Assignment
 
-| Done | Date  | Course                                             | CA                  |
-| :--: | ----- | -------------------------------------------------- | ------------------- |
-|  ✅   | 02/15 | 🧬 Genetic Algorithms & Machine Learning           | 🥇 Quiz 1           |
-|  ✅   | 02/26 | 📸 Machine Vision                                  | 🥇 Quiz 1           |
-|  ✅   | 02/27 | 🔮 Neural Networks & Deep Learning                 | 🥇 Quiz 1           |
-|  ✅   | 02/28 | 🎛 Multivariable Control Systems Analysis & Design | 🥇 Quiz 1           |
-|  ✅   | 03/02 | 🔮 Neural Networks & Deep Learning                 | 📝 Assignment 1     |
-|      | 03/23 | 🧬 Genetic Algorithms & Machine Learning           | 📝 Assignment 1 & 2 |
-|      | 03/23 | 📸 Machine Vision                                  | 📝 Assignment 1     |
+| Done | Date  | Course                                             | CA              |
+| :--: | ----- | -------------------------------------------------- | --------------- |
+|  ✅   | 02/15 | 🧬 Genetic Algorithms & Machine Learning           | 🥇 Quiz 1       |
+|  ✅   | 02/26 | 📸 Machine Vision                                  | 🥇 Quiz 1       |
+|  ✅   | 02/27 | 🔮 Neural Networks & Deep Learning                 | 🥇 Quiz 1       |
+|  ✅   | 02/28 | 🎛 Multivariable Control Systems Analysis & Design | 🥇 Quiz 1       |
+|  ✅   | 03/02 | 🔮 Neural Networks & Deep Learning                 | 📝 Assignment 1 |
+|  ✅   | 03/23 | 🧬 Genetic Algorithms & Machine Learning           | 📝 Assignment 1 |
+|  ✅   | 03/23 | 🧬 Genetic Algorithms & Machine Learning           | 📝 Assignment 2 |
+|  ✅   | 03/23 | 📸 Machine Vision                                  | 📝 Assignment 1 |
+|      | 04/06 | 🔮 Neural Networks & Deep Learning                 | 📝 Assignment 2 |
 
 ## 🏆 Exams 
 
@@ -37,7 +39,7 @@
 |         |    ⭕     |   🎛   |  7   | System Identification                                    |
 |         |          |   🎛   |  8   |                                                          |
 |         |          |        |      |                                                          |
-|    ✅    |    ⭕     |   🧬   |  A   | [[Part 0 - Genetic Algorithm\|Genetic Algorithm]]        |
+|    ✅    |    ⭕     |   🧬   |  A   | [[Part 1 - Genetic Algorithm\|Genetic Algorithm]]        |
 |         |    ⭕     |   🧬   |  1   | Introduction to Machine Learning                         |
 |         |    ⭕     |   🧬   |  2   | Data Preparation                                         |
 |         |    ⭕     |   🧬   |  3   | Bayesian Decision Problem                                |

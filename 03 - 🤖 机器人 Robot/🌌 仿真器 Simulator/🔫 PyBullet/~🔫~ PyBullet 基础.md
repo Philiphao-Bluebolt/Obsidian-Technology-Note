@@ -4,6 +4,10 @@
 
 Bullet是一个轻量级机器人仿真器，其Python接口称为Pybullet，由于其原生语言为C++，运行时需要配置C++编译环境。
 
+```bash
+pip install pybullet
+```
+
 + **基础**
 	+ [客户端与服务端](#客户端与服务端)
 	+ [仿真模型](#仿真模型)
@@ -51,7 +55,7 @@ physicsClient = p.connect(p.GUI)
 
 每一个实体都由一个独特的非负整数ID标识，唯一例外是多体模型的**基座连杆**使用编号-1标识。
 
-物体可以通过导入外部文件或使用函数直接创建，由于机器人模型涉及的参数众多，一般先使用CAD软件（SolidWork、Creo等）建模，再导入其[[~📜~ 仿真文件格式 Simulation File Format|模型描述文件]]
+物体可以通过导入外部文件或使用函数直接创建，由于机器人模型涉及的参数众多，一般先使用CAD软件（SolidWork、Creo等）建模，再导入其[[📜 仿真文件格式 Simulation File Format|模型描述文件]]
 
 ---
 ## 导入URDF
