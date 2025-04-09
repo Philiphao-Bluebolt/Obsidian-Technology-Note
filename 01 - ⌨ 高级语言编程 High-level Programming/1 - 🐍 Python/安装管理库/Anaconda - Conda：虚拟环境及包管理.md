@@ -13,7 +13,7 @@
 + 参考：[超详细Ubuntu安装Anaconda步骤+Anconda常用命令](https://blog.csdn.net/KRISNAT/article/details/124041869?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522171323235516800178553371%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=171323235516800178553371&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-124041869-null-null.142^v100^pc_search_result_base2&utm_term=ubuntu%20anaconda&spm=1018.2226.3001.4187)
 
 在官网选择Linux版本，有x86和ARM64架构两种选择，选择合适的架构下载`.sh`安装文件
-![[Pasted image 20240416101421.png]]
+
 
 用命令行`bash`运行安装文件，一直按住Enter跳过冗长的条款，输入“yes”，Anaconda默认会安装在执行命令的文件夹目录。
 

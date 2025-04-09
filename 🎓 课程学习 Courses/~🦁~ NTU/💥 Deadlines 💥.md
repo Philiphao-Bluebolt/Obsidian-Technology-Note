@@ -15,7 +15,11 @@
 |  ✅   | 03/23 | 🧬 Genetic Algorithms & Machine Learning           | 📝 Assignment 1 |
 |  ✅   | 03/23 | 🧬 Genetic Algorithms & Machine Learning           | 📝 Assignment 2 |
 |  ✅   | 03/23 | 📸 Machine Vision                                  | 📝 Assignment 1 |
-|      | 04/06 | 🔮 Neural Networks & Deep Learning                 | 📝 Assignment 2 |
+|  ✅   | 04/06 | 🔮 Neural Networks & Deep Learning                 | 📝 Assignment 2 |
+|      | 04/13 | 📸 Machine Vision                                  | 📝 Assignment 2 |
+|      | 04/19 | 🔮 Neural Networks & Deep Learning                 | 🥇 Quiz 2       |
+|      | 04/20 | 🎛 Multivariable Control Systems Analysis & Design | 📝 Assignment 1 |
+
 
 ## 🏆 Exams 
 
@@ -44,10 +48,13 @@
 |         |    ⭕     |   🧬   |  2   | Data Preparation                                         |
 |         |    ⭕     |   🧬   |  3   | Bayesian Decision Problem                                |
 |         |    ⭕     |   🧬   |  4   | Linear Discriminant Analysis (LDA)                       |
-|         |          |   🧬   |  5   |                                                          |
-|         |          |   🧬   |  6   |                                                          |
-|         |          |   🧬   |  7   |                                                          |
-|         |          |   🧬   |  8   |                                                          |
+|         |    ⭕     |   🧬   |  5   | Support Vector Machines                                  |
+|         |    ⭕     |   🧬   |  6   | Classification Trees                                     |
+|         |    ⭕     |   🧬   |  7   | Performance Evaluation for Classifiers                   |
+|         |    ⭕     |   🧬   |  8   | Regression                                               |
+|         |    ⭕     |   🧬   |  9   | Feature Selection                                        |
+|         |    ⭕     |   🧬   |  10  | Clustering Analysis                                      |
+|         |          |        |      |                                                          |
 |         |    ⭕     |   🔮   |  1   | Introduction to Neural Networks                          |
 |         |    ⭕     |   🔮   |  2   | Self-organizing map (SOM) neural network                 |
 |         |    ⭕     |   🔮   |  3   | Radial basis function (RBF) neural network               |
@@ -70,12 +77,12 @@
 |         |    ⭕     |   📸   |  7   | Statistical Estimation and Machine Learning              |
 |         |    ⭕     |   📸   |  8   | Handcrafted Feature Generation and Feature Selection     |
 |         |    ⭕     |   📸   |  9   | Visual Data Dim-Reduction as Feature Extraction          |
-|         |          |   📸   |  10  | Neural Networks and Deep Machine Learning                |
-|         |          |   📸   |  11  | Deep Learning: from CNN to Transformer                   |
-|         |          |   📸   |  12  | Video Analysis                                           |
-|         |          |   📸   |  13  | Video Recognition                                        |
-|         |          |   📸   |  14  | Three-dimensional Machine Perception                     |
-|         |          |   📸   |  15  | Three-dimensional Machine Vision                         |
+|         |    ⭕     |   📸   |  10  | Neural Networks and Deep Machine Learning                |
+|         |    ⭕     |   📸   |  11  | Deep Learning: from CNN to Transformer                   |
+|         |    ⭕     |   📸   |  12  | Video Analysis                                           |
+|         |    ⭕     |   📸   |  13  | Video Recognition                                        |
+|         |    ⭕     |   📸   |  14  | Three-dimensional Machine Perception                     |
+|         |    ⭕     |   📸   |  15  | Three-dimensional Machine Vision                         |
 
 
 

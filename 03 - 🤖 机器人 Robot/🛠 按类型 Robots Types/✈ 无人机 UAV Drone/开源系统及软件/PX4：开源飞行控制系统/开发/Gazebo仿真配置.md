@@ -1,7 +1,0 @@
-
----
-## Gazebo SITL
-
-
----
-## Gazebo HITL

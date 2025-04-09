@@ -57,22 +57,6 @@
             }
           },
           {
-            "id": "40aa794afb0ccffc",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03 - 🤖 机器人 Robot/🌌 仿真器 Simulator/🔫 PyBullet/~🔫~ PyBullet 基础.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "~🔫~ PyBullet 基础"
-            }
-          },
-          {
             "id": "2c085fa6e9e560ac",
             "type": "leaf",
             "pinned": true,
@@ -95,13 +79,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - 🤖 机器人 Robot/🖥 机器人操作系统 ROS/🦾 ROS2/~🤖~ ROS2 基础.md",
+                "file": "03 - 🤖 机器人 Robot/3 - 💾 软件工具 Robot Software/🖥 机器人操作系统 ROS/~🤖~ ROS 基础.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "~🤖~ ROS2 基础"
+              "title": "~🤖~ ROS 基础"
             }
           },
           {
@@ -111,7 +95,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - 🤖 机器人 Robot/🌌 仿真器 Simulator/🏛 Gazebo/~🏛~ Gazebo 基础.md",
+                "file": "03 - 🤖 机器人 Robot/3 - 💾 软件工具 Robot Software/🌌 仿真器 Simulator/🏛 Gazebo/~🏛~ Gazebo 基础.md",
                 "mode": "source",
                 "source": false
               },
@@ -119,9 +103,79 @@
               "icon": "lucide-file",
               "title": "~🏛~ Gazebo 基础"
             }
+          },
+          {
+            "id": "38961ff4a38296e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 - ⌨ 高级语言编程 High-level Programming/🎯 练习/🛶 Leetcode 算法题/🛶 Leetcode 题目笔记.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "🛶 Leetcode 题目笔记"
+            }
+          },
+          {
+            "id": "4428b6b0aef91465",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 - ⌨ 高级语言编程 High-level Programming/1 - 🐍 Python/~🐍~ Python 基础入门.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "~🐍~ Python 基础入门"
+            }
+          },
+          {
+            "id": "b942817e39973c58",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 - 🤖 机器人 Robot/2 - 🚀 按类型 Robots Types/🐶 腿式机器人 Legged Robot/~🐶~ 足式机器人简介.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "~🐶~ 足式机器人简介"
+            }
+          },
+          {
+            "id": "7ab7b78d7127a41d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 - ⌨ 高级语言编程 High-level Programming/1 - 🐍 Python/~🐍~ Python 基础入门.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "~🐍~ Python 基础入门"
+            }
+          },
+          {
+            "id": "a6f8d73fd14c92c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🧬 学术研究 Research/📰 论文阅读.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "📰 论文阅读"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -153,7 +207,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "file: Part 1 Chapter 5",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -178,7 +232,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 356.5
+    "width": 299.5
   },
   "right": {
     "id": "7183c1e02ba22b3a",
@@ -240,13 +294,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 - ⌨ 高级语言编程 High-level Programming/1 - 🐍 Python/📊 Python 数据分析.md",
+                "file": "03 - 🤖 机器人 Robot/3 - 💾 软件工具 Robot Software/🖥 机器人操作系统 ROS/~🤖~ ROS 基础.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 📊 Python 数据分析"
+              "title": "Outline of ~🤖~ ROS 基础"
             }
           }
         ],
@@ -267,53 +321,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "68ff85d3dbf2e377",
+  "active": "a6f8d73fd14c92c9",
   "lastOpenFiles": [
-    "03 - 🤖 机器人 Robot/🌌 仿真器 Simulator/🏛 Gazebo/~🏛~ Gazebo 基础.md",
-    "03 - 🤖 机器人 Robot/🖥 机器人操作系统 ROS/🦾 ROS2/~🤖~ ROS2 基础.md",
-    "03 - 🤖 机器人 Robot/🌌 仿真器 Simulator/🔫 PyBullet/~🔫~ PyBullet 基础.md",
-    "04 - 👁‍🗨 人工智能 Artificial Intelligence/🛠 工具/~🔦~ PyTorch 基本教程.md",
-    "03 - 🤖 机器人 Robot/🌌 仿真器 Simulator/📜 仿真文件格式 Simulation File Format.md",
     "{🔗} 链接 Link/✨ 常用页面.md",
+    "🧬 学术研究 Research/📚 刊物及会议.md",
     "01 - ⌨ 高级语言编程 High-level Programming/1 - 🐍 Python/~🐍~ Python 基础入门.md",
+    "03 - 🤖 机器人 Robot/2 - 🚀 按类型 Robots Types/🐶 腿式机器人 Legged Robot/~🐶~ 足式机器人简介.md",
+    "04 - 👁‍🗨 人工智能 Artificial Intelligence/🛠 工具/~🔦~ PyTorch 基本教程.md",
+    "03 - 🤖 机器人 Robot/3 - 💾 软件工具 Robot Software/🌌 仿真器 Simulator/🏛 Gazebo/~🏛~ Gazebo 基础.md",
+    "03 - 🤖 机器人 Robot/3 - 💾 软件工具 Robot Software/🖥 机器人操作系统 ROS/~🤖~ ROS 基础.md",
+    "🎓 课程学习 Courses/~🦁~ NTU/EE6203 - 📉 Computer Control Systems/📜 Notes/Part 1 Chapter 4 - Analysis of Discrete Control Systems by Conventional Methods.md",
+    "🎓 课程学习 Courses/~🦁~ NTU/EE6203 - 📉 Computer Control Systems/📜 Notes/Part 3 Chapter 5 - Digital Controller Design.md",
+    "🎓 课程学习 Courses/自学/~🎯~ 自学资料.md",
+    "01 - ⌨ 高级语言编程 High-level Programming/🎯 练习/🛶 Leetcode 算法题/🛶 Leetcode 题目笔记.md",
+    "🎓 课程学习 Courses/~🦁~ NTU/~EE6407 - 🧬 Genetic Algorithms & Machine Learning/~📜~ Notes/Part 4 - Regression.md",
     "💳 职业规划 Career/✨ 2025实习简历投递.md",
-    "03 - 🤖 机器人 Robot/🛠 按类型 Robots Types/🚜 轮式机器人 Wheeled Robot/~🚜~ 轮式机器人简介.md",
-    "05 - 📊 数据科学 Data Science/📰 机器学习 Machine Learning/🥖 分类 Classification/支持向量机 Support Vector Machine.md",
+    "01 - ⌨ 高级语言编程 High-level Programming/🎯 练习/🛶 Leetcode 算法题/0011 - 最多积水的容器 Container With Most Water.md",
+    "01 - ⌨ 高级语言编程 High-level Programming/🎯 练习/🛶 Leetcode 算法题/0005 - 最长回文子串 Longest Palindromic Substring.md",
+    "🎓 课程学习 Courses/~🦁~ NTU/~EE6407 - 🧬 Genetic Algorithms & Machine Learning/~📜~ Notes/Part 5 - Clustering.md",
+    "🎓 课程学习 Courses/~🦁~ NTU/~EE6407 - 🧬 Genetic Algorithms & Machine Learning/~📜~ Notes/Part 3 - Classification.md",
+    "🎓 课程学习 Courses/~🦁~ NTU/~EE6407 - 🧬 Genetic Algorithms & Machine Learning/~📽~ Slides/ML.md",
+    "🎓 课程学习 Courses/~🦁~ NTU/~EE6407 - 🧬 Genetic Algorithms & Machine Learning/~📜~ Notes/Part 6 -.md",
+    "🎓 课程学习 Courses/~🦁~ NTU/~EE6407 - 🧬 Genetic Algorithms & Machine Learning/~📜~ Notes/Part 5 -.md",
+    "🎓 课程学习 Courses/~🦁~ NTU/~EE6407 - 🧬 Genetic Algorithms & Machine Learning/~📜~ Notes/Part 3 -.md",
     "🎓 课程学习 Courses/~🦁~ NTU/💥 Deadlines 💥.md",
-    "🎓 课程学习 Courses/~🦁~ NTU/~EE6222 - 📸 Machine Vision/✏ Assignments/CA 1.md",
+    "🎓 课程学习 Courses/~🦁~ NTU/~EE6407 - 🧬 Genetic Algorithms & Machine Learning/✏ Assignments/CA 1 & 2.md",
+    "Files/58238564.pdf",
+    "Files/66737673.pdf",
+    "🎓 课程学习 Courses/~🦁~ NTU/EE6203 - 📉 Computer Control Systems/📽 Slides/Part 3 Chapter 5-6.md",
+    "🎓 课程学习 Courses/~🦁~ NTU/EE6203 - 📉 Computer Control Systems/📜 Notes/Part 2 Lec 1-4 - State Space Model.md",
+    "🎓 课程学习 Courses/~🦁~ NTU/EE6203 - 📉 Computer Control Systems/📜 Notes/Part 3 Chapter 6 - Digital Controller Implementation.md",
+    "Files/Pasted image 20250406231123.png",
+    "Files/郑臻浩实习证明.pdf",
+    "Files/EE 6225_4(2).pdf",
+    "$1 - 🧸 具身智能 Embodied AI",
+    "06 - 📸 机器视觉 Machine Vision/🎬 硬件/Untitled",
+    "06 - 📸 机器视觉 Machine Vision/🎬 硬件",
+    "06 - 📸 机器视觉 Machine Vision/💾 软件",
+    "Files/66106788.pdf",
+    "Files/66411246.pdf",
     "Files/Figure_1 1.png",
-    "05 - 📊 数据科学 Data Science/📰 机器学习 Machine Learning/🥖 分类 Classification/LDA.md",
     "Files/Figure_1.png",
-    "04 - 👁‍🗨 人工智能 Artificial Intelligence/~👁‍🗨~ 人工智能与机器学习 AI & ML.md",
     "Files/Pasted image 20250323213224.png",
-    "05 - 📊 数据科学 Data Science/📰 机器学习 Machine Learning/🥪 降维 Dimension Reduction/PCA.md",
-    "🎓 课程学习 Courses/~🦁~ NTU/~EE6222 - 📸 Machine Vision/~📽~ Slides/Lec 1-7.md",
-    "04 - 👁‍🗨 人工智能 Artificial Intelligence/👅 生成式模型 Generative Model/😮 Transformer.md",
-    "04 - 👁‍🗨 人工智能 Artificial Intelligence/👅 生成式模型 Generative Model/BERT（）.md",
-    "04 - 👁‍🗨 人工智能 Artificial Intelligence/👅 生成式模型 Generative Model/GPT（Generative Pre-trained Transformer）.md",
-    "🛠 软件工具 Software Tools/💬 ChatGPT.md",
-    "05 - 📊 数据科学 Data Science/📰 机器学习 Machine Learning/🥘 聚类 Clustering/K-means.md",
-    "04 - 👁‍🗨 人工智能 Artificial Intelligence/🕸 神经网络 Neural Network",
-    "05 - 📊 数据科学 Data Science/📰 机器学习 Machine Learning/机器学习算法列表.md",
-    "05 - 📊 数据科学 Data Science/📰 机器学习 Machine Learning/🥪 降维 Dimension Reduction",
-    "04 - 👁‍🗨 人工智能 Artificial Intelligence/学习机器学习.md",
-    "05 - 📊 数据科学 Data Science/📊 Python 数据分析.md",
-    "05 - 📊 数据科学 Data Science/📰 机器学习 Machine Learning/🥖 分类 Classification/朴素贝叶斯 Naïve Bayes.md",
-    "12 - 📐 数学 Maths/4 - 🎰 概率与统计 Probability & Statistics/贝叶斯定理 Bayer's Theorem.md",
-    "05 - 📊 数据科学 Data Science/📰 机器学习 Machine Learning/🥐 回归 Regression",
-    "05 - 📊 数据科学 Data Science/📰 机器学习 Machine Learning",
-    "05 - 📊 数据科学 Data Science/📰 机器学习 Machine Learning/🥘 聚类 Clustering",
-    "05 - 📊 数据科学 Data Science/📰 机器学习 Machine Learning/🥖 分类 Classification",
-    "Files/66289703.pdf",
-    "Files/66287213.pdf",
-    "Files/66106786.pdf",
-    "Files/66106787.pdf",
     "Files/Pasted image 20250314104441.png",
     "Files/Pasted image 20240912171349.png",
     "Files/Pasted image 20250225223554.png",
     "Files/Pasted image 20250224171608.png",
     "Files/Pasted image 20250224150144.png",
-    "Files/Pasted image 20250224133535.png",
-    "Files/Pasted image 20250223082629.png"
+    "Files/Pasted image 20250224133535.png"
   ]
 }

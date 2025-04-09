@@ -5,8 +5,8 @@ Python是一门**解释型**高级编程语言，因其语法简单、扩展库�
 
 + ⚙ **开发环境配置**（[总览](#开发环境配置%20Environment%20Setup) | [解释器](#解释器%20Interpreter) | [IDE](#集成开发环境%20IDE)）
 	+ 🧊 Pip - [PyPi](#Pip%20-%20PyPi) |
-	+ 🐍 Conda - [配置](#配置) | 
-+ 📐 **变量类型及运算**（[总览](#变量类型及运算%20Variables%20&%20Operations) | [类型转换](#类型转换%20Type%20Conversion)）
+	+ 🐍 Conda - [安装](#安装) | 
++ 📐 **变量类型及运算**（[总览](#变量类型及运算%20Variables%20&%20Operations) | [赋值](#赋值%20Assignment) | [类型转换](#类型转换%20Type%20Conversion)）
 	+ 🚙 单值 - [布尔型](#布尔型%20Boolean) | [数值型](#数值型%20Value)（[整型](#整型%20Integer) | [浮点型](#浮点型%20Float) | [复数](#复数%20Complex)）
 	+ 🚝 序列 - [序列](#序列%20Sequence)（[列表](#列表%20List) | [元组](#元组%20Tuple) | [范围](#范围%20Range)） | [字符串](#字符串%20String) 
 	+ 🛸 其他 - [字典](#字典%20Dictionary) | [集合](#集合%20Set)
@@ -21,10 +21,12 @@ Python是一门**解释型**高级编程语言，因其语法简单、扩展库�
 	+ 🕹 类 - 自定义（继承 | 实例化）| 成员（属性 | 方法）
 	+ 🚀 方法 - [修饰器](#修饰器%20Decorator) | 抽象 | 私有
 + 🗃 **库与模块**（[总览](#库和模块%20Package%20&%20Module) | [导入](#模块导入%20Import%20Modules)）
-	+ 🏁 类型 - [自定义](#自定义模块%20Custom%20Modul) | [标准库](#标准库%20Standard%20Packages) | [第三方库](#第三方库%20Third-Party%20Packages)（[专用库](#专用库%20Specialized%20Packages) | [小型库](#小型库%20Small%20Packages)）
+	+ 🏁 类型 - [标准库](#标准库%20Standard%20Packages) | [第三方库](#第三方库%20Third-Party%20Packages)（[专用库](#专用库%20Specialized%20Packages) | [小型库](#小型库%20Small%20Packages)）|
+	+ ✂ 自定义 - [自定义](#自定义模块%20Custom%20Modul) | 
 
 ---
 ## 开发环境配置 Environment Setup
+
 
 
 ### 解释器 Interpreter
@@ -43,13 +45,22 @@ Python是一门**解释型**高级编程语言，因其语法简单、扩展库�
 
 ### Conda
 
-Anaconda是一个虚拟环境管理工具，用户可以创建多个隔离的Python虚拟环境，在不同的虚拟环境中使用不同版本的Python解释器以及第三方库，防止版本冲突
++ 官网下载：[Anaconda](https://www.anaconda.com/download/success)
 
-Anaconda提供的命令行库下载工具为Conda，Conda的兼容性版本检测比Pip更严格，但提供的库比Pip少，缺少的库只能通过Pip下载
+Anaconda是一个Python虚拟环境管理工具，在不同的虚拟环境中安装不同版本的Python解释器以及第三方库，互不冲突。对应的命令行工具为`conda`，`conda`命令亦支持直接下载一些常用的第三方库。Anaconda的轻量版本为Miniconda
 
+#### 安装
 
-#### 配置
+Windows和Linux的下载方式类似
 
+1. 从官网（[Anaconda](https://www.anaconda.com/download/success)）下载对应操作系统的版本安装器（Windows为`.exe`，Linux为`.sh`）
+2. 运行安装器文件（Windows）
+	+ Linux：使用`bash`命令运行，跳过条款，最后一步添加环境变量要选同意
+3. 安装成功的标志
+	+ Windows：
+	+ Linux：命令行的用户名前出现虚拟空间名称（默认`base`）
+
+#### 虚拟空间管理
 
 
 
@@ -80,6 +91,8 @@ Python中的变量相比其他常用的高级编程语言（如C++、Java）有�
 | `dict`    | 字典       | 映射型  | `enc = {"love": 11, "you": -4}` |
 | `set`     | 集合       | 集合型  | `group = {1, 2, 'all', 'I'}`    |
 
+### 赋值 Assignment
+
 赋值时可以使用顿号标注变量的类型，但这种方式并不能“锁定”变量类型；在变量类型遭到修改时依然不会报错。
 
 ```python
@@ -89,6 +102,20 @@ my_str : tuple[str, str] = (1, 2)
 my_integer = "str"
 my_str = 1
 ```
+
+
+
+```python
+a, b, c, d, e, f = 0, 3, "Yes", 0.1, 1, True
+```
+
+三目运算符的使用
+
+```
+
+```
+
+
 
 ### 布尔型 Boolean
 
@@ -131,16 +158,12 @@ c2 = complex(x, y)
 
 
 
+
 > [!hint] 整型运算
 > + **求商及余数**：`//`（商）、`%`（余数）、`divmod(x, y)`（商及余数）
 > + **比特运算**：
 >	+ 按位逻辑：`&`（与）、`|`（或）、`~x`（取反）、`^`（异或）
 >	+ 比特移位：`x<<n`（左移`n`位）、`x>>n`（右移`n`位）
-
-
-
-
-
 
 ### 浮点型 Float
 
@@ -195,17 +218,10 @@ my_list = [12,]
 my_list = ['ar', 1]
 ```
 
-#### 列表操作
-
-+ **增加元素**
-	+ 尾部添加：`s.append(x)`
-	+ 中间插入：`s.`
-
-
-
-
-
-
+> [!hint] 序列型通用操作（适用于列表、元组、数列、字符串）
+> + **增加元素**
+>	+ 尾部添加：`s.append(x)`
+>	+ 中间插入：`s.`
 
 ### 元组 Tuple
 
@@ -493,13 +509,8 @@ Python的库（Package）内部封装着
 
 Python官方及社区共同维护一系列功能强大的库
 
-
 ### 模块导入 Import Modules
 
-
-
-
-### 自定义库 Custom Packages
 
 
 
@@ -510,16 +521,18 @@ Python官方及社区共同维护一系列功能强大的库
 
 标准库是由Python官方维护的扩展库，默认受Python解释器支持，不需要另外安装，直接使用`import`导入即可使用
 
-| 库名称及文档    | 适用于       |     |
-| --------- | --------- | --- |
-| 🖥 os     |           |     |
-| 🗂 shutil | 文件操作（偏顶层） |     |
-| ⏰ time    | 时间计算      |     |
-| 📟 math   | 调用数学函数    |     |
-| 🎰 random | 伪随机数生成    |     |
-| 🐢 turtle | 平面绘图      |     |
-| 🏵 re     | 正则表达式运算   |     |
-| 🥶 abc    | 抽象类支持     |     |
+| 库名称及文档    | 主模块名称（简称） | 适用于       |     |
+| --------- | --------- | --------- | --- |
+| 🖥 os     | `os`      | 文件操作（底层）  |     |
+| 🗂 shutil | `shutil`  | 文件操作（顶层）  |     |
+| 🎰 random | `random`  | 伪随机数生成    |     |
+| 📟 math   | `math`    | 调用数学函数    |     |
+| ⏰ time    | `time`    | 时间记录与计算   |     |
+| datetime  |           |           |     |
+| 🐢 turtle | `turtle`  | 平面绘图      |     |
+| 🏵 re     | `re`      | 正则表达式运算   |     |
+| 🐘 abc    | `abc`     | 抽象类支持     |     |
+| 📰 csv    | `csv`     | csv数据文件读写 |     |
 
 ### 第三方库 Third-Party Packages
 
@@ -531,26 +544,35 @@ Python官方及社区共同维护一系列功能强大的库
 
 #### 专用库 Specialized Packages
 
-| 库名称及文档                                                                       | 主模块名称（简称）           | 应用场景        | 学习笔记                                      |
-| ---------------------------------------------------------------------------- | ------------------- | ----------- | ----------------------------------------- |
-| 🗃 [Numpy](https://numpy.org/doc/stable/user/index.html#user)                | `numpy` (`np`)      | 数组运算、数据处理   | [Python Data](📊%20Python%20数据分析.md)      |
-| 📈 [Matplotlib](https://matplotlib.org/stable/index.html)                    | `matplotlib`        | 数据绘图        | [Python Data](📊%20Python%20数据分析.md)      |
-| 🌊 [Seaborn](https://seaborn.pydata.org/)                                    | `seaborn`           | 高级数据绘图      | [Python Data](📊%20Python%20数据分析.md)      |
-| 📊 [Pandas](https://pandas.pydata.org/docs/user_guide/index.html#user-guide) | `pandas` (`pd`)     | 表格数据处理      | [Python Data](📊%20Python%20数据分析.md)      |
-| 🎰 [Scipy](https://docs.scipy.org/doc/scipy/reference/index.html#scipy-api)  | `scipy`             | 科学计算优化      | [Python Data](📊%20Python%20数据分析.md)      |
-| 🌱 [Scikit-learn](https://scikit-learn.org/stable/)                          | `sklearn`           | 传统机器学习算法    | [Python Data](📊%20Python%20数据分析.md)      |
-| 🔦 [PyTorch](https://pytorch.org/docs/stable/index.html)                     | `torch`             | 机器学习库（偏科研）  | [[~🔦~ PyTorch 基本教程\| PyTorch]]           |
-| ♨ [TensorFlow](https://www.tensorflow.org/api_docs/python/tf/all_symbols)    | `tensorflow` (`tf`) | 机器学习库（偏工业）  |                                           |
-| 🍁 [Keras](https://keras.io/api/)                                            | `keras`             | 神经网络        |                                           |
-| ⛳ [Gymnasium](https://gymnasium.farama.org/)                                 | `gymnasium` (`gym`) | 强化学习环境测试框架  | [[~⛳~ Python Farama 强化学习工具链\| Python RL]] |
-| [🦁 PettingZoo](https://pettingzoo.farama.org/index.html)                    | `pettingzoo`        | 强化学习多智能体环境  | [[~⛳~ Python Farama 强化学习工具链\| Python RL]] |
-| 🏀 [Stable Baselines](https://stable-baselines3.readthedocs.io/en/master/)   | `stable_baselines3` | 强化学习算法封装    | [[~⛳~ Python Farama 强化学习工具链\| Python RL]] |
-| 🔫 [PyBullet](https://pybullet.org/wordpress/index.php/forum-2/)             | `pybullet` (`p`)    | 3D物理仿真器     |                                           |
-| 🖼 [OpenCV](https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)        | `cv2`               | 计算机视觉、图像处理  | [[OpenCV Python 基本教程\| OpenCV]]           |
-| 🎛 [Control](https://python-control.readthedocs.io/en/0.10.1/#)              | `control`(`ct`)     | 控制器设计、仿真、分析 | [[🐍 Python 控制框架\|Python Control]]        |
-| 🚢 [Simple PID](https://simple-pid.readthedocs.io/en/latest/user_guide.html) | `simple_pid`        | 简单PID控制器实现  | [[🐍 Python 控制框架\|Python Control]]        |
-| 🧊 [CVXPY](https://www.cvxpy.org/)                                           | `cvxpy`(`cp`)       | 凸优化         |                                           |
+| 库名称及文档                                                                       | 主模块名称（简称）           | 应用场景          | 学习笔记                            |
+| ---------------------------------------------------------------------------- | ------------------- | ------------- | ------------------------------- |
+| 🗃 [Numpy](https://numpy.org/doc/stable/user/index.html#user)                | `numpy` (`np`)      | 数组运算、数据处理     |                                 |
+| 📈 [Matplotlib](https://matplotlib.org/stable/index.html)                    | `matplotlib`        | 数据绘图          |                                 |
+| 🌊 [Seaborn](https://seaborn.pydata.org/)                                    | `seaborn`           | 高级数据绘图        |                                 |
+| 📊 [Pandas](https://pandas.pydata.org/docs/user_guide/index.html#user-guide) | `pandas` (`pd`)     | 表格数据处理        |                                 |
+| 🎰 [Scipy](https://docs.scipy.org/doc/scipy/reference/index.html#scipy-api)  | `scipy`             | 科学计算优化        |                                 |
+| 🌱 [Scikit-learn](https://scikit-learn.org/stable/)                          | `sklearn`           | 传统机器学习算法      |                                 |
+| 🔦 [PyTorch](https://pytorch.org/docs/stable/index.html)                     | `torch`             | 机器学习库（偏科研）    | [[~🔦~ PyTorch 基本教程\| PyTorch]] |
+| ♨ [TensorFlow](https://www.tensorflow.org/api_docs/python/tf/all_symbols)    | `tensorflow` (`tf`) | 机器学习库（偏工业）    |                                 |
+| 🍁 [Keras](https://keras.io/api/)                                            | `keras`             | 神经网络          |                                 |
+| 🤗 Datasets                                                                  | `datasets`          | HF框架：数据集处理    |                                 |
+| 🤗 Transformer                                                               | `transformer`       | HF框架：NLP、模型微调 |                                 |
+| 🤗 Evaluate                                                                  | `evaluate`          | HF框架：训练评估     |                                 |
+| ⛳ [Gymnasium](https://gymnasium.farama.org/)                                 | `gymnasium` (`gym`) | 强化学习环境测试框架    |                                 |
+| 🦁 [PettingZoo](https://pettingzoo.farama.org/index.html)                    | `pettingzoo`        | 强化学习多智能体环境    |                                 |
+| 🏀 [Stable Baselines](https://stable-baselines3.readthedocs.io/en/master/)   | `stable_baselines3` | 强化学习算法封装      |                                 |
+| 🔫 [PyBullet](https://pybullet.org/wordpress/index.php/forum-2/)             | `pybullet` (`p`)    | 3D物理仿真器       |                                 |
+| 🖼 [OpenCV](https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)        | `cv2`               | 计算机视觉、图像处理    | [[OpenCV Python 基本教程\| OpenCV]] |
+| 🎛 [Control](https://python-control.readthedocs.io/en/0.10.1/#)              | `control`(`ct`)     | 控制器设计、仿真、分析   |                                 |
+| 🚢 [Simple PID](https://simple-pid.readthedocs.io/en/latest/user_guide.html) | `simple_pid`        | 简单PID控制器实现    |                                 |
+| 🧊 [CVXPY](https://www.cvxpy.org/)                                           | `cvxpy`(`cp`)       | 凸优化           |                                 |
 
++ **Top Down 分类学习**
+	+ [Python 数据分析](📊%20Python%20数据分析.md)（🗃📈🌊📊🎰🌱）
+	+ Python 神经网络（🔦♨🍁🤗）
+	+ [Python 强化学习](~⛳~%20Python%20Farama%20强化学习工具链)（⛳🦁🏀）
+	+ Python 机器视觉（🖼）
+	+ [Python 控制系统](🐍%20Python%20控制框架.md)（🎛🚢）
 
 #### 小型库 Small Packages
 
@@ -558,11 +580,9 @@ Python官方及社区共同维护一系列功能强大的库
 | ----------------------------------------------------------------------- | ------------- | ------- | ---- |
 | 📝 [PrettyTable](https://ptable.readthedocs.io/en/latest/tutorial.html) | `prettytable` | 命令行表格打印 |      |
 | 🚥 [Tqdm](https://tqdm.github.io/)                                      | `tqdm`        | 进度条     |      |
-|                                                                         |               |         |      |
+| attrs                                                                   |               |         |      |
 
 
-
-
-
+### 自定义库 Custom Packages
 
 
