@@ -1,6 +1,5 @@
-+ 官网：[PyBullet](https://pybullet.org/wordpress/)
-+ 教程：[[#官方教程]] | [Github-Pybullet](https://github.com/bulletphysics/bullet3/tree/master/examples/pybullet)（范例）
-+ FAQ：[📑 FAQ - PyBullet](📑%20FAQ%20-%20PyBullet.md)
++ **教程**：[PyBullet](https://pybullet.org/wordpress/) | [[#官方教程]] | [例程](https://github.com/bulletphysics/bullet3/tree/master/examples/pybullet)
++ **FAQ**：[📑 FAQ - PyBullet](📑%20FAQ%20-%20PyBullet.md)
 
 Bullet是一个轻量级机器人仿真器，其Python接口称为Pybullet，由于其原生语言为C++，运行时需要配置C++编译环境。
 
@@ -8,11 +7,12 @@ Bullet是一个轻量级机器人仿真器，其Python接口称为Pybullet，由
 pip install pybullet
 ```
 
-+ **基础**
++ ⛳ **仿真器基础**
 	+ [客户端与服务端](#客户端与服务端)
-	+ [仿真模型](#仿真模型)
-+ **模型导入与控制**
-	+ [导入URDF](#导入URDF)
+	+ 
++ **模型导入与控制**（[仿真模型](#仿真模型)）
+	+ 
+	+ 类型：[导入URDF](#导入URDF)
 	+ [关节控制](#关节控制%20Joint%20Control)
 	+ 
 
@@ -23,7 +23,7 @@ pip install pybullet
 + **工具**
 	+ [运动学工具](#运动学工具)
 	+ [调试工具](#调试工具)
-+ 
+
 
 ---
 ## 客户端与服务端
@@ -64,7 +64,9 @@ physicsClient = p.connect(p.GUI)
 
 
 ---
-## 
+## 重置URDF
+
++ **相关模型**：`resetBasePositionAndOrientation()`
 
 
 ---

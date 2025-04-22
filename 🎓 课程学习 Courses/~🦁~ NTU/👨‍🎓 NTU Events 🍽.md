@@ -1,6 +1,9 @@
 
 | Date        | Time          | Location            | Event Type & Topic                 |
 | ----------- | ------------- | ------------------- | ---------------------------------- |
+| 04/30       | 10:30 - 12:00 |                     |                                    |
+| 04/27       | 16:15 - 18:00 | LT26                | 🎓 Career Compass                  |
+| 04/23       | 14:00 - 16:00 | TR+9, NS4-05-87     | 👔 Meituan Beidou                  |
 | 04/11       | 12:00         | LT1                 | 👔 Tencent Recruitment Talk        |
 | 04/03       | 11:00 - 18:00 | LKC Foyer           | 🎀 Exam Welfare Pack Collection    |
 | 03/20       | 14:30 - 16:00 | The Arc LHN-LT      | 🎓 Genome Regulation               |

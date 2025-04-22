@@ -16,9 +16,10 @@
 |  ✅   | 03/23 | 🧬 Genetic Algorithms & Machine Learning           | 📝 Assignment 2 |
 |  ✅   | 03/23 | 📸 Machine Vision                                  | 📝 Assignment 1 |
 |  ✅   | 04/06 | 🔮 Neural Networks & Deep Learning                 | 📝 Assignment 2 |
-|      | 04/13 | 📸 Machine Vision                                  | 📝 Assignment 2 |
-|      | 04/19 | 🔮 Neural Networks & Deep Learning                 | 🥇 Quiz 2       |
-|      | 04/20 | 🎛 Multivariable Control Systems Analysis & Design | 📝 Assignment 1 |
+|  ✅   | 04/13 | 📸 Machine Vision                                  | 📝 Assignment 2 |
+|  ✅   | 04/15 | 🧬 Genetic Algorithms & Machine Learning           | 🥇 Quiz 2       |
+|  ✅   | 04/17 | 🔮 Neural Networks & Deep Learning                 | 🥇 Quiz 2       |
+|  ✅   | 04/20 | 🎛 Multivariable Control Systems Analysis & Design | 📝 Assignment 1 |
 
 
 ## 🏆 Exams 
@@ -29,6 +30,7 @@
 |      | 05/06 | 🧬 Genetic Algorithms & Machine Learning           | 9:00 - 12:00  |          |
 |      | 05/07 | 🔮 Neural Networks & Deep Learning                 | 9:00 - 12:00  |          |
 |      | 05/08 | 📸 Machine Vision                                  | 9:00 - 12:00  |          |
+
 
 ## 📖 Revision Progress
 

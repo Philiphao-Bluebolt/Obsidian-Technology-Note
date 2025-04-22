@@ -78,7 +78,6 @@ The past state and inputs can not be changed. It's the **future** inputs that we
 > [!QUESTION] Should we add a estimation hat sign $\hat{\quad}$ to the denotation of the past vector $F$? 
 > 
 
-
 ### Control
 
 When applying the MPC control, we wish to achieve two goals
