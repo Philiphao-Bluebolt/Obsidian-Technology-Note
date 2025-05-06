@@ -17,6 +17,7 @@ $$u(k)=k_1w(k)+k_2x(k)+k_3 u(k-1)$$
 		+ [[#Prediction]]
 		+ [[#Control]]
 	+ [[#General Form of State Space]]
+		+ [Increment Model](#Increment%20Model)]
 		+ [[#Integration Action]]
 		+ [[#Feed-Forward]]
 + **Parameter Tuning**
@@ -56,7 +57,7 @@ $$y(k+i)=\color{red}C_pA_p^i\color{black}x(k)+\color{green}\sum^i_{j=1}C_pA_p^{i
 
 The prediction of possible future outputs $\hat y(k+i|k)$ is obtained using the transition equation. Firstly, we rewrite the equation in the matrix form.
 
-$$\begin{bmatrix}\hat y(k+1)\\\hat y(k+2)\\\vdots\\\hat y(k+N)\end{bmatrix}=\color{red}\begin{bmatrix}C_pA_p\\C_pA_p^2\\\vdots\\C_pA_p^N\end{bmatrix}\color{black}x(k)+\color{green}\begin{bmatrix}B_p&0&\cdots&0\\A_pB_p&B_p&\cdots&0\\\vdots&\vdots&\ddots&0\\A^N_pB_p&A^{N-1}_pB_p&\cdots&B_p\end{bmatrix}\color{black}\begin{bmatrix}\hat u(k)\\\hat u(k+1)\\\vdots\\\hat u(k+N-1)\end{bmatrix}$$
+$$\begin{bmatrix}\hat y(k+1)\\\hat y(k+2)\\\vdots\\\hat y(k+N)\end{bmatrix}=\color{red}\begin{bmatrix}C_pA_p\\C_pA_p^2\\\vdots\\C_pA_p^N\end{bmatrix}\color{black}x(k)+\color{green}\begin{bmatrix}C_pB_p&0&\cdots&0\\C_pA_pB_p&C_pB_p&\cdots&0\\\vdots&\vdots&\ddots&0\\C_pA^N_pB_p&C_pA^{N-1}_pB_p&\cdots&C_pB_p\end{bmatrix}\color{black}\begin{bmatrix}\hat u(k)\\\hat u(k+1)\\\vdots\\\hat u(k+N-1)\end{bmatrix}$$
 
 We're more interested in the **fluctuation** of the control signal then its actual value. So the control inputs are represented as the increments instead: $\hat{u}(k+i)=\hat{u}(k+i-1)+\Delta \hat{u}(k+i)$
 
@@ -66,7 +67,7 @@ Combined the two matrix equations and we get the **output prediction** equation
 
 $$\hat{Y}=\color{red}\Phi\color{black} x(k)+\color{orange}\Gamma \color{black}u(k-1)+\color{blue}\mathrm{G}\color{black}\hat{U}=F+\color{blue}\mathrm{G}\color{black}\hat{U}$$
 
-$$\begin{bmatrix}\hat y(k+1)\\\hat y(k+2)\\\vdots\\\hat y(k+N)\end{bmatrix}=\color{red}\begin{bmatrix}C_pA_p\\C_pA_p^2\\\vdots\\C_pA_p^N\end{bmatrix}\color{black}x(k)+\color{orange}\begin{bmatrix}B_p\\A_pB_p+B_p\\\vdots\\\sum^N_{j=1}A_p^{N-j}B_p\end{bmatrix}\color{black} u(k-1)+\color{blue}\begin{bmatrix}B_p&0&\cdots&0\\A_pB_p+B_p&B_p&\cdots&0\\\vdots&\ddots&\ddots&\vdots\\\sum^N_{j=1}A_p^{N-j}B_p&\cdots&\cdots&B_p\end{bmatrix}\color{black}\begin{matrix}\end{matrix}\begin{bmatrix}\Delta \hat u(k)\\\Delta \hat u(k+1)\\\vdots\\\Delta \hat u(k+N-1)\end{bmatrix}$$
+$$\begin{bmatrix}\hat y(k+1)\\\hat y(k+2)\\\vdots\\\hat y(k+N)\end{bmatrix}=\color{red}\begin{bmatrix}C_pA_p\\C_pA_p^2\\\vdots\\C_pA_p^N\end{bmatrix}\color{black}x(k)+\color{orange}\begin{bmatrix}C_pB_p\\C_pA_pB_p+C_pB_p\\\vdots\\\sum^N_{j=1}C_pA_p^{N-j}B_p\end{bmatrix}\color{black} u(k-1)+\color{blue}\begin{bmatrix}C_pB_p&0&\cdots&0\\C_pA_pB_p+C_pB_p&C_pB_p&\cdots&0\\\vdots&\ddots&\ddots&\vdots\\\sum^N_{j=1}C_pA_p^{N-j}B_p&\cdots&\cdots&C_pB_p\end{bmatrix}\color{black}\begin{matrix}\end{matrix}\begin{bmatrix}\Delta \hat u(k)\\\Delta \hat u(k+1)\\\vdots\\\Delta \hat u(k+N-1)\end{bmatrix}$$
 
 The equation implies that the future outputs of the system is determined by two types of information represented by two vectors respectively:
 
@@ -98,19 +99,35 @@ $$J=(\color{MediumOrchid}\hat{Y}\color{black}-\color{SteelBlue}\hat{W}\color{bla
 
 $$\color{MediumOrchid}\hat{Y}=\begin{bmatrix}\hat{y}(k+N_1)\\\hat{y}(k+N_1+1)\\\vdots\\\hat{y}(k+N_2)\end{bmatrix}\color{black}\quad\quad \color{SteelBlue}\hat{W}=\begin{bmatrix}\hat{w}(k+N_1)\\\hat{w}(k+N_1+1)\\\vdots\\\hat{w}(k+N_2)\end{bmatrix}\color{black}\quad\quad\color{DarkGoldenrod} \hat{U}=\begin{bmatrix}\Delta \hat{u}(k)\\\Delta\hat{u}(k+1)\\\vdots\\\Delta\hat{u}(k+N_u)\end{bmatrix}\color{black}$$
 
-As we have derived the prediction equation $\hat{Y}=F+G\hat{U}$, the future outputs $\hat y$ can be represented by the future control inputs $\Delta \hat{u}$
-$$J=(\hat{Y}^T-\hat{W}^T)(\hat{Y}-\hat{W})+\lambda \hat{U}^T\hat{U}$$
+As we have derived the prediction equation $\hat{Y}=F+G\hat{U}$, the future outputs $\hat{Y}$ can be represented by the future control inputs $\hat{U}$
+$$\begin{align}J&=(\hat{Y}^T-\hat{W}^T)(\hat{Y}-\hat{W})+\lambda \hat{U}^T\hat{U}\\&=(\hat{F}+G\hat{U}-\hat{W})^T(\hat{F}+G\hat{U}-\hat{W})+\lambda\hat{U}^T\hat{U}\\&=(\hat{F}-\hat{W})^T(\hat{F}-\hat{W})+(\hat{F}-\hat{W})^TG\hat{U}+(G\hat{U})^T(\hat{F}-\hat{W})+(G\hat{U})^TG\hat{U}+\lambda \hat{U}^T\hat{U}\\&=(\hat{F}-\hat{W})^T(\hat{F}-\hat{W})+2(\hat{F}-\hat{W})^TG\hat{U}+\hat{U}^T(G^TG+\lambda I)\hat{U}\end{align}$$
+Calculate the derivative of $J$ over input $\hat{U}$. The optimal input $\hat{U}$ emerges when the derivative is zero. (The derivative is a $N_u+1$ **column vector**)
+$$\begin{align}\frac{\partial J}{\partial \hat{U}}=2G^T(\hat{F}-\hat{W})+2(G^TG+\lambda I)\hat{U}&=0\\(G^TG+\lambda I)\hat{U}&=-G^T(\hat{F}-\hat{W})\\\hat{U}&=(G^TG+\lambda I)^{-1}G^T(\hat{W}-\hat{F})\end{align}$$
++ Calculation Tips
+	+ **Transposes** are always equal if they are scalars
+	+ **Matrix derivative** is analog to scalar derivative but with shape-matching transposes
 
 > [!QUESTION]  The control increment vector $\hat{U}$ in the objective function $J$ and the  control increment vector used to replace $\hat{Y}$ has different element index range. How can they combine?
 > $$\hat{U}_u=\begin{bmatrix}\Delta \hat{u}(k)\\\Delta\hat{u}(k+1)\\\vdots\\\Delta\hat{u}(k+N_u)\end{bmatrix}\quad \hat{U}_p=\begin{bmatrix}\Delta \hat{u}(k+N_1-1)\\\Delta\hat{u}(N_1+1)\\\vdots\\\Delta\hat{u}(k+N_2-1)\end{bmatrix}$$
+
++ **Receding Horizon Strategy** - although $N_u+1$ inputs could be derived solving the objective function. MPC uses only the **first** element $\Delta u(k|k)$ at the current step to generate output.
+
+$$\Delta u(k|k)=$$
 
 
 ---
 ## General Form of State Space
 
+The state space model of the plant 
+
+
+
+### Increment Model
+
 + **Characteristics** - increment $\Delta \hat{u}$ as input instead of $\hat{u}$
 
-We can use the control input increment $\Delta u(k)$ instead of $u(k)$ in the state space representative of the plant.
+We can use the control input increment $\Delta u(k)$ instead of $u(k)$ in the state space representation of the plant. This form simplifies the calculation of prediction equation $\hat{Y}=F+G\hat{U}$
+
 
 
 ### Integration Action
@@ -193,6 +210,11 @@ $$$$
 
 ---
 ## Constraint Optimal Solution 
+
+
+
+
+
 
 
 

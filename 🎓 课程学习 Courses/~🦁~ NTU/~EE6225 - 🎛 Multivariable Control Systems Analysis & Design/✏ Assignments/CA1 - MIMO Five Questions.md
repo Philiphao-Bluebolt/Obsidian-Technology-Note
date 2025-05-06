@@ -1,4 +1,3 @@
-ZHENG ZHENHAO - G2402550D
 
 + Q1 - [Direct Synthesis Method (DSM)](#Direct%20Synthesis%20Method%20(DSM))
 	1. [PID Controller Design](#PID%20Controller%20Design)

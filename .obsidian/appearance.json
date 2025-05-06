@@ -1,6 +1,8 @@
 {
-  "accentColor": "",
+  "accentColor": "#437bd6",
   "textFontFamily": "",
   "nativeMenus": false,
-  "theme": "moonstone"
+  "theme": "moonstone",
+  "baseFontSize": 16,
+  "cssTheme": ""
 }

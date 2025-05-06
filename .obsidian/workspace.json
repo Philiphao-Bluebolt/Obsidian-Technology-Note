@@ -46,30 +46,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - ⌨ 高级语言编程 High-level Programming/🎯 练习/🛶 Leetcode 算法题/🛶 Leetcode 题目笔记.md",
+                "file": "01 - ⌨ 高级语言编程 High-level Programming/🛶 Leetcode 练习/🛶 Leetcode 题目笔记.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
               "title": "🛶 Leetcode 题目笔记"
-            }
-          },
-          {
-            "id": "6f0ec20673ecf442",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - ⌨ 高级语言编程 High-level Programming/1 - 🐍 Python/🐍 Python 基础入门.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "🐍 Python 基础入门"
             }
           },
           {
@@ -89,95 +72,81 @@
             }
           },
           {
-            "id": "a215b90ff4cabf0d",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03 - 🤖 机器人 Robot/3 - 💾 软件工具 Robot Software/🖥 机器人操作系统 ROS/~🤖~ ROS 基础.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "~🤖~ ROS 基础"
-            }
-          },
-          {
             "id": "b87ed8d2acec5379",
             "type": "leaf",
             "pinned": true,
             "state": {
+              "type": "empty",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "2e8ae18322494c5f",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "$1 - 🧸 具身智能 Embodied AI/🧸 具身智能 - 技术栈精进.md",
+                "file": "$$ - 🧸 具身智能 Embodied AI/🦶 文献调研 - 足式机器人.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "🧸 具身智能 - 技术栈精进"
+              "title": "🦶 文献调研 - 足式机器人"
             }
           },
           {
-            "id": "5d1ab09da2d5fc52",
+            "id": "39c1529eb141c30e",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "07 - 💾 计算机科学 Computer Science/🟠 Ubuntu Linux/~🟠~ Ubuntu 基本教程.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "~🟠~ Ubuntu 基本教程"
+            }
+          },
+          {
+            "id": "e8b52001365e0689",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "$$ - 🧸 具身智能 Embodied AI/🧪 研究计划.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "🧪 研究计划"
+            }
+          },
+          {
+            "id": "260c0ec78a1ae165",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🎓 课程学习 Courses/⚙ HIT/机器人学导论 Basic Robotics/3. 机器人运动学 Robot Kinematics/~机器人运动学总览~.md",
+                "file": "🎓 课程学习 Courses/~🦁~ NTU/~EE7207 - 🔮 Neural Networks & Deep Learning/~📽~ Slides/Part 3 - GNN, Vision, Advanced Topics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "~机器人运动学总览~"
-            }
-          },
-          {
-            "id": "457de5dfe4611d2d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🎓 课程学习 Courses/~🦁~ NTU/👨‍🎓 NTU Events 🍽.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "👨‍🎓 NTU Events 🍽"
-            }
-          },
-          {
-            "id": "40641eb3403c61b5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - ⌨ 高级语言编程 High-level Programming/1 - 🐍 Python/🐍 Python 基础入门.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "🐍 Python 基础入门"
-            }
-          },
-          {
-            "id": "166565aa3333df14",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "💳 职业规划 Career/👔 简历补充.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "👔 简历补充"
+              "title": "Part 3 - GNN, Vision, Advanced Topics"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -234,7 +203,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 325.5
+    "width": 361.5
   },
   "right": {
     "id": "7183c1e02ba22b3a",
@@ -250,7 +219,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "$1 - 🧸 具身智能 Embodied AI/🧸 具身智能 - 技术栈精进.md",
+                "file": "07 - 💾 计算机科学 Computer Science/🟠 Ubuntu Linux/⚙ 安装配置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -260,7 +229,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 🧸 具身智能 - 技术栈精进"
+              "title": "Backlinks for ⚙ 安装配置"
             }
           },
           {
@@ -296,16 +265,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 - 🤖 机器人 Robot/3 - 💾 软件工具 Robot Software/🖥 机器人操作系统 ROS/~🤖~ ROS 基础.md",
+                "file": "💳 职业规划 Career/🗂 2025简历投递.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ~🤖~ ROS 基础"
+              "title": "Outline of 🗂 2025简历投递"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -322,53 +292,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "68ff85d3dbf2e377",
+  "active": "260c0ec78a1ae165",
   "lastOpenFiles": [
-    "💳 职业规划 Career/👔 简历补充.md",
-    "{🔗} 链接 Link/✨ 常用页面.md",
-    "01 - ⌨ 高级语言编程 High-level Programming/1 - 🐍 Python/🐍 Python 基础入门.md",
-    "🎓 课程学习 Courses/~🦁~ NTU/💥 Deadlines 💥.md",
-    "🎓 课程学习 Courses/~🦁~ NTU/👨‍🎓 NTU Events 🍽.md",
-    "💳 职业规划 Career/🗂 2025简历投递.md",
+    "$$ - 🧸 具身智能 Embodied AI/~🧸~ 具身智能技术栈.md",
+    "$$ - 🧸 具身智能 Embodied AI/🍖 代码复现.md",
+    "07 - 💾 计算机科学 Computer Science/🟠 Ubuntu Linux/~🟠~ Ubuntu 基本教程.md",
+    "$$ - 🧸 具身智能 Embodied AI/🧪 研究计划.md",
+    "$$ - 🧸 具身智能 Embodied AI/🦶 文献调研 - 足式机器人.md",
     "01 - ⌨ 高级语言编程 High-level Programming/2 - 🎧 C++/🎧 C++ 基础入门.md",
-    "03 - 🤖 机器人 Robot/3 - 💾 软件工具 Robot Software/🖥 机器人操作系统 ROS/~🤖~ ROS 基础.md",
-    "$1 - 🧸 具身智能 Embodied AI/🧸 具身智能 - 技术栈精进.md",
-    "🎓 课程学习 Courses/⚙ HIT/机器人学导论 Basic Robotics/3. 机器人运动学 Robot Kinematics/~机器人运动学总览~.md",
-    "03 - 🤖 机器人 Robot/3 - 💾 软件工具 Robot Software/🌌 仿真器 Simulator/📜 仿真文件格式 Simulation File Format.md",
-    "🎓 课程学习 Courses/⚙ HIT/机器人学导论 Basic Robotics/考试A4大抄.md",
-    "01 - ⌨ 高级语言编程 High-level Programming/🎯 练习/🛶 Leetcode 算法题/🛶 Leetcode 题目笔记.md",
-    "🎓 课程学习 Courses/~🦁~ NTU/~EE6225 - 🎛 Multivariable Control Systems Analysis & Design/✏ Assignments/CA1 - MIMO Five Questions.md",
-    "🛠 软件工具 Software Tools/⚛ Obsidian/Markdown 基础排版语法.md",
-    "🛠 软件工具 Software Tools/⚛ Obsidian/Welcome to 笔记转移计划.md",
-    "🛠 软件工具 Software Tools/⚛ Obsidian/Obsidian 扩展语法.md",
-    "01 - ⌨ 高级语言编程 High-level Programming/4 - 📊 Matlab/📦 Simulink.md",
-    "12 - 📐 数学 Maths/3 - 🌠 线性代数 Linear Algebra/⚙ 矩阵运算 Matrix Operations.md",
-    "🎓 课程学习 Courses/~🦁~ NTU/~EE6225 - 🎛 Multivariable Control Systems Analysis & Design/~📜~ Notes/Part 3 - MIMO System.md",
-    "Files/Pasted image 20250421112817.png",
-    "Files/Pasted image 20250421112801.png",
-    "Files/Pasted image 20250421112654.png",
-    "Files/Pasted image 20250421111029.png",
-    "Files/Pasted image 20250421111011.png",
-    "Files/Pasted image 20250421110838.png",
-    "Files/Pasted image 20250421110820.png",
-    "🎓 课程学习 Courses/~🦁~ NTU/~EE6225 - 🎛 Multivariable Control Systems Analysis & Design/~📽~ Slides/System Recognition.md",
-    "🎓 课程学习 Courses/~🦁~ NTU/~EE6225 - 🎛 Multivariable Control Systems Analysis & Design/~📽~ Slides/MIMO.md",
-    "02 - 🚂 控制科学 Control Engineering/🪁 控制算法 Control Algorithm/~🪁~ 控制算法收录.md",
-    "Files/Pasted image 20250420233318.png",
-    "Files/Pasted image 20250420233006.png",
-    "Files/Pasted image 20250420232659.png",
-    "🛠 软件工具 Software Tools/⚛ Obsidian/LaTeX 数学公式语法.md",
-    "🎭 自我调节区 Self-comforting Zone.md",
-    "02 - 🚂 控制科学 Control Engineering/⚔ 控制理论 Control Theory/~🧩~ 控制理论 Control Theory.md",
+    "01 - ⌨ 高级语言编程 High-level Programming/🛶 Leetcode 练习/🛶 Leetcode 题目笔记.md",
+    "💳 职业规划 Career/🗂 2025简历投递.md",
+    "$$ - 🧸 具身智能 Embodied AI/🛠 求职 - 技术栈需求.md",
+    "01 - ⌨ 高级语言编程 High-level Programming/🎯 练习/算法复现/🥏 模型预测控制（MPC）复现.md",
+    "01 - ⌨ 高级语言编程 High-level Programming/🎯 练习/算法复现/✂ 卷积神经网络（CNN）复现.md",
+    "01 - ⌨ 高级语言编程 High-level Programming/🎯 练习/算法复现/📏 支持向量机（SVM）复现.md",
+    "{🔗} 链接 Link/✨ 常用页面.md",
+    "🎓 课程学习 Courses/~🦁~ NTU/~EE7207 - 🔮 Neural Networks & Deep Learning/~📜~ Notes/Part 3 - Graph Neural Network.md",
+    "04 - 👁‍🗨 人工智能 Artificial Intelligence/🎰 传统机器学习 Classical Machine Learning/🎰 传统机器学习算法 Traditional ML Algorithms.md",
+    "04 - 👁‍🗨 人工智能 Artificial Intelligence/🕸 神经网络 Neural Network/🕸 神经网络架构 Architecture of Neural Networks.md",
+    "🎓 课程学习 Courses/~🦁~ NTU/~EE7207 - 🔮 Neural Networks & Deep Learning/🏆 Exams/22-23 S1.md",
+    "🎓 课程学习 Courses/~🦁~ NTU/~EE7207 - 🔮 Neural Networks & Deep Learning/🏆 Exams/23-24 S2.md",
+    "🎓 课程学习 Courses/~🦁~ NTU/~EE7207 - 🔮 Neural Networks & Deep Learning/~📽~ Slides/Part 2 - NLP.md",
+    "🎓 课程学习 Courses/~🦁~ NTU/~EE7207 - 🔮 Neural Networks & Deep Learning/~📽~ Slides/Part 3 - GNN, Vision, Advanced Topics.md",
+    "🎓 课程学习 Courses/~🦁~ NTU/~EE7207 - 🔮 Neural Networks & Deep Learning/~📜~ Notes/Part 1 - Common Neural Networks.md",
+    "03 - 🤖 机器人 Robot/~🤖~ 机器人技术总览 Robot Technology.md",
+    "🎓 课程学习 Courses/~🦁~ NTU/~EE7207 - 🔮 Neural Networks & Deep Learning/~📜~ Notes/Part 2 - Natural Language Processing.md",
+    "🎓 课程学习 Courses/~🦁~ NTU/~EE6407 - 🧬 Genetic Algorithms & Machine Learning/~📜~ Notes/Part 3 - Classification.md",
+    "01 - ⌨ 高级语言编程 High-level Programming/1 - 🐍 Python/🐍 Python 基础入门.md",
+    "04 - 👁‍🗨 人工智能 Artificial Intelligence/🎭 强化学习 Reinforcement Learning/~🎭~ 强化学习基础.md",
+    "Files/Pasted image 20250505211926.png",
+    "Files/Pasted image 20250505211251.png",
+    "Files/robotics/embedded_ai_tech_tree.drawio",
+    "Files/Pasted image 20250505120521.png",
+    "Files/Pasted image 20250504214335.png",
+    "Files/Pasted image 20250504214037.png",
+    "Files/Pasted image 20250504214026.png",
+    "Files/Pasted image 20250504170753.png",
+    "Files/Pasted image 20250504165527.png",
+    "Files/66932359.pdf",
+    "Files/65821737.pdf",
+    "Files/66085473.pdf",
+    "Files/Pasted image 20250430233245.png",
+    "Files/Pasted image 20250430180759.png",
+    "Files/automation-graph/mimo.drawio",
+    "🧬 学术研究 Research/文献阅读/机器人论文",
+    "$$ - 🧸 具身智能 Embodied AI/文献",
     "Files/EE 6225_Assignment1_020425 (1).pdf",
     "Files/66725175.pdf",
-    "Files/66571884.pdf",
-    "12 - 📐 数学 Maths/9 - 🦪 抽象代数 Abstract Algebra",
-    "🧬 学术研究 Research/文献阅读",
-    "Files/66535367.pdf",
-    "Files/66535365.pdf",
-    "12 - 📐 数学 Maths/8 - 🥨 拓扑学 Topology",
-    "Files/66810331.pdf",
-    "03 - 🤖 机器人 Robot/4 - 🎛 控制方法 Control Method/Untitled"
+    "Files/66571884.pdf"
   ]
 }

@@ -1,4 +1,4 @@
-+ 教程：[Beginner](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
++ **参考**：[官方教程](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)、[60个常用命令](https://www.youtube.com/watch?v=gd7BXuUQ91w&ab_channel=NetworkChuck)
 + 文档：📜 [Bash](https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html)
 
 Ubuntu大部分操作使用命令行控制，包括文件管理、软件下载、程序执行、系统设置等，此惯例源于没有图形化界面的早期Unix系统。命令行使用的语法基于Bash或Shell脚本语言

@@ -8,7 +8,7 @@
 + **按结构**
 	+ 浅层：[SOM](#SOM) | [RBF](#RBF)
 	+ 单向：[MLP](#MLP) | [CNN](#CNN)（）
-	+ 序列：[RNN](#RNN) | LSTM
+	+ 序列：[RNN](#RNN)（Vallina | Hopfield | BAM | LSTM | GRU）
 	+ [GNN](#GNN) | GCN
 	+ [Autoencoder](#Autoencoder)
 	+ [GAN](#GAN)
@@ -17,7 +17,7 @@
 	+ （Generative Pretrained Transformer）
 	+ **BERT**（Bidirectional Encoder Representations from Transformers）
 + **按用途**
-	+ **图像处理**：
+	+ **图像处理**：CNN | ResNet
 	+ **自然语言处理**：GPT | BERT
 	+ ****
 

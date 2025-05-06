@@ -1,3 +1,0 @@
-+ **Type** - supervised learning
-
----

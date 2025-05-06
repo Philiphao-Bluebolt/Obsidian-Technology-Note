@@ -607,6 +607,7 @@ Python官方及社区共同维护一系列功能强大的库
 | ⛳ [Gymnasium](https://gymnasium.farama.org/)                                 | `gymnasium` (`gym`) | 强化学习环境测试框架    |                                 |
 | 🦁 [PettingZoo](https://pettingzoo.farama.org/index.html)                    | `pettingzoo`        | 强化学习多智能体环境    |                                 |
 | 🏀 [Stable Baselines](https://stable-baselines3.readthedocs.io/en/master/)   | `stable_baselines3` | 强化学习算法封装      |                                 |
+| 💬 [NLTK](https://www.nltk.org/)                                             | `nltk`              | 自然语言处理工具      |                                 |
 | 🔫 [PyBullet](https://pybullet.org/wordpress/index.php/forum-2/)             | `pybullet` (`p`)    | 3D物理仿真器       |                                 |
 | 🖼 [OpenCV](https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)        | `cv2`               | 计算机视觉、图像处理    | [[OpenCV Python 基本教程\| OpenCV]] |
 | 🎛 [Control](https://python-control.readthedocs.io/en/0.10.1/#)              | `control`(`ct`)     | 控制器设计、仿真、分析   |                                 |

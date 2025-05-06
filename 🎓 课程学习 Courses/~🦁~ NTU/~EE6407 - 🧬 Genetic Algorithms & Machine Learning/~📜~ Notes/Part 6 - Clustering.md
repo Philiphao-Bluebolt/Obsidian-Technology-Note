@@ -18,11 +18,12 @@ Clustering is one of the two topics of unsupervised learning (another is associa
 	+ [Density-based Clustering](#Density-based%20Clustering)
 		+ [DBSCAN](#DBSCAN)
 + **Evalution**
-	+ [Silhouette Coefficient](#Silhouette%20Coefficient)
-	+ [Dunn Index](#Dunn%20Index)
-	+ [Davies-Bouldin Index](#Davies-Bouldin%20Index)
-	+ [Calinski-Harabasz Index](#Calinski-Harabasz%20Index)
-	+ [Rand Index](#Rand%20Index)
+	+ [Clustering Evaluation](#Clustering%20Evaluation)
+		+ [Silhouette Coefficient](#Silhouette%20Coefficient)
+		+ [Dunn Index](#Dunn%20Index)
+		+ [Davies-Bouldin Index](#Davies-Bouldin%20Index)
+		+ [Calinski-Harabasz Index](#Calinski-Harabasz%20Index)
+		+ [Rand Index](#Rand%20Index)
 
 ---
 ## Minkowski Distance
@@ -73,7 +74,7 @@ Centroids-based methods divide the data into non-hierarchical groups by assignin
 
 + **Hyperparameters** - Cluster Number $k$
 
-K-means clustering is based on the process of moving centroids. In every steps, all the sample points are assigned to the nearest centroid and thus, form clusters. After assignment, new centroids are updated as the mean vector of each cluster.
+K-means clustering is based on the process of moving centroids. In every steps, all the sample points are assigned to the nearest centroid and thus, form clusters. After the assignment, new centroids are updated as the mean vector of each cluster.
 
 > [!NOTE] K-means Algorithms
 > + Randomly generate $k$ inital centroids
@@ -85,9 +86,9 @@ It's crucial to properly set the number of clusters $k$ for the best performance
 
 The meaning of WSCC is simply the sum of Euclidean distances between all sample and their cluster centroids.
 
-+ **WSCC** (Within Cluster Sum of Squares)
+> **WSCC** (Within Cluster Sum of Squares)
 $$\mathrm{WSCC}=\sum_{i=1}^k(\sum_{x_j\in{D_i}}||x_j-m_i||_2)$$
-+ **Elbow Method** - Choose the number of clusters $k$ at the **inflection point** (elbow point) of WCSS-$k$ function. 
+> **Elbow Method** - Choose the number of clusters $k$ at the **inflection point** (elbow point) of WCSS-$k$ function. 
 
 
 ![](Pasted%20image%2020250415115219.png)
@@ -194,26 +195,43 @@ The selection of parameters is based on experience
 + $M$ - usually $M=2N$ ($N$ is the dataset dimension), larger value should be used for noisy data
 + $\varepsilon$ - using elbow method on the $k$ - $\varepsilon$ function ($k=M-1$)
 
----
-## Silhouette Coefficient
-
-
 
 
 ---
-## Dunn Index
+## Clustering Evaluation
+
++ **Goal** - evaluation of results of the clustering algorithm
+
+Intuitively, a good clustering result should have the following characteristics
+
++ **Within-Cluster Cohesion** - samples in the same cluster are near each other
++ **Between-Cluster Seperation** - any two samples from different clusters are distant
+
+There are five common clustering evaluation criterions. Assuming there are 
+
++ $N$ samples in total 
++ $K$ clusters formed 
++ $n_i$ samples in each cluster $i$
++ $m_i$ is the centroid of cluster $i$
+
+> **Silhouette Coefficient**
+$$\mathrm{SC}=\frac{1}{N}\sum_{i=1}^N\frac{b_i-a_i}{\max\{a_i,b_i\}}$$
++ $a_i$ - average distance of current sample $i$ and every other samples within the **same cluster**
++ $b_i$ - the **minimum** distance of $a_i$ and the samples of **other clusters**
+
+The range of Silhouette Coefficient is within $[-1, 1]$, higher means better
+
+> **Dunn Index**
+$$\mathrm{DI}=\frac{\min_{p,q\in K} d_{pq}}{\max_{p\in K}\delta_p}$$
++ $d_{pq}$ - the simple linkage (smallest sample pair distance) between cluster $p$ and $q$ 
++ $\delta_p$ - the largest sample pair distance within cluster $p$ 
+
+> **Davies-Bouldin Index**
 
 
 
----
-## Davies-Bouldin Index
+> **Calinski-Harabasz Index**
 
 
 
----
-## Calinski-Harabasz Index
-
-
-
----
-## Rand Index
+> **Rand Index**

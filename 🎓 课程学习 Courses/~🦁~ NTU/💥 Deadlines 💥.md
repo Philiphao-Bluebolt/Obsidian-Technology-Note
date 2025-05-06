@@ -25,11 +25,14 @@
 ## 🏆 Exams 
 
 | Done | Date  | Course                                             | Time          | Location |
-| ---- | ----- | -------------------------------------------------- | ------------- | -------- |
-|      | 05/02 | 🎛 Multivariable Control Systems Analysis & Design | 14:30 - 17:30 |          |
+| :--: | ----- | -------------------------------------------------- | ------------- | -------- |
+|  ✅   | 05/02 | 🎛 Multivariable Control Systems Analysis & Design | 14:30 - 17:30 |          |
 |      | 05/06 | 🧬 Genetic Algorithms & Machine Learning           | 9:00 - 12:00  |          |
 |      | 05/07 | 🔮 Neural Networks & Deep Learning                 | 9:00 - 12:00  |          |
 |      | 05/08 | 📸 Machine Vision                                  | 9:00 - 12:00  |          |
+
+![](Pasted%20image%2020250430233245.png)
+
 
 
 ## 📖 Revision Progress
@@ -43,7 +46,11 @@
 |         |    ⭕     |   🎛   |  5   | MPC Incoporate Constrait                                 |
 |         |    ⭕     |   🎛   |  6   | MPC Feedforward                                          |
 |         |    ⭕     |   🎛   |  7   | System Identification                                    |
-|         |          |   🎛   |  8   |                                                          |
+|         |          |   🎛   |  8   | MIMO Model                                               |
+|         |          |        |  9   | PID, DSM, IMC, IMC Based PID, Smith Predictor            |
+|         |          |        |  10  | Cascade, Feedforward, Ratio, Split Range                 |
+|         |          |        |  11  | Multiloop Interaction Dynamics, RGA, Decoupling,         |
+|         |          |        |  12  |                                                          |
 |         |          |        |      |                                                          |
 |    ✅    |    ⭕     |   🧬   |  A   | [[Part 1 - Genetic Algorithm\|Genetic Algorithm]]        |
 |         |    ⭕     |   🧬   |  1   | Introduction to Machine Learning                         |
@@ -70,6 +77,7 @@
 |         |          |   🔮   |  11  | Graph neural networks                                    |
 |         |          |   🔮   |  12  | Deep neural network applications                         |
 |         |          |   🔮   |  13  | Advanced topics and discussions                          |
+|         |          |        |      |                                                          |
 |    ✅    |    ⭕     |   📸   |  1   | Image Fundamentals and Human Perception                  |
 |    ✅    |    ⭕     |   📸   |  2   | LSI Systems and Transforms                               |
 |    ✅    |    ⭕     |   📸   |  3   | Image Denoising and Enhancement                          |
