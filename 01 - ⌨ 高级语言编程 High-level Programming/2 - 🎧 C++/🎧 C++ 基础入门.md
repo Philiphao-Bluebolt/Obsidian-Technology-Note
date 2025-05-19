@@ -188,4 +188,5 @@ int main() {
 | [Dlib](https://dlib.net/)                   | 机器学习    |
 | [PyTorch C++](https://pytorch.org/cppdocs/) | 机器学习    |
 | Robotics Library                            |         |
+| OCS2                                        |         |
 

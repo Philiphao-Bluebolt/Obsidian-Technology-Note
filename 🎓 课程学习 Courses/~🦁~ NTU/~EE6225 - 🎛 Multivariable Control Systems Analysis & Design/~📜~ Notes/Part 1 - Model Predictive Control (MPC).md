@@ -126,7 +126,9 @@ The state space model of the plant
 
 + **Characteristics** - increment $\Delta \hat{u}$ as input instead of $\hat{u}$
 
-We can use the control input increment $\Delta u(k)$ instead of $u(k)$ in the state space representation of the plant. This form simplifies the calculation of prediction equation $\hat{Y}=F+G\hat{U}$
+We can use the control input increment $\Delta u(k)$ instead of $u(k)$ in the state space representation of the plant. This form simplifies the calculation of prediction equation $\hat{Y}=F+G\hat{U}$ since we don't need to transfer the input into increment.
+
+
 
 
 

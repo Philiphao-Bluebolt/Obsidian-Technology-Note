@@ -11,13 +11,16 @@ Neural Network is the subfield of Artificial Intelligence and Machine Learning. 
 	+ [RBF Architecture](#RBF%20Architecture)
 	+ [RBF Training](#RBF%20Training)
 + **Support Vector Machines (SVM)**
-	+ 
+	+ Basic SVM 
+	+ Unseperatable SVM
+	+ Nonlinear SVM
 + **Multilayer Perceptron Neural Networks (MLP)**
-
+	+ 
 + **Convolution Neural Network (CNN)**
 
 + **Recurrent Neural Network (RNN)**
-
+	+ Hopfield Network
+	+ Bidirectional Associative Memory (BAM)
 
 ---
 ## Neuron Model
