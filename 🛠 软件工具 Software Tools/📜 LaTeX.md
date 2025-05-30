@@ -1,2 +1,2 @@
-+ **编辑器**：[Overleaf](www.overleaf.com)、VScode LaTeX
++ **编辑器**：[Overleaf](https://www.overleaf.com/project)、VScode LaTeX
 

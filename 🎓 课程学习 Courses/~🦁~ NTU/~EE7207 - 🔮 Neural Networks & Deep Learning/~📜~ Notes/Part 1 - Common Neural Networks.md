@@ -17,7 +17,7 @@ Neural Network is the subfield of Artificial Intelligence and Machine Learning. 
 + **Multilayer Perceptron Neural Networks (MLP)**
 	+ 
 + **Convolution Neural Network (CNN)**
-
+	+ 
 + **Recurrent Neural Network (RNN)**
 	+ Hopfield Network
 	+ Bidirectional Associative Memory (BAM)

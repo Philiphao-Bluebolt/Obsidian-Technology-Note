@@ -32,7 +32,7 @@ import  rospy
 
 若Python的Anaconda虚拟环境的版本与ROS使用的Python版本冲突，会导致节点无法完成初始化
 
-+ 参见：[[Anaconda - Conda：虚拟环境及包管理#与ROS共存]]
++ 参见：[[01 - ⚙ 开发环境配置#与ROS共存]]
 
 ---
 ## 对比

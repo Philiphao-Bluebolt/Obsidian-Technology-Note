@@ -4,7 +4,7 @@
 Python是一门**解释型**面向对象脚本~~胶水~~高级编程语言，因其语法简单、扩展库丰富而受到广大开发者的欢迎，在数据分析、机器学习、应用开发等领域较为流行
 
 + ⚙ **开发环境配置**（[总览](#开发环境配置%20Environment%20Setup) | [解释器](#解释器%20Interpreter) | [IDE](#集成开发环境%20IDE)）
-	+ 🧊 Pip - [PyPi](#Pip%20-%20PyPi) |
+	+ 🧊 Pip - [PyPi](#Pip%20-%20PyPi) | 
 	+ 🐍 Conda - [安装](#安装) | 
 + 📐 **变量类型及运算**（[总览](#变量类型及运算%20Variables%20&%20Operations) | [赋值](#赋值%20Assignment) | [引用](#引用%20Reference) | [作用域](#作用域%20Scope) | [类型转换](#类型转换%20Type%20Conversion)）
 	+ 🚙 单值 - [布尔型](#布尔型%20Boolean) | [数值型](#数值型%20Value)（[整型](#整型%20Integer) | [浮点型](#浮点型%20Float) | [复数](#复数%20Complex)）
@@ -17,7 +17,7 @@ Python是一门**解释型**面向对象脚本~~胶水~~高级编程语言，因
 	+ 💻 命令行 - [文本](#文本输出%20Text%20Output) | [表格](#表格%20Table) | [进度条](#进度条%20Progress%20bar) | 命令传参
 	+ 📁 文件 - 路径 | 纯文本 | 图片 | 其他
 + 📦 **代码封装**（[总览](#代码封装%20Encapsulation)）
-	+ 📞 函数 - [自定义](#自定义函数%20Custom%20Functions) | [内函数](#内函数%20Nested%20Function) | [Lambda](#Lambda%20表达式) | 递归 | [原生函数](#原生函数%20Built-in%20Functions)
+	+ 📞 函数 - [自定义](#自定义函数%20Custom%20Functions) | [内函数](#内函数%20Nested%20Function) | [Lambda](#Lambda%20表达式) | 递归 | [原生函数](#原生函数%20Built-in%20Functions) | 异步
 	+ 🕹 类 - 自定义（继承 | 实例化）| 成员（属性 | 方法）
 	+ 🚀 方法 - [修饰器](#修饰器%20Decorator) | 抽象 | 私有 | 运算符重载
 + 🗃 **库与模块**（[总览](#库和模块%20Package%20&%20Module) | [导入](#模块导入%20Import%20Modules)）
@@ -614,6 +614,7 @@ Python官方及社区共同维护一系列功能强大的库
 | 🚢 [Simple PID](https://simple-pid.readthedocs.io/en/latest/user_guide.html) | `simple_pid`        | 简单PID控制器实现    |                                 |
 | 🧊 [CVXPY](https://www.cvxpy.org/)                                           | `cvxpy`(`cp`)       | 凸优化           |                                 |
 | 🧮 [Sympy](https://www.sympy.org/en/index.html)                              | `sympy`             | 数学表达式对象       |                                 |
+| [HTTPx]()                                                                    | `httpx`             |               |                                 |
 
 + **Top Down 分类学习**
 	+ [Python 数据分析](📊%20Python%20数据分析.md)（🗃📈🌊📊🎰🌱）

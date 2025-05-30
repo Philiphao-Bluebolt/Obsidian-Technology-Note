@@ -41,6 +41,7 @@
 + 资料整理
 	+ [开源机器人项目整理 曹力科](https://www.zhihu.com/question/37075464/answer/888185845)
 	+ [具身智能技术入门指南](https://github.com/TianxingChen/Embodied-AI-Guide)
+	+ [模型和算法](https://www.zhihu.com/question/655570660/answer/87040917575)
 	+ [Awesome Robotics](https://github.com/kiloreux/awesome-robotics)
 	+ [书籍](https://zhuanlan.zhihu.com/p/144466970)
 + Bilibili 

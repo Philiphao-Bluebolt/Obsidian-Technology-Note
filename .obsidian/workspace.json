@@ -8,6 +8,22 @@
         "type": "tabs",
         "children": [
           {
+            "id": "f50d9f9884a279e7",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~🔰 活跃任务 🔰~.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "~🔰 活跃任务 🔰~"
+            }
+          },
+          {
             "id": "3363947255cf2c98",
             "type": "leaf",
             "pinned": true,
@@ -24,51 +40,19 @@
             }
           },
           {
-            "id": "68ff85d3dbf2e377",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "💳 职业规划 Career/🗂 2025简历投递.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "🗂 2025简历投递"
-            }
-          },
-          {
-            "id": "38961ff4a38296e9",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - ⌨ 高级语言编程 High-level Programming/🛶 Leetcode 练习/🛶 Leetcode 题目笔记.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "🛶 Leetcode 题目笔记"
-            }
-          },
-          {
             "id": "31bd400808365ff5",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - ⌨ 高级语言编程 High-level Programming/2 - 🎧 C++/🎧 C++ 基础入门.md",
+                "file": "01 - ⌨ 高级语言编程 High-level Programming/2 - 🎧 C++/$$ - 🎧 C++ 基础入门.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "🎧 C++ 基础入门"
+              "title": "$$ - 🎧 C++ 基础入门"
             }
           },
           {
@@ -78,13 +62,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "$$ - 🧸 具身智能 Embodied AI/🧪 研究计划.md",
+                "file": "$$ - 🧸 具身智能 Embodied AI/3 - 🧪 研究计划.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "🧪 研究计划"
+              "title": "3 - 🧪 研究计划"
             }
           },
           {
@@ -104,63 +88,34 @@
             }
           },
           {
-            "id": "9283544d9d0e6791",
+            "id": "ea7cfff5620d19f1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "$$ - 🧸 具身智能 Embodied AI/📰 技术辞典.md",
+                "file": "$$ - 🧸 具身智能 Embodied AI/🧩 新技术/MCP（Model Context Protocol）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "📰 技术辞典"
+              "title": "MCP（Model Context Protocol）"
             }
           },
           {
-            "id": "b82d66c03c6a7a59",
+            "id": "b906bbd5b5125d6d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "$$ - 🧸 具身智能 Embodied AI/🦶 文献调研 - 足式机器人.md",
+                "file": "01 - ⌨ 高级语言编程 High-level Programming/2 - 🎧 C++/$$ - 🎧 C++ 基础入门.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "🦶 文献调研 - 足式机器人"
-            }
-          },
-          {
-            "id": "ca0ab97540414357",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "$$ - 🧸 具身智能 Embodied AI/👔 企业名单.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "👔 企业名单"
-            }
-          },
-          {
-            "id": "76588b16425db17d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "$$ - 🧸 具身智能 Embodied AI/~🧸~ 具身智能相关链接.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "~🧸~ 具身智能相关链接"
+              "title": "$$ - 🎧 C++ 基础入门"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -217,7 +172,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.5
+    "width": 361.5
   },
   "right": {
     "id": "7183c1e02ba22b3a",
@@ -279,13 +234,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💳 职业规划 Career/🗂 2025简历投递.md",
+                "file": "01 - ⌨ 高级语言编程 High-level Programming/🛶 Leetcode 练习/🛶 Leetcode 题目笔记.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 🗂 2025简历投递"
+              "title": "Outline of 🛶 Leetcode 题目笔记"
             }
           }
         ],
@@ -306,34 +261,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e8b52001365e0689",
+  "active": "f50d9f9884a279e7",
   "lastOpenFiles": [
-    "🧬 学术研究 Research/👨‍🔬 科研进组.md",
-    "$$ - 🧸 具身智能 Embodied AI/📰 技术辞典.md",
-    "$$ - 🧸 具身智能 Embodied AI/🦶 文献调研 - 足式机器人.md",
-    "$$ - 🧸 具身智能 Embodied AI/🧪 研究计划.md",
-    "$$ - 🧸 具身智能 Embodied AI/👔 企业名单.md",
-    "$$ - 🧸 具身智能 Embodied AI/~🧸~ 具身智能相关链接.md",
-    "🧬 学术研究 Research/文献阅读/📰 论文阅读.md",
-    "$$ - 🧸 具身智能 Embodied AI/🎓 学术灵感.md",
+    "PyTorch 基本教程.md",
+    "~🔰 活跃任务 🔰~.md",
+    "01 - ⌨ 高级语言编程 High-level Programming/2 - 🎧 C++/$$ - 🎧 C++ 基础入门.md",
+    "04 - 👁‍🗨 人工智能 Artificial Intelligence/🛠 工具/🔦 PyTorch 基本教程.md",
+    "01 - ⌨ 高级语言编程 High-level Programming/1 - 🐍 Python/$$ - 🐍 Python 基础入门.md",
+    "$$ - 🧸 具身智能 Embodied AI/🧩 新技术/MCP（Model Context Protocol）.md",
+    "🥽 每日论文阅读 Daily Paper Reading.md",
     "💳 职业规划 Career/🗂 2025简历投递.md",
-    "$$ - 🧸 具身智能 Embodied AI/🍖 代码复现.md",
-    "03 - 🤖 机器人 Robot/~🤖~ 机器人技术总览 Robot Technology.md",
-    "🛠 软件工具 Software Tools/📜 LaTeX.md",
-    "01 - ⌨ 高级语言编程 High-level Programming/2 - 🎧 C++/🎧 C++ 基础入门.md",
-    "01 - ⌨ 高级语言编程 High-level Programming/✨ 创意小项目/🧇 RLJoystick - 强化学习轻松打游戏.md",
-    "01 - ⌨ 高级语言编程 High-level Programming/✨ 创意小项目/🗂 镜驭 - 本地文件自动备份.md",
-    "🎓 课程学习 Courses/自学/~🎯~ 自学资料.md",
-    "01 - ⌨ 高级语言编程 High-level Programming/✨ 创意小项目/Untitled.md",
     "{🔗} 链接 Link/✨ 常用页面.md",
-    "$$ - 🧸 具身智能 Embodied AI/具身技术辞典.md",
-    "01 - ⌨ 高级语言编程 High-level Programming/🛶 Leetcode 练习/🛶 Leetcode 题目笔记.md",
-    "03 - 🤖 机器人 Robot/❔ 问题疑难.md",
-    "07 - 💾 计算机科学 Computer Science/🟠 Ubuntu Linux/~🟠~ Ubuntu 基本教程.md",
-    "🎢 技术随想 TechThink.md",
-    "🎓 课程学习 Courses/~🦁~ NTU/~EE6225 - 🎛 Multivariable Control Systems Analysis & Design/~📜~ Notes/Part 1 - Model Predictive Control (MPC).md",
-    "🎓 课程学习 Courses/~🦁~ NTU/~EE6225 - 🎛 Multivariable Control Systems Analysis & Design/~📜~ Notes/Part 2 - System Recognition.md",
-    "🎓 课程学习 Courses/~🦁~ NTU/~EE6225 - 🎛 Multivariable Control Systems Analysis & Design/~📜~ Notes/Part 3 - SISO Process System.md",
+    "🧬 学术研究 Research/👨‍🔬 科研进组.md",
+    "$$ - 🧸 具身智能 Embodied AI/3 - 🧪 研究计划.md",
+    "01 - ⌨ 高级语言编程 High-level Programming/🛶 习题/🛶 算法题目笔记.md",
+    "01 - ⌨ 高级语言编程 High-level Programming/5 - ☕ Java/~☕~ Java 基础入门.md",
+    "01 - ⌨ 高级语言编程 High-level Programming/4 - 📊 Matlab/04 - 📦 Simulink.md",
+    "01 - ⌨ 高级语言编程 High-level Programming/4 - 📊 Matlab/$$ - 📊 Matlab 基础教程.md",
+    "01 - ⌨ 高级语言编程 High-level Programming/1 - 🐍 Python/01 - ⚙ 开发环境配置.md",
+    "01 - ⌨ 高级语言编程 High-level Programming/1 - 🐍 Python/Pypi - Pip：包下载及管理工具.md",
+    "$$ - 🧸 具身智能 Embodied AI/1 - 📰 技术辞典.md",
+    "$$ - 🧸 具身智能 Embodied AI/~🧸~ 具身智能相关链接.md",
+    "$$ - 🧸 具身智能 Embodied AI/🥽 文献调研/$2 - 🧀 文献调研 - 材质识别.md",
+    "$$ - 🧸 具身智能 Embodied AI/🥽 文献调研/$1 - 🐄 文献调研 - 三维重建.md",
+    "$$ - 🧸 具身智能 Embodied AI/🥽 文献调研/$3 - 🦶 文献调研 - 足式机器人.md",
+    "$$ - 🧸 具身智能 Embodied AI/🥽 文献调研/Untitled.md",
+    "🛠 软件工具 Software Tools/🧱 Draw.io.md",
+    "🛠 软件工具 Software Tools/📰 Office - Word.md",
+    "🛠 软件工具 Software Tools/📻 NoMachine.md",
+    "$$ - 🧸 具身智能 Embodied AI/🧩 新技术",
+    "$$ - 🧸 具身智能 Embodied AI/🥽 文献调研",
+    "$$ - 🧸 具身智能 Embodied AI/文献调研",
     "Files/Pasted image 20250505211926.png",
     "Files/Pasted image 20250505211251.png",
     "Files/robotics/embedded_ai_tech_tree.drawio",
@@ -350,9 +308,6 @@
     "Files/Pasted image 20250430180759.png",
     "Files/automation-graph/mimo.drawio",
     "🧬 学术研究 Research/文献阅读/机器人论文",
-    "$$ - 🧸 具身智能 Embodied AI/文献",
-    "Files/EE 6225_Assignment1_020425 (1).pdf",
-    "Files/66725175.pdf",
-    "Files/66571884.pdf"
+    "$$ - 🧸 具身智能 Embodied AI/文献"
   ]
 }

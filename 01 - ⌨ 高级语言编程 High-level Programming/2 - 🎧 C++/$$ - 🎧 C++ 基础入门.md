@@ -12,12 +12,12 @@ C++是一门编译型面向对象语言，其语法规则基于C语言，是后�
 	+ 🧱 整合：结构体 | 枚举型
 	+ 💉 指向：引用 | 指针 | 智能指针 | 迭代器
 + 💬 **语法及逻辑**（总览）
-	+ 📜 语法：[命名空间](命名空间%20Namespace.md) | 
+	+ 📜 语法：[命名空间](#命名空间%20Namespace) | 
 	+ ⚖ 判断：条件 | 循环 | 基本算法
 + 💾 **输入及输出**
 	+ 💻 命令行：
 	+ 📁 文件：
-+ 📦 **函数**（总览）
++ 📦 **函数封装**（总览）
 	+ 标准库：
 	+ ☎ 自定义：定义 | 传参 | 
 + 🎮 **面向对象**（总览）
@@ -49,19 +49,21 @@ int a[5] = {1, 3, 5, 4, 2};
 ---
 ## 字符串 String
 
++ **参考**：
++ ****
+
 
 ---
 ## 向量 Vector
 
-+ **参考**：[CPlusPlus](https://cplusplus.com/reference/)、[W3Schools](https://www.w3schools.com/cpp/cpp_vectors.asp)
++ **参考**：[CPlusPlus](https://cplusplus.com/reference/vector/vector/)、[W3Schools](https://www.w3schools.com/cpp/cpp_vectors.asp)
 + **声明**：`vector<type>`
 
-向量是由标准库`<vector>`引入的长度可变数组，是C++最常见的容器之一。
+向量是由标准库`<vector>`引入的一种长度可变的数组，是C++最常用的容器之一。
 
-向量的声明
+### 向量的基本操作
 
-
-
+> **声明：**向量
 
 ```c++
 #include <vector>
@@ -77,7 +79,7 @@ int main()
 
 
 
-向量的基本操作
+
 
 + 声明
 	+ 一维：`vector<int>`、`vector<string>`
