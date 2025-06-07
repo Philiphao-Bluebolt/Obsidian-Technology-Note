@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f50d9f9884a279e7",
+            "id": "cb22384217fa4f55",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -40,19 +40,19 @@
             }
           },
           {
-            "id": "31bd400808365ff5",
+            "id": "f615295cdaa45d07",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - ⌨ 高级语言编程 High-level Programming/2 - 🎧 C++/$$ - 🎧 C++ 基础入门.md",
+                "file": "🧬 学术研究 Research/👨‍🔬 科研进组.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "$$ - 🎧 C++ 基础入门"
+              "title": "👨‍🔬 科研进组"
             }
           },
           {
@@ -72,38 +72,9 @@
             }
           },
           {
-            "id": "f615295cdaa45d07",
+            "id": "31bd400808365ff5",
             "type": "leaf",
             "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🧬 学术研究 Research/👨‍🔬 科研进组.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "👨‍🔬 科研进组"
-            }
-          },
-          {
-            "id": "ea7cfff5620d19f1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "$$ - 🧸 具身智能 Embodied AI/🧩 新技术/MCP（Model Context Protocol）.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "MCP（Model Context Protocol）"
-            }
-          },
-          {
-            "id": "b906bbd5b5125d6d",
-            "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
@@ -111,40 +82,42 @@
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "$$ - 🎧 C++ 基础入门"
             }
           },
           {
-            "id": "b8e3b2d631d681af",
+            "id": "3f0258141d412b67",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - 🤖 机器人 Robot/3 - 💾 软件工具 Robot Software/🌌 仿真器 Simulator/🏛 Gazebo/~🏛~ Gazebo 基础.md",
+                "file": "07 - 💾 计算机科学 Computer Science/⚔ 基本理论 Basic Theory/4 - 📦 数据结构 Data Structure/📦 数据结构及算法 Data Structures & Algorithms.md",
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "~🏛~ Gazebo 基础"
+              "title": "📦 数据结构及算法 Data Structures & Algorithms"
             }
           },
           {
-            "id": "64a55f286c63ec8b",
+            "id": "eb116f2ed5c8372e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "$$ - 🧸 具身智能 Embodied AI/🧩 新技术/MCP（Model Context Protocol）.md",
+                "file": "$$ - 🧸 具身智能 Embodied AI/🥽 文献调研/$1 - 🐄 文献调研 - 三维重建 与 材质识别.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MCP（Model Context Protocol）"
+              "title": "$1 - 🐄 文献调研 - 三维重建 与 材质识别"
             }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "vertical"
@@ -290,53 +263,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "64a55f286c63ec8b",
+  "active": "cb22384217fa4f55",
   "lastOpenFiles": [
-    "🧬 学术研究 Research/👨‍🔬 科研进组.md",
-    "$$ - 🧸 具身智能 Embodied AI/3 - 🧪 研究计划.md",
-    "03 - 🤖 机器人 Robot/3 - 💾 软件工具 Robot Software/🌌 仿真器 Simulator/🏛 Gazebo/~🏛~ Gazebo 基础.md",
-    "~🔰 活跃任务 🔰~.md",
-    "PyTorch 基本教程.md",
-    "01 - ⌨ 高级语言编程 High-level Programming/2 - 🎧 C++/$$ - 🎧 C++ 基础入门.md",
-    "04 - 👁‍🗨 人工智能 Artificial Intelligence/🛠 工具/🔦 PyTorch 基本教程.md",
-    "01 - ⌨ 高级语言编程 High-level Programming/1 - 🐍 Python/$$ - 🐍 Python 基础入门.md",
-    "$$ - 🧸 具身智能 Embodied AI/🧩 新技术/MCP（Model Context Protocol）.md",
+    "$$ - 🧸 具身智能 Embodied AI/🥽 文献调研/$1 - 🐄 文献调研 - 三维重建 与 材质识别.md",
+    "🎓 课程学习 Courses/📖 自学/~🎯~ 自学资料.md",
+    "09 - 🧱 三维建模 3D Modeling/🥨 Blender/常见需求/充气效果.md",
+    "09 - 🧱 三维建模 3D Modeling/三维文件格式.md",
+    "09 - 🧱 三维建模 3D Modeling/🍒 SolidWorks/~🍒~ SolidWorks 基本教程.md",
+    "07 - 💾 计算机科学 Computer Science/🌟 图形学 Computer Graphics",
+    "09 - 🧱 三维建模 3D Modeling/🍒 SolidWorks/📑 FAQ - SolidWork.md",
     "🥽 每日论文阅读 Daily Paper Reading.md",
-    "💳 职业规划 Career/🗂 2025简历投递.md",
-    "{🔗} 链接 Link/✨ 常用页面.md",
-    "01 - ⌨ 高级语言编程 High-level Programming/🛶 习题/🛶 算法题目笔记.md",
-    "01 - ⌨ 高级语言编程 High-level Programming/5 - ☕ Java/~☕~ Java 基础入门.md",
-    "01 - ⌨ 高级语言编程 High-level Programming/4 - 📊 Matlab/04 - 📦 Simulink.md",
-    "01 - ⌨ 高级语言编程 High-level Programming/4 - 📊 Matlab/$$ - 📊 Matlab 基础教程.md",
-    "01 - ⌨ 高级语言编程 High-level Programming/1 - 🐍 Python/01 - ⚙ 开发环境配置.md",
-    "01 - ⌨ 高级语言编程 High-level Programming/1 - 🐍 Python/Pypi - Pip：包下载及管理工具.md",
+    "~🔰 活跃任务 🔰~.md",
+    "07 - 💾 计算机科学 Computer Science/⚔ 基本理论 Basic Theory/4 - 📦 数据结构 Data Structure/📦 数据结构及算法 Data Structures & Algorithms.md",
     "$$ - 🧸 具身智能 Embodied AI/1 - 📰 技术辞典.md",
     "$$ - 🧸 具身智能 Embodied AI/~🧸~ 具身智能相关链接.md",
-    "$$ - 🧸 具身智能 Embodied AI/🥽 文献调研/$2 - 🧀 文献调研 - 材质识别.md",
-    "$$ - 🧸 具身智能 Embodied AI/🥽 文献调研/$1 - 🐄 文献调研 - 三维重建.md",
-    "$$ - 🧸 具身智能 Embodied AI/🥽 文献调研/$3 - 🦶 文献调研 - 足式机器人.md",
-    "$$ - 🧸 具身智能 Embodied AI/🥽 文献调研/Untitled.md",
-    "🛠 软件工具 Software Tools/🧱 Draw.io.md",
-    "🛠 软件工具 Software Tools/📰 Office - Word.md",
-    "$$ - 🧸 具身智能 Embodied AI/🧩 新技术",
-    "$$ - 🧸 具身智能 Embodied AI/🥽 文献调研",
-    "$$ - 🧸 具身智能 Embodied AI/文献调研",
+    "$$ - 🧸 具身智能 Embodied AI/3 - 🧪 研究计划.md",
+    "$$ - 🧸 具身智能 Embodied AI/2 - 🎓 学术灵感.md",
+    "Files/2407.09510v5.pdf",
+    "01 - ⌨ 高级语言编程 High-level Programming/1 - 🐍 Python/$$ - 🐍 Python 基础入门.md",
+    "{🔗} 链接 Link/✨ 常用页面.md",
+    "🧬 学术研究 Research/👨‍🔬 科研进组.md",
+    "01 - ⌨ 高级语言编程 High-level Programming/2 - 🎧 C++/$$ - 🎧 C++ 基础入门.md",
+    "01 - ⌨ 高级语言编程 High-level Programming/🛶 习题/0134 - 加油站 Gas Station.md",
+    "01 - ⌨ 高级语言编程 High-level Programming/🛶 习题/🛶 算法题目笔记.md",
+    "01 - ⌨ 高级语言编程 High-level Programming/🛶 习题/1218 - 最长定差子序列 Longest Arithmetic Subsequence of Given Difference.md",
+    "💳 职业规划 Career/🗂 简历投递.md",
+    "01 - ⌨ 高级语言编程 High-level Programming/🛶 习题/0135 - 分糖果 Candy.md",
+    "01 - ⌨ 高级语言编程 High-level Programming/🛶 习题/0189 - 数组循环移位 Rotate Array.md",
+    "01 - ⌨ 高级语言编程 High-level Programming/🛶 习题/0123 - 股票买卖3 Best Time to Buy and Sell Stock III.md",
+    "01 - ⌨ 高级语言编程 High-level Programming/🛶 习题/0122 - 股票买卖2 Best Time to Buy and Sell Stock II.md",
+    "01 - ⌨ 高级语言编程 High-level Programming/1 - 🐍 Python/01 - ⚙ 开发环境配置.md",
+    "Files/C3C21F00",
+    "Files/FFFA1000",
+    "Files/E7BA1000",
+    "Files/293B0000",
+    "Files/072B0000",
+    "Files/F02B0000",
+    "Files/5BD66520",
+    "Files/DE816520",
     "Files/Pasted image 20250505211926.png",
     "Files/Pasted image 20250505211251.png",
-    "Files/robotics/embedded_ai_tech_tree.drawio",
     "Files/Pasted image 20250505120521.png",
     "Files/Pasted image 20250504214335.png",
     "Files/Pasted image 20250504214037.png",
     "Files/Pasted image 20250504214026.png",
     "Files/Pasted image 20250504170753.png",
     "Files/Pasted image 20250504165527.png",
-    "Files/66932359.pdf",
-    "Files/65821737.pdf",
-    "Files/66085473.pdf",
     "Files/Pasted image 20250430233245.png",
-    "Files/Pasted image 20250430180759.png",
-    "Files/automation-graph/mimo.drawio",
-    "🧬 学术研究 Research/文献阅读/机器人论文",
-    "$$ - 🧸 具身智能 Embodied AI/文献"
+    "Files/Pasted image 20250430180759.png"
   ]
 }

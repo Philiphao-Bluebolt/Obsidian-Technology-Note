@@ -615,6 +615,7 @@ Python官方及社区共同维护一系列功能强大的库
 | 🧊 [CVXPY](https://www.cvxpy.org/)                                           | `cvxpy`(`cp`)       | 凸优化           |                                 |
 | 🧮 [Sympy](https://www.sympy.org/en/index.html)                              | `sympy`             | 数学表达式对象       |                                 |
 | [HTTPx]()                                                                    | `httpx`             |               |                                 |
+| [Open3D](https://www.open3d.org/docs/release/)                               |                     |               |                                 |
 
 + **Top Down 分类学习**
 	+ [Python 数据分析](📊%20Python%20数据分析.md)（🗃📈🌊📊🎰🌱）

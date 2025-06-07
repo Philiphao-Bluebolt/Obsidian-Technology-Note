@@ -21,80 +21,15 @@
 | 🔎  |                                             |             |       |     |
 | 🔎  |                                             |             |       |     |
 
+
+
 ---
-## 选择排序 Selection Sorting
-
-+ **参考**：
-
 
 
 
 
 ---
-## 冒泡排序 Bubbleing Sorting
 
-
----
-## 插入排序 Insertion Sorting
-
-
----
-## 合并排序 Merge Sorting
-
-
----
-## 快速排序 Quick Sorting
-
-
----
-## 二分查找 Binary Search
-
-+ **参考**：[Binary Search Algorithm](https://www.geeksforgeeks.org/binary-search/)
-+ **复杂度**：时间 $O(\log n)$ 、空间
-
-在一个**已排序**的序列中，每次只需检测正中间的元素便可将查找范围缩小一半，从而将时间复杂度降低到对数级别，这就是二分查找的基本思想，具体程序可以用递归或迭代实现。
-
-每一轮迭代的中位元素序号`mid`可以由子序列的最左侧元素序号`low`和最右侧元素序号`high`通过下列式子计算得到，这个结论同时适用于奇偶序列。
-
-```pseudo
-mid = low + (high - low) / 2
-```
-
-+ **Java**
-
-```java
-int binarySearch(int arr[], int x) 
-    {
-        int low = 0, high = arr.length - 1;
-        while (low <= high) {
-            int mid = low + (high - low) / 2;
-
-            if (arr[mid] == x) // Check if x is present at mid
-                return mid;
-
-            if (arr[mid] < x) // If x greater, ignore left half
-                low = mid + 1;
-
-            else // If x is smaller, ignore right half
-                high = mid - 1;
-        }
-
-        // If we reach here, then element was not present
-        return -1;
-    }
-```
-
-+ **C++**
-
-
-
-
----
-## 双指针搜索 Two Pointer
-
-+ **参考**：[Geeksforgeeks](https://www.geeksforgeeks.org/two-pointers-technique/)
-
-双指针搜索是一种在线性容器中搜寻元素对的方法，可以将朴素搜索的时间复杂度$O(n^2)$降低到线性级别$O(n)$，其核心思想是在遍历过程中跳过的元素对。
 
 
 

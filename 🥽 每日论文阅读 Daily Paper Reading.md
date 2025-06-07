@@ -1,11 +1,19 @@
 
-
++ **June** - [6](#^f25d12) - 
 + **May** - [28](#^36bea9) - [27](#^ec614e) 
 
 
 
 
+
+
 ---
+
+> **[3DGS.zip: A survey on 3D Gaussian Splatting Compression Method](https://arxiv.org/pdf/2407.09510)** ^f25d12
+
+这是一篇针对3DGS方法的综述，
+
+
 
 > **[A Multi-modal Approach to Continuous Material Identification through Tactile Sensing](https://arxiv.org/pdf/2311.03090)** ^36bea9
 
