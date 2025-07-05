@@ -1,10 +1,10 @@
 > "We should make machines think and work like mankind" —— 人工智能技术的终极目的
 
-+ **网站**：[Kaggle](https://www.kaggle.com/) | [Hugging Face](https://huggingface.co/)
++ **网站**：[Kaggle](https://www.kaggle.com/) · [Hugging Face](https://huggingface.co/)
 
-+ 🗺 [领域](#领域) - [四大](#四大领域%20AI-ML-NN-DL) | [[#]]
-+ 🛠 [[#工具]] - [网站](#网站%20Websites) | [开发库](#开发库%20Dev%20Packages)
-+ 📖 学习 - [陌生概念](#陌生概念%20Unfamiliar%20Concept) |
++ 🗺 [领域](#领域) - [四大](#四大领域%20AI-ML-NN-DL) · [[#]]
++ 🛠 [[#工具]] - [网站](#网站%20Websites) · [开发库](#开发库%20Dev%20Packages)
++ 📖 学习 - [陌生概念](#陌生概念%20Unfamiliar%20Concept) ·
 
 
 ---

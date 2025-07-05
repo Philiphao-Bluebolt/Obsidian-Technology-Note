@@ -8,51 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cb22384217fa4f55",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~🔰 活跃任务 🔰~.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "~🔰 活跃任务 🔰~"
-            }
-          },
-          {
             "id": "3363947255cf2c98",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "{🔗} 链接 Link/✨ 常用页面.md",
+                "file": "✨ 活跃页面 Active Pages.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "✨ 常用页面"
+              "title": "✨ 活跃页面 Active Pages"
             }
           },
           {
-            "id": "f615295cdaa45d07",
+            "id": "eb116f2ed5c8372e",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🧬 学术研究 Research/👨‍🔬 科研进组.md",
+                "file": "🧬 学术研究 Research/🥽 文献调研/2 - 🐄 三维重建 & 材质识别 3DR & Material R.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "👨‍🔬 科研进组"
+              "title": "2 - 🐄 三维重建 & 材质识别 3DR & Material R"
             }
           },
           {
@@ -62,13 +46,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "$$ - 🧸 具身智能 Embodied AI/3 - 🧪 研究计划.md",
+                "file": "$$ - 🧸 具身智能 Embodied AI/5 - 🧪 研究计划.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "3 - 🧪 研究计划"
+              "title": "5 - 🧪 研究计划"
             }
           },
           {
@@ -94,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07 - 💾 计算机科学 Computer Science/⚔ 基本理论 Basic Theory/4 - 📦 数据结构 Data Structure/📦 数据结构及算法 Data Structures & Algorithms.md",
+                "file": "07 - 🖥 计算机科学 Computer Science/⚔ 基本理论 Basic Theory/4 - 📦 数据结构 Data Structure/📦 数据结构及算法 Data Structures & Algorithms.md",
                 "mode": "source",
                 "source": false
               },
@@ -104,20 +88,63 @@
             }
           },
           {
-            "id": "eb116f2ed5c8372e",
+            "id": "c2bde397955144e6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "$$ - 🧸 具身智能 Embodied AI/🥽 文献调研/$1 - 🐄 文献调研 - 三维重建 与 材质识别.md",
+                "file": "🥽 每日论文阅读 Daily Paper Reading.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "$1 - 🐄 文献调研 - 三维重建 与 材质识别"
+              "title": "🥽 每日论文阅读 Daily Paper Reading"
+            }
+          },
+          {
+            "id": "09d6da4695d6bfaa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 - ⌨ 高级语言编程 High-level Programming/2 - 🎧 C++/~🎧~ C++ 笔记链接.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "~🎧~ C++ 笔记链接"
+            }
+          },
+          {
+            "id": "95d697e51ab1106c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 - ⌨ 高级语言编程 High-level Programming/2 - 🎧 C++/V1 - 📏 向量容器 Container Vector.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "V1 - 📏 向量容器 Container Vector"
+            }
+          },
+          {
+            "id": "e372bf92c9cf8e92",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🥽 每日论文阅读 Daily Paper Reading.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "🥽 每日论文阅读 Daily Paper Reading"
             }
           }
-        ]
+        ],
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -149,7 +176,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "A Comprehensive Review of Vision-Based 3D Reconstruction Methods",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -174,7 +201,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 361.5
+    "width": 332.5
   },
   "right": {
     "id": "7183c1e02ba22b3a",
@@ -190,7 +217,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "07 - 💾 计算机科学 Computer Science/🟠 Ubuntu Linux/⚙ 安装配置.md",
+                "file": "🧬 学术研究 Research/1 - 🧪 求学 - 找导师进组.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +227,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for ⚙ 安装配置"
+              "title": "Backlinks for 1 - 🧪 求学 - 找导师进组"
             }
           },
           {
@@ -245,8 +272,7 @@
               "title": "Outline of 🛶 Leetcode 题目笔记"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -263,44 +289,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cb22384217fa4f55",
+  "active": "e372bf92c9cf8e92",
   "lastOpenFiles": [
-    "$$ - 🧸 具身智能 Embodied AI/🥽 文献调研/$1 - 🐄 文献调研 - 三维重建 与 材质识别.md",
-    "🎓 课程学习 Courses/📖 自学/~🎯~ 自学资料.md",
-    "09 - 🧱 三维建模 3D Modeling/🥨 Blender/常见需求/充气效果.md",
-    "09 - 🧱 三维建模 3D Modeling/三维文件格式.md",
-    "09 - 🧱 三维建模 3D Modeling/🍒 SolidWorks/~🍒~ SolidWorks 基本教程.md",
-    "07 - 💾 计算机科学 Computer Science/🌟 图形学 Computer Graphics",
-    "09 - 🧱 三维建模 3D Modeling/🍒 SolidWorks/📑 FAQ - SolidWork.md",
-    "🥽 每日论文阅读 Daily Paper Reading.md",
-    "~🔰 活跃任务 🔰~.md",
-    "07 - 💾 计算机科学 Computer Science/⚔ 基本理论 Basic Theory/4 - 📦 数据结构 Data Structure/📦 数据结构及算法 Data Structures & Algorithms.md",
-    "$$ - 🧸 具身智能 Embodied AI/1 - 📰 技术辞典.md",
-    "$$ - 🧸 具身智能 Embodied AI/~🧸~ 具身智能相关链接.md",
-    "$$ - 🧸 具身智能 Embodied AI/3 - 🧪 研究计划.md",
-    "$$ - 🧸 具身智能 Embodied AI/2 - 🎓 学术灵感.md",
-    "Files/2407.09510v5.pdf",
-    "01 - ⌨ 高级语言编程 High-level Programming/1 - 🐍 Python/$$ - 🐍 Python 基础入门.md",
-    "{🔗} 链接 Link/✨ 常用页面.md",
-    "🧬 学术研究 Research/👨‍🔬 科研进组.md",
-    "01 - ⌨ 高级语言编程 High-level Programming/2 - 🎧 C++/$$ - 🎧 C++ 基础入门.md",
-    "01 - ⌨ 高级语言编程 High-level Programming/🛶 习题/0134 - 加油站 Gas Station.md",
+    "✨ 活跃页面 Active Pages.md",
+    "01 - ⌨ 高级语言编程 High-level Programming/2 - 🎧 C++/V1 - 📏 向量容器 Container Vector.md",
+    "01 - ⌨ 高级语言编程 High-level Programming/2 - 🎧 C++/C++11 新规范.md",
+    "01 - ⌨ 高级语言编程 High-level Programming/2 - 🎧 C++/~🎧~ C++ 笔记链接.md",
+    "01 - ⌨ 高级语言编程 High-level Programming/2 - 🎧 C++/基础用法/类与对象 Class & Object/访问权限：私有、公有、保护.md",
+    "01 - ⌨ 高级语言编程 High-level Programming/2 - 🎧 C++/基础用法/类与对象 Class & Object/构造函数和析构函数.md",
+    "01 - ⌨ 高级语言编程 High-level Programming/2 - 🎧 C++/基础用法/类与对象 Class & Object/类的多态.md",
+    "01 - ⌨ 高级语言编程 High-level Programming/2 - 🎧 C++/基础用法/类与对象 Class & Object/类的继承.md",
+    "01 - ⌨ 高级语言编程 High-level Programming/2 - 🎧 C++/基础用法/类与对象 Class & Object/类的this指针.md",
+    "01 - ⌨ 高级语言编程 High-level Programming/1 - 🐍 Python/~🐍~ Python 基础入门.md",
     "01 - ⌨ 高级语言编程 High-level Programming/🛶 习题/🛶 算法题目笔记.md",
-    "01 - ⌨ 高级语言编程 High-level Programming/🛶 习题/1218 - 最长定差子序列 Longest Arithmetic Subsequence of Given Difference.md",
+    "!🍳 CVPR2026 - MA3DR/3DGS配置.md",
+    "01 - ⌨ 高级语言编程 High-level Programming/🛶 习题/0238 - 排己之积 Product of Array Except Self.md",
+    "!🍳 CVPR2026 - MA3DR/~🍳~ MA3DR 科研记录.md",
+    "!🍳 CVPR2026 - MA3DR/Literature Review about Material-aware 3D Reconstructure.md",
+    "!🎭 EE6231 - RL/Lec 3 - Optimal State Values and Bellman Optimality Equation.md",
+    "🧬 学术研究 Research/🥽 文献调研/2 - 🐄 三维重建 & 材质识别 3DR & Material R.md",
+    "Files/F6387000",
+    "Files/56387000",
+    "Files/95387000",
+    "!🍳 CVPR2026 - MA3DR",
+    "🎢 技术随想 TechThink.md",
+    "{🔗} 链接 Link/📰 业界资讯.md",
+    "🧬 学术研究 Research/3 - ⚙ 资源 - 学术工具及网站.md",
+    "$$ - 🧸 具身智能 Embodied AI/5 - 🧪 研究计划.md",
+    "Files/49350000",
+    "Files/A8350000",
+    "Files/E7350000",
+    "07 - 🖥 计算机科学 Computer Science/⚔ 基本理论 Basic Theory/4 - 📦 数据结构 Data Structure/📦 数据结构及算法 Data Structures & Algorithms.md",
+    "04 - 👁‍🗨 人工智能 Artificial Intelligence/👅 大语言模型 Large Language Model/本地部署大模型 Local Deployment of LLM.md",
     "💳 职业规划 Career/🗂 简历投递.md",
-    "01 - ⌨ 高级语言编程 High-level Programming/🛶 习题/0135 - 分糖果 Candy.md",
-    "01 - ⌨ 高级语言编程 High-level Programming/🛶 习题/0189 - 数组循环移位 Rotate Array.md",
-    "01 - ⌨ 高级语言编程 High-level Programming/🛶 习题/0123 - 股票买卖3 Best Time to Buy and Sell Stock III.md",
-    "01 - ⌨ 高级语言编程 High-level Programming/🛶 习题/0122 - 股票买卖2 Best Time to Buy and Sell Stock II.md",
-    "01 - ⌨ 高级语言编程 High-level Programming/1 - 🐍 Python/01 - ⚙ 开发环境配置.md",
-    "Files/C3C21F00",
-    "Files/FFFA1000",
-    "Files/E7BA1000",
-    "Files/293B0000",
-    "Files/072B0000",
-    "Files/F02B0000",
-    "Files/5BD66520",
-    "Files/DE816520",
+    "🛠 软件工具 Software Tools/💬 ChatGPT.md",
+    "🛠 软件工具 Software Tools/⚛ Obsidian/LaTeX 数学公式语法.md",
+    "!🎭 EE6231 - RL",
+    "Files/3C7B1100",
+    "Files/9B7B1100",
     "Files/Pasted image 20250505211926.png",
     "Files/Pasted image 20250505211251.png",
     "Files/Pasted image 20250505120521.png",

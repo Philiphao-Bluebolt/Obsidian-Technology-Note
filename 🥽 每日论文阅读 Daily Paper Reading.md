@@ -1,19 +1,81 @@
 
-+ **June** - [6](#^f25d12) - 
-+ **May** - [28](#^36bea9) - [27](#^ec614e) 
-
-
-
++ **July** - 
++ **June** - [20](#^9b2f50) - [19](#^9d3091) - [18](#^030ebd) - [14](#^d86060) - [13](#^87c8d7) - [11](#^0064e3) - [10](#^5a172d) - [8](#^305646) - [6](#^f25d12)
++ **May** - [28](#^36bea9) - [27](#^ec614e)
 
 
 
 ---
+> A Survey on Vision-Language-Action Models for Embodied AI
+
+
+> **[FusionSense: Bridging Common Sense, Vision, and Touch for Robust Sparse-View Reconstruction](https://arxiv.org/html/2410.08282v1?utm_source=chatgpt.com)** ^9b2f50
+
+
+
+> **[Tactile sensors: A review](https://www-sciencedirect-com.remotexs.ntu.edu.sg/science/article/pii/S026322412401217X)**
+
+
+
+> **[A Touch, Vision, and Language Dataset for Multimodal Alignment](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://arxiv.org/pdf/2402.13232)** ^9d3091
+
+
+
+
+> **[Review of Bioinspired Vision-Tactile Fusion Perception (VTFP): From Humans to Humanoids](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9925051)** ^030ebd
+
+
+
+> **[Experimental Investigation of Surface Identification Ability of a Low-Profile Fabric Tactile Sensor](https://ieeexplore.ieee.org/document/6385538)** ^d86060
+
+论文作者制作了一台基于滑动触觉传感的材质识别系统。
+
+
+
+> **[A Comprehensive Review of Vision-Based 3D Reconstruction Methods](https://www.mdpi.com/1424-8220/24/7/2314)** ^87c8d7
+
+
+
+
+
+
+> **[Material Recognition Using Tactile Sensing](https://www-sciencedirect-com.remotexs.ntu.edu.sg/science/article/pii/S0957417417307273)** ^0064e3
+
+一篇写作质量非常高的论文！甚至有和人类组的对比
+
+材质识别三大传感模态：视觉、触觉、听觉
+
+人类认识一个物体的方式首先是视觉，视觉可以让我们知道这个物体的几何外形，也可以
+
+
+
+
+
+> **[Computer Vision Based 3D Reconstruction A Review](https://www.researchgate.net/publication/336887797_Computer_Vision_Based_3D_Reconstruction_A_Review)** ^5a172d
+
+这篇文章是对基于视觉的3D重建技术的综述。文章将3D重建技术按所需的输入图像类型分为四类：单一静止图像、RGBD静止图像、多张RGBD图像、视频
+
+
+
+> **[Simultaneous Material Segmentation and 3D Reconstruction in Industrial Scenarios](https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2020.00052/full)** ^305646
+
+这篇文章介绍了一种基于神经网络的3D重建和材质识别方法，用于核废料的材质识别。系统分为两部分：单帧材料分割和语义3D重建。首先，将RGBD相机捕捉到的RGB图像输入神经网络进行逐像素的材料分割，再与深度图匹配生成3D点云
+
+综述部分介绍了一些材质图片的数据集：CURet、KTH-TIPS、Flicker Material、GeoMat，这五个数据集仅有图片标签；MINC提供了逐像素的材质类型标签。
+
+
 
 > **[3DGS.zip: A survey on 3D Gaussian Splatting Compression Method](https://arxiv.org/pdf/2407.09510)** ^f25d12
 
 这是一篇针对3DGS方法的综述，
 
+优势：
 
++ 可处理复杂的视觉效果（变视角光照、透明表面）
++ 可修改，可以与其他3D格式共存
++ 支持GPU在线3D渲染
+
+Compress vs Compact
 
 > **[A Multi-modal Approach to Continuous Material Identification through Tactile Sensing](https://arxiv.org/pdf/2311.03090)** ^36bea9
 

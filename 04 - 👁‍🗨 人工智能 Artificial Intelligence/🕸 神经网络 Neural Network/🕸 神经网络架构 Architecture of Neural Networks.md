@@ -14,7 +14,7 @@
 	+ [GAN](#GAN)
 	+ [[#Diffusion Model]]
 	+ **Transformer**
-	+ （Generative Pretrained Transformer）
+	+ **GPT**（Generative Pretrained Transformer）
 	+ **BERT**（Bidirectional Encoder Representations from Transformers）
 + **按用途**
 	+ **图像处理**：CNN | ResNet
