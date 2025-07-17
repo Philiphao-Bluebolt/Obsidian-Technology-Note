@@ -1,0 +1,37 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.4 Chrome/138.0.7204.97 Electron/37.2.1 Safari/537.36" version="28.0.4">
+  <diagram name="Page-1" id="8UNHcUhzyxLPjUvCq1oB">
+    <mxGraphModel dx="651" dy="396" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ThcZLNKkvUrhhi-cP0r4-3" value="" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="290" y="295" width="50" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="ThcZLNKkvUrhhi-cP0r4-4" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/vista_terminal.svg;" vertex="1" parent="1">
+          <mxGeometry x="200" y="270" width="32.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ThcZLNKkvUrhhi-cP0r4-5" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/vista_client.svg;" vertex="1" parent="1">
+          <mxGeometry x="90" y="290" width="38" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ThcZLNKkvUrhhi-cP0r4-6" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/windows_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="128" y="180" width="41" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ThcZLNKkvUrhhi-cP0r4-7" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/mac_client.svg;" vertex="1" parent="1">
+          <mxGeometry x="470" y="310" width="47" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ThcZLNKkvUrhhi-cP0r4-8" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/printer.svg;" vertex="1" parent="1">
+          <mxGeometry x="380" y="260" width="50" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="ThcZLNKkvUrhhi-cP0r4-9" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/cell_phone.svg;" vertex="1" parent="1">
+          <mxGeometry x="430" y="160" width="21" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ThcZLNKkvUrhhi-cP0r4-11" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#6EA9FC,#EDEDED);strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="220" as="sourcePoint" />
+            <mxPoint x="280" y="293" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

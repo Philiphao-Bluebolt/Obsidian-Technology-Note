@@ -40,111 +40,77 @@
             }
           },
           {
-            "id": "e8b52001365e0689",
+            "id": "34b9b1be9d21c954",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "$$ - 🧸 具身智能 Embodied AI/5 - 🧪 研究计划.md",
+                "file": "!🎭 EE6231 - RL/Lec 11-13 - Value and Policy as Neural Network.md",
                 "mode": "source",
                 "source": false
               },
-              "pinned": true,
               "icon": "lucide-file",
-              "title": "5 - 🧪 研究计划"
+              "title": "Lec 11-13 - Value and Policy as Neural Network"
             }
           },
           {
-            "id": "31bd400808365ff5",
+            "id": "1ca82a609b24cefd",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - ⌨ 高级语言编程 High-level Programming/2 - 🎧 C++/$$ - 🎧 C++ 基础入门.md",
+                "file": "!🎭 EE6231 - RL/Lec 11-13 - Value and Policy as Neural Network.md",
                 "mode": "source",
                 "source": false
               },
-              "pinned": true,
               "icon": "lucide-file",
-              "title": "$$ - 🎧 C++ 基础入门"
+              "title": "Lec 11-13 - Value and Policy as Neural Network"
             }
           },
           {
-            "id": "3f0258141d412b67",
+            "id": "a4251df514f337b4",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07 - 🖥 计算机科学 Computer Science/⚔ 基本理论 Basic Theory/4 - 📦 数据结构 Data Structure/📦 数据结构及算法 Data Structures & Algorithms.md",
+                "file": "!🎭 EE6231 - RL/🎭 EE6231 - Reinforcement Learning.md",
                 "mode": "source",
                 "source": false
               },
-              "pinned": true,
               "icon": "lucide-file",
-              "title": "📦 数据结构及算法 Data Structures & Algorithms"
+              "title": "🎭 EE6231 - Reinforcement Learning"
             }
           },
           {
-            "id": "c2bde397955144e6",
+            "id": "c5f34df97234774f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🥽 每日论文阅读 Daily Paper Reading.md",
+                "file": "04 - 🤗 人工智能 Artificial Intelligence/🎭 强化学习 Reinforcement Learning/~🎭~ 强化学习笔记导览.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "🥽 每日论文阅读 Daily Paper Reading"
+              "title": "~🎭~ 强化学习笔记导览"
             }
           },
           {
-            "id": "09d6da4695d6bfaa",
+            "id": "114eaf302dbb664a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - ⌨ 高级语言编程 High-level Programming/2 - 🎧 C++/~🎧~ C++ 笔记链接.md",
+                "file": "!🍳 CVPR2026 - MA3DR/VGGT - Visual Geometry Grounded Transformer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "~🎧~ C++ 笔记链接"
-            }
-          },
-          {
-            "id": "95d697e51ab1106c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - ⌨ 高级语言编程 High-level Programming/2 - 🎧 C++/V1 - 📏 向量容器 Container Vector.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "V1 - 📏 向量容器 Container Vector"
-            }
-          },
-          {
-            "id": "e372bf92c9cf8e92",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🥽 每日论文阅读 Daily Paper Reading.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "🥽 每日论文阅读 Daily Paper Reading"
+              "title": "VGGT - Visual Geometry Grounded Transformer"
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -176,7 +142,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "A Comprehensive Review of Vision-Based 3D Reconstruction Methods",
+                "query": "对极",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -201,7 +167,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 332.5
+    "width": 364.5,
+    "collapsed": true
   },
   "right": {
     "id": "7183c1e02ba22b3a",
@@ -289,53 +256,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e372bf92c9cf8e92",
+  "active": "114eaf302dbb664a",
   "lastOpenFiles": [
+    "!🍳 CVPR2026 - MA3DR/02 - 📰 CVPR 相关信息.md",
+    "!🍳 CVPR2026 - MA3DR/VGGT - Visual Geometry Grounded Transformer.md",
+    "!🍳 CVPR2026 - MA3DR/01 - 🕹 研究定题 Presentation.md",
+    "!🎭 EE6231 - RL/Lec 3 -.md",
+    "!🎭 EE6231 - RL/Lec 1-4 - Basic Concepts and Framework.md",
+    "!🎭 EE6231 - RL/🎭 EE6231 - Reinforcement Learning.md",
+    "!🎭 EE6231 - RL/Lec 11-12 - Value and Policy as Neural Network.md",
+    "!🎭 EE6231 - RL/Lec 8-10 - Value and Policy as Continuous Function.md",
+    "!🎭 EE6231 - RL/Lec 5-7 - Estimating Value by Sampling.md",
+    "🧬 学术研究 Research/3 - ⚙ 资源 - 学术工具及网站（RoAI）.md",
+    "01 - ⌨ 高级语言编程 High-level Programming/💾 编程通用知识.md",
+    "🧬 学术研究 Research/2 - 📰 资源 - 刊物及会议.md",
     "✨ 活跃页面 Active Pages.md",
-    "01 - ⌨ 高级语言编程 High-level Programming/2 - 🎧 C++/V1 - 📏 向量容器 Container Vector.md",
-    "01 - ⌨ 高级语言编程 High-level Programming/2 - 🎧 C++/C++11 新规范.md",
-    "01 - ⌨ 高级语言编程 High-level Programming/2 - 🎧 C++/~🎧~ C++ 笔记链接.md",
-    "01 - ⌨ 高级语言编程 High-level Programming/2 - 🎧 C++/基础用法/类与对象 Class & Object/访问权限：私有、公有、保护.md",
-    "01 - ⌨ 高级语言编程 High-level Programming/2 - 🎧 C++/基础用法/类与对象 Class & Object/构造函数和析构函数.md",
-    "01 - ⌨ 高级语言编程 High-level Programming/2 - 🎧 C++/基础用法/类与对象 Class & Object/类的多态.md",
-    "01 - ⌨ 高级语言编程 High-level Programming/2 - 🎧 C++/基础用法/类与对象 Class & Object/类的继承.md",
-    "01 - ⌨ 高级语言编程 High-level Programming/2 - 🎧 C++/基础用法/类与对象 Class & Object/类的this指针.md",
-    "01 - ⌨ 高级语言编程 High-level Programming/1 - 🐍 Python/~🐍~ Python 基础入门.md",
-    "01 - ⌨ 高级语言编程 High-level Programming/🛶 习题/🛶 算法题目笔记.md",
-    "!🍳 CVPR2026 - MA3DR/3DGS配置.md",
-    "01 - ⌨ 高级语言编程 High-level Programming/🛶 习题/0238 - 排己之积 Product of Array Except Self.md",
-    "!🍳 CVPR2026 - MA3DR/~🍳~ MA3DR 科研记录.md",
-    "!🍳 CVPR2026 - MA3DR/Literature Review about Material-aware 3D Reconstructure.md",
-    "!🎭 EE6231 - RL/Lec 3 - Optimal State Values and Bellman Optimality Equation.md",
+    "04 - 🤗 人工智能 Artificial Intelligence/🎭 强化学习 Reinforcement Learning/~🎭~ 强化学习笔记导览.md",
     "🧬 学术研究 Research/🥽 文献调研/2 - 🐄 三维重建 & 材质识别 3DR & Material R.md",
-    "Files/F6387000",
-    "Files/56387000",
-    "Files/95387000",
-    "!🍳 CVPR2026 - MA3DR",
-    "🎢 技术随想 TechThink.md",
-    "{🔗} 链接 Link/📰 业界资讯.md",
-    "🧬 学术研究 Research/3 - ⚙ 资源 - 学术工具及网站.md",
-    "$$ - 🧸 具身智能 Embodied AI/5 - 🧪 研究计划.md",
-    "Files/49350000",
-    "Files/A8350000",
-    "Files/E7350000",
-    "07 - 🖥 计算机科学 Computer Science/⚔ 基本理论 Basic Theory/4 - 📦 数据结构 Data Structure/📦 数据结构及算法 Data Structures & Algorithms.md",
-    "04 - 👁‍🗨 人工智能 Artificial Intelligence/👅 大语言模型 Large Language Model/本地部署大模型 Local Deployment of LLM.md",
-    "💳 职业规划 Career/🗂 简历投递.md",
-    "🛠 软件工具 Software Tools/💬 ChatGPT.md",
-    "🛠 软件工具 Software Tools/⚛ Obsidian/LaTeX 数学公式语法.md",
-    "!🎭 EE6231 - RL",
-    "Files/3C7B1100",
-    "Files/9B7B1100",
+    "!🎭 EE6231 - RL/Lec 6 - Stochastic Approximation.md",
+    "Files/PPT_Reinforcement_Learning_NTU_2025_v1_0_Lecture 12.pdf",
+    "!🎭 EE6231 - RL/Lec 7 -.md",
+    "🎓 课程学习 Courses/📖 自学/🖥 计算机网络 - 王道/Part 1 - 计算机网络基础.md",
+    "Files/Plots/Genetic Algorithms/problem_model.drawio",
+    "Files/Plots/Genetic Algorithms/algorithm_model_improved.drawio",
+    "Files/Plots/Genetic Algorithms",
+    "Files/Genetic Algorithms/problem_model.drawio",
+    "Files/Genetic Algorithms/algorithm_model_improved.drawio",
+    "Files/Genetic Algorithms",
+    "Files/Plots/Git Graph/git-working-graph.drawio",
+    "Files/Plots/Git Graph/git-side-merge.drawio",
+    "Files/Plots/Git Graph/git-rebase.drawio",
+    "🎓 课程学习 Courses/📖 自学/🖥 计算机网络 - 王道/~🖥~ 计算机网络 王道考研课.md",
+    "!🍳 CVPR2026 - MA3DR/3DGS.md",
+    "!🍳 CVPR2026 - MA3DR/Literature Review about Material-aware 3D Reconstructure.md",
+    "!🍳 CVPR2026 - MA3DR/~🍳~ MA3DR 科研记录.md",
+    "06 - 📸 机器视觉 Machine Vision/对极几何 Epipolar Geometry.md",
+    "01 - ⌨ 高级语言编程 High-level Programming/02 - 🐍 Python/基础用法/导入脚本 Import.md",
+    "04 - 🤗 人工智能 Artificial Intelligence/~🤗~ 人工智能与机器学习 AI & ML.md",
+    "01 - ⌨ 高级语言编程 High-level Programming/01 - 🎧 C++/~🎧~ C++ 笔记链接.md",
+    "Files/Pasted image 20250713232858.png",
+    "Files/Pasted image 20250713232354.png",
+    "Files/Pasted image 20250711162901.png",
+    "Files/Pasted image 20250708104121.png",
     "Files/Pasted image 20250505211926.png",
     "Files/Pasted image 20250505211251.png",
     "Files/Pasted image 20250505120521.png",
     "Files/Pasted image 20250504214335.png",
     "Files/Pasted image 20250504214037.png",
-    "Files/Pasted image 20250504214026.png",
-    "Files/Pasted image 20250504170753.png",
-    "Files/Pasted image 20250504165527.png",
-    "Files/Pasted image 20250430233245.png",
-    "Files/Pasted image 20250430180759.png"
+    "Files/Pasted image 20250504214026.png"
   ]
 }
