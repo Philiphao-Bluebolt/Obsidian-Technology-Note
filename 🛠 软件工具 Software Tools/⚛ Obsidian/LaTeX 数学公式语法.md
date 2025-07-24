@@ -133,6 +133,7 @@ $$
 + 交集：`\cup` $\cup$
 + 并集：`\cap`$\cap$
 + 空集：`\empty`$\emptyset$
++ 服从分布：`\sim`$\sim$
 
 ---
 ### 四则运算及比较
@@ -162,6 +163,7 @@ $$
 + 上波浪线：`\tilde{}` $\tilde{a}$
 + 上一横：`\bar{}` $\bar{a}$
 + 圆点：`\odot` $\odot$
++ 标识箭头：`\xrightarrow` $\xrightarrow{a}$
 + 空格：`\quad` $\quad$
 + 非斜体：`\mathrm{}`$\mathrm{Hi}$
 + 花体：`\mathcal{}`$\mathcal{F}$

@@ -6,6 +6,8 @@ Given by Professor Wen Fuxi, this course introduces the basic concepts, algorith
 + [Part 4](#Part%204%20-%20Value%20and%20Policy%20as%20Neural%20Network%20(Lec%2011-12)) - **Value and Policy as Neural Network** (Lec 11-12) - [Note](Lec%2011-12%20-%20Value%20and%20Policy%20as%20Neural%20Network.md)
 
 + [CA](CA%20-%20Optimal%20Policy%20of%20a%20Grid%20World.md) - **Optimal Policy of a Grid World**
++ [Special Topic 1](Special%20Topic%201%20-%20Mathematical%20Calculations%20in%20RL.md) - **Mathematical Calculations in RL**
++ [Special Topic 2](Special%20Topic%202%20-%20Inplementation%20Tricks%20in%20RL.md) - **Inplementation Tricks in RL**
 
 ---
 ## Part 1 - Basic Concepts and Framework (Lec 1-4)

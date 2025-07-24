@@ -1,24 +1,7 @@
 
 
 
-Optimal State Values
-Optimal Policy
 
-Bellman Optimality Equation
-
-
-$\gamma$ the decaying ratio
-
-$v_\pi(s_i)$ is the state value of a state $s_i$ under the policy $\pi$ which is determined by the current reward $r_i$ and a discounted future value $\gamma v_\pi(s_f)$
-
-$q(s_i,a)$ is the action value (a function of the state-action pair)
-
----
-## Optimal Policy
-
-The current state value $v_\pi(s)$ can decide if a policy $\pi$ is good or not. Better policy has larger value.
-
-The optimal policy $\pi^*$ has the highest state values for **all the state** $s$ than any other policy.
 
 
 ---

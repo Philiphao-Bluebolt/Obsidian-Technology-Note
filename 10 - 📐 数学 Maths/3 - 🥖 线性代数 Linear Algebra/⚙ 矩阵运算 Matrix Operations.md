@@ -32,6 +32,7 @@
 |  ✖  | [[#相似对角化 Diagonalization]]                                            | $P^{-1}AP$         | 方阵   | 相似对角矩阵   |
 |  ✖  | [[#若尔当标准型 Jordan Normal Form]]                                        | $P^{-1}AP$         | 方阵   | 若尔当相似标准型 |
 | 🪓  | [上下三角分解 LU Decomposition](#上下三角分解%20LU%20Decomposition)               | $LU$               |      |          |
+| 🪓  | [正交上三角分解 QR Decomposition](#正交上三角分解%20QR%20Decomposition)             | $QR$               |      |          |
 | 🪓  | [[#奇异值分解 Singular Value Decomposition]]                               | $U\Sigma V^*$      |      | 所有复矩阵    |
 | 🧩  | 分块加减 Block Addition & Subtraction                                     |                    | 任意矩阵 |          |
 | 🧩  | 分块乘法 Block Multiplication                                             |                    | 任意矩阵 |          |
@@ -408,6 +409,8 @@ $$\bar{A}=\begin{bmatrix}\color{brown}1&1&&&&\\&\color{brown}1&&&\\&&\color{oran
 $$A=LU$$
 
 
+---
+## 正交上三角分解 QR Decomposition
 
 
 

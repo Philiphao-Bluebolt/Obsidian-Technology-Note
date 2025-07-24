@@ -1,11 +1,16 @@
 
 + **Notes**
 	+ [Basic Concepts of Markov Decision Process](#Basic%20Concepts%20of%20Markov%20Decision%20Process)
+	+ [Bellman Equation](#Bellman%20Equation)
+	+ [Solving the Bellman Equation](#Solving%20the%20Bellman%20Equation)
+	+ [[#]]
+
+
 + **Lectures**
-	+ [Lec 1](#Lec%201) - Basic Concepts for RL
-	+ [Lec 2](#Lec%202) - State Values and the Bellman Equation
-	+ [Lec 3](#Lec%203) - Optimal State Values and Bellman Optimality Equation
-	+ [Lec 4](#Lec%204) - Value Iteration and Policy Iteration
+	+ [Lec 1](#Lec%201) - **Basic Concepts for RL**
+	+ [Lec 2](#Lec%202) - **State Values and the Bellman Equation**
+	+ [Lec 3](#Lec%203) - **Optimal State Values and Bellman Optimality Equation**
+	+ [Lec 4](#Lec%204) - **Value Iteration and Policy Iteration**
 	+ [Questions](#Questions)
 
 
@@ -13,11 +18,11 @@
 ---
 ## Basic Concepts of Markov Decision Process
 
-Reinforcement Learning borrows the concepts from Markov Decision Process, such as state, action, transition, and reward. One of the significant property of MDP is **Memorylessness**, meaning that the past states on the trajectory would not affect future decision $\mathbb{P}(a|s)$ or the transition $\mathbb{P}(s'|a,s)$
+Reinforcement Learning borrows the concepts from Markov Decision Process, such as state, action, transition, and reward. One of the significant property of MDP is **Memorylessness**, meaning that the past states on the trajectory would not affect future decision $\mathbb{P}(a|s)$, reward $\mathbb{P}(r|s,a,s')$ the transition $\mathbb{P}(s'|a,s)$
 
-The following concepts are based on simple grid world. They are feasible for all reinforcement learning methods and algorithms but some of the definition equations are derived under some ideal hypotheses, including
+The following concepts are based on simple grid world. They are feasible for all reinforcement learning methods and algorithms but may be slightly different for continuous state and action spaces.
 
-1. **Discrete state and action spaces** - the state and action spaces are discrete and thus countable, meaning that expectations regarding states and actions can be calculated by sum rather than integral.
++ **Discrete state and action spaces** - the state and action spaces are discrete and thus countable, meaning that expectations regarding states and actions can be calculated by sum rather than integral.
 
 
 > **State** - $s\in\mathcal{S}$
@@ -47,30 +52,41 @@ $$\pi(s)=a$$
 + **Stochastic (Soft) policy** $\pi(a|s)$ - there's possibility for any action to be chosen
 $$\pi(a|s)=\mathbb{P}(A_t=a|S_t=s)$$
 
-
 > **Reward** - $r(s,a,s')$
 
-The reward is a function of the state-action transition and jointly determined by the current state $S_t$, the current action $A_t$, and the next state $S_{t+1}$. It's the task specific feedback that guides the agent's policy optimization. 
+The reward is a function of the state-action transition and is jointly determined by the current state $S_t$, the current action $A_t$, and the next state $S_{t+1}$. It's the task specific feedback that guides the agent's policy optimization. 
 $$r=f(s,a,s')$$
 
 The cumulated reward on a trajectory, either discounted or not, is defined as the **return** $G$ of the trajectory. Future returns are unknown due to the diversity of trajectories, but their expectation can be calculated.
 
 
-> **Value** - $V_\pi(s), Q_\pi(s)$
+> **Value** - $v_\pi(s), q_\pi(s)$
 
 The value of a policy is the **mathematical expectation** of all the possible future returns (the sum of current reward and the future discounted rewards). Values are always defined with respect to a policy. There're two types of values, state value and action value.
 
 The discounted factor $\gamma$ reduces the weight of future rewards on the current value.
 
-+ **State Value** $V_\pi(s)$ - the expected return of the current state, considering all the possible actions
-$$\begin{align}V_\pi(s)&=\mathbb{E}_\pi[G_t|S_t=s]\\&= \\&=\sum_{a}\mathbb{P}(a|s)(\sum_r\mathbb{P}(r|s,a,s')r+)\\&= \end{align}$$  
++ **State Value** $v_\pi(s)$ - the expected return of the current state, considering all the possible actions
+$$v_\pi(s)=\mathbb{E}_\pi[G_t|S_t=s]=\sum_{a}\pi(a|s)(\sum_r\mathbb{P}(r|s,a,s')r+\sum_s'\mathbb{P}(s'|s,a)v_\pi(s'))$$
++ **Action Value** $Q_\pi(s,a)$ -  the expected return of the current chosen **state-action pair**
+$$q_\pi(s,a)=\mathbb{E}_\pi[G_t|S_t=s,A_t=a]=\sum_r\mathbb{P}(r|s,a,s')r+\sum_s'\mathbb{P}(s'|s,a)v_\pi(s')$$
 
+---
+## Bellman Equation
 
-+ **Action Value** $Q_\pi(s,a)$ - 
+The Bellman Equation (BE) is the expanded form of the state value defintion. It highlights the fact that every state value is depended on another state value. When written in the full matrix form, it can be solved by matrix inversion or iteration.
+
++ **Elementwise Form**
+$$\color{#1E90FF}v_\pi(s)\color{black}=\mathbb{E}_\pi[G_t|S_t=s]=\sum_{a}\pi(a|s)[\sum_r\mathbb{P}(r|s,a)r+\sum_s'\mathbb{P}(s'|s,a)\color{#1E90FF}v_\pi(s')\color{black}]$$
++ **Matrix From** ($n$ state in total)
+$$v_\pi=$$
+
+$$\begin{bmatrix}v_\pi(s_1)\\v_\pi(s_2)\\\vdots\\v_\pi(s_n)\end{bmatrix}=$$
+
 
 
 ---
-## 
+## Solving the Bellman Equation 
 
 
 
@@ -82,10 +98,28 @@ $$\begin{align}V_\pi(s)&=\mathbb{E}_\pi[G_t|S_t=s]\\&= \\&=\sum_{a}\mathbb{P}(a|
 
 If you augment the state space to include the closing-state condition or the time step as an element, this environment would become memoryless again and thus can be described by a MDP.
 
+> **(Lec 2) Since the reward is determined by the current state $s$, action $a$ and the next state $s'$, why does the BE in the slide only has $p(r|s,a)$ rather than $p(r|s,a,s')$**
+
+
+
 
 > **(Lec 2) What is the meaning of *Bootstrapping*?**
 
-*Bootstrapping* originally means to obtain something from itself rather than relying on the external source. In the context of reinforcenment learning, bootstrapping refers to the trick of obtaining the estimation of values using either the Bellman optimization equation or sampling returns.
+*Bootstrapping* originally means to obtain something from itself rather than relying on the external source. In the context of reinforcenment learning, bootstrapping refers to the trick of obtaining the estimation of values using either the Bellman optimization equation or sampling returns. For example, the Bellman Equation is a Bootstrapping method, in which the next state value is used to calculate the current state value and both are estimated.
+
+> **(Lec 2) Why is the reward yields by the current state $S_t$ and action $A_t$ denoted $r_{t+1}$ with the time step number plused by 1**
+
+This is actually owing to the convention dividing action steps in a learning process. In the cycle of RL, the reward together with the state observation are feedback from the environment after the agent's action, so the yielded reward is typically considered part of the next time step rather than the current one. 
+
+![](Pasted%20image%2020250722120220.png)
+
+
+> **(Lec 2) Why doe we use $s,a,s'$ as the abbreviations of $S_t=s,A_t=a,S_{t+1}=s'$**
+
+Since the MDP is memoryless, the time shift never changes the probability distribution model of reward and transition, meaning that
+$$\mathbb{P}(r|S_t=s,A_t=a,S_{t+1}=s')=\mathbb{P}(r|S_{t\color{red}+k}=s,A_{t\color{red}+k}=a,S_{t\color{red}+k\color{black}+1}=s')=\mathbb{P}(r|s,a,s')$$
+$$\mathbb{P}(s'|S_t=s,A_t=a)=\mathbb{P}(s'|S_{t\color{red}+k}=s,A_{t\color{red}+k}=a)=\mathbb{P}(s'|s,a)$$
+So we don't need to care **WHAT TIME IS IT NOW** and prefer to drop those annoying time step from the denotion for the sake of simplicity.
 
 
 > **(Lec 4) What is the essential difference between policy iteration and value iteration? They seem to share the same training scheme.**
@@ -98,10 +132,12 @@ Value iteration algorithm uses the iterative solution of the **Bellman optimalit
 
 3. **True State Value** - the state value in Value iteration is **not** the true state value since it's just an iterative variable derived from the BOE and not a root of the **BE**. Only the final converged state value is the true state value of the optimal policy. However, the state value in Policy iteration is true since the algorithm would compute a converged true state value using the **BE** for every tried policy.
 
-
-
 > **(Lec 4) The other literature (and ChatGPT) says that value iteration doesn't store policy while iterating, why does the pseudo-code example in slide P26 has policy stored**
 
+The value iteraion algorithm has two forms. 
+
++ **The classical form** - only use the BOE to iteratively update the estimated state value until the optimal true value and the corresponding policy is obtained.
++ **The modified form** - use BOE to update the estimated state value and use the **current** optimal policy to update the value
 
 ---
 ## Slides

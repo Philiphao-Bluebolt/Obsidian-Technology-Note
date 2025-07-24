@@ -24,93 +24,49 @@
             }
           },
           {
-            "id": "eb116f2ed5c8372e",
+            "id": "7b87df08e63348fb",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🧬 学术研究 Research/🥽 文献调研/2 - 🐄 三维重建 & 材质识别 3DR & Material R.md",
+                "file": "!🎭 EE6231 - RL/Lec 8-10 - Value and Policy as Continuous Function.md",
                 "mode": "source",
                 "source": false
               },
-              "pinned": true,
               "icon": "lucide-file",
-              "title": "2 - 🐄 三维重建 & 材质识别 3DR & Material R"
+              "title": "Lec 8-10 - Value and Policy as Continuous Function"
             }
           },
           {
-            "id": "34b9b1be9d21c954",
+            "id": "d0f9e1b6ee88de4c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "!🎭 EE6231 - RL/Lec 11-13 - Value and Policy as Neural Network.md",
+                "file": "!🎭 EE6231 - RL/Lec 8-10 - Value and Policy as Continuous Function.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lec 11-13 - Value and Policy as Neural Network"
+              "title": "Lec 8-10 - Value and Policy as Continuous Function"
             }
           },
           {
-            "id": "1ca82a609b24cefd",
+            "id": "7b17696fdb420d5b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "!🎭 EE6231 - RL/Lec 11-13 - Value and Policy as Neural Network.md",
+                "file": "10 - 📐 数学 Maths/4 - 🎰 概率与统计 Probability & Statistics/~🎰~ 概率与统计笔记导览.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lec 11-13 - Value and Policy as Neural Network"
-            }
-          },
-          {
-            "id": "a4251df514f337b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "!🎭 EE6231 - RL/🎭 EE6231 - Reinforcement Learning.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "🎭 EE6231 - Reinforcement Learning"
-            }
-          },
-          {
-            "id": "c5f34df97234774f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04 - 🤗 人工智能 Artificial Intelligence/🎭 强化学习 Reinforcement Learning/~🎭~ 强化学习笔记导览.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "~🎭~ 强化学习笔记导览"
-            }
-          },
-          {
-            "id": "114eaf302dbb664a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "!🍳 CVPR2026 - MA3DR/VGGT - Visual Geometry Grounded Transformer.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "VGGT - Visual Geometry Grounded Transformer"
+              "title": "~🎰~ 概率与统计笔记导览"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -142,7 +98,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "对极",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -167,8 +123,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 364.5,
-    "collapsed": true
+    "width": 393.5
   },
   "right": {
     "id": "7183c1e02ba22b3a",
@@ -256,53 +211,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "114eaf302dbb664a",
+  "active": "d0f9e1b6ee88de4c",
   "lastOpenFiles": [
-    "!🍳 CVPR2026 - MA3DR/02 - 📰 CVPR 相关信息.md",
-    "!🍳 CVPR2026 - MA3DR/VGGT - Visual Geometry Grounded Transformer.md",
-    "!🍳 CVPR2026 - MA3DR/01 - 🕹 研究定题 Presentation.md",
-    "!🎭 EE6231 - RL/Lec 3 -.md",
-    "!🎭 EE6231 - RL/Lec 1-4 - Basic Concepts and Framework.md",
-    "!🎭 EE6231 - RL/🎭 EE6231 - Reinforcement Learning.md",
     "!🎭 EE6231 - RL/Lec 11-12 - Value and Policy as Neural Network.md",
+    "!🎭 EE6231 - RL/Special Topic 2 - Inplementation Tricks in RL.md",
+    "🤣 理工笑话 STEM Jokes.md",
+    "Files/Pasted image 20250724151604.png",
+    "!🎭 EE6231 - RL/Special Topic 1 - Mathematical Calculations in RL.md",
+    "!🎭 EE6231 - RL/🎭 EE6231 - Reinforcement Learning.md",
     "!🎭 EE6231 - RL/Lec 8-10 - Value and Policy as Continuous Function.md",
+    "!🎭 EE6231 - RL/Lec 1-4 - Basic Concepts and Framework.md",
+    "!🎭 EE6231 - RL/Lec 3 -.md",
     "!🎭 EE6231 - RL/Lec 5-7 - Estimating Value by Sampling.md",
-    "🧬 学术研究 Research/3 - ⚙ 资源 - 学术工具及网站（RoAI）.md",
-    "01 - ⌨ 高级语言编程 High-level Programming/💾 编程通用知识.md",
-    "🧬 学术研究 Research/2 - 📰 资源 - 刊物及会议.md",
-    "✨ 活跃页面 Active Pages.md",
-    "04 - 🤗 人工智能 Artificial Intelligence/🎭 强化学习 Reinforcement Learning/~🎭~ 强化学习笔记导览.md",
-    "🧬 学术研究 Research/🥽 文献调研/2 - 🐄 三维重建 & 材质识别 3DR & Material R.md",
     "!🎭 EE6231 - RL/Lec 6 - Stochastic Approximation.md",
-    "Files/PPT_Reinforcement_Learning_NTU_2025_v1_0_Lecture 12.pdf",
-    "!🎭 EE6231 - RL/Lec 7 -.md",
-    "🎓 课程学习 Courses/📖 自学/🖥 计算机网络 - 王道/Part 1 - 计算机网络基础.md",
-    "Files/Plots/Genetic Algorithms/problem_model.drawio",
-    "Files/Plots/Genetic Algorithms/algorithm_model_improved.drawio",
-    "Files/Plots/Genetic Algorithms",
-    "Files/Genetic Algorithms/problem_model.drawio",
-    "Files/Genetic Algorithms/algorithm_model_improved.drawio",
-    "Files/Genetic Algorithms",
-    "Files/Plots/Git Graph/git-working-graph.drawio",
-    "Files/Plots/Git Graph/git-side-merge.drawio",
-    "Files/Plots/Git Graph/git-rebase.drawio",
-    "🎓 课程学习 Courses/📖 自学/🖥 计算机网络 - 王道/~🖥~ 计算机网络 王道考研课.md",
-    "!🍳 CVPR2026 - MA3DR/3DGS.md",
-    "!🍳 CVPR2026 - MA3DR/Literature Review about Material-aware 3D Reconstructure.md",
-    "!🍳 CVPR2026 - MA3DR/~🍳~ MA3DR 科研记录.md",
-    "06 - 📸 机器视觉 Machine Vision/对极几何 Epipolar Geometry.md",
-    "01 - ⌨ 高级语言编程 High-level Programming/02 - 🐍 Python/基础用法/导入脚本 Import.md",
-    "04 - 🤗 人工智能 Artificial Intelligence/~🤗~ 人工智能与机器学习 AI & ML.md",
-    "01 - ⌨ 高级语言编程 High-level Programming/01 - 🎧 C++/~🎧~ C++ 笔记链接.md",
+    "10 - 📐 数学 Maths/4 - 🎰 概率与统计 Probability & Statistics/~🎰~ 概率与统计笔记导览.md",
+    "💳 职业规划 Career/~🗂~ 简历投递.md",
+    "✨ 活跃页面 Active Pages.md",
+    "🎭 自我调节区 Self-comforting Zone.md",
+    "🛠 软件工具 Software Tools/⚛ Obsidian/LaTeX 数学公式语法.md",
+    "!🍳 CVPR2026 - MA3DR/02 - 📰 CVPR 相关信息.md",
+    "!🎭 EE6231 - RL/CA - Optimal Policy of a Grid World.md",
+    "04 - 🤗 人工智能 Artificial Intelligence/🎭 强化学习 Reinforcement Learning/~🎭~ 强化学习笔记导览.md",
+    "10 - 📐 数学 Maths/4 - 🎰 概率与统计 Probability & Statistics/02 -.md",
+    "10 - 📐 数学 Maths/4 - 🎰 概率与统计 Probability & Statistics/01 - 基本概念 Basic Concepts.md",
+    "10 - 📐 数学 Maths/4 - 🎰 概率与统计 Probability & Statistics/均值与方差 Mean & Variance.md",
+    "10 - 📐 数学 Maths/4 - 🎰 概率与统计 Probability & Statistics/概率相关函数 Probability Functions.md",
+    "10 - 📐 数学 Maths/4 - 🎰 概率与统计 Probability & Statistics/混淆矩阵 Confusion Matrix.md",
+    "10 - 📐 数学 Maths/4 - 🎰 概率与统计 Probability & Statistics/相关性 Correlation.md",
+    "!🍳 CVPR2026 - MA3DR/🌷 论文阅读/COLMAP - Structure-from-Motion Revisited.md",
+    "Files/Pasted image 20250722183738.png",
+    "!🍳 CVPR2026 - MA3DR/🌷 论文阅读/Gaussian Splatting SLAM.md",
+    "Files/5B043600",
+    "Files/13043600",
+    "Files/Pasted image 20250722120220.png",
+    "Files/E67F0100",
+    "Files/2A6F0100",
+    "Files/A64F0100",
+    "Files/D5F12000",
+    "Files/15F12000",
+    "Files/74F12000",
+    "Files/B3F12000",
+    "Files/13F12000",
+    "Files/Pasted image 20250720233251.png",
+    "Files/Pasted image 20250718153638.png",
+    "Files/Pasted image 20250718151012.png",
+    "Files/Pasted image 20250718150926.png",
     "Files/Pasted image 20250713232858.png",
     "Files/Pasted image 20250713232354.png",
-    "Files/Pasted image 20250711162901.png",
-    "Files/Pasted image 20250708104121.png",
-    "Files/Pasted image 20250505211926.png",
-    "Files/Pasted image 20250505211251.png",
-    "Files/Pasted image 20250505120521.png",
-    "Files/Pasted image 20250504214335.png",
-    "Files/Pasted image 20250504214037.png",
-    "Files/Pasted image 20250504214026.png"
+    "Files/Pasted image 20250711162901.png"
   ]
 }

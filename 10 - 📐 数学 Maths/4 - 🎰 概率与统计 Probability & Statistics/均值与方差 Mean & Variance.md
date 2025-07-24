@@ -12,3 +12,9 @@
 + 精确度——测试样本的离散程度，即方差$\sigma$的大小
 
 ![[Pasted image 20240517165633.png]]
+
+---
+## 总期望定律 Law of Total Expectation
+
++ **Wikipedia** - [Law of Total Expectation](https://en.wikipedia.org/wiki/Law_of_total_expectation)
+

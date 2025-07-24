@@ -6,7 +6,7 @@
 
 + **学习资料**
 	+ 🧊 [CSDIY](https://csdiy.wiki/) - 名校优秀课程汇总
-	+ 🌸 [B站大学](https://search.bilibili.com/all?keyword=%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%93%E4%B8%9A%E8%AF%BE)
-	
+	+ 🌸 [B站大学](https://search.bilibili.com/all?keyword=%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%93%E4%B8%9A%E8%AF%BE) - 受教了
+	+ ❄ [爱编程的大丙](https://subingwen.cn/) - C++ | 通信 | 网页
 
 

@@ -268,3 +268,9 @@ git  clone  https://github.com/my_username/my_repo.git
 ---
 ## submodule
 
+命令`git submodule`用于管理Git仓库的子模块
+
+```bash
+# 下载本地的子模块，update拉取数据，init初始化，recursive按依赖关系全部更新
+git submodule update --init --recursive
+```

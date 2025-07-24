@@ -10,7 +10,7 @@ CVPR是计算机视觉领域的顶会之一，于每年年中举办，论文提�
 ---
 ## 往届论文
 
-+ [VGGT](VGGT%20-%20Visual%20Geometry%20Grounded%20Transformer.md) - Best Paper 2025
++ [VGGT](💐%20VGGT%20-%20Visual%20Geometry%20Grounded%20Transformer.md) -（Best Paper 2025）最新的
 
 
 

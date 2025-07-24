@@ -4,10 +4,77 @@
 
 Anaconda使用命令行操作，其API命令为**Conda**，除了配置虚拟环境以外，Conda亦支持从Anaconda官方的数据库下载一些常用的第三方库，不过库列表没有Pip全
 
++ 🖥 [常用命令](#常用命令)
 + ⚙ [安装软件](#安装软件) - [下载](#下载) | [换源](#换源) | [更换文件路径](#更换文件路径) | [与ROS共存](#与ROS共存)
 + 🎨 [虚拟环境](#虚拟环境) - [创建](#创建) | [列表](#列表) | [删除](#删除) | [安装Python库](#安装Python库)
-+ 🛠 [修改配置](#修改配置) - 
-+ 🖥 [常用命令](#常用命令) - 
++ 🛠 [修改配置](#修改配置) 
+
+
+
+---
+## 常用命令
+
+> **创建虚拟环境**
+
+```bash
+# 创建新环境，指定Python版本，未指定则默认使用最新版
+conda create -n my_env python=3.8.0
+
+# 创建没有Python的新环境
+conda create -n my_env
+
+# 创建时使用.yaml或.yml文件指定库
+conda create -n my_env -f environment.yaml
+
+# 激活环境
+conda activate my_env
+
+# 退出当前虚拟环境
+conda deactivate
+
+# 删除虚拟环境（需要退出环境）
+conda remove my_env
+```
+
+> **管理环境**
+
+```bash
+# 列出所有虚拟环境
+conda env list
+
+# 激活环境
+conda activate my_env
+
+# 退出当前虚拟环境
+conda deactivate
+
+# 使用.yaml或.yml文件补装库，默认为当前环境
+conda env update -f environment.yaml -n my_env
+
+```
+
+> **管理库**
+
+```bash
+# 列出当前环境下所有库
+conda list
+
+# 下载库，默认使用最新版
+conda install numpy=0.12.0 pytorch opencv-python
+```
+
+> **配置**
+
+```bash
+# 查看Conda版本
+conda --version
+
+# 详细列出所有配置设定值
+conda config --show --verbose
+
+# 生成.condarc配置文件，可直接编辑文件修改配置
+conda config --set show_channel_urls yes
+```
 
 ---
 ## 安装软件
@@ -159,15 +226,3 @@ conda config --set show_channel_urls yes
 
 
 
-
----
-## 常用命令
-
-> **虚拟环境**
-
-```
-
-```
-
-
-> **配置**
