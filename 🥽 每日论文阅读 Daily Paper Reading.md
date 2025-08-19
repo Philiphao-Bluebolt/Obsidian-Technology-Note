@@ -1,11 +1,18 @@
 
-+ **July** - [9](#^984390)
-+ **June** - [20](#^9b2f50) - [19](#^9d3091) - [18](#^030ebd) - [14](#^d86060) - [13](#^87c8d7) - [11](#^0064e3) - [10](#^5a172d) - [8](#^305646) - [6](#^f25d12)
-+ **May** - [28](#^36bea9) - [27](#^ec614e)
++ **August** -
++ **July** - [28](#^4fff02) · [9](#^984390)
++ **June** - [20](#^9b2f50) · [19](#^9d3091) · [18](#^030ebd) · [14](#^d86060) · [13](#^87c8d7) · [11](#^0064e3) · [10](#^5a172d) · [8](#^305646) · [6](#^f25d12)
++ **May** - [28](#^36bea9) · [27](#^ec614e)
 
 
 
 ---
+
+> [**VTLA: Vision-Tactile-Language-Action Model with Preference Learning for Insertion Manipulation**](https://arxiv.org/pdf/2505.09577) ^4fff02
+
+
+
+
 
 > **[VGGT: Visual Geometry Grounded Transformer](https://vgg-t.github.io/)** ^984390
 
