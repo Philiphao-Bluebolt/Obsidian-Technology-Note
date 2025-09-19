@@ -10,7 +10,7 @@
 	+ ⏲ [AI Deadlines](https://aideadlin.es/?sub=ML,CV,CG,NLP,RO,SP,DM,AP,KR,HCI) - AI会议截稿时间列表
 	+ 🏆 [GS Top Publications](https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_robotics) - Google Scholar 学术著作排行榜
 + **炼丹工具**
-	+ 🧿 [AutoDL](https://www.autodl.com/home) - GPU服务器租用
+	+ 
 	+ [Nvidia Cosmo](https://www.nvidia.com/en-sg/ai/cosmos/) - 世界模型平台
 
 ---

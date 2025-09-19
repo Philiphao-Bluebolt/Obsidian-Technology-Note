@@ -1,0 +1,10 @@
+formulas:
+  "": ""
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.folder.startsWith("01 - ⌨ 高级语言编程 High-level Programming")
+    order:
+      - file.basename

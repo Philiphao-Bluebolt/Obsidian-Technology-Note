@@ -188,7 +188,7 @@ Another situation is that the elements of the transfer function matrix approxima
 ### Singular Value Analysis
 
 + **Goal** - derive the condition number to check the control difficulty of a MIMO system
-+ **See also** - [⚙ Singular Value Decomposition](⚙%20矩阵运算%20Matrix%20Operations.md#奇异值分解%20Singular%20Value%20Decomposition)
++ **See also** - [⚙ Singular Value Decomposition](⚙️%20矩阵运算%20Matrix%20Operations.md#奇异值分解%20Singular%20Value%20Decomposition)
 
 The singular value decomposition breaks a matrix into three multiplying matrices. As a square matrix, the steady state transfer function matrix can be decomposited into three square matrices. The middle diagonal matrix $\Sigma$ includes all the **singular values** of the system
 $$K=U\Sigma V^T$$

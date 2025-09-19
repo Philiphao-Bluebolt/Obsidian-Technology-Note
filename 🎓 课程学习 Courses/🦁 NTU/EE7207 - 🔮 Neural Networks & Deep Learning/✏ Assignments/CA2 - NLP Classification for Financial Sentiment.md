@@ -33,13 +33,7 @@ Potentially, the sentiment classification task could be more detailed. The class
 Import all the required packages including the data processing packages such as Numpy, Pandas, Scikit-learn, and NLP packages Datasets, Transformers.
 
 ```python
-import pandas as pd
-from sklearn.model_selection import train_test_split
-from datasets import Dataset, DatasetDict
-from transformers import AutoTokenizer, AutoModelForSequenceClassification
-from transformers import Trainer, TrainingArguments
-import numpy as np
-import evaluate
+
 ```
 
 Firstly, the FinBERT foundation model and the tokenizer is initiated. The model is downloaded from the Hugging Face website automatically. The tokenization process will be applied to batches of data.

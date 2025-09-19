@@ -13,7 +13,7 @@ PyTorch是学术界流行的基于Python的深度学习框架，提供了优化�
 ---
 ## 张量 Tensor
 
-+ 参考：[张量类定义](https://pytorch.org/docs/stable/tensors.html) | [张量运算](https://docs.pytorch.org/docs/stable/torch.html)
++ 参考：[类定义](https://pytorch.org/docs/stable/tensors.html) | [运算函数](https://docs.pytorch.org/docs/stable/torch.html) | 
 
 ```python
 import torch
@@ -81,13 +81,11 @@ print(dt.device)
 ```python
 dt = torch.tensor([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]])
 
-# tensor([[2, 3],
-#         [6, 7]])
-dt_blk = dt[0:2, 1:3]
+dt_blk = dt[0:2, 1:3] # tensor([[2, 3],
+                      #         [6, 7]])
 
-# tensor([[ 5,  6,  7],
-#         [ 9, 10, 11]]) 
-dt_blk = dt[1:, :3]
+dt_blk = dt[1:, :3] # tensor([[ 5,  6,  7],
+					#         [ 9, 10, 11]]) 
 ```
 
 > **拼接**：可以把多个张量拼在一起
@@ -108,6 +106,9 @@ print(dt1+dt2)
 print(dt1/dt2)
 print(torch.sin(dt1))
 ```
+
+
+
 
 > **统计类运算**：统计类运算包括取最大最小值、平均值、众数等，通常输出一个比原张量更小的张量储存结果
 
@@ -140,14 +141,20 @@ element = dt[1][2].item()
 ---
 ## 数据库 Dataset
 
-数据是机器学习的燃料，所有模型的训练都建立在数据集之上。PyTorch提供了一些加载数据集的模块以及一些常用的测试用数据集。
+数据是机器学习的燃料，所有模型的训练都建立在数据集之上。PyTorch提供了一些数据管线模块以及常用的测试用数据集。
 
 ```python
 import torch
 from torch.utils.data import Dataset
+
 ```
 
+### 
 
+
+
+
+### 自定义 Custom
 
 
 

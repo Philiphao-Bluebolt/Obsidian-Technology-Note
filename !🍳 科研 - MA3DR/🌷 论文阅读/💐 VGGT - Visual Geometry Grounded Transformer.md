@@ -110,9 +110,11 @@ VGGT训练用的数据集规模大、多样性广，这一点与**MASt3R**类似
 		+ 📁 `layers` - 
 		+ 📁 `utils` - 
 	+ 📁 `training` - 
-
+	+ 📁 `examples` - 测试用输入图片和视频
 	+ 🐍 `demo_colmap.py`
 	+ 🐍 `demo_gradio.py`
 	+ 🐍 `demo_viser.py`
-	+ 📃 `requirements_demo.txt` - 运行三个Demo测试所必需的依赖库
 	+ 📃 `requirements.txt` - 运行VGGT本体的依赖库
+	+ 📃 `requirements_demo.txt` - 运行三个Demo测试及本体所必需的依赖库
+
+### 

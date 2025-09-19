@@ -20,7 +20,7 @@
 
 | 仿真器名称                             | URDF | SDF | MJCF | USD |
 | --------------------------------- | ---- | --- | ---- | --- |
-| 🏛 [[~🏛~ Gazebo 笔记导览\|Gazebo]]     | ✔    | ✔   | ❌    | ❌   |
+| 🏛 [[~🏛~ Gazebo 笔记导览\|Gazebo]]   | ✔    | ✔   | ❌    | ❌   |
 | 🥅 [[✨ MuJoCo 基本使用\|MuJoCo]]      | ✔    | ❌   | ✔    | ❌   |
 | 🔫 [[~🔫~ PyBullet 基础\|PyBullet]] | ✔    | ✔   | ✔    | ❌   |
 | ⚗ [IssacLab](⚗%20IsaacLab.md)     | ✔    | ✔   | ✔    | ✔   |
