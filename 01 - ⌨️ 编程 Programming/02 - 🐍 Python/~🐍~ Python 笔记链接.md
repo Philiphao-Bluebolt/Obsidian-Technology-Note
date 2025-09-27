@@ -1,5 +1,5 @@
-+ **文档**：[Python Documentation](https://docs.python.org/3/index.html)、[PEP 8 代码风格](https://peps.python.org/pep-0008/)
-+ **教程**：[官方](https://docs.python.org/3/tutorial/index.html)、[W3schools](https://www.w3schools.com/python/)、[Geeksforgeeks](https://www.geeksforgeeks.org/python-programming-language-tutorial/)、[菜鸟](https://www.runoob.com/python/python-tutorial.html)
++ **文档**：[Python Documentation](https://docs.python.org/3/index.html) | [PEP 8 代码风格](https://peps.python.org/pep-0008/)
++ **教程**：[官方](https://docs.python.org/3/tutorial/index.html) | [W3schools](https://www.w3schools.com/python/) | [Geeksforgeeks](https://www.geeksforgeeks.org/python-programming-language-tutorial/) | [菜鸟](https://www.runoob.com/python/python-tutorial.html)
 
 Python是一门**解释型**面向对象脚本~~胶水~~高级编程语言，因其语法简单、扩展库丰富而受到广大开发者的欢迎，在数据分析、机器学习、应用开发等领域较为流行
 

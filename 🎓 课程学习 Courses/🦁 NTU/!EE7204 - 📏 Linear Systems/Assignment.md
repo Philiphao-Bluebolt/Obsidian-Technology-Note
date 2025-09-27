@@ -1,6 +1,0 @@
-
-
-
----
-
-![](assignment_ls.pdf)

@@ -24,6 +24,22 @@
             }
           },
           {
+            "id": "62717afbe2e9ddd6",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 - ⌨️ 编程 Programming/🛶 习题/🛶 算法题目笔记.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "🛶 算法题目笔记"
+            }
+          },
+          {
             "id": "9624aa12ba66a5dd",
             "type": "leaf",
             "pinned": true,
@@ -88,44 +104,21 @@
             }
           },
           {
-            "id": "a28421d2c51f383a",
+            "id": "01b4e39589402148",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06 - 🖥 计算机科学 Computer Science/A1 - 📦 数据结构及算法 Data Structure & Algorithm/树 Tree.md",
+                "file": "01 - ⌨️ 编程 Programming/01 - 🎧 C++/$ - 🌈 常用库 C++ Libraries/algorithm - 数据结构算法.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "树 Tree"
-            }
-          },
-          {
-            "id": "2048cdc660c9457d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "06 - 🖥 计算机科学 Computer Science/A1 - 📦 数据结构及算法 Data Structure & Algorithm/图 Graph.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "图 Graph"
-            }
-          },
-          {
-            "id": "b78e06d9927fa1aa",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "title": "algorithm - 数据结构算法"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -182,7 +175,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 358.50499725341797
+    "width": 370.5
   },
   "right": {
     "id": "7183c1e02ba22b3a",
@@ -198,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "!🧭! 笔记导航页 Note Navigator.md",
+                "file": "01 - ⌨️ 编程 Programming/01 - 🎧 C++/~🎧~ C++ 笔记链接.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +201,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for !🧭! 笔记导航页 Note Navigator"
+              "title": "Backlinks for ~🎧~ C++ 笔记链接"
             }
           },
           {
@@ -271,44 +264,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "90a146d6d4fa17ab",
+  "active": "9624aa12ba66a5dd",
   "lastOpenFiles": [
-    "Files/Excel/lu186956o5mm.tmp",
+    "Files/Excel/lu63514mwiyi.tmp",
     "01 - ⌨️ 编程 Programming/02 - 🐍 Python/~🐍~ Python 笔记链接.md",
     "01 - ⌨️ 编程 Programming/01 - 🎧 C++/~🎧~ C++ 笔记链接.md",
-    "!🎉! 活跃页面 Active Pages.md",
-    "06 - 🖥 计算机科学 Computer Science/A1 - 📦 数据结构及算法 Data Structure & Algorithm/树 Tree.md",
-    "04 - 🤗 人工智能 Artificial Intelligence/🛠 工具/🔦 PyTorch 基本教程.md",
-    "06 - 🖥 计算机科学 Computer Science/A1 - 📦 数据结构及算法 Data Structure & Algorithm/图 Graph.md",
-    "!💳 求职 - 2026/3 - 👔 面试准备.md",
-    "!💳 求职 - 2026/~🗂~ 求职.md",
-    "06 - 🖥 计算机科学 Computer Science/A1 - 📦 数据结构及算法 Data Structure & Algorithm/📦 数据结构及算法 笔记导览.md",
-    "06 - 🖥 计算机科学 Computer Science/A5 - 🔗 计算机网络 Computer Network/~🔗~ 计算机网络笔记导览.md",
-    "!🧭! 学科笔记导航 Note Navigator by Study.md",
     "01 - ⌨️ 编程 Programming/🛶 习题/🛶 算法题目笔记.md",
-    "06 - 🖥 计算机科学 Computer Science/~🖥~ 计算机笔记总览 CS Notes.md",
-    "Files/Excel/lu5975fijf.tmp",
-    "01 - ⌨️ 编程 Programming/其他/递归 Recursion.md",
-    "07 - ⚡ 电子学 Electronics/2 - 🎶 模拟电路 Analog Electronics/🎫 半导体器件 Semiconductor Components/3. 三极管 Bipolar Junction Transistor.md",
-    "01 - ⌨️ 编程 Programming/01 - 🎧 C++/3 - 💬 语法逻辑 Syntax & Logic/声明与赋值 Declaration & Assignment.md",
-    "01 - ⌨️ 编程 Programming/🛶 习题/笔试 Examination/阿里云2 - 序列轮转.md",
-    "07 - ⚡ 电子学 Electronics/5 - 🧵 电子制作 Electronic Design/仿真软件/🛠 电路仿真及设计软件.md",
-    "07 - ⚡ 电子学 Electronics/⚡ 电子学 笔记总览.md",
-    "🎓 课程学习 Courses/⚙️ HIT/模拟电路基础 Basic Analog Circuit/📜 归纳/1-1 三极管.md",
-    "🎓 课程学习 Courses/⚙️ HIT/模拟电路基础 Basic Analog Circuit/📜 归纳/1-3 中频放大电路分析.md",
-    "🎓 课程学习 Courses/⚙️ HIT/模拟电路基础 Basic Analog Circuit/📜 归纳/1-2 场效应管.md",
-    "🎓 课程学习 Courses/⚙️ HIT/模拟电路基础 Basic Analog Circuit/📜 归纳/1-4 差分放大电路.md",
-    "🎓 课程学习 Courses/⚙️ HIT/模拟电路基础 Basic Analog Circuit/📜 归纳/2-2 深度负反馈.md",
-    "🎓 课程学习 Courses/⚙️ HIT/模拟电路基础 Basic Analog Circuit/📜 归纳/2-1 负反馈基本组态.md",
-    "Files/Excel/84763000",
-    "Files/Excel/lu108823w2ud.tmp",
-    "Files/Excel/lu108823w2u7.tmp",
-    "Files/Excel/lu108823w2u1.tmp",
-    "Files/Excel/lu108823w2tv.tmp",
-    "Files/Excel/lu55444l0f01.tmp",
-    "01 - ⌨️ 编程 Programming/🛶 习题/自创 Original",
-    "01 - ⌨️ 编程 Programming/🛶 习题/牛客 Niuke",
-    "01 - ⌨️ 编程 Programming/🛶 习题/笔试 Examination",
+    "01 - ⌨️ 编程 Programming/01 - 🎧 C++/$ - 🌈 常用库 C++ Libraries/algorithm - 数据结构算法.md",
+    "01 - ⌨️ 编程 Programming/01 - 🎧 C++/$ - 🌈 常用库 C++ Libraries/🌈 C++ 常用库列表.md",
+    "!🎉! 活跃页面 Active Pages.md",
+    "06 - 🖥 计算机科学 Computer Science/A1 - 📦 数据结构及算法 Data Structure & Algorithm/📦 数据结构及算法 笔记导览.md",
+    "02 - 🤖 机器人 Robot/~🤖~ 机器人技术总览 Robot Technology.md",
+    "01 - ⌨️ 编程 Programming/02 - 🐍 Python/6 - 🌈 库教程/🌈 Python 常用库列表.md",
+    "01 - ⌨️ 编程 Programming/~⌨️~ 编程 笔记导览.md",
+    "01 - ⌨️ 编程 Programming/💾 编程通用知识.md",
+    "02 - 🤖 机器人 Robot/📰 机器人业界及技术资讯收录.md",
+    "02 - 🤖 机器人 Robot/1 - 📖 机器人学 Robotics/~✨~ 机器人学概括 Robotics Shortcut.md",
+    "02 - 🤖 机器人 Robot/1 - 📖 机器人学 Robotics/❔ 问题疑难.md",
+    "!🧭! 学科笔记导航 Note Navigator by Field.md",
+    "!💳 求职 - 2026/~🗂~ 求职.md",
+    "01 - ⌨️ 编程 Programming/🛶 习题/笔试 Examination/科大讯飞3 - 红节点与子数的直径.md",
+    "01 - ⌨️ 编程 Programming/🛶 习题/笔试 Examination/科大讯飞2 - 因数和为奇的数.md",
+    "Files/Excel/lu63514mwiy3.tmp",
+    "Files/Excel/lu63514mwixx.tmp",
+    "Files/Excel/lu63514mwixr.tmp",
+    "06 - 🖥 计算机科学 Computer Science/C1 - 🟠 Ubuntu Linux/1 - 🎠 基础/⚙️ 系统安装.md",
+    "06 - 🖥 计算机科学 Computer Science/C1 - 🟠 Ubuntu Linux/1 - 🎠 基础/🚀 快捷键.md",
+    "06 - 🖥 计算机科学 Computer Science/C1 - 🟠 Ubuntu Linux/1 - 🎠 基础/🗃 软件管理.md",
+    "06 - 🖥 计算机科学 Computer Science/C1 - 🟠 Ubuntu Linux/~🟠~ Ubuntu 学习笔记.md",
+    "04 - 🤗 人工智能 Artificial Intelligence/🛠 工具/🔦 PyTorch 基本教程.md",
+    "🎓 课程学习 Courses/🎯 学习资料.md",
+    "01 - ⌨️ 编程 Programming/01 - 🎧 C++/1 - ⚙️ 环境配置 Environment Setup/CMake.md",
+    "01 - ⌨️ 编程 Programming/01 - 🎧 C++/$ - 🌈 常用库 C++ Libraries",
+    "https",
+    "01 - ⌨️ 编程 Programming/01 - 🎧 C++/5 - 💾 输入输出 Input & Output",
+    "Files/Excel/F91C7000",
+    "Files/Excel/591C7000",
+    "Files/Solution to exercises.pdf",
+    "Files/Lectrure 7.pdf",
     "Untitled.canvas",
     "Files/Pasted image 20250731120259.png",
     "Files/Pasted image 20250731112029.png",
