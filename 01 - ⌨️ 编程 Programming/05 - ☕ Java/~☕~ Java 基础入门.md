@@ -127,7 +127,7 @@ import java.util.Arrays;
 
 /* 声明 */
 ArrayList<String> words = new ArrayList<String>(); //不赋值
-ArrayList<Integer> nums = new ArrayList<Integer>(Arrays.asList(1, 2, 3)); //赋值
+; //赋值
 
 /* 添加元素 */
 words.add("love");

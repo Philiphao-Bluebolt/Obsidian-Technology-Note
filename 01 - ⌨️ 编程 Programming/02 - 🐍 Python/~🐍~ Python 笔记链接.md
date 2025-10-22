@@ -1,41 +1,43 @@
 + **文档**：[Python Documentation](https://docs.python.org/3/index.html) | [PEP 8 代码风格](https://peps.python.org/pep-0008/)
-+ **教程**：[官方](https://docs.python.org/3/tutorial/index.html) | [W3schools](https://www.w3schools.com/python/) | [Geeksforgeeks](https://www.geeksforgeeks.org/python-programming-language-tutorial/) | [菜鸟](https://www.runoob.com/python/python-tutorial.html)
++ **教程**：[官方](https://docs.python.org/3/tutorial/index.html) | [W3schools](https://www.w3schools.com/python/) | [Geeksforgeeks](https://www.geeksforgeeks.org/python-programming-language-tutorial/) | [菜鸟](https://www.runoob.com/python/python-tutorial.html) | [WTF](https://github.com/satwikkansal/wtfpython)
 
 Python是一门**解释型**面向对象脚本~~胶水~~高级编程语言，因其语法简单、扩展库丰富而受到广大开发者的欢迎，在数据分析、机器学习、应用开发等领域较为流行
 
-+ ⚙️ **[环境配置](#环境配置%20Environment%20Setup)** - 🍃 [Anaconda](🍃%20Anaconda.md) · 🧊 [Pip](🧊%20Pip.md) · ☄️ [VSCode](☄️%20VSCode%20使用教程.md#Python) · 🌈 [常用库](🌈%20Python%20常用库列表.md) 
++ ✨️ **[Python简介](#Python简介)**
++ ⚙️ **[环境配置](#环境配置%20Environment%20Setup)**
+	+ 📚️ 模块与库 - 🌈 [常用库](🌈%20Python%20常用库列表.md) · 🍃 [Anaconda](🍃%20Anaconda.md) · 🧊 [Pip](🧊%20Pip.md) · 
+	+ 🧼 集成 - ☄️ [VSCode](☄️%20VSCode%20使用教程.md#Python) · Pycharm · Spyder
 + 🎨 **[变量运算](#变量运算%20Variables%20&%20Operations)**
-	+ 基础 - [赋值](#赋值%20Assignment) · [引用](#引用%20Reference) · [作用域](#作用域%20Scope) · [类型转换](#类型转换%20Type%20Conversion)
-	+ 单值 - [布尔型](#布尔型%20Boolean) · [数值型](#数值型%20Value) ( [整型](#整型%20Integer) · [浮点型](#浮点型%20Float) · [复数](#复数%20Complex) )
-	+ 序列 - [序列](#序列%20Sequence) ( [列表](#列表%20List) · [元组](#元组%20Tuple) · [范围](#范围%20Range) ) · [字符串](#字符串%20String) 
+	+ 🧩 基本 - [布尔型](#布尔型%20Boolean) · [数值型](#数值型%20Value) ( [整型](#整型%20Integer) · [浮点型](#浮点型%20Float) · [复数](#复数%20Complex) )
+	+ ☕ 序列 - [序列](#序列%20Sequence) ( [列表](#列表%20List) · [元组](#元组%20Tuple) · [范围](#范围%20Range) ) · [字符串](#字符串%20String) 
 	+ 其他 - [字典](#字典%20Dictionary) · [集合](#集合%20Set)
 + 💬 **[语法逻辑](#语法逻辑%20Syntax%20&%20Logics)**
-	+ 语法 - [缩进](#缩进%20Indentation) · 注释
-	+ 逻辑 - [条件](#条件%20Condition) · [循环](#循环%20Loop) · [异常处理](#异常处理%20Exception%20Handling)
+	+ 语法 - [缩进](缩进%20Indentation.md) · [注释](注释%20Comment.md) · [赋值](#赋值%20Assignment) · [引用](#引用%20Reference) · [作用域](01%20-%20⌨️%20编程%20Programming/02%20-%20🐍%20Python/3%20-%20💬%20语法逻辑%20Syntax%20&%20Logics/作用域%20Scope.md) · [类型转换](类型转换%20Type%20Conversion.md)
+	+ 逻辑 - [条件](#条件%20Condition) · [循环](#循环%20Loop) · 递归 · [异常处理](#异常处理%20Exception%20Handling)
++ 📦 **[代码封装](#代码封装%20Encapsulation)**
+	+ 函数 - [定义](定义函数%20Define%20Function.md) · [内函数](#内函数%20Nested%20Function) · [Lambda](#Lambda%20表达式) · 异步
+	+ 类 - 自定义 ( 继承 · 实例化 ) ·
+	+ 方法 - [修饰器](#修饰器%20Decorator) · 抽象 · 私有 · [运算符重载](运算符重载%20Operator%20Overloading.md)
 + 💾 **[输入输出](#输入输出%20Input%20&%20Output)**
 	+ 命令行 - [文本](#文本输出%20Text%20Output) · [表格](#表格%20Table) · [进度条](#进度条%20Progress%20bar) · 命令传参
 	+ 文件 - 路径 · 纯文本 · 图片 · 其他
-+ 📦 **[代码封装](#代码封装%20Encapsulation)**
-	+ 函数 - [自定义](#自定义函数%20Custom%20Functions) · [内函数](#内函数%20Nested%20Function) · [Lambda](#Lambda%20表达式) · 递归 · [原生函数](#原生函数%20Built-in%20Functions) · 异步
-	+ 类 - 自定义 ( 继承 · 实例化 ) ·
-	+ 方法 - [修饰器](#修饰器%20Decorator) · 抽象 · 私有 · [运算符重载](运算符重载%20Operator%20Overloading.md)
-+ 🌈 **[库和模块](#库和模块%20Package%20&%20Module)** - [导入](#模块导入%20Import%20Modules)
-	+ 自定义 - [自定义](#自定义模块%20Custom%20Modul) · 
-
-
 
 ```python
 if __name__ == "__main__":
 	print("Hello World!")
 ```
 
++ 待归纳话题：条件语句、内函数
+
+---
+## Python简介
 
 
 
 ---
 ## 环境配置 Environment Setup
 
-Python程序通过解释器执行，解释器是
+Python源代码通过解释器（Interpreter）执行，不需要预先编译成二进制机器码，因此只需要安装一个解释器即可在机器上运行基础的Python程序。实际上，为避免库版本冲突，Python程序员大多同时安装Anaconda等软件，使用虚拟环境管理不同项目的库
 
 
 
@@ -66,83 +68,6 @@ Python中的变量相比其他常用的高级编程语言（如C++、Java）有�
 | `range`   | 范围（等差数列） | 序列型  | `num_seq = range(1, 2, 20)`     |
 | `dict`    | 字典       | 映射型  | `enc = {"love": 11, "you": -4}` |
 | `set`     | 集合       | 集合型  | `group = {1, 2, 'all', 'I'}`    |
-
-### 赋值 Assignment
-
-+ **类型标注**
-
-对变量赋值时可以使用顿号标注变量的类型，但这种方式并不能“锁定”变量类型；在变量类型遭到修改时依然不会报错。
-
-```python
-my_integer : int
-my_str : tuple[str, str] = (1, 2)
-
-my_integer = "str"
-my_str = 1
-```
-
-+ **多变量赋值**
-
-允许使用同一个赋值号对多个不同的变量进行赋值，变量之间使用逗号隔开。这种写法常用于获取函数的多个输出。
-
-```python
-cnt, text, value, isFine = 3, "Yes", 0.1, True
-pos, vel = getOdometry()
-```
-
-+ **三目运算符**
-
-这是一种二分条件赋值的简化写法
-
-```python
-my_value = -1 if isNeg else 1
-```
-
-
-### 引用 Reference
-
-Python的变量本质上都是指向对象的引用，仅传递变量引用而没有创建新对象的复制方式为浅拷贝（Shallow Copy），与深拷贝相对应。直接指定变量名称拷贝时（`b = a`）总是默认浅拷贝。
-
-+ **可变类型的浅拷贝**
-
-可变类型（Immutable）如列表`list`的元素可以被直接修改，由于`ls_b`和`ls_a`指向同一列表对象，经由`ls_b`修改列表的元素值也会影响`ls_a`；可使用**范围切分**赋值`[:]`指定深拷贝
-
-```python
-ls_a = [1, 2]
-
-ls_b = ls_a # Shallow copy
-ls_b[0] = 2
-print(ls_a) # Result: [2, 2]
-```
-
-+ **不可变类型的浅拷贝**
-
-Python所有单值变量及元组、字符串等序列变量不可变，取值的改变通过创建新对象实现。整型变量`b`重新赋值时，引用改为指向储存"2"的新对象，`a`仍然指向储存"1"的旧对象。因此不可变类型不会因为浅拷贝误改变原变量的值。
-
-```python
-a = 1
-b = a # Shallow copy
-b = 2
-```
-
-标准库`copy`提供了直观的浅拷贝函数`copy()`和深拷贝函数`deepcopy()`
-
-### 作用域 Scope
-
-+ **关键词**：`global`、`local`
-
-定义的变量只在一定的尺度下有效，
-
-+ **函数访问全局变量**
-
-
-+ **内函数**
-
-
-
-
-
-### 类型转换 Type Conversion
 
 
 
@@ -297,18 +222,11 @@ Python自带不少用于处理字符串的函数和方法，复杂的字符串�
 
 这部分介绍Python的语法以及常用的逻辑判断语句
 
-### 缩进 Indentation
 
-Python的缩进用于代表语句的层次关系，因此会影响。函数定义、类定义、条件及循环语句的代码块必须使用**顿号加缩进**的形式标识
++ 
 
-```python
-class Example():
-	def choose(self, x, y):
-		if x == y:
-			return True 
-		else:
-			return False
-```
+
+
 
 
 ### 条件 Condition
@@ -366,6 +284,47 @@ Python支持两种循环语句：遍历型（`for ... in`）、当型（`while`�
 
 
 > **容器初始化**
+
+
+### 赋值 Assignment
+
++ **类型标注**
+
+对变量赋值时可以使用顿号标注变量的类型，但这种方式并不能“锁定”变量类型；在变量类型遭到修改时依然不会报错。
+
+```python
+my_integer : int
+my_str : tuple[str, str] = (1, 2)
+
+my_integer = "str"
+my_str = 1
+```
+
++ **多变量赋值**
+
+允许使用同一个赋值号对多个不同的变量进行赋值，变量之间使用逗号隔开。这种写法常用于获取函数的多个输出。
+
+```python
+cnt, text, value, isFine = 3, "Yes", 0.1, True
+pos, vel = getOdometry()
+```
+
++ **三目运算符**
+
+这是一种二分条件赋值的简化写法
+
+```python
+my_value = -1 if isNeg else 1
+
+
+
+
+
+
+
+
+### 类型转换 Type Conversion
+
 
 
 
@@ -430,7 +389,7 @@ my_table.add_row(["Stanley", "Electro", 8])
 
 代码封装可以提高代码的复用率和可读性，与许多语言一样，Python提供了函数和类用于封装代码
 
-### 自定义函数 Custom Functions
+### 定义函数 Define Functions
 
 + **参考**：
 + **关键词**：`def`、`return`
@@ -521,20 +480,6 @@ Python原生函数指可以直接使用，不需要导入的函数
 
 
 ### 
-
-
-
-
----
-## 库和模块 Package & Module
-
-库和模块可以将实现了一定功能或算法的函数或类封装成可调用的
-
-Python的库（Package）内部封装着
-
-Python官方及社区共同维护一系列功能强大的库
-
-### 模块导入 Import Modules
 
 
 

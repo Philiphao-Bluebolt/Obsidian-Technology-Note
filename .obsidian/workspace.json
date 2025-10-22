@@ -24,6 +24,38 @@
             }
           },
           {
+            "id": "0ca6e9f4f262a9e9",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "!💳 求职 - 2026/!🗂 求职.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "!🗂 求职"
+            }
+          },
+          {
+            "id": "636a79c9457a1f64",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "!💳 求职 - 2026/$ - 💡 面试与笔试不足之处.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "$ - 💡 面试与笔试不足之处"
+            }
+          },
+          {
             "id": "62717afbe2e9ddd6",
             "type": "leaf",
             "pinned": true,
@@ -78,7 +110,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06 - 🖥 计算机科学 Computer Science/A1 - 📦 数据结构及算法 Data Structure & Algorithm/📦 数据结构及算法 笔记导览.md",
+                "file": "07 - 🖥 计算机科学 Computer Science/A1 - 📦 数据结构及算法 Data Structure & Algorithm/📦 数据结构及算法 笔记导览.md",
                 "mode": "source",
                 "source": false
               },
@@ -88,37 +120,35 @@
             }
           },
           {
-            "id": "bab73983158de3f0",
+            "id": "0ce0427d316a6946",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04 - 🤗 人工智能 Artificial Intelligence/🛠 工具/🔦 PyTorch 基本教程.md",
+                "file": "07 - 🖥 计算机科学 Computer Science/A1 - 📦 数据结构及算法 Data Structure & Algorithm/映射 Map.md",
                 "mode": "source",
                 "source": false
               },
-              "pinned": true,
               "icon": "lucide-file",
-              "title": "🔦 PyTorch 基本教程"
+              "title": "映射 Map"
             }
           },
           {
-            "id": "01b4e39589402148",
+            "id": "16e96bd8bc600b93",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - ⌨️ 编程 Programming/01 - 🎧 C++/$ - 🌈 常用库 C++ Libraries/algorithm - 数据结构算法.md",
+                "file": "09 - 📐 数学 Maths/03 - 🥖 线性代数 Linear Algebra/~🥖~ 线性代数笔记导览 Linear Algebra Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "algorithm - 数据结构算法"
+              "title": "~🥖~ 线性代数笔记导览 Linear Algebra Notes"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -175,7 +205,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 370.5
+    "width": 355.51103591918945
   },
   "right": {
     "id": "7183c1e02ba22b3a",
@@ -191,7 +221,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 - ⌨️ 编程 Programming/01 - 🎧 C++/~🎧~ C++ 笔记链接.md",
+                "file": "!🎉! 活跃页面 Active Pages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -201,7 +231,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for ~🎧~ C++ 笔记链接"
+              "title": "Backlinks for !🎉! 活跃页面 Active Pages"
             }
           },
           {
@@ -264,44 +294,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9624aa12ba66a5dd",
+  "active": "990b4ceecdea90b1",
   "lastOpenFiles": [
-    "Files/Excel/lu63514mwiyi.tmp",
-    "01 - ⌨️ 编程 Programming/02 - 🐍 Python/~🐍~ Python 笔记链接.md",
-    "01 - ⌨️ 编程 Programming/01 - 🎧 C++/~🎧~ C++ 笔记链接.md",
+    "07 - 🖥 计算机科学 Computer Science/A1 - 📦 数据结构及算法 Data Structure & Algorithm/映射 Map.md",
+    "07 - 🖥 计算机科学 Computer Science/A1 - 📦 数据结构及算法 Data Structure & Algorithm/📦 数据结构及算法 笔记导览.md",
+    "!💳 求职 - 2026/!🗂 求职.md",
+    "!💳 求职 - 2026/$ - 💡 面试与笔试不足之处.md",
     "01 - ⌨️ 编程 Programming/🛶 习题/🛶 算法题目笔记.md",
-    "01 - ⌨️ 编程 Programming/01 - 🎧 C++/$ - 🌈 常用库 C++ Libraries/algorithm - 数据结构算法.md",
-    "01 - ⌨️ 编程 Programming/01 - 🎧 C++/$ - 🌈 常用库 C++ Libraries/🌈 C++ 常用库列表.md",
-    "!🎉! 活跃页面 Active Pages.md",
-    "06 - 🖥 计算机科学 Computer Science/A1 - 📦 数据结构及算法 Data Structure & Algorithm/📦 数据结构及算法 笔记导览.md",
-    "02 - 🤖 机器人 Robot/~🤖~ 机器人技术总览 Robot Technology.md",
-    "01 - ⌨️ 编程 Programming/02 - 🐍 Python/6 - 🌈 库教程/🌈 Python 常用库列表.md",
-    "01 - ⌨️ 编程 Programming/~⌨️~ 编程 笔记导览.md",
-    "01 - ⌨️ 编程 Programming/💾 编程通用知识.md",
-    "02 - 🤖 机器人 Robot/📰 机器人业界及技术资讯收录.md",
-    "02 - 🤖 机器人 Robot/1 - 📖 机器人学 Robotics/~✨~ 机器人学概括 Robotics Shortcut.md",
-    "02 - 🤖 机器人 Robot/1 - 📖 机器人学 Robotics/❔ 问题疑难.md",
-    "!🧭! 学科笔记导航 Note Navigator by Field.md",
-    "!💳 求职 - 2026/~🗂~ 求职.md",
-    "01 - ⌨️ 编程 Programming/🛶 习题/笔试 Examination/科大讯飞3 - 红节点与子数的直径.md",
-    "01 - ⌨️ 编程 Programming/🛶 习题/笔试 Examination/科大讯飞2 - 因数和为奇的数.md",
-    "Files/Excel/lu63514mwiy3.tmp",
-    "Files/Excel/lu63514mwixx.tmp",
-    "Files/Excel/lu63514mwixr.tmp",
-    "06 - 🖥 计算机科学 Computer Science/C1 - 🟠 Ubuntu Linux/1 - 🎠 基础/⚙️ 系统安装.md",
-    "06 - 🖥 计算机科学 Computer Science/C1 - 🟠 Ubuntu Linux/1 - 🎠 基础/🚀 快捷键.md",
-    "06 - 🖥 计算机科学 Computer Science/C1 - 🟠 Ubuntu Linux/1 - 🎠 基础/🗃 软件管理.md",
-    "06 - 🖥 计算机科学 Computer Science/C1 - 🟠 Ubuntu Linux/~🟠~ Ubuntu 学习笔记.md",
-    "04 - 🤗 人工智能 Artificial Intelligence/🛠 工具/🔦 PyTorch 基本教程.md",
+    "01 - ⌨️ 编程 Programming/01 - 🎧 C++/~🎧~ C++ 笔记链接.md",
+    "01 - ⌨️ 编程 Programming/02 - 🐍 Python/~🐍~ Python 笔记链接.md",
+    "09 - 📐 数学 Maths/03 - 🥖 线性代数 Linear Algebra/~🥖~ 线性代数笔记导览 Linear Algebra Notes.md",
     "🎓 课程学习 Courses/🎯 学习资料.md",
-    "01 - ⌨️ 编程 Programming/01 - 🎧 C++/1 - ⚙️ 环境配置 Environment Setup/CMake.md",
-    "01 - ⌨️ 编程 Programming/01 - 🎧 C++/$ - 🌈 常用库 C++ Libraries",
-    "https",
-    "01 - ⌨️ 编程 Programming/01 - 🎧 C++/5 - 💾 输入输出 Input & Output",
-    "Files/Excel/F91C7000",
-    "Files/Excel/591C7000",
-    "Files/Solution to exercises.pdf",
-    "Files/Lectrure 7.pdf",
+    "!🎉! 活跃页面 Active Pages.md",
+    "Files/Excel/lu52693mm3kg.tmp",
+    "Files/Excel/lu52693mm3k9.tmp",
+    "Files/Excel/lu52693mm3k2.tmp",
+    "01 - ⌨️ 编程 Programming/🛶 习题/笔试 Examination/京东2 - 货架优惠.md",
+    "!💳 求职 - 2026/2 - ✒️ 笔试准备.md",
+    "!💳 求职 - 2026/面试经历.md",
+    "!💳 求职 - 2026/Micron.md",
+    "Untitled.md",
+    "Files/Excel/lu7244811wdtn.tmp",
+    "!EE7204 - 📏 Linear Systems/Assignment 1.md",
+    "07 - 🖥 计算机科学 Computer Science/A1 - 📦 数据结构及算法 Data Structure & Algorithm/序列 Sequence.md",
+    "07 - 🖥 计算机科学 Computer Science/B3 - 🔐 计算机安全 Computer Security/哈希函数 Hash Function.md",
+    "🎓 课程学习 Courses/🦁 NTU/EE6203 - 📉 Computer Control Systems/📜 Notes/Part 2 Lec 1-4 - State Space Model.md",
+    "!EE7204 - 📏 Linear Systems/Chapter 5 - Stability.md",
+    "!EE7204 - 📏 Linear Systems/Chapter 6 - Controllability and Observability.md",
+    "!EE7204 - 📏 Linear Systems/Chapter 1 & 2 - Linear System Intro.md",
+    "🛠 软件工具 Software Tools/⚛️ Obsidian/LaTeX 数学公式语法.md",
+    "!EE7204 - 📏 Linear Systems/Chapter 4 - State Space Solutions.md",
+    "!EE7204 - 📏 Linear Systems/Chapter 3 - Linear Algebra Recap.md",
+    "03 - 🚂 控制工程 Control Engineering/📡 信号与系统 Signal and System/~拉氏变换及Z变换表.md",
+    "Files/Plots/Data Structure/data_structure.drawio",
+    "Files/Plots/Data Structure",
+    "Files/Excel/lu60467mcs26.tmp",
+    "01 - ⌨️ 编程 Programming/02 - 🐍 Python/5 - 💾 输入输出 Input & Output",
+    "Files/Excel/lu47057fjl73.tmp",
+    "Files/Pasted image 20251012185420.png",
+    "📋️ 页面模板 Page Templates",
     "Untitled.canvas",
     "Files/Pasted image 20250731120259.png",
     "Files/Pasted image 20250731112029.png",
@@ -311,7 +342,6 @@
     "Files/Pasted image 20250722120220.png",
     "Files/Pasted image 20250720233251.png",
     "Files/Pasted image 20250718153638.png",
-    "Files/Pasted image 20250718151012.png",
-    "Files/Pasted image 20250718150926.png"
+    "Files/Pasted image 20250718151012.png"
   ]
 }

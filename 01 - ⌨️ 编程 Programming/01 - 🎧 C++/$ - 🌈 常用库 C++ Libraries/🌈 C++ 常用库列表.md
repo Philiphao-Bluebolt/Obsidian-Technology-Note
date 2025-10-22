@@ -19,7 +19,6 @@
 + set | 有序集合（基于平衡二叉树）
 + multiset | 
 
-
 ### 算法 Algorithm
 
 + **[algorithm](algorithm%20-%20数据结构算法.md)** | 数据结构算法
@@ -33,10 +32,17 @@
 + sstream | 字符串流
 
 
+### 内存管理 Memory Management
+
++ memory | 
+
+
 ### 杂项 Miscellaneous
 
 + limits | 类型值范围
 + chrono | 运行时间计算
++ cstdint | 
+
 
 ---
 ## 第三方库 Third-Party Packages

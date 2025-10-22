@@ -1,4 +1,4 @@
-Given by Professor Wen Fuxi, this course introduces the basic concepts, algorithms, tricks, and frontiers of reinforcement learning.
+Brought to you by Professor Wen Fuxi, this course introduces the basic concepts, algorithms, tricks, and frontiers of reinforcement learning.
 
 + [Part 1](#Part%201%20-%20Basic%20Concepts%20and%20Framework%20(Lec%201-4)) - **Basic Concepts and Framework** (Lec 1-4) - [Note](Lec%201-4%20-%20Basic%20Concepts%20and%20Framework.md)
 + [Part 2](#Part%202%20-%20Estimating%20Values%20by%20Sampling%20(Lec%205-7)) - **Estimating Value by Sampling** (Lec 5-7) - [Note](Lec%205-7%20-%20Estimating%20Value%20by%20Sampling.md)
