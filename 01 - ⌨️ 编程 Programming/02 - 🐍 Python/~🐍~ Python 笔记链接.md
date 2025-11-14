@@ -3,23 +3,24 @@
 
 Python是一门**解释型**面向对象脚本~~胶水~~高级编程语言，因其语法简单、扩展库丰富而受到广大开发者的欢迎，在数据分析、机器学习、应用开发等领域较为流行
 
-+ ✨️ **[Python简介](#Python简介)**
++ 🐍 **[Python简介](#Python简介)**
 + ⚙️ **[环境配置](#环境配置%20Environment%20Setup)**
 	+ 📚️ 模块与库 - 🌈 [常用库](🌈%20Python%20常用库列表.md) · 🍃 [Anaconda](🍃%20Anaconda.md) · 🧊 [Pip](🧊%20Pip.md) · 
 	+ 🧼 集成 - ☄️ [VSCode](☄️%20VSCode%20使用教程.md#Python) · Pycharm · Spyder
 + 🎨 **[变量运算](#变量运算%20Variables%20&%20Operations)**
 	+ 🧩 基本 - [布尔型](#布尔型%20Boolean) · [数值型](#数值型%20Value) ( [整型](#整型%20Integer) · [浮点型](#浮点型%20Float) · [复数](#复数%20Complex) )
-	+ ☕ 序列 - [序列](#序列%20Sequence) ( [列表](#列表%20List) · [元组](#元组%20Tuple) · [范围](#范围%20Range) ) · [字符串](#字符串%20String) 
-	+ 其他 - [字典](#字典%20Dictionary) · [集合](#集合%20Set)
+	+ ☕ 序列 - [序列](#序列%20Sequence) ( [列表](#列表%20List) · [元组](#元组%20Tuple) · [范围](#范围%20Range) ) · [字符串](01%20-%20⌨️%20编程%20Programming/02%20-%20🐍%20Python/2%20-%20🎨%20变量运算%20Variables%20&%20Operations/字符串%20String.md)
+	+ 组合 - [字典](#字典%20Dictionary) · [集合](#集合%20Set)
 + 💬 **[语法逻辑](#语法逻辑%20Syntax%20&%20Logics)**
-	+ 语法 - [缩进](缩进%20Indentation.md) · [注释](注释%20Comment.md) · [赋值](#赋值%20Assignment) · [引用](#引用%20Reference) · [作用域](01%20-%20⌨️%20编程%20Programming/02%20-%20🐍%20Python/3%20-%20💬%20语法逻辑%20Syntax%20&%20Logics/作用域%20Scope.md) · [类型转换](类型转换%20Type%20Conversion.md)
+	+ 语法 - [缩进](缩进%20Indentation.md) · [注释](注释%20Comment.md) · [赋值](#赋值%20Assignment) · [引用](引用%20Reference.md) · [作用域](01%20-%20⌨️%20编程%20Programming/02%20-%20🐍%20Python/3%20-%20💬%20语法逻辑%20Syntax%20&%20Logics/作用域%20Scope.md) · [类型转换](类型转换%20Type%20Conversion.md)
 	+ 逻辑 - [条件](#条件%20Condition) · [循环](#循环%20Loop) · 递归 · [异常处理](#异常处理%20Exception%20Handling)
 + 📦 **[代码封装](#代码封装%20Encapsulation)**
 	+ 函数 - [定义](定义函数%20Define%20Function.md) · [内函数](#内函数%20Nested%20Function) · [Lambda](#Lambda%20表达式) · 异步
 	+ 类 - 自定义 ( 继承 · 实例化 ) ·
 	+ 方法 - [修饰器](#修饰器%20Decorator) · 抽象 · 私有 · [运算符重载](运算符重载%20Operator%20Overloading.md)
 + 💾 **[输入输出](#输入输出%20Input%20&%20Output)**
-	+ 命令行 - [文本](#文本输出%20Text%20Output) · [表格](#表格%20Table) · [进度条](#进度条%20Progress%20bar) · 命令传参
+	+ [文本](01%20-%20⌨️%20编程%20Programming/02%20-%20🐍%20Python/5%20-%20💾%20输入输出%20Input%20&%20Output/文本读写%20Reading%20and%20Writing%20of%20Text.md) 
+	+ 命令行 - [表格](#表格%20Table) · [进度条](#进度条%20Progress%20bar) · 命令传参
 	+ 文件 - 路径 · 纯文本 · 图片 · 其他
 
 ```python
@@ -190,20 +191,6 @@ my_list = ['ar', 1]
 
 ### 字符串 String
 
-+ **参考**：[Doc](https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str)、[W3schools](https://www.w3schools.com/python/python_strings.asp)
-
-Python所有字符变量都以字符串类型保存。字符串与序列类变量的性质相似，可以使用方括号`[]`访问或截取部分字符。
-
-```python
-my_str = "Hello World!"
-
-```
-Python自带不少用于处理字符串的函数和方法，复杂的字符串也可以使用正则表达式（标准库`re`）处理。
-
-+ **字符串操作**
-	+ **子串操作**
-		+ 
-	+ **字母处理**
 
 
 

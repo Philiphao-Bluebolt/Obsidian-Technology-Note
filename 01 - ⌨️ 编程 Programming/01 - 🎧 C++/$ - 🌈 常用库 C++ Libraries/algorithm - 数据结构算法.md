@@ -6,5 +6,4 @@ C++的标准库`algorithm`封装了一些常见的数据结构处理算法，与
 + 搜索算法 - `find` · `find_if` · `adjacent_find` · 
 + 
 
-
 ---
