@@ -1,8 +1,20 @@
 + Wikipedia - [Linear Algebra](https://en.wikipedia.org/wiki/Linear_algebra)
 
-线性代数是研究线性映射、向量空间以及矩阵理论的数学分支，其最初的研究对象是线性方程组的求解方法。线性代数与解析几何等数学分支有着密切的关系，也是控制论、机器学习等工科的理论基础。
+线性代数是研究线性映射、向量空间以及矩阵理论的数学分支，其最初的研究对象是线性方程组的求解方法。线性代数与解析几何等数学分支有着密切关系，也是控制论、机器人学、机器学习、计算机视觉、机器视觉、电路分析等工程学科的理论基础与计算工具。
 
-线性代数的理解方式有两种，第一种以矩阵与线性方程组为中心，将所有的
+线性代数的理解方式有两种，传统的教材以矩阵与线性方程组为中心，重视算子轻视本质；以《Linear Algebra Done Right》为代表的新式教材则从线性映射和向量空间角度切入，我认为更有助于学生理解线性代数的本质。
+
++ **学习资料**
+	+ ✔️ **[Linear Algebra](https://www.youtube.com/watch?v=ZK3O402wf1c&list=PL49CF3715CB9EF31D)** - Gilbert Strang (MIT)
+	+ 🪞 **[Linear Algebra Done Right](https://linear.axler.net/LADR4e.pdf)** - Sheldon Axler (SFSU) - [学习笔记](!✔️%20LADR%20学习笔记.md)
++ **编程工具**
+	+ C++ Eigen
+	+ Python Numpy
+	+ MATLAB
+
+
+---
+## 学习路线
 
 + **Path 1 - 矩阵与方程**
 	+ **行列式** - 计算 · 性质 · 展开 
@@ -14,19 +26,6 @@
 + **Path 2 - 算子与空间**
 	+ **** -
 	+ **** -
- 
-
-
-
-
-
-+ **课程**
-	+ ☄️ **[Linear Algebra](https://www.youtube.com/watch?v=ZK3O402wf1c&list=PL49CF3715CB9EF31D)** | Gilbert Strang (MIT)
-
-+ **路线**
-	+ 矩阵路线
-
-
 
 
 

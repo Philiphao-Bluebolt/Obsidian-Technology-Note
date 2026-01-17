@@ -1,4 +1,6 @@
 + **参考** - [菜鸟](https://www.runoob.com/cplusplus/cpp-standard-library.html) · [CPlusPlus](https://cplusplus.com/reference/)
++ **另见** - 🌈 [Python 常用库列表](🌈%20Python%20常用库列表.md)
+
 
 + 🗃️ **[标准库](#标准库%20Standard%20Library)** - [容器](#容器%20Containers) · [算法](#算法%20Algorithm) · [输入输出](#输入输出%20Input%20Output) · [杂项](#杂项%20Miscellaneous)
 + 🎉 **[第三方库](#第三方库%20Third-Party%20Packages)** - 
@@ -8,7 +10,7 @@
 
 ### 容器 Containers
 
-数据容器相关标准库，关于容器的具体用法参见[容器介绍](~🎧~%20C++%20笔记链接.md#容器%20Containers)
+数据容器相关标准库，关于容器的具体用法参见[容器介绍](!🎧%20C++%20笔记链接.md#容器%20Containers)
 
 + ➡️ vector | 向量
 + 📥️ stack | 栈

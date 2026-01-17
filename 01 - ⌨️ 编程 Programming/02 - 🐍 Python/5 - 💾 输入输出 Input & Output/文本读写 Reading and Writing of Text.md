@@ -1,3 +1,5 @@
++ **另见** - 🎧 [C++ 文本读写](01%20-%20⌨️%20编程%20Programming/01%20-%20🎧%20C++/5%20-%20💾%20输入输出%20Input%20&%20Output/文本读写%20Reading%20and%20Writing%20of%20Text.md)
+
 Python中的文本读写主要使用的是`sys.stdio`模块
 
 
@@ -48,10 +50,3 @@ print(data_str)
 ```bash
 python input.py < data.txt
 ```
-
-
-
----
-## 参见
-
-+ 🎧 [C++ 文本读写](01%20-%20⌨️%20编程%20Programming/01%20-%20🎧%20C++/5%20-%20💾%20输入输出%20Input%20&%20Output/文本读写%20Reading%20and%20Writing%20of%20Text.md)

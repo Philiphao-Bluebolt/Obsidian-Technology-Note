@@ -1,4 +1,6 @@
-数据分析是Python最常用的功能，因此常用的数据分析库使用频率几乎与标准库相当，这些库支持下列功能：输入输出、格式转换、切分合并、绘图展示、分类预测
+
+Python是数据科学领域最常用的语言之一，大量的第三方库提供了数据导入导出、可视化、清洗、模型训练等功能。
+
 
 + 🗂 **常用库**
 	+ 处理：🗃 [Numpy](https://numpy.org/doc/stable/user/index.html#user) | 📊 [Pandas](https://pandas.pydata.org/docs/user_guide/index.html#user-guide) | 🎰 [Scipy](https://docs.scipy.org/doc/scipy/reference/index.html#scipy-api)

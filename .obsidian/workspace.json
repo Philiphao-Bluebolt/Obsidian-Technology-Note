@@ -24,189 +24,37 @@
             }
           },
           {
-            "id": "0ca6e9f4f262a9e9",
+            "id": "7ef7f557ffa31a9a",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "!💳 求职 - 2026/!🗂 求职.md",
+                "file": "🎓 课程学习 Courses/🦁 NTU/EE6231 - 🎭 Reinforcement Learning/🎭 EE6231 - Reinforcement Learning.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "!🗂 求职"
+              "title": "🎭 EE6231 - Reinforcement Learning"
             }
           },
           {
-            "id": "636a79c9457a1f64",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "!💳 求职 - 2026/$ - 💡 面试与笔试回顾.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "$ - 💡 面试与笔试回顾"
-            }
-          },
-          {
-            "id": "d153860917fa80ec",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - ⌨️ 编程 Programming/🛶 习题/⚠️ 难以察觉的运行错误 Elusive Runtime Error.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "⚠️ 难以察觉的运行错误 Elusive Runtime Error"
-            }
-          },
-          {
-            "id": "9624aa12ba66a5dd",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - ⌨️ 编程 Programming/01 - 🎧 C++/~🎧~ C++ 笔记链接.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "~🎧~ C++ 笔记链接"
-            }
-          },
-          {
-            "id": "26c6e8ef6900fc47",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - ⌨️ 编程 Programming/02 - 🐍 Python/~🐍~ Python 笔记链接.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "~🐍~ Python 笔记链接"
-            }
-          },
-          {
-            "id": "990b4ceecdea90b1",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "06 - 🖥 计算机科学 Computer Science/A1 - 📦 数据结构及算法 Data Structure & Algorithm/📦 数据结构及算法 笔记导览.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "📦 数据结构及算法 笔记导览"
-            }
-          },
-          {
-            "id": "8bf426b001d87045",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02 - 🤖 机器人 Robot/🐢 ROS 系统与生态/🐢 ROS 系统与生态 导览页.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "🐢 ROS 系统与生态 导览页"
-            }
-          },
-          {
-            "id": "b1eed16bfe5d65dd",
+            "id": "3fad1135ed7f6ac2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - ⌨️ 编程 Programming/♎️ 编程语言的共性与差异.md",
+                "file": "01 - ⌨️ 编程 Programming/🛶 练习/🛶 算法题目笔记 Coding Problem Note.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "♎️ 编程语言的共性与差异"
-            }
-          },
-          {
-            "id": "9aec7696b65331f6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - ⌨️ 编程 Programming/01 - 🎧 C++/$ - 🌈 常用库 C++ Libraries/algorithm - 数据结构算法.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "algorithm - 数据结构算法"
-            }
-          },
-          {
-            "id": "e12ee0535a540159",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🎓 课程学习 Courses/🎯 学习资料.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "🎯 学习资料"
-            }
-          },
-          {
-            "id": "1280fb0244a21974",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - ⌨️ 编程 Programming/01 - 🎧 C++/~🎧~ C++ 笔记链接.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "~🎧~ C++ 笔记链接"
-            }
-          },
-          {
-            "id": "c765adce6073fdef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "!EE7204 - 📏 Linear Systems/Chapter 9.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Chapter 9"
+              "title": "🛶 算法题目笔记 Coding Problem Note"
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -238,7 +86,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "latex",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -259,11 +107,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 365.5
+    "width": 327.51103591918945
   },
   "right": {
     "id": "7183c1e02ba22b3a",
@@ -279,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 - ⌨️ 编程 Programming/02 - 🐍 Python/~🐍~ Python 笔记链接.md",
+                "file": "01 - ⌨️ 编程 Programming/🛶 练习/🛶 算法题目笔记 Coding Problem Note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -289,7 +138,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for ~🐍~ Python 笔记链接"
+              "title": "Backlinks for 🛶 算法题目笔记 Coding Problem Note"
             }
           },
           {
@@ -352,54 +201,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c765adce6073fdef",
+  "active": "3fad1135ed7f6ac2",
   "lastOpenFiles": [
-    "!EE7204 - 📏 Linear Systems/Chapter 7 & 8 - Polymonial Function Description.md",
-    "!EE7204 - 📏 Linear Systems/Chapter 6 - Controllability and Observability.md",
-    "!EE7204 - 📏 Linear Systems/Assignment 2.md",
-    "!EE7204 - 📏 Linear Systems/Assignment 1.md",
-    "!EE7204 - 📏 Linear Systems/Chapter 1 & 2 - Linear System Intro.md",
-    "!EE7204 - 📏 Linear Systems/Chapter 3 - Linear Algebra Recap.md",
-    "!EE7204 - 📏 Linear Systems/Chapter 4 - State Space Solutions.md",
-    "!💳 求职 - 2026/!🗂 求职.md",
-    "!🎉! 活跃页面 Active Pages.md",
-    "01 - ⌨️ 编程 Programming/01 - 🎧 C++/~🎧~ C++ 笔记链接.md",
-    "01 - ⌨️ 编程 Programming/🛶 习题/⚠️ 难以察觉的运行错误 Elusive Runtime Error.md",
-    "01 - ⌨️ 编程 Programming/02 - 🐍 Python/~🐍~ Python 笔记链接.md",
     "06 - 🖥 计算机科学 Computer Science/A1 - 📦 数据结构及算法 Data Structure & Algorithm/📦 数据结构及算法 笔记导览.md",
-    "02 - 🤖 机器人 Robot/🐢 ROS 系统与生态/🐢 ROS 系统与生态 导览页.md",
-    "01 - ⌨️ 编程 Programming/01 - 🎧 C++/$ - 🌈 常用库 C++ Libraries/algorithm - 数据结构算法.md",
-    "🎓 课程学习 Courses/🎯 学习资料.md",
-    "06 - 🖥 计算机科学 Computer Science/A1 - 📦 数据结构及算法 Data Structure & Algorithm/🎰 按结构分类/🪈 线性结构 Linear Structure/序列 Sequence.md",
-    "06 - 🖥 计算机科学 Computer Science/A1 - 📦 数据结构及算法 Data Structure & Algorithm/🎰 按结构分类/🪈 线性结构 Linear Structure/栈和队列 Stack & Queue.md",
-    "06 - 🖥 计算机科学 Computer Science/A1 - 📦 数据结构及算法 Data Structure & Algorithm/🎰 按结构分类/🪈 线性结构 Linear Structure/序列排序与搜索 Sequence Sort & Search.md",
-    "06 - 🖥 计算机科学 Computer Science/A1 - 📦 数据结构及算法 Data Structure & Algorithm/🎰 按结构分类/👉️ 映射结构 Mapping Structure/哈希表 Hash Table.md",
-    "06 - 🖥 计算机科学 Computer Science/A1 - 📦 数据结构及算法 Data Structure & Algorithm/🎰 按结构分类/👉️ 映射结构 Mapping Structure/映射 Map.md",
-    "01 - ⌨️ 编程 Programming/02 - 🐍 Python/$ - 🌈 常用库 Python Libraries/🌈 Python 常用库列表.md",
-    "01 - ⌨️ 编程 Programming/♎️ 编程语言的共性与差异.md",
+    "01 - ⌨️ 编程 Programming/🛶 练习/🛶 算法题目笔记 Coding Problem Note.md",
+    "🎓 课程学习 Courses/🦁 NTU/EE6231 - 🎭 Reinforcement Learning/🎭 EE6231 - Reinforcement Learning.md",
+    "!🎉! 活跃页面 Active Pages.md",
+    "01 - ⌨️ 编程 Programming/02 - 🐍 Python/!🐍 Python 笔记链接.md",
+    "01 - ⌨️ 编程 Programming/🛶 练习/⚠️ 难以察觉的运行错误 Elusive Runtime Error.md",
+    "!🧭! 学科笔记 Notes by Field.md",
+    "科学体系的构建 Construction of Science.md",
+    "01 - ⌨️ 编程 Programming/🛶 练习/力扣 Leetcode/长方体堆叠最大高度.md",
+    "01 - ⌨️ 编程 Programming/🛶 练习/力扣 Leetcode/🔴 0135 - 分糖果 Candy.md",
+    "01 - ⌨️ 编程 Programming/02 - 🐍 Python/2 - 🎨 变量运算 Variables & Operations/列表 List.md",
+    "01 - ⌨️ 编程 Programming/🛶 练习/力扣题目列表.md",
+    "01 - ⌨️ 编程 Programming/🛶 练习/笔试 Examination/07 - 圣诞树彩灯 (拼多多2).md",
+    "01 - ⌨️ 编程 Programming/🛶 练习/笔试 Examination/08 - 魔法学校 (拼多多3 ).md",
+    "01 - ⌨️ 编程 Programming/🛶 练习/笔试 Examination/09 - 大鱼吃小鱼 (拼多多4).md",
+    "01 - ⌨️ 编程 Programming/🛶 练习/笔试 Examination/03 - 树节点的更新(美团3).md",
+    "01 - ⌨️ 编程 Programming/🛶 练习/笔试 Examination/02 - 非祖孙最大之和 (美团2).md",
+    "01 - ⌨️ 编程 Programming/🛶 练习/笔试 Examination/01 - 字符串数不同 (美团1).md",
     "!💳 求职 - 2026/$ - 💡 面试与笔试回顾.md",
-    "01 - ⌨️ 编程 Programming/🛶 习题/力扣 Leetcode/🟡 0300 - 最长单增子序列 Longest Increasing Subsequence.md",
-    "01 - ⌨️ 编程 Programming/🛶 习题/笔试 Examination/20 - 最长单增子序列 (瓴岳科技).md",
+    "!💳 求职 - 2026/ST Engineering Robotics Engineer.md",
+    "!💳 求职 - 2026/2 - ✒️ 笔试准备.md",
+    "!💳 求职 - 2026/1 - 💼 简历准备.md",
+    "!💳 求职 - 2026/3 - 👔 面试准备.md",
+    "03 - 🤗 人工智能 Artificial Intelligence/🎭 强化学习 Reinforcement Learning/!🎭 强化学习笔记导览.md",
+    "03 - 🤗 人工智能 Artificial Intelligence/~🤗~ 人工智能 技术笔记.md",
+    "🎓 课程学习 Courses/🦁 NTU/EE6231 - 🎭 Reinforcement Learning/Lec 1-4 - Basic Concepts and Framework.md",
+    "Files/Pasted image 20260108171019.png",
+    "01 - ⌨️ 编程 Programming/07 - 🗃️ SQL",
+    "Files/Pasted image 20251128212003.png",
+    "Files/EE7204 2024-2025 Semester 1.pdf",
+    "Files/EE7204 2023-2024 Semester 1.pdf",
+    "Files/EE7204 2022-2023 Semester 1.pdf",
+    "10 - 📐 数学 Maths/03 - 🥖 线性代数 Linear Algebra/✔️ Linear Algebra Done Right",
+    "Files/Excel/lu37987ddexp.tmp",
+    "10 - 📐 数学 Maths/03 - 🥖 线性代数 Linear Algebra/LADR 学习笔记",
+    "Untitled.canvas",
+    "01 - ⌨️ 编程 Programming/🛶 习题/力扣 Leetcode/Untitled",
+    "Files/Chapter 10 Pole Placement and Robust Tracking 1.pdf",
+    "Files/Chapter 9 State Feedback and State Estimation 1.pdf",
     "Files/Pasted image 20251110140944.png",
-    "08 - ⚡ 电子学 Electronics/4 - 📟 嵌入式 Embedded/FPGA",
-    "08 - ⚡ 电子学 Electronics/4 - 📟 嵌入式 Embedded/C51",
-    "08 - ⚡ 电子学 Electronics/4 - 📟 嵌入式 Embedded/MSP430",
-    "08 - ⚡ 电子学 Electronics/4 - 📟 嵌入式 Embedded/STM32",
-    "06 - 🖥 计算机科学 Computer Science/A1 - 📦 数据结构及算法 Data Structure & Algorithm/🎰 按结构分类/☀️ 分支结构 Branch Structure",
-    "06 - 🖥 计算机科学 Computer Science/A1 - 📦 数据结构及算法 Data Structure & Algorithm/🎰 按结构分类/👉️ 映射结构 Mapping Structure",
-    "06 - 🖥 计算机科学 Computer Science/A1 - 📦 数据结构及算法 Data Structure & Algorithm/🎰 按结构分类/🪈 线性结构 Linear Structure",
-    "Files/EE7204_2526S1_Assignment.pdf",
-    "Files/Chapter 8 Polynomial Fraction Applications 1.pdf",
-    "Files/Chapter 7 Polynomial Fraction Description 1.pdf",
     "Files/Pasted image 20251027083714.png",
     "Files/Pasted image 20251024080849.png",
     "Files/Pasted image 20251012185420.png",
-    "Untitled.canvas",
     "Files/Pasted image 20250731120259.png",
     "Files/Pasted image 20250731112029.png",
     "Files/Pasted image 20250724151604.png",
-    "Files/Pasted image 20250728153617.png",
-    "Files/Pasted image 20250722183738.png",
-    "Files/Pasted image 20250722120220.png"
+    "Files/Pasted image 20250728153617.png"
   ]
 }

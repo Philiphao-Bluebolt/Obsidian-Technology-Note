@@ -80,7 +80,7 @@ $$x(t)=\Phi(t) x(0)+\int_0^t \Phi(t-\tau)Bu(\tau)d\tau$$
 The state transition matrix $\Phi(t)$ is defined as
 $$\Phi(t)=\mathcal{L}^{-1}\{(sI-A)^{-1}\}=e^{At}$$
  It's not necessary to derive $x(t)$ based on $x(0)$, any state value $x(t_0)$ before $t$ is usable. This is what we call state transition equation.
-$$x(t)=\Phi(t) x(t_0)+\int_{t_0}^t \Phi(t-\tau)Bu(\tau)d\tau \quad t>t_0$$
+$$x(t)=\Phi(t-t_0) x(t_0)+\int_{t_0}^t \Phi(t-\tau)Bu(\tau)d\tau \quad t>t_0$$
 
 ---
 ## Discrete State Space Model

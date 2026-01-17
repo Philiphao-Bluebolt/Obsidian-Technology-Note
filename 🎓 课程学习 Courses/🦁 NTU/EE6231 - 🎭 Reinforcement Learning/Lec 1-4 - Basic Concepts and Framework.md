@@ -77,7 +77,7 @@ $$q_\pi(s,a)=\mathbb{E}_\pi[G_t|S_t=s,A_t=a]=\sum_r\mathbb{P}(r|s,a,s')r+\sum_s'
 The Bellman Equation (BE) is the expanded form of the state value defintion. It highlights the fact that every state value is depended on another state value. When written in the full matrix form, it can be solved by matrix inversion or iteration.
 
 + **Elementwise Form**
-$$\color{#1E90FF}v_\pi(s)\color{black}=\mathbb{E}_\pi[G_t|S_t=s]=\sum_{a}\pi(a|s)[\sum_r\mathbb{P}(r|s,a)r+\sum_s'\mathbb{P}(s'|s,a)\color{#1E90FF}v_\pi(s')\color{black}]$$
+$$\color{#1E90FF}v_\pi(s)\color{white}=\mathbb{E}_\pi[G_t|S_t=s]=\sum_{a}\pi(a|s)[\sum_r\mathbb{P}(r|s,a)r+\sum_s'\mathbb{P}(s'|s,a)\color{#1E90FF}v_\pi(s')\color{black}]$$
 + **Matrix From** ($n$ state in total)
 $$v_\pi=$$
 
@@ -160,7 +160,7 @@ So we don't need to care **WHAT TIME IS IT NOW** and prefer to drop those annoyi
 
 > **(Lec 4) What is the essential difference between policy iteration and value iteration? They seem to share the same training scheme.**
 
-Value iteration algorithm uses the iterative solution of the **Bellman optimality Equation** to repeatedly update the estimation of state values starting from an initial guess $V_0$. The policy $\pi$ becomes optimal once the estimated value reaches its optimal. Policy iteration
+Value iteration algorithm uses the iterative solution of the **Bellman optimality Equation** to repeatedly update the estimation of state values starting from an initial guess $V_0$. The policy $\pi$ becomes optimal once the estimated value reaches its optimal. Policy iteration:
 
 1. **Use of Equations** - value iteration only uses **BOE** but policy iteration uses both **BOE** and **BE**
 
