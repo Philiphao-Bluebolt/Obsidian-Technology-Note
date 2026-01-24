@@ -14,6 +14,12 @@
     },
     {
       "type": "file",
+      "ctime": 1763925798092,
+      "path": "01 - ⌨️ 编程 Programming/🛶 练习/🛶 算法练习笔记 Coding Practice Note.md",
+      "title": "🛶 算法练习"
+    },
+    {
+      "type": "file",
       "ctime": 1763924863702,
       "path": "06 - 🖥 计算机科学 Computer Science/A1 - 📦 数据结构及算法 Data Structure & Algorithm/📦 数据结构及算法 笔记导览.md",
       "title": "📦 数据结构"
@@ -53,12 +59,6 @@
       "ctime": 1763925016594,
       "path": "02 - 🤖 机器人 Robot/🐢 ROS 系统与生态/🐢 ROS 系统与生态 导览页.md",
       "title": "🐢 ROS 生态"
-    },
-    {
-      "type": "file",
-      "ctime": 1763925798092,
-      "path": "01 - ⌨️ 编程 Programming/🛶 练习/🛶 算法题目笔记 Coding Problem Note.md",
-      "title": "🛶 算法题目"
     },
     {
       "type": "file",

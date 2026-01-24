@@ -51,4 +51,16 @@ arr[2:4] = [3, 2, 2] # --> arr = [0, 1, 3, 2, 2, 4, 5, 6]
 ```
 
 ---
-## 
+## 其他操作 
+
++ **排列与组合**：利用标准库`itertools`，以元组形式输出列表元素所有可能的排列 / 组合
+
+```python
+from itertools import permutations, combinations
+
+arr = ["rose", "red", "violet", "blue"]
+
+# (数组, 排列/组合长度)
+perm = permutations(arr, 4) 
+comb = combinations(arr, 3)
+```

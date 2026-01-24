@@ -40,17 +40,61 @@
             }
           },
           {
-            "id": "3fad1135ed7f6ac2",
+            "id": "928151b422b9d4cb",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 - ⌨️ 编程 Programming/🛶 练习/🛶 算法练习笔记 Coding Practice Note.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "🛶 算法练习笔记 Coding Practice Note"
+            }
+          },
+          {
+            "id": "dd334c0fe009be62",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - ⌨️ 编程 Programming/🛶 练习/🛶 算法题目笔记 Coding Problem Note.md",
+                "file": "01 - ⌨️ 编程 Programming/🛶 练习/练习题 Practices/🟡 3799 - 单词方块2 Word Square II.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "🛶 算法题目笔记 Coding Problem Note"
+              "title": "🟡 3799 - 单词方块2 Word Square II"
+            }
+          },
+          {
+            "id": "44394b05aa3b25f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 - ⌨️ 编程 Programming/🛶 练习/练习题 Practices/🟡 0109 - 变链表为二叉搜索树 Convert Sorted List to Binary Search Tree.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "🟡 0109 - 变链表为二叉搜索树 Convert Sorted List to Binary Search Tree"
+            }
+          },
+          {
+            "id": "2e42a836f7d26df6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 - ⌨️ 编程 Programming/🛶 练习/练习题 Practices/🟡 0109 - 变链表为二叉搜索树 Convert Sorted List to Binary Search Tree.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "🟡 0109 - 变链表为二叉搜索树 Convert Sorted List to Binary Search Tree"
             }
           }
         ],
@@ -86,7 +130,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "latex",
+                "query": "hashing",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -107,8 +151,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -128,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 - ⌨️ 编程 Programming/🛶 练习/🛶 算法题目笔记 Coding Problem Note.md",
+                "file": "01 - ⌨️ 编程 Programming/🛶 练习/🛶 算法练习笔记 Coding Practice Note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +181,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 🛶 算法题目笔记 Coding Problem Note"
+              "title": "Backlinks for 🛶 算法练习笔记 Coding Practice Note"
             }
           },
           {
@@ -201,34 +244,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3fad1135ed7f6ac2",
+  "active": "928151b422b9d4cb",
   "lastOpenFiles": [
-    "06 - 🖥 计算机科学 Computer Science/A1 - 📦 数据结构及算法 Data Structure & Algorithm/📦 数据结构及算法 笔记导览.md",
-    "01 - ⌨️ 编程 Programming/🛶 练习/🛶 算法题目笔记 Coding Problem Note.md",
+    "01 - ⌨️ 编程 Programming/🛶 练习/练习题 Practices/🟡 0109 - 变链表为二叉搜索树 Convert Sorted List to Binary Search Tree.md",
+    "01 - ⌨️ 编程 Programming/🛶 练习/🛶 算法练习笔记 Coding Practice Note.md",
+    "01 - ⌨️ 编程 Programming/🛶 练习/练习题 Practices/🟡 3799 - 单词方块2 Word Square II.md",
+    "📋️ 页面模板 Page Templates/🛶 算法题目总结模板.md",
+    "01 - ⌨️ 编程 Programming/🛶 练习/⚠️ 难以察觉的运行错误 Elusive Runtime Error.md",
+    "01 - ⌨️ 编程 Programming/🛶 练习/练习题 Practices/🟡 0082 - 链表移除重复节点2 Remove Duplicates from Sorted List II.md",
     "🎓 课程学习 Courses/🦁 NTU/EE6231 - 🎭 Reinforcement Learning/🎭 EE6231 - Reinforcement Learning.md",
     "!🎉! 活跃页面 Active Pages.md",
+    "01 - ⌨️ 编程 Programming/🛶 练习/练习题 Practices/🟢 0070 - 爬楼梯 Climbing Stairs.md",
+    "01 - ⌨️ 编程 Programming/🛶 练习/练习题 Practices/🟡 0300 - 最长单增子序列 Longest Increasing Subsequence.md",
+    "01 - ⌨️ 编程 Programming/🛶 练习/练习题 Practices/🟡 1218 - 最长定差子序列 Longest Arithmetic Subsequence of Given Difference.md",
+    "📋️ 页面模板 Page Templates/⌨️ 编程语言导览模板.md",
+    "01 - ⌨️ 编程 Programming/02 - 🐍 Python/$ - 🌈 常用库 Python Libraries/🌈 Python 常用库列表.md",
     "01 - ⌨️ 编程 Programming/02 - 🐍 Python/!🐍 Python 笔记链接.md",
-    "01 - ⌨️ 编程 Programming/🛶 练习/⚠️ 难以察觉的运行错误 Elusive Runtime Error.md",
+    "01 - ⌨️ 编程 Programming/02 - 🐍 Python/2 - 🎨 变量运算 Variables & Operations/列表 List.md",
+    "📋️ 页面模板 Page Templates/🐞 漏洞汇报模板.md",
+    "06 - 🖥 计算机科学 Computer Science/A1 - 📦 数据结构及算法 Data Structure & Algorithm/📦 数据结构及算法 笔记导览.md",
+    "06 - 🖥 计算机科学 Computer Science/A1 - 📦 数据结构及算法 Data Structure & Algorithm/🎰 按结构分类/👉️ 映射结构 Mapping Structure/哈希表 Hash Table.md",
     "!🧭! 学科笔记 Notes by Field.md",
     "科学体系的构建 Construction of Science.md",
-    "01 - ⌨️ 编程 Programming/🛶 练习/力扣 Leetcode/长方体堆叠最大高度.md",
-    "01 - ⌨️ 编程 Programming/🛶 练习/力扣 Leetcode/🔴 0135 - 分糖果 Candy.md",
-    "01 - ⌨️ 编程 Programming/02 - 🐍 Python/2 - 🎨 变量运算 Variables & Operations/列表 List.md",
+    "01 - ⌨️ 编程 Programming/🛶 练习/练习题 Practices/长方体堆叠最大高度.md",
+    "01 - ⌨️ 编程 Programming/🛶 练习/练习题 Practices/🔴 0135 - 分糖果 Candy.md",
     "01 - ⌨️ 编程 Programming/🛶 练习/力扣题目列表.md",
-    "01 - ⌨️ 编程 Programming/🛶 练习/笔试 Examination/07 - 圣诞树彩灯 (拼多多2).md",
-    "01 - ⌨️ 编程 Programming/🛶 练习/笔试 Examination/08 - 魔法学校 (拼多多3 ).md",
-    "01 - ⌨️ 编程 Programming/🛶 练习/笔试 Examination/09 - 大鱼吃小鱼 (拼多多4).md",
-    "01 - ⌨️ 编程 Programming/🛶 练习/笔试 Examination/03 - 树节点的更新(美团3).md",
-    "01 - ⌨️ 编程 Programming/🛶 练习/笔试 Examination/02 - 非祖孙最大之和 (美团2).md",
-    "01 - ⌨️ 编程 Programming/🛶 练习/笔试 Examination/01 - 字符串数不同 (美团1).md",
-    "!💳 求职 - 2026/$ - 💡 面试与笔试回顾.md",
-    "!💳 求职 - 2026/ST Engineering Robotics Engineer.md",
-    "!💳 求职 - 2026/2 - ✒️ 笔试准备.md",
-    "!💳 求职 - 2026/1 - 💼 简历准备.md",
-    "!💳 求职 - 2026/3 - 👔 面试准备.md",
-    "03 - 🤗 人工智能 Artificial Intelligence/🎭 强化学习 Reinforcement Learning/!🎭 强化学习笔记导览.md",
-    "03 - 🤗 人工智能 Artificial Intelligence/~🤗~ 人工智能 技术笔记.md",
-    "🎓 课程学习 Courses/🦁 NTU/EE6231 - 🎭 Reinforcement Learning/Lec 1-4 - Basic Concepts and Framework.md",
+    "01 - ⌨️ 编程 Programming/🛶 练习/笔试真题 Examination/07 - 圣诞树彩灯 (拼多多2).md",
+    "01 - ⌨️ 编程 Programming/🛶 练习/笔试真题 Examination/08 - 魔法学校 (拼多多3 ).md",
+    "01 - ⌨️ 编程 Programming/🛶 练习/笔试真题 Examination/09 - 大鱼吃小鱼 (拼多多4).md",
     "Files/Pasted image 20260108171019.png",
     "01 - ⌨️ 编程 Programming/07 - 🗃️ SQL",
     "Files/Pasted image 20251128212003.png",
