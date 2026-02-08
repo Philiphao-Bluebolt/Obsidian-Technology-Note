@@ -1,93 +1,119 @@
 {
   "items": [
     {
-      "type": "file",
-      "ctime": 1763924879160,
-      "path": "01 - ⌨️ 编程 Programming/01 - 🎧 C++/!🎧 C++ 笔记链接.md",
-      "title": "🎧 C++"
+      "type": "group",
+      "ctime": 1769524432942,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1769526454794,
+          "path": "01 - ⌨️ 编程 Programming/🛠 工具/🔶 Git & Gitxxx/🐙 Github/🐙 Github仓库收藏.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1763925798092,
+          "path": "01 - ⌨️ 编程 Programming/🛶 练习/🛶 算法练习笔记 Coding Practice Note.md",
+          "title": "🛶 算法练习笔记"
+        },
+        {
+          "type": "file",
+          "ctime": 1763925735573,
+          "path": "01 - ⌨️ 编程 Programming/🛶 练习/☣️ 语言特性相关错误 Language-Related Error.md",
+          "title": "☣ 语言特性错误"
+        },
+        {
+          "type": "file",
+          "ctime": 1770572519470,
+          "path": "01 - ⌨️ 编程 Programming/🛶 练习/☢️ 算法逻辑错误 Logical Errors.md",
+          "title": "☢️ 算法逻辑错误"
+        },
+        {
+          "type": "file",
+          "ctime": 1763924863702,
+          "path": "06 - 🖥 计算机科学 Computer Science/A1 - 📦 数据结构及算法 Data Structure & Algorithm/📦 数据结构及算法 笔记导览.md",
+          "title": "📦 数据结构"
+        },
+        {
+          "type": "file",
+          "ctime": 1763924942251,
+          "path": "01 - ⌨️ 编程 Programming/02 - 🐍 Python/!🐍 Python 笔记链接.md",
+          "title": "🐍 Python"
+        },
+        {
+          "type": "file",
+          "ctime": 1763924879160,
+          "path": "01 - ⌨️ 编程 Programming/01 - 🎧 C++/!🎧 C++ 笔记链接.md",
+          "title": "🎧 C++"
+        }
+      ],
+      "title": "🟢 Quest of Programming - 编程精进之路"
     },
     {
-      "type": "file",
-      "ctime": 1763924942251,
-      "path": "01 - ⌨️ 编程 Programming/02 - 🐍 Python/!🐍 Python 笔记链接.md",
-      "title": "🐍 Python"
+      "type": "group",
+      "ctime": 1769524782079,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1763925881030,
+          "path": "07 - 🚂 控制工程 Engineering Cybernetics/🎛 控制理论 Control Theory/~🎛~ 控制理论 笔记导览.md",
+          "title": "🎛 控制理论总笔记"
+        },
+        {
+          "type": "file",
+          "ctime": 1763925867374,
+          "path": "10 - 📐 数学 Maths/03 - 🥖 线性代数 Linear Algebra/~🥖~ 线性代数笔记导览 Linear Algebra Notes.md",
+          "title": "🥖 线性代数"
+        },
+        {
+          "type": "file",
+          "ctime": 1763925917054,
+          "path": "10 - 📐 数学 Maths/06 - 📈 最优化 Optimization/~📈~ 最优化 笔记导览.md",
+          "title": "📈 最优化"
+        },
+        {
+          "type": "file",
+          "ctime": 1763925016594,
+          "path": "02 - 🤖 机器人 Robot/🐢 ROS 系统与生态/🐢 ROS 系统与生态 导览页.md",
+          "title": "🐢 ROS 生态"
+        }
+      ],
+      "title": "🔵 Quest of Automation - 自动控制之路"
     },
     {
-      "type": "file",
-      "ctime": 1763925798092,
-      "path": "01 - ⌨️ 编程 Programming/🛶 练习/🛶 算法练习笔记 Coding Practice Note.md",
-      "title": "🛶 算法练习"
-    },
-    {
-      "type": "file",
-      "ctime": 1763924863702,
-      "path": "06 - 🖥 计算机科学 Computer Science/A1 - 📦 数据结构及算法 Data Structure & Algorithm/📦 数据结构及算法 笔记导览.md",
-      "title": "📦 数据结构"
-    },
-    {
-      "type": "file",
-      "ctime": 1763925867374,
-      "path": "10 - 📐 数学 Maths/03 - 🥖 线性代数 Linear Algebra/~🥖~ 线性代数笔记导览 Linear Algebra Notes.md",
-      "title": "🥖 线性代数"
-    },
-    {
-      "type": "file",
-      "ctime": 1763925881030,
-      "path": "07 - 🚂 控制工程 Engineering Cybernetics/🎛 控制理论 Control Theory/~🎛~ 控制理论 笔记导览.md",
-      "title": "🎛 控制理论"
-    },
-    {
-      "type": "file",
-      "ctime": 1763925917054,
-      "path": "10 - 📐 数学 Maths/06 - 📈 最优化 Optimization/~📈~ 最优化 笔记导览.md",
-      "title": "📈 最优化"
-    },
-    {
-      "type": "file",
-      "ctime": 1767863312314,
-      "path": "03 - 🤗 人工智能 Artificial Intelligence/~🤗~ 人工智能 技术笔记.md",
-      "title": "🤗 人工智能"
-    },
-    {
-      "type": "file",
-      "ctime": 1763925893378,
-      "path": "03 - 🤗 人工智能 Artificial Intelligence/🎭 强化学习 Reinforcement Learning/!🎭 强化学习笔记导览.md",
-      "title": "🎭 强化学习"
-    },
-    {
-      "type": "file",
-      "ctime": 1763925016594,
-      "path": "02 - 🤖 机器人 Robot/🐢 ROS 系统与生态/🐢 ROS 系统与生态 导览页.md",
-      "title": "🐢 ROS 生态"
-    },
-    {
-      "type": "file",
-      "ctime": 1763925735573,
-      "path": "01 - ⌨️ 编程 Programming/🛶 练习/⚠️ 难以察觉的运行错误 Elusive Runtime Error.md",
-      "title": "⚠️ 难以察觉的运行错误"
-    },
-    {
-      "type": "file",
-      "ctime": 1763925043206,
-      "path": "!💳 求职 - 2026/$ - 💡 面试与笔试回顾.md",
-      "title": "💡 面试与笔试回顾"
-    },
-    {
-      "type": "file",
-      "ctime": 1763926084076,
-      "path": "03 - 🤗 人工智能 Artificial Intelligence/👅 大语言模型 Large Language Model/🪆 本地部署大模型 LLM Local Deployment.md",
-      "title": "🪆 本地部署大模型"
-    },
-    {
-      "type": "file",
-      "ctime": 1763927318509,
-      "path": "03 - 🤗 人工智能 Artificial Intelligence/🛠 工具/🔦 PyTorch 基本教程.md",
-      "title": "🔦 PyTorch"
-    },
-    {
-      "type": "file",
-      "ctime": 1763927363932,
-      "path": "01 - ⌨️ 编程 Programming/02 - 🐍 Python/$ - 🌈 常用库 Python Libraries/📊 Pandas.md"
+      "type": "group",
+      "ctime": 1769524634366,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1767863312314,
+          "path": "03 - 🤗 人工智能 Artificial Intelligence/~🤗~ 人工智能 技术笔记.md",
+          "title": "🤗 人工智能总笔记"
+        },
+        {
+          "type": "file",
+          "ctime": 1763926084076,
+          "path": "03 - 🤗 人工智能 Artificial Intelligence/👅 大语言模型 Large Language Model/🪆 本地部署大模型 LLM Local Deployment.md",
+          "title": "🪆 本地部署大模型"
+        },
+        {
+          "type": "file",
+          "ctime": 1763925893378,
+          "path": "03 - 🤗 人工智能 Artificial Intelligence/🎭 强化学习 Reinforcement Learning/!🎭 强化学习笔记导览.md",
+          "title": "🎭 强化学习"
+        },
+        {
+          "type": "file",
+          "ctime": 1763927318509,
+          "path": "03 - 🤗 人工智能 Artificial Intelligence/🛠 工具/🔦 PyTorch 基本教程.md",
+          "title": "🔦 PyTorch"
+        },
+        {
+          "type": "file",
+          "ctime": 1763927363932,
+          "path": "01 - ⌨️ 编程 Programming/02 - 🐍 Python/$ - 🌈 常用库 Python Libraries/📊 Pandas.md"
+        }
+      ],
+      "title": "🟣 Quest of Embodied AI - 具身智能之路"
     }
   ]
 }

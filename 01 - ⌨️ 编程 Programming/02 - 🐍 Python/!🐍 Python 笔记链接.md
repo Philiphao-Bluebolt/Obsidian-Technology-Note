@@ -3,7 +3,7 @@
 
 Python是一门**解释型**面向对象脚本~~胶水~~高级编程语言，因其语法简单、扩展库丰富而受到广大开发者的欢迎，在数据分析、机器学习、应用开发等领域较为流行
 
-+ 🐍 **[Python简介](#Python简介)**
++ 🐍 **[Python简介](#Python简介)** - [技巧](🌴%20Python%20编程技巧.md)
 + ⚙️ **[环境配置](#环境配置%20Environment%20Setup)**
 	+ 📚️ 模块与库 - 🌈 [常用库](🌈%20Python%20常用库列表.md) · 🍃 [Anaconda](🍃%20Anaconda.md) · 🧊 [Pip](🧊%20Pip.md) · 
 	+ 🧼 集成 - ☄️ [VSCode](☄️%20VSCode%20使用教程.md#Python) · Pycharm · Spyder

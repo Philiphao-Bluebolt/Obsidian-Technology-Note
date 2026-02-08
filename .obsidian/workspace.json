@@ -24,81 +24,75 @@
             }
           },
           {
-            "id": "7ef7f557ffa31a9a",
+            "id": "c5c7efe6e284f1f6",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🎓 课程学习 Courses/🦁 NTU/EE6231 - 🎭 Reinforcement Learning/🎭 EE6231 - Reinforcement Learning.md",
+                "file": "01 - ⌨️ 编程 Programming/01 - 🎧 C++/!🎧 C++ 笔记链接.md",
                 "mode": "source",
                 "source": false
               },
-              "pinned": true,
               "icon": "lucide-file",
-              "title": "🎭 EE6231 - Reinforcement Learning"
+              "title": "!🎧 C++ 笔记链接"
             }
           },
           {
-            "id": "928151b422b9d4cb",
+            "id": "7ac7d4377f02eab6",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - ⌨️ 编程 Programming/🛶 练习/🛶 算法练习笔记 Coding Practice Note.md",
+                "file": "01 - ⌨️ 编程 Programming/02 - 🐍 Python/🌴 Python 编程技巧.md",
                 "mode": "source",
                 "source": false
               },
-              "pinned": true,
               "icon": "lucide-file",
-              "title": "🛶 算法练习笔记 Coding Practice Note"
+              "title": "🌴 Python 编程技巧"
             }
           },
           {
-            "id": "dd334c0fe009be62",
+            "id": "936fdd7b1cf167b2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "01 - ⌨️ 编程 Programming/🛶 练习/练习题 Practices/🟡 3799 - 单词方块2 Word Square II.md",
-                "mode": "source",
-                "source": false
+                "currentVersion": "1.11.7"
               },
-              "icon": "lucide-file",
-              "title": "🟡 3799 - 单词方块2 Word Square II"
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.7"
             }
           },
           {
-            "id": "44394b05aa3b25f5",
+            "id": "ed28fff874da7aad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - ⌨️ 编程 Programming/🛶 练习/练习题 Practices/🟡 0109 - 变链表为二叉搜索树 Convert Sorted List to Binary Search Tree.md",
+                "file": "01 - ⌨️ 编程 Programming/02 - 🐍 Python/!🐍 Python 笔记链接.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "🟡 0109 - 变链表为二叉搜索树 Convert Sorted List to Binary Search Tree"
+              "title": "!🐍 Python 笔记链接"
             }
           },
           {
-            "id": "2e42a836f7d26df6",
+            "id": "4b7433ad156d9b58",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - ⌨️ 编程 Programming/🛶 练习/练习题 Practices/🟡 0109 - 变链表为二叉搜索树 Convert Sorted List to Binary Search Tree.md",
+                "file": "01 - ⌨️ 编程 Programming/01 - 🎧 C++/!🎧 C++ 笔记链接.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "🟡 0109 - 变链表为二叉搜索树 Convert Sorted List to Binary Search Tree"
+              "title": "!🎧 C++ 笔记链接"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -130,7 +124,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hashing",
+                "query": "github仓库",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -151,11 +145,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 327.51103591918945
+    "width": 332.51103591918945
   },
   "right": {
     "id": "7183c1e02ba22b3a",
@@ -244,34 +239,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "928151b422b9d4cb",
+  "active": "936fdd7b1cf167b2",
   "lastOpenFiles": [
-    "01 - ⌨️ 编程 Programming/🛶 练习/练习题 Practices/🟡 0109 - 变链表为二叉搜索树 Convert Sorted List to Binary Search Tree.md",
     "01 - ⌨️ 编程 Programming/🛶 练习/🛶 算法练习笔记 Coding Practice Note.md",
-    "01 - ⌨️ 编程 Programming/🛶 练习/练习题 Practices/🟡 3799 - 单词方块2 Word Square II.md",
-    "📋️ 页面模板 Page Templates/🛶 算法题目总结模板.md",
-    "01 - ⌨️ 编程 Programming/🛶 练习/⚠️ 难以察觉的运行错误 Elusive Runtime Error.md",
-    "01 - ⌨️ 编程 Programming/🛶 练习/练习题 Practices/🟡 0082 - 链表移除重复节点2 Remove Duplicates from Sorted List II.md",
-    "🎓 课程学习 Courses/🦁 NTU/EE6231 - 🎭 Reinforcement Learning/🎭 EE6231 - Reinforcement Learning.md",
-    "!🎉! 活跃页面 Active Pages.md",
-    "01 - ⌨️ 编程 Programming/🛶 练习/练习题 Practices/🟢 0070 - 爬楼梯 Climbing Stairs.md",
-    "01 - ⌨️ 编程 Programming/🛶 练习/练习题 Practices/🟡 0300 - 最长单增子序列 Longest Increasing Subsequence.md",
-    "01 - ⌨️ 编程 Programming/🛶 练习/练习题 Practices/🟡 1218 - 最长定差子序列 Longest Arithmetic Subsequence of Given Difference.md",
-    "📋️ 页面模板 Page Templates/⌨️ 编程语言导览模板.md",
-    "01 - ⌨️ 编程 Programming/02 - 🐍 Python/$ - 🌈 常用库 Python Libraries/🌈 Python 常用库列表.md",
     "01 - ⌨️ 编程 Programming/02 - 🐍 Python/!🐍 Python 笔记链接.md",
-    "01 - ⌨️ 编程 Programming/02 - 🐍 Python/2 - 🎨 变量运算 Variables & Operations/列表 List.md",
-    "📋️ 页面模板 Page Templates/🐞 漏洞汇报模板.md",
+    "01 - ⌨️ 编程 Programming/01 - 🎧 C++/!🎧 C++ 笔记链接.md",
+    "01 - ⌨️ 编程 Programming/🛶 练习/☢️ 算法逻辑错误 Logical Errors.md",
+    "!🎉! 活跃页面 Active Pages.md",
     "06 - 🖥 计算机科学 Computer Science/A1 - 📦 数据结构及算法 Data Structure & Algorithm/📦 数据结构及算法 笔记导览.md",
-    "06 - 🖥 计算机科学 Computer Science/A1 - 📦 数据结构及算法 Data Structure & Algorithm/🎰 按结构分类/👉️ 映射结构 Mapping Structure/哈希表 Hash Table.md",
-    "!🧭! 学科笔记 Notes by Field.md",
-    "科学体系的构建 Construction of Science.md",
-    "01 - ⌨️ 编程 Programming/🛶 练习/练习题 Practices/长方体堆叠最大高度.md",
-    "01 - ⌨️ 编程 Programming/🛶 练习/练习题 Practices/🔴 0135 - 分糖果 Candy.md",
-    "01 - ⌨️ 编程 Programming/🛶 练习/力扣题目列表.md",
-    "01 - ⌨️ 编程 Programming/🛶 练习/笔试真题 Examination/07 - 圣诞树彩灯 (拼多多2).md",
-    "01 - ⌨️ 编程 Programming/🛶 练习/笔试真题 Examination/08 - 魔法学校 (拼多多3 ).md",
-    "01 - ⌨️ 编程 Programming/🛶 练习/笔试真题 Examination/09 - 大鱼吃小鱼 (拼多多4).md",
+    "01 - ⌨️ 编程 Programming/🛶 练习/☣️ 语言特性相关错误 Language-Related Error.md",
+    "01 - ⌨️ 编程 Programming/🛠 工具/🔶 Git & Gitxxx/🐙 Github/🐙 Github仓库收藏.md",
+    "01 - ⌨️ 编程 Programming/🛶 练习/练习题 Practices/🟡 0148 - 链表排序 Sort List.md",
+    "01 - ⌨️ 编程 Programming/02 - 🐍 Python/🌴 Python 编程技巧.md",
+    "📋️ 页面模板 Page Templates/🛶 算法题目总结模板.md",
+    "📋️ 页面模板 Page Templates/⌨️ 编程语言导览模板.md",
+    "06 - 🖥 计算机科学 Computer Science/A1 - 📦 数据结构及算法 Data Structure & Algorithm/🧮 常用算法/序列排序与搜索算法 Sequence Sort & Search.md",
+    "06 - 🖥 计算机科学 Computer Science/A1 - 📦 数据结构及算法 Data Structure & Algorithm/🧮 常用算法/动态规划 Dynamic Programming.md",
+    "06 - 🖥 计算机科学 Computer Science/A1 - 📦 数据结构及算法 Data Structure & Algorithm/🧮 常用算法/Untitled.md",
+    "06 - 🖥 计算机科学 Computer Science/A1 - 📦 数据结构及算法 Data Structure & Algorithm/🧮 常用算法",
+    "01 - ⌨️ 编程 Programming/🛶 练习/练习题 Practices/🟡 0146 - 最久未用算法 LRU Cache.md",
+    "06 - 🖥 计算机科学 Computer Science/A1 - 📦 数据结构及算法 Data Structure & Algorithm/🎰 结构分类/🪈 线性结构 Linear Structure/链表 Linked List.md",
+    "01 - ⌨️ 编程 Programming/🛶 练习/练习题 Practices/🟡 0086 - 链表分块 Partition List.md",
+    "01 - ⌨️ 编程 Programming/🛶 练习/练习题 Practices/🟡 0143 - 链表交替重排 Reorder List.md",
+    "01 - ⌨️ 编程 Programming/01 - 🎧 C++/➕️ C++ 编程技巧.md",
+    "01 - ⌨️ 编程 Programming/🛶 练习/练习题 Practices/🟡 0142 - 链表回路2 Linked List Cycle II.md",
+    "07 - 🚂 控制工程 Engineering Cybernetics/🎛 控制理论 Control Theory/~🎛~ 控制理论 笔记导览.md",
+    "03 - 🤗 人工智能 Artificial Intelligence/~🤗~ 人工智能 技术笔记.md",
+    "01 - ⌨️ 编程 Programming/🛶 练习/练习题 Practices/🟡 0138 - 带随机指针的链表深拷贝 Copy List with Random Pointer.md",
+    "📋️ 页面模板 Page Templates/🐞 漏洞汇报模板.md",
+    "!💳 求职 - 2026/$ - 💡 面试与笔试回顾.md",
     "Files/Pasted image 20260108171019.png",
     "01 - ⌨️ 编程 Programming/07 - 🗃️ SQL",
     "Files/Pasted image 20251128212003.png",
@@ -284,7 +280,6 @@
     "Untitled.canvas",
     "01 - ⌨️ 编程 Programming/🛶 习题/力扣 Leetcode/Untitled",
     "Files/Chapter 10 Pole Placement and Robust Tracking 1.pdf",
-    "Files/Chapter 9 State Feedback and State Estimation 1.pdf",
     "Files/Pasted image 20251110140944.png",
     "Files/Pasted image 20251027083714.png",
     "Files/Pasted image 20251024080849.png",

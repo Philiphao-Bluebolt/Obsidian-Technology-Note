@@ -14,9 +14,6 @@
 ![](导师名单.xlsx)
 
 + 🔶 **活动安排** 🔶
-	+ 12/07 - MiGreat iAppreciate! 
-	+ 12/08 - Autel Robotics 笔试
-	+ 12/11 - Archery Trial
 
 + 🔘 **其他** - 🧭 **[学科笔记](!🧭!%20学科笔记%20Notes%20by%20Field.md)** · 🎯 **[学习资料](🎯%20学习资料.md)**
 
