@@ -4,95 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "7e62920c4936ad56",
+        "id": "e87c4df272ca2037",
         "type": "tabs",
         "children": [
           {
-            "id": "3363947255cf2c98",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "!🎉! 活跃页面 Active Pages.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "!🎉! 活跃页面 Active Pages"
-            }
-          },
-          {
-            "id": "c5c7efe6e284f1f6",
+            "id": "8f0e81a6bbe3e5e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - ⌨️ 编程 Programming/01 - 🎧 C++/!🎧 C++ 笔记链接.md",
+                "file": "!🧭! 学科笔记 Notes by Field.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "!🎧 C++ 笔记链接"
-            }
-          },
-          {
-            "id": "7ac7d4377f02eab6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - ⌨️ 编程 Programming/02 - 🐍 Python/🌴 Python 编程技巧.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "🌴 Python 编程技巧"
-            }
-          },
-          {
-            "id": "936fdd7b1cf167b2",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.11.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.7"
-            }
-          },
-          {
-            "id": "ed28fff874da7aad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - ⌨️ 编程 Programming/02 - 🐍 Python/!🐍 Python 笔记链接.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "!🐍 Python 笔记链接"
-            }
-          },
-          {
-            "id": "4b7433ad156d9b58",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - ⌨️ 编程 Programming/01 - 🎧 C++/!🎧 C++ 笔记链接.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "!🎧 C++ 笔记链接"
+              "title": "!🧭! 学科笔记 Notes by Field"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -124,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "github仓库",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -145,12 +74,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 332.51103591918945
+    "width": 362.5026054382324
   },
   "right": {
     "id": "7183c1e02ba22b3a",
@@ -230,56 +158,56 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
     }
   },
-  "active": "936fdd7b1cf167b2",
+  "active": "8f0e81a6bbe3e5e9",
   "lastOpenFiles": [
-    "01 - ⌨️ 编程 Programming/🛶 练习/🛶 算法练习笔记 Coding Practice Note.md",
-    "01 - ⌨️ 编程 Programming/02 - 🐍 Python/!🐍 Python 笔记链接.md",
-    "01 - ⌨️ 编程 Programming/01 - 🎧 C++/!🎧 C++ 笔记链接.md",
-    "01 - ⌨️ 编程 Programming/🛶 练习/☢️ 算法逻辑错误 Logical Errors.md",
     "!🎉! 活跃页面 Active Pages.md",
-    "06 - 🖥 计算机科学 Computer Science/A1 - 📦 数据结构及算法 Data Structure & Algorithm/📦 数据结构及算法 笔记导览.md",
-    "01 - ⌨️ 编程 Programming/🛶 练习/☣️ 语言特性相关错误 Language-Related Error.md",
-    "01 - ⌨️ 编程 Programming/🛠 工具/🔶 Git & Gitxxx/🐙 Github/🐙 Github仓库收藏.md",
-    "01 - ⌨️ 编程 Programming/🛶 练习/练习题 Practices/🟡 0148 - 链表排序 Sort List.md",
-    "01 - ⌨️ 编程 Programming/02 - 🐍 Python/🌴 Python 编程技巧.md",
+    "!🧭! 学科笔记 Notes by Field.md",
+    "$$$ - 🎓 课程学习 Courses/⚙️ HIT/模拟电路基础 Basic Analog Circuit/📜 归纳/3-2 矩形波和三角波发生器.md",
+    "$$$ - 🎓 课程学习 Courses/⚙️ HIT/模拟电路基础 Basic Analog Circuit/📜 归纳/2-1 负反馈基本组态.md",
+    "$$$ - 🎓 课程学习 Courses/⚙️ HIT/模拟电路基础 Basic Analog Circuit/📜 归纳/1-2 场效应管.md",
+    "$02 - 🖥 计算机科学 Computer Science/$3 - 🛸 操作系统",
+    "$02 - 🖥 计算机科学 Computer Science/$2 - 🚀 计算机应用 Computer Applications",
+    "$02 - 🖥 计算机科学 Computer Science/$1 - 🍼 计算机基础理论 Computer Basic Theories",
     "📋️ 页面模板 Page Templates/🛶 算法题目总结模板.md",
-    "📋️ 页面模板 Page Templates/⌨️ 编程语言导览模板.md",
-    "06 - 🖥 计算机科学 Computer Science/A1 - 📦 数据结构及算法 Data Structure & Algorithm/🧮 常用算法/序列排序与搜索算法 Sequence Sort & Search.md",
-    "06 - 🖥 计算机科学 Computer Science/A1 - 📦 数据结构及算法 Data Structure & Algorithm/🧮 常用算法/动态规划 Dynamic Programming.md",
-    "06 - 🖥 计算机科学 Computer Science/A1 - 📦 数据结构及算法 Data Structure & Algorithm/🧮 常用算法/Untitled.md",
-    "06 - 🖥 计算机科学 Computer Science/A1 - 📦 数据结构及算法 Data Structure & Algorithm/🧮 常用算法",
-    "01 - ⌨️ 编程 Programming/🛶 练习/练习题 Practices/🟡 0146 - 最久未用算法 LRU Cache.md",
-    "06 - 🖥 计算机科学 Computer Science/A1 - 📦 数据结构及算法 Data Structure & Algorithm/🎰 结构分类/🪈 线性结构 Linear Structure/链表 Linked List.md",
-    "01 - ⌨️ 编程 Programming/🛶 练习/练习题 Practices/🟡 0086 - 链表分块 Partition List.md",
-    "01 - ⌨️ 编程 Programming/🛶 练习/练习题 Practices/🟡 0143 - 链表交替重排 Reorder List.md",
-    "01 - ⌨️ 编程 Programming/01 - 🎧 C++/➕️ C++ 编程技巧.md",
-    "01 - ⌨️ 编程 Programming/🛶 练习/练习题 Practices/🟡 0142 - 链表回路2 Linked List Cycle II.md",
-    "07 - 🚂 控制工程 Engineering Cybernetics/🎛 控制理论 Control Theory/~🎛~ 控制理论 笔记导览.md",
-    "03 - 🤗 人工智能 Artificial Intelligence/~🤗~ 人工智能 技术笔记.md",
-    "01 - ⌨️ 编程 Programming/🛶 练习/练习题 Practices/🟡 0138 - 带随机指针的链表深拷贝 Copy List with Random Pointer.md",
-    "📋️ 页面模板 Page Templates/🐞 漏洞汇报模板.md",
-    "!💳 求职 - 2026/$ - 💡 面试与笔试回顾.md",
+    "$03 - 🧸 具身智能 Embodied AI/!🧸 具身智能相关链接.md",
+    "其他/科学体系的构建 Construction of Science.md",
+    "其他/🫶 WYT 论文帮干活.md",
+    "$02 - 🖥 计算机科学 Computer Science/$2 - 🚀 计算机应用 Computer Applications/002 - 🌐 网页开发 Web Development/!🌐 网页开发相关笔记.md",
+    "$03 - 🧸 具身智能 Embodied AI/🤗 人工智能 Artificial Intelligence/~🤗~ 人工智能 技术笔记.md",
+    "$02 - 🖥 计算机科学 Computer Science/$2 - 🚀 计算机应用 Computer Applications/002 - 🌐 网页开发 Web Development/📑 HTML.md",
+    "$02 - 🖥 计算机科学 Computer Science/$1 - 🍼 计算机基础理论 Computer Basic Theories/001 - 📦 数据结构及算法 Data Structure & Algorithm/🧮 常用算法 Common Algorithms/!🧮 算法收录 Algorithm Lists.md",
+    "$02 - 🖥 计算机科学 Computer Science/$2 - 🚀 计算机应用 Computer Applications/002 - 🌐 网页开发 Web Development/🎨 CSS.md",
+    "06 - 🖥 计算机科学 Computer Science/A8 - 🌐 网页开发 Web Development/Untitled.md",
+    "$02 - 🖥 计算机科学 Computer Science/$$ - ⌨️ 编程 Programming/02 - 🐍 Python/!🐍 Python 笔记链接.md",
+    "$02 - 🖥 计算机科学 Computer Science/$$ - ⌨️ 编程 Programming/🛶 练习/🛶 算法练习笔记 Coding Practice Note.md",
+    "$02 - 🖥 计算机科学 Computer Science/$1 - 🍼 计算机基础理论 Computer Basic Theories/001 - 📦 数据结构及算法 Data Structure & Algorithm/📦 数据结构及算法 笔记导览.md",
+    "$02 - 🖥 计算机科学 Computer Science/$$ - ⌨️ 编程 Programming/🛶 练习/练习题 Practices/🟢 L0069 - 整数开平方 Sqrt(x).md",
+    "$02 - 🖥 计算机科学 Computer Science/$$ - ⌨️ 编程 Programming/🛶 练习/练习题 Practices/🟢 L0070 - 爬楼梯 Climbing Stairs.md",
+    "$02 - 🖥 计算机科学 Computer Science/$$ - ⌨️ 编程 Programming/🛶 练习/练习题 Practices/🟢 L0705 - 设计哈希集合 Design HashSet.md",
+    "$02 - 🖥 计算机科学 Computer Science/$$ - ⌨️ 编程 Programming/🛶 练习/练习题 Practices/🟡 L0033 - 搜索已排序轮转数组 Search in Rotated Sorted Array.md",
+    "$02 - 🖥 计算机科学 Computer Science/$$ - ⌨️ 编程 Programming/!⌨️ 编程 笔记导览.md",
+    "$02 - 🖥 计算机科学 Computer Science/$2 - 🚀 计算机应用 Computer Applications/002 - 🌐 网页开发 Web Development/🧩 JavaScript.md",
+    "$02 - 🖥 计算机科学 Computer Science/$2 - 🚀 计算机应用 Computer Applications/002 - 🌐 网页开发 Web Development",
+    "$02 - 🖥 计算机科学 Computer Science/$1 - 🍼 计算机基础理论 Computer Basic Theories/001 - 📦 数据结构及算法 Data Structure & Algorithm/🎰 结构分类 Sort by Structure/🪈 线性结构 Linear Structure/跳跃列表 Skip List.md",
+    "$02 - 🖥 计算机科学 Computer Science/$$ - ⌨️ 编程 Programming/🛶 练习/☣️ 语言特性相关错误 Language-Related Errors.md",
+    "$02 - 🖥 计算机科学 Computer Science/$1 - 🍼 计算机基础理论 Computer Basic Theories/001 - 📦 数据结构及算法 Data Structure & Algorithm/🧮 常用算法 Common Algorithms",
     "Files/Pasted image 20260108171019.png",
-    "01 - ⌨️ 编程 Programming/07 - 🗃️ SQL",
+    "$02 - 🖥 计算机科学 Computer Science/$2 - 🚀 计算机应用 Computer Applications/003 - 📊 数据科学 Data Science/🗃️ SQL",
     "Files/Pasted image 20251128212003.png",
     "Files/EE7204 2024-2025 Semester 1.pdf",
     "Files/EE7204 2023-2024 Semester 1.pdf",
     "Files/EE7204 2022-2023 Semester 1.pdf",
-    "10 - 📐 数学 Maths/03 - 🥖 线性代数 Linear Algebra/✔️ Linear Algebra Done Right",
-    "Files/Excel/lu37987ddexp.tmp",
-    "10 - 📐 数学 Maths/03 - 🥖 线性代数 Linear Algebra/LADR 学习笔记",
+    "$05 - 📐 数学 Maths/03 - 🥖 线性代数 Linear Algebra/✔️ Linear Algebra Done Right",
     "Untitled.canvas",
-    "01 - ⌨️ 编程 Programming/🛶 习题/力扣 Leetcode/Untitled",
-    "Files/Chapter 10 Pole Placement and Robust Tracking 1.pdf",
     "Files/Pasted image 20251110140944.png",
     "Files/Pasted image 20251027083714.png",
     "Files/Pasted image 20251024080849.png",
